@@ -23,6 +23,7 @@ All planning documentation lives in the [`planning/`](./planning/) directory.
 
 | System | Description |
 |--------|-------------|
+| [Council Protection Structure](./docs/council-protection-structure.md) | Visual overview of how the Legion protects the Council |
 | [Stewardship Council](./planning/agents/stewardship-council/README.md) | Seven archetypal intelligences for sacred governance |
 | [Legion of Living Light](./planning/agents/legion-of-living-light/README.md) | Spiritual defenders, healers, and activators |
 | [Council Vector Database](./planning/agents/council-vector-db/README.md) | Semantic routing for instant wisdom access |
