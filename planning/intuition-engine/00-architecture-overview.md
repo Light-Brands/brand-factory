@@ -8,6 +8,22 @@
 
 The Intuition Engine mirrors how human experts develop mastery:
 
+```mermaid
+flowchart LR
+    subgraph HUMAN["👤 Human Expert Development"]
+        direction LR
+        E["1️⃣ Experience<br/>Encounter situations"] --> R["2️⃣ Reflection<br/>Extract lessons"]
+        R --> I["3️⃣ Intuition<br/>Pattern recognition"]
+        I --> W["4️⃣ Wisdom<br/>Guide novel decisions"]
+        W -.->|"More practice"| E
+    end
+
+    style E fill:#3498db,stroke:#2980b9,color:#fff
+    style R fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style I fill:#e74c3c,stroke:#c0392b,color:#fff
+    style W fill:#f39c12,stroke:#d68910,color:#fff
+```
+
 1. **Experience** — Practitioners encounter thousands of situations
 2. **Reflection** — They extract lessons from successes and failures
 3. **Intuition** — Pattern recognition becomes automatic over time
@@ -166,8 +182,21 @@ Unlike pure neural approaches where knowledge is opaque:
 
 The system never stops learning:
 
-```
-Experience → Extract → Store → Retrieve → Decide → Reflect → Experience...
+```mermaid
+flowchart LR
+    A["📥 Experience"] --> B["🔬 Extract"]
+    B --> C["💾 Store"]
+    C --> D["🔍 Retrieve"]
+    D --> E["🎯 Decide"]
+    E --> F["🔄 Reflect"]
+    F --> A
+
+    style A fill:#3498db,stroke:#2980b9,color:#fff
+    style B fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style C fill:#2ecc71,stroke:#27ae60,color:#fff
+    style D fill:#e74c3c,stroke:#c0392b,color:#fff
+    style E fill:#f39c12,stroke:#d68910,color:#fff
+    style F fill:#e94560,stroke:#c0392b,color:#fff
 ```
 
 ### 4. Strength Dynamics

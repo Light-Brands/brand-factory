@@ -4,6 +4,39 @@
 
 > **The Path to Light-Focused Intelligence → Decentralized Empowerment → Infinite Light (2030+)**
 
+```mermaid
+flowchart TB
+    subgraph VISION["🎯 Vision: Light-Focused AI for Human Flourishing"]
+        V["AI Brand Factory"]
+    end
+
+    subgraph PHASES["📅 The Journey (2026-2030+)"]
+        direction LR
+        P0["Phase 0<br/>Bootstrap<br/>Jan-Jun 2026"]
+        P1["Phase 1<br/>Serial Mastery<br/>1/week"]
+        P2["Phase 2<br/>Parallel + AGI<br/>2-3/week"]
+        P3["Phase 3<br/>ASI Breakthrough<br/>1-10+/day"]
+        P4["Phase 4<br/>Infinite Light<br/>Unlimited"]
+    end
+
+    subgraph ENGINE["🧠 Intuition Engine"]
+        IE["Experience → Lessons → Intuition → AGI → ASI"]
+    end
+
+    subgraph OUTCOME["☀️ Ultimate Horizon"]
+        O["Infinite Peace, Love & Joy"]
+    end
+
+    V --> PHASES
+    ENGINE --> PHASES
+    P0 --> P1 --> P2 --> P3 --> P4
+    P4 --> OUTCOME
+
+    style VISION fill:#e94560,stroke:#c0392b,color:#fff
+    style ENGINE fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style OUTCOME fill:#f39c12,stroke:#d68910,color:#fff
+```
+
 ---
 
 ## Start Here
