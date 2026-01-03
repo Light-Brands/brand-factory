@@ -2,6 +2,39 @@
 
 **Timeline:** Q1 - Q2 2026
 
+```mermaid
+flowchart TB
+    subgraph WEEKLY["📅 Weekly Rhythm"]
+        direction LR
+        MON["Monday<br/>Ideation"] --> TUE["Tuesday<br/>Design"]
+        TUE --> WED["Wednesday<br/>Development"]
+        WED --> THU["Thursday<br/>Testing"]
+        THU --> FRI["Friday<br/>Launch"]
+        FRI --> WKND["Weekend<br/>Community"]
+    end
+
+    subgraph AGENTS["🤖 Agent Swarm"]
+        direction TB
+        A1["Token Designer"]
+        A2["Contract Deployer"]
+        A3["Liquidity Bootstrapper"]
+        A4["Governance Architect"]
+        A5["Brand Builder"]
+        A6["Market Launcher"]
+    end
+
+    subgraph OUTPUT["🚀 Weekly Output"]
+        BIZ["Sovereign<br/>Business"]
+    end
+
+    WEEKLY --> AGENTS
+    AGENTS --> OUTPUT
+
+    style WEEKLY fill:#3498db,stroke:#2980b9,color:#fff
+    style AGENTS fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style OUTPUT fill:#2ecc71,stroke:#27ae60,color:#fff
+```
+
 ---
 
 ## Objective

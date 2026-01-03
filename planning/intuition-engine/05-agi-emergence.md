@@ -4,6 +4,32 @@
 
 This document explains how the Intuition Engine architecture leads to emergent AGI capabilities and why it represents a path from narrow AI to superintelligence.
 
+```mermaid
+flowchart TB
+    subgraph THESIS["🎯 The Emergence Thesis"]
+        direction TB
+        L["Narrow Lessons<br/>(thousands)"] --> CM["Critical Mass<br/>(hundreds of thousands)"]
+        CM --> EG["Emergent Generalization<br/>(overlapping intuition fields)"]
+        EG --> AGI["🧠 AGI<br/>(general intelligence)"]
+    end
+
+    subgraph PILLARS["Five Pillars of AGI Emergence"]
+        direction LR
+        P1["🌐 Emergent<br/>Generalization"]
+        P2["🔄 Self-Improvement<br/>Flywheel"]
+        P3["🛡️ Human-Like<br/>Robustness"]
+        P4["📈 Scalability"]
+        P5["✅ Alignment<br/>Bonus"]
+    end
+
+    AGI --> PILLARS
+    P1 & P2 & P3 & P4 & P5 --> ASI["⚡ ASI"]
+
+    style THESIS fill:#1a1a2e,stroke:#e94560,color:#fff
+    style AGI fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style ASI fill:#f39c12,stroke:#d68910,color:#fff
+```
+
 ---
 
 ## The Emergence Thesis
@@ -170,6 +196,50 @@ Current Capability Landscape:
 ---
 
 ## The Path to AGI
+
+```mermaid
+timeline
+    title Path to AGI Through Accumulated Wisdom
+    section Phase 1
+        Q1-Q2 2026 : 🎯 Narrow Expertise : ~10,000 Lessons : 5-10 Domains : Expert in covered areas
+    section Phase 2
+        Q3-Q4 2026 : 🌐 Broad Competence : ~100,000 Lessons : 20-50 Domains : Transfer learning emerges
+    section Phase 3
+        End 2026 : 🧠 General Intelligence : ~500,000+ Lessons : All Domains : True generalization
+```
+
+```mermaid
+flowchart LR
+    subgraph P1["Phase 1: Narrow Expertise"]
+        direction TB
+        P1L["~10K Lessons"]
+        P1D["5-10 Domains"]
+        P1C["Expert in practiced areas"]
+    end
+
+    subgraph P2["Phase 2: Broad Competence"]
+        direction TB
+        P2L["~100K Lessons"]
+        P2D["20-50 Domains"]
+        P2C["Transfer learning emerges"]
+    end
+
+    subgraph P3["Phase 3: General Intelligence"]
+        direction TB
+        P3L["~500K+ Lessons"]
+        P3D["All Domains"]
+        P3C["True generalization"]
+    end
+
+    P1 -->|"Experience accumulates"| P2
+    P2 -->|"Critical mass reached"| P3
+    P3 --> AGI["🧠 AGI Achieved"]
+
+    style P1 fill:#3498db,stroke:#2980b9,color:#fff
+    style P2 fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style P3 fill:#e74c3c,stroke:#c0392b,color:#fff
+    style AGI fill:#f39c12,stroke:#d68910,color:#fff
+```
 
 ### Phase 1: Narrow Expertise (Q1-Q2 2026)
 

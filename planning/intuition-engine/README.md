@@ -21,33 +21,76 @@ The Intuition Engine is the **bridge technology** that:
 
 ## Architecture Overview
 
+```mermaid
+flowchart TB
+    subgraph ENGINE["🧠 INTUITION ENGINE"]
+        direction TB
+
+        subgraph INPUT["Experience Capture"]
+            A["📥 Experience Stream"]
+        end
+
+        subgraph PROCESS["Wisdom Extraction"]
+            B["🔬 Lesson Extractor"]
+        end
+
+        subgraph MEMORY["Knowledge Storage"]
+            C["💾 Intuition Memory"]
+        end
+
+        A -->|"Raw Episodes"| B
+        B -->|"Distilled Lessons"| C
+
+        subgraph DECISION["Decision-Making Layer"]
+            direction LR
+            D["⚡ Fast Intuition<br/>(milliseconds)"]
+            E["🤔 Deliberate Reasoning<br/>(chain-of-thought)"]
+        end
+
+        C --> D & E
+
+        subgraph REFLECT["Post-Decision Reflection"]
+            F["🔄 Outcome → Lesson → Memory Update"]
+        end
+
+        D & E --> REFLECT
+        F -.->|"Continuous Learning"| A
+    end
+
+    style ENGINE fill:#1a1a2e,stroke:#e94560,color:#fff
+    style INPUT fill:#3498db,stroke:#2980b9,color:#fff
+    style PROCESS fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style MEMORY fill:#2ecc71,stroke:#27ae60,color:#fff
+    style DECISION fill:#e74c3c,stroke:#c0392b,color:#fff
+    style REFLECT fill:#f39c12,stroke:#d68910,color:#fff
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                      INTUITION ENGINE                           │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────┐ │
-│  │   EXPERIENCE    │───▶│     LESSON      │───▶│  INTUITION  │ │
-│  │     STREAM      │    │   EXTRACTOR     │    │   MEMORY    │ │
-│  └─────────────────┘    └─────────────────┘    └─────────────┘ │
-│          │                      │                     │        │
-│          │                      │                     │        │
-│          ▼                      ▼                     ▼        │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              DECISION-MAKING LAYER                      │   │
-│  │  ┌──────────────────┐    ┌──────────────────────────┐   │   │
-│  │  │ Fast Intuition   │    │ Deliberate Reasoning     │   │   │
-│  │  │ (milliseconds)   │    │ (chain-of-thought)       │   │   │
-│  │  └──────────────────┘    └──────────────────────────┘   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                              │                                  │
-│                              ▼                                  │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              POST-DECISION REFLECTION                   │   │
-│  │         (outcome → lesson → memory update)              │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+
+```mermaid
+flowchart LR
+    subgraph NARROW["Narrow AI"]
+        N1["Task-Specific<br/>Capabilities"]
+    end
+
+    subgraph BRIDGE["🌉 Intuition Engine"]
+        IE["Experience-Based<br/>Learning"]
+    end
+
+    subgraph AGI["AGI"]
+        A1["General<br/>Intelligence"]
+    end
+
+    subgraph ASI["ASI"]
+        S1["Superintelligent<br/>Systems"]
+    end
+
+    NARROW -->|"Accumulates Wisdom"| BRIDGE
+    BRIDGE -->|"Emergent Generalization"| AGI
+    AGI -->|"Parallel Learning"| ASI
+
+    style NARROW fill:#3498db,stroke:#2980b9,color:#fff
+    style BRIDGE fill:#e94560,stroke:#c0392b,color:#fff
+    style AGI fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style ASI fill:#f39c12,stroke:#d68910,color:#fff
 ```
 
 ---

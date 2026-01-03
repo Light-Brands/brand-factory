@@ -2,6 +2,33 @@
 
 **Timeline:** January - June 2026 (Kickoff)
 
+```mermaid
+flowchart LR
+    subgraph FUNDING["💰 Funding Strategy"]
+        direction TB
+        BRIDGE["Bridge Financing<br/>$90K / 6 months"]
+        CRYPTO["Parallel Crypto<br/>Financing Design"]
+    end
+
+    subgraph MILESTONES["🎯 Key Milestones"]
+        direction TB
+        M1["Control Tower MVP"]
+        M2["First Crypto Launches"]
+        M3["Self-Sufficiency"]
+    end
+
+    subgraph OUTCOME["✅ July 2026"]
+        SELF["Financial<br/>Independence"]
+    end
+
+    FUNDING --> MILESTONES
+    MILESTONES --> OUTCOME
+
+    style FUNDING fill:#3498db,stroke:#2980b9,color:#fff
+    style MILESTONES fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style OUTCOME fill:#2ecc71,stroke:#27ae60,color:#fff
+```
+
 ---
 
 ## Objective
@@ -69,6 +96,16 @@ Achieve financial independence through:
 ---
 
 ## Budget Allocation
+
+```mermaid
+pie showData
+    title Monthly Budget Allocation ($15K)
+    "Compute & Infrastructure" : 30
+    "AI/API Costs" : 25
+    "Smart Contract Audits" : 15
+    "Tooling & Services" : 15
+    "Reserve" : 15
+```
 
 | Category | Allocation | Monthly |
 |----------|------------|---------|

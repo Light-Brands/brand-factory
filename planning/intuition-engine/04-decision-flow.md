@@ -4,6 +4,46 @@
 
 This document describes how the Intuition Engine shapes decision-making, combining fast intuitive hits with deliberate reasoning in a flow that mirrors expert human cognition.
 
+```mermaid
+flowchart TB
+    subgraph REQUEST["📋 Decision Request"]
+        Q["Should we launch this token<br/>with quadratic governance?"]
+    end
+
+    subgraph PHASE1["⚡ Phase 1: Immediate Intuition (~1-5ms)"]
+        direction LR
+        P1A["Embed Context"] --> P1B["Retrieve Lessons"]
+        P1B --> P1C["Apply Soft Biases"]
+        P1C --> P1D["'Gut Feeling' Priors"]
+    end
+
+    subgraph PHASE2["🤔 Phase 2: Deliberate Reasoning (~100ms-10s)"]
+        direction LR
+        P2A["Chain-of-Thought<br/>Analysis"] --> P2B["Tool Use &<br/>Simulation"]
+        P2B --> P2C["Planning &<br/>Evaluation"]
+        P2C --> P2D["Reasoned<br/>Decision"]
+    end
+
+    subgraph PHASE3["🔄 Phase 3: Post-Decision Reflection (async)"]
+        direction LR
+        P3A["Evaluate<br/>Outcomes"] --> P3B["Extract<br/>Lessons"]
+        P3B --> P3C["Reinforce/<br/>Decay"]
+        P3C --> P3D["Update<br/>Memory"]
+    end
+
+    REQUEST --> PHASE1
+    PHASE1 -->|"Intuitive biases shape reasoning"| PHASE2
+    PHASE2 -->|"Decision made"| ACTION["✅ Action Taken"]
+    ACTION -->|"Outcome observed"| PHASE3
+    PHASE3 -.->|"Improved intuition"| PHASE1
+
+    style REQUEST fill:#1a1a2e,stroke:#e94560,color:#fff
+    style PHASE1 fill:#3498db,stroke:#2980b9,color:#fff
+    style PHASE2 fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style PHASE3 fill:#2ecc71,stroke:#27ae60,color:#fff
+    style ACTION fill:#f39c12,stroke:#d68910,color:#fff
+```
+
 ---
 
 ## The Three-Phase Decision Process
