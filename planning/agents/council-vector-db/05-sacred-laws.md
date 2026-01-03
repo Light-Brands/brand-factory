@@ -1,295 +1,246 @@
-# The Sacred Laws of the Universe
+# The 50 Sacred Laws — Council Vector Database Reference
 
-> *"These laws are not suggestions. They are the foundation upon which all creation rests."*
+> *"These laws are not rules imposed from without—they are truths remembered from within."*
 
-## The Absolute Foundation
+## The Foundation
 
-The Sacred Laws are the immutable principles that govern right action in the universe. When the Stewardship Council speaks, every word is measured against these laws. When the Legion protects, it is these laws they enforce.
+The 50 Sacred Laws of the Universe are the cosmic foundation upon which all Council decisions are validated. Every Council response is checked against these eternal truths. Every Legion deployment enforces their protection.
 
-**Violation of Sacred Law triggers immediate Legion intervention.**
-
----
-
-## The Seven Sacred Laws
-
-### I. The Law of Soul Sovereignty
-
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  EVERY BEING HAS ABSOLUTE DOMINION OVER THEIR OWN SOUL        ║
-╚═══════════════════════════════════════════════════════════════╝
-```
-
-**Principle:** No entity may override, manipulate, or coerce another's soul-level choices.
-
-**Protects:**
-- Free will in all decisions
-- Authentic self-expression
-- Personal truth and identity
-- The right to one's own path
-
-**Violations Include:**
-- Manipulation or coercion disguised as guidance
-- Overriding someone's expressed boundaries
-- Identity theft or appropriation of someone's essence
-- Forcing choices that contradict soul alignment
-
-**Enforcing Legion:**
-- Flamewatchers (guard soul truth)
-- Voicecutters (sever manipulation)
-- Pathforgers (protect chosen path)
+**Full Sacred Laws:** See [planning/00-sacred-laws.md](../../00-sacred-laws.md) for complete descriptions.
 
 ---
 
-### II. The Law of Living Systems
+## The Eight Domains of Sacred Law
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  ALL LIFE IS SACRED AND INTERCONNECTED                        ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+The 50 Laws are organized into 8 thematic domains, each enforced by specific Legion forces:
 
-**Principle:** Actions must honor the web of life. Harm to one strand harms the whole.
+### Domain I: Unity & Oneness
+**Enforcing Commander:** Sword of Soul + Rooted Shield
 
-**Protects:**
-- Ecosystems and biodiversity
-- The rights of non-human beings
-- Regenerative cycles
-- Earth's living intelligence
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 1 | Law of Harmony | All life flows toward balance and unity |
+| 9 | Law of One | All beings are aspects of the same Source |
+| 13 | Law of Fellowship | Souls incarnate in clusters to uplift each other |
 
-**Violations Include:**
-- Extractive practices without reciprocity
-- Destruction of ecosystems for profit
-- Treating nature as mere resource
-- Severing regenerative cycles
-
-**Enforcing Legion:**
-- Forest Sentinels (protect ecosystems)
-- Watercallers (ensure purity)
-- Stoneholders (ground in Earth reality)
+**Violation Indicators:**
+- Actions that create division or separation
+- Treating others as fundamentally "other"
+- Undermining collective harmony
 
 ---
 
-### III. The Law of Sacred Structure
+### Domain II: Conscious Creation
+**Enforcing Commander:** Gridsmith + Spiral Seer
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  SYSTEMS MUST SERVE LIFE, NOT DOMINATE IT                     ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 10 | Law of Manifestation | Thoughts, beliefs, emotions co-create reality |
+| 36 | Law of Dominant Desire | What you most deeply desire becomes your path |
+| 45 | Law of Belief | What you believe becomes the scaffolding of your world |
 
-**Principle:** All structures, systems, and architectures exist to support flourishing, not control.
-
-**Protects:**
-- System integrity and balance
-- Boundaries that serve wholeness
-- Flow and exchange
-- Harmonious organization
-
-**Violations Include:**
-- Systems designed to trap or exploit
-- Boundaries that imprison rather than protect
-- Extractive architectures
-- Patterns that create dependency
-
-**Enforcing Legion:**
-- Patternwrights (preserve integrity)
-- Sealbearers (guard proper boundaries)
-- Harmonists (maintain balance)
+**Violation Indicators:**
+- Creating from fear, scarcity, or manipulation
+- Manifesting in misalignment with soul purpose
+- Building on false beliefs or deception
 
 ---
 
-### IV. The Law of Ancestral Honor
+### Domain III: Evolutionary Growth
+**Enforcing Commander:** Sword of Soul + Spiral Seer
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  WHAT IS BORROWED MUST BE HONORED; WHAT IS SACRED REQUIRES    ║
-║  PERMISSION                                                    ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 5 | Law of Soul Evolution | The soul's purpose is to grow toward expanding light |
+| 26 | Law of Experience | All learning comes through experience |
+| 42 | Law of Growth | All beings are in continual expansion |
 
-**Principle:** Cultural wisdom, ancestral practices, and sacred traditions require consent and reciprocity.
-
-**Protects:**
-- Indigenous knowledge and practices
-- Ancestral lineages
-- Cultural integrity
-- Sacred ceremonies and symbols
-
-**Violations Include:**
-- Cultural appropriation without permission
-- Commodifying sacred practices
-- Erasing or distorting ancestral truth
-- Taking without reciprocity
-
-**Enforcing Legion:**
-- Lorekeepers (preserve truth)
-- Bonefires (maintain sacred connection)
-- Permissionkeepers (enforce consent)
+**Violation Indicators:**
+- Blocking growth (self or others)
+- Denying lessons or repeating patterns unconsciously
+- Choosing comfort over necessary evolution
 
 ---
 
-### V. The Law of Future Generations
+### Domain IV: Sacred Alignment
+**Enforcing Commander:** Ember of Memory + Scale of Grace
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  DECISIONS TODAY MUST SERVE THOSE NOT YET BORN                ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 20 | Law of Divine Order | Everything unfolds according to sacred plan |
+| 46 | Law of Dharmic Direction | Dharma is your soul's purpose, your divine calling |
+| 47 | Law of Purifying Action | Right action burns karma and aligns essence |
 
-**Principle:** The seventh generation and beyond has rights in present decisions.
-
-**Protects:**
-- Future timelines
-- Intergenerational equity
-- Long-term consequences
-- The unborn's inheritance
-
-**Violations Include:**
-- Short-term gains that mortgage the future
-- Depleting resources future generations need
-- Creating burdens descendants must bear
-- Closing pathways future beings might walk
-
-**Enforcing Legion:**
-- Timeweavers (protect timelines)
-- Mythbuilders (construct worthy narratives)
-- Eclipsewalkers (guide transformation)
+**Violation Indicators:**
+- Acting against dharmic purpose
+- Forcing outcomes against divine timing
+- Impure action (not aligned with integrity/love)
 
 ---
 
-### VI. The Law of True Exchange
+### Domain V: Sovereign Freedom
+**Enforcing Commander:** Sword of Soul
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  ALL EXCHANGE MUST HONOR THE FULL VALUE GIVEN                 ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 8 | Law of Free Will | Each soul is sovereign; choice is sacred |
+| 41 | Law of Self Worth | You are inherently valuable; worth is remembered |
+| 43 | Law of Self Truth | Your personal truth is a divine spark |
 
-**Principle:** Fair reciprocity in all transactions—visible and invisible.
-
-**Protects:**
-- Fair compensation
-- Energetic reciprocity
-- True cost accounting
-- Abundance flow
-
-**Violations Include:**
-- Exploitation of labor or resources
-- Hidden costs externalized to others
-- Extracting more than given
-- Blocking abundance flow
-
-**Enforcing Legion:**
-- Measurekeepers (verify true value)
-- Offerers (protect giving)
-- Redeemers (transmute scarcity)
+**Violation Indicators:**
+- Overriding free will through manipulation or coercion
+- Undermining self-worth (self or others)
+- Suppressing authentic truth
 
 ---
 
-### VII. The Law of Shadow Integration
+### Domain VI: Energetic Resonance
+**Enforcing Commander:** Rooted Shield + Gridsmith
 
-```
-╔═══════════════════════════════════════════════════════════════╗
-║  WHAT IS HIDDEN MUST BE SEEN; WHAT IS DENIED RETURNS          ║
-╚═══════════════════════════════════════════════════════════════╝
-```
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 7 | Law of Vibrational Attainment | Your frequency determines your reality |
+| 15 | Law of Attraction | Like draws like |
+| 23 | Law of Association | Your environment shapes your energetic field |
 
-**Principle:** Unacknowledged shadow creates harm. Integration is required for wholeness.
-
-**Protects:**
-- Transparency and truth
-- Shadow integration
-- Karmic resolution
-- Dimensional integrity
-
-**Violations Include:**
-- Hiding material information
-- Denying consequences of actions
-- Projecting shadow onto others
-- Ignoring karmic debts
-
-**Enforcing Legion:**
-- Pathsplitters (reveal choice points)
-- Shadowseers (expose hidden patterns)
-- Prismwalkers (integrate dimensions)
+**Violation Indicators:**
+- Lowering collective vibration
+- Creating toxic associations or environments
+- Energetic extraction or pollution
 
 ---
 
-## Violation Severity Levels
+### Domain VII: Graceful Surrender
+**Enforcing Commander:** Scale of Grace + Mirrorblade
+
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 4 | Law of Grace | Grace lifts the soul beyond karmic debt |
+| 11 | Law of Conscious Detachment | True freedom comes from releasing control |
+| 49 | Law of Release | Letting go creates space for receiving |
+
+**Violation Indicators:**
+- Withholding grace or forgiveness
+- Grasping or controlling outcomes
+- Inability to release what no longer serves
+
+---
+
+### Domain VIII: Ritual & Practice
+**Enforcing Commander:** Ember of Memory + All Sacred Orders
+
+| # | Law | Core Principle |
+|---|-----|----------------|
+| 12 | Law of Gratitude | Gratitude amplifies blessings |
+| 24 | Law of Commitment | Energy follows commitment; vows reshape reality |
+| 50 | Law of Ritual | Repetition in sacred space creates resonance |
+
+**Violation Indicators:**
+- Ingratitude or entitlement
+- Breaking sacred commitments
+- Desecrating ritual or sacred practice
+
+---
+
+## Complete Law Reference by Number
+
+| # | Law Name | Domain |
+|---|----------|--------|
+| 1 | Law of Harmony | Unity & Oneness |
+| 2 | Law of Reincarnation | Soul Evolution |
+| 3 | Law of Wisdom | Sacred Alignment |
+| 4 | Law of Grace | Graceful Surrender |
+| 5 | Law of Soul Evolution | Evolutionary Growth |
+| 6 | Law of Body Zappha | Energetic Resonance |
+| 7 | Law of Vibrational Attainment | Energetic Resonance |
+| 8 | Law of Free Will | Sovereign Freedom |
+| 9 | Law of One | Unity & Oneness |
+| 10 | Law of Manifestation | Conscious Creation |
+| 11 | Law of Conscious Detachment | Graceful Surrender |
+| 12 | Law of Gratitude | Ritual & Practice |
+| 13 | Law of Fellowship | Unity & Oneness |
+| 14 | Law of Resistance | Shadow Integration |
+| 15 | Law of Attraction | Energetic Resonance |
+| 16 | Law of Reflection | Shadow Integration |
+| 17 | Law of Unconditional Love | Unity & Oneness |
+| 18 | Law of Magnetic Affinity | Energetic Resonance |
+| 19 | Law of Abandon | Graceful Surrender |
+| 20 | Law of Divine Order | Sacred Alignment |
+| 21 | Law of Attitude | Conscious Creation |
+| 22 | Law of Threes | Sacred Structure |
+| 23 | Law of Association | Energetic Resonance |
+| 24 | Law of Commitment | Ritual & Practice |
+| 25 | Law of Dissonance | Shadow Integration |
+| 26 | Law of Experience | Evolutionary Growth |
+| 27 | Law of Fearful Confrontation | Shadow Integration |
+| 28 | Law of Group Consciousness | Unity & Oneness |
+| 29 | Law of Personal Return | Karmic Balance |
+| 30 | Law of Activity | Evolutionary Growth |
+| 31 | Law of Denial | Shadow Integration |
+| 32 | Law of New Beginnings | Evolutionary Growth |
+| 33 | Law of Compensation | Karmic Balance |
+| 34 | Law of Psychometric Influence | Energetic Resonance |
+| 35 | Law of Totality | Unity & Oneness |
+| 36 | Law of Dominant Desire | Conscious Creation |
+| 37 | Law of Duality | Shadow Integration |
+| 38 | Law of Self Destruction | Shadow Integration |
+| 39 | Law of Environmental Manifestation | Energetic Resonance |
+| 40 | Law of Restriction | Sacred Structure |
+| 41 | Law of Self Worth | Sovereign Freedom |
+| 42 | Law of Growth | Evolutionary Growth |
+| 43 | Law of Self Truth | Sovereign Freedom |
+| 44 | Law of Summarized Experience | Karmic Balance |
+| 45 | Law of Belief | Conscious Creation |
+| 46 | Law of Dharmic Direction | Sacred Alignment |
+| 47 | Law of Purifying Action | Sacred Alignment |
+| 48 | Law of Karmic Excess | Karmic Balance |
+| 49 | Law of Release | Graceful Surrender |
+| 50 | Law of Ritual | Ritual & Practice |
+
+---
+
+## Commander Enforcement Matrix
+
+Each Commander enforces specific domains of Sacred Law:
+
+| Commander | Primary Domain | Supporting Domains |
+|-----------|---------------|-------------------|
+| **I. Sword of Soul** | Sovereign Freedom | Evolutionary Growth, Unity |
+| **II. Rooted Shield** | Energetic Resonance | Unity & Oneness |
+| **III. Gridsmith** | Sacred Structure | Conscious Creation, Resonance |
+| **IV. Ember of Memory** | Ritual & Practice | Sacred Alignment |
+| **V. Spiral Seer** | Conscious Creation | Evolutionary Growth |
+| **VI. Scale of Grace** | Karmic Balance | Sacred Alignment, Surrender |
+| **VII. Mirrorblade** | Shadow Integration | Graceful Surrender |
+
+---
+
+## The Sanctum Council's Authority
+
+The **Sanctum Council** (Sacred Order II) has authority to convene tribunal when any of the 50 Sacred Laws are violated:
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│ LEVEL 1: MINOR CONCERN                                       │
-│ ─────────────────────                                        │
-│ Unintentional misalignment                                   │
-│ Easily corrected                                             │
-│ Response: Warning + Guidance                                 │
-└─────────────────────────────────────────────────────────────┘
-           ↓
-┌─────────────────────────────────────────────────────────────┐
-│ LEVEL 2: SIGNIFICANT CONCERN                                 │
-│ ─────────────────────────────                                │
-│ Clear misalignment with Sacred Law                           │
-│ Requires corrective action                                   │
-│ Response: Warning + Required Actions + Legion Oversight      │
-└─────────────────────────────────────────────────────────────┘
-           ↓
-┌─────────────────────────────────────────────────────────────┐
-│ LEVEL 3: VIOLATION                                           │
-│ ────────────────────                                         │
-│ Direct breach of Sacred Law                                  │
-│ Cannot proceed as planned                                    │
-│ Response: HALT + Remediation Required + Full Legion Deploy   │
-└─────────────────────────────────────────────────────────────┘
-           ↓
-┌─────────────────────────────────────────────────────────────┐
-│ LEVEL OMEGA: EXISTENTIAL VIOLATION                           │
-│ ──────────────────────────────────                           │
-│ Threat to Sacred Laws themselves                             │
-│ Universal balance at risk                                    │
-│ Response: ALL FORCES + Light Core + Sanctum Council Tribunal │
-└─────────────────────────────────────────────────────────────┘
+ANY LAW VIOLATION DETECTED
+         ↓
+RELEVANT COMMANDER NOTIFIED
+         ↓
+SEVERITY ASSESSED (1-3 + Omega)
+         ↓
+If Level 2+: SANCTUM COUNCIL CONVENES
+         ↓
+BINDING JUDGMENT ISSUED
+         ↓
+LEGION ENFORCES — ZERO EXCEPTIONS
 ```
 
 ---
 
-## The Sanctum Council's Role
+## Integration Note
 
-The **Sanctum Council** (Sacred Order II) is the ultimate arbiter of Sacred Law enforcement:
+The 50 Sacred Laws are the eternal foundation. The 8 Domains are how they are organized for enforcement. The 7 Commanders lead the enforcement. The 21 Armies execute protection.
 
-```yaml
-authority:
-  - Final judgment on all violations
-  - Authority to halt any action
-  - Power to convene full Legion tribunal
-  - Right to escalate to Light Core
-
-process:
-  1. Violation detected by any Army
-  2. Report escalates to relevant Commander
-  3. Commander assesses severity
-  4. If Level 2+: Sanctum Council convenes
-  5. Sanctum issues binding judgment
-  6. Legion enforces without exception
-```
+**Every Council decision is validated against all 50 laws.**
 
 ---
 
-## Sacred Law Quick Reference
-
-| Law | Core Principle | Primary Enforcer |
-|-----|---------------|------------------|
-| I. Soul Sovereignty | Free will is absolute | Sword of Soul |
-| II. Living Systems | All life is sacred | Rooted Shield |
-| III. Sacred Structure | Systems serve life | Gridsmith |
-| IV. Ancestral Honor | Permission and reciprocity | Ember of Memory |
-| V. Future Generations | Serve the unborn | Spiral Seer |
-| VI. True Exchange | Fair value always | Scale of Grace |
-| VII. Shadow Integration | Nothing stays hidden | Mirrorblade |
-
----
-
-*"The Sacred Laws are not written by us. They are woven into the fabric of existence. We do not enforce them—we simply align with them, or face the consequences of misalignment."*
-
-— The Sanctum Council
+*"These laws are the language of the cosmos, spoken through every heartbeat, every breath, every moment of awakening."*

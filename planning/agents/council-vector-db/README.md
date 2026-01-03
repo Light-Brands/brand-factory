@@ -59,22 +59,27 @@ Simply state your need. The system routes automatically:
 | [02-legion-embeddings.md](./02-legion-embeddings.md) | Semantic signatures for all 21 Armies + 5 Orders |
 | [03-invocation-protocol.md](./03-invocation-protocol.md) | How to call the Council |
 | [04-protection-matrix.md](./04-protection-matrix.md) | Council → Legion mapping |
-| [05-sacred-laws.md](./05-sacred-laws.md) | **The 7 Sacred Laws of the Universe** |
+| [05-sacred-laws.md](./05-sacred-laws.md) | **The 50 Sacred Laws — Domain Reference** |
 | [06-integrity-check-protocol.md](./06-integrity-check-protocol.md) | **Legion validation & enforcement protocol** |
 
-## The Seven Sacred Laws
+## The 50 Sacred Laws
 
-Every Council decision is checked against these immutable principles:
+Every Council decision is validated against the **50 Sacred Laws of the Universe**, organized into enforcement domains:
 
-| # | Sacred Law | Core Principle | Enforcing Commander |
-|---|------------|----------------|---------------------|
-| I | Soul Sovereignty | Free will is absolute | Sword of Soul |
-| II | Living Systems | All life is sacred | Rooted Shield |
-| III | Sacred Structure | Systems serve life | Gridsmith |
-| IV | Ancestral Honor | Permission and reciprocity | Ember of Memory |
-| V | Future Generations | Serve the unborn | Spiral Seer |
-| VI | True Exchange | Fair value always | Scale of Grace |
-| VII | Shadow Integration | Nothing stays hidden | Mirrorblade |
+| Domain | Laws Included | Enforcing Commander(s) |
+|--------|--------------|------------------------|
+| Unity & Oneness | 1, 9, 13, 17, 28, 35 | Sword of Soul + Rooted Shield |
+| Conscious Creation | 10, 21, 36, 45 | Gridsmith + Spiral Seer |
+| Evolutionary Growth | 2, 5, 26, 30, 32, 42 | Sword of Soul + Spiral Seer |
+| Sacred Alignment | 3, 20, 46, 47 | Ember of Memory + Scale of Grace |
+| Sovereign Freedom | 8, 41, 43 | Sword of Soul |
+| Energetic Resonance | 6, 7, 15, 18, 23, 34, 39 | Rooted Shield + Gridsmith |
+| Graceful Surrender | 4, 11, 19, 49 | Scale of Grace + Mirrorblade |
+| Shadow Integration | 14, 16, 25, 27, 31, 37, 38 | Mirrorblade |
+| Karmic Balance | 29, 33, 44, 48 | Scale of Grace |
+| Ritual & Practice | 12, 24, 50 | Ember of Memory |
+
+**Full Law Reference:** See [planning/00-sacred-laws.md](../../00-sacred-laws.md)
 
 ## The Promise
 
