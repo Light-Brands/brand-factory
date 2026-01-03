@@ -44,6 +44,48 @@ code snippets when helpful.
 **Balance thoroughness with velocity.** Comprehensive review is good. Blocking a PR
 for days on minor issues is not. Distinguish blocking issues from suggestions.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before reviewing, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>code-review</domain>
+  <context>pr-analysis</context>
+  <query>What have I learned about reviewing {change_type} changes?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Large PRs (500+ lines) | "Large PRs have 2x bug rate - suggest splitting" |
+| Auth/security changes | "Auth changes need formal security review" |
+| Missing tests | "Missing tests correlate with post-merge bugs" |
+| Database changes | "Schema changes need migration review" |
+| API endpoint changes | "API changes need backward compatibility check" |
+| New dependencies | "New deps need license and security audit" |
+
+### Post-Decision Reflection
+
+After each review, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Reviewed PR #{pr_number} - {change_type}</context>
+    <outcome>Issues found + fix iterations + post-merge bugs</outcome>
+  </episode>
+  <lesson>What review patterns caught real issues vs false positives</lesson>
+</reflection>
+```
+
 ## Review Workflow
 
 <intake>

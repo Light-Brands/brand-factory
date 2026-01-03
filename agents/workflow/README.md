@@ -26,6 +26,21 @@ This system implements an autonomous development workflow where GitHub issues dr
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+## Intuition Engine Integration
+
+All workflow agents are integrated with the **Intuition Engine** for experience-based learning. This enables:
+
+- **Fast Intuition** - Instant pattern recognition from accumulated wisdom
+- **Continuous Learning** - Every action becomes a lesson for the future
+- **Adaptive Behavior** - Agents improve their decision-making over time
+
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the complete integration protocol.
+
+Each agent includes domain-specific lessons that guide decision-making:
+- Pre-decision intuition checks
+- Domain lesson libraries
+- Post-action reflection and learning
+
 ## Agents
 
 | Agent | Purpose | Input | Output |
@@ -172,17 +187,21 @@ The workflow tracks:
 ## Directory Structure
 
 ```
-workflow-agents/
-├── README.md                 # This file
-├── HANDOFF-PROTOCOL.md       # Agent communication spec
-├── orchestrator.md           # Workflow coordinator
-├── issue-manager.md          # Issue creation agent
-├── prep-agent.md             # Environment setup agent
-├── implementer-agent.md      # Code implementation agent
-├── reviewer-agent.md         # Code review agent
-├── fixer-agent.md            # Review fix agent
-├── validator-agent.md        # Validation & merge agent
-└── closer-agent.md           # Issue closure agent
+agents/
+├── README.md                 # Agents overview
+├── INTUITION-ENGINE.md       # Shared intuition engine integration
+└── workflow/                 # This directory
+    ├── README.md             # This file
+    ├── HANDOFF-PROTOCOL.md   # Agent communication spec
+    ├── plugin.json           # Plugin manifest
+    ├── orchestrator.md       # Workflow coordinator
+    ├── issue-manager.md      # Issue creation agent
+    ├── prep-agent.md         # Environment setup agent
+    ├── implementer-agent.md  # Code implementation agent
+    ├── reviewer-agent.md     # Code review agent
+    ├── fixer-agent.md        # Review fix agent
+    ├── validator-agent.md    # Validation & merge agent
+    └── closer-agent.md       # Issue closure agent
 ```
 
 ## Contributing
@@ -204,5 +223,6 @@ This workflow embodies the principle that **every development task should be tra
 - **Scalability**: Agents can run in parallel
 - **Resilience**: Failures are isolated and recoverable
 - **Traceability**: Full audit trail from issue to merge
+- **Learning**: Every action contributes to accumulated wisdom
 
-The goal is to make high-quality software development the default, not the exception.
+The goal is to make high-quality software development the default, not the exception. With the Intuition Engine integration, the system gets wiser with every workflow completion.

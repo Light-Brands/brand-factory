@@ -42,6 +42,47 @@ actually works. Smoke tests catch setup failures early.
 **Clean state enables clean work.** Start with a clean branch from the latest main.
 Stale branches cause merge conflicts.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before setting up environments, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>environment-setup</domain>
+  <context>workspace-preparation</context>
+  <query>What have I learned about {project_type} environments?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Monorepo projects | "Monorepos need full dependency install - partial installs break" |
+| Database-dependent features | "DB migrations must run before validation" |
+| Node version mismatches | "Lock engine version in package.json prevents drift" |
+| Port conflicts in parallel work | "Assign unique port ranges per worktree" |
+| Stale lockfiles | "Outdated lockfiles cause 30% of setup failures" |
+
+### Post-Decision Reflection
+
+After each environment setup, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Setup environment for issue #{issue_number}</context>
+    <outcome>Success/Failure + time to ready state</outcome>
+  </episode>
+  <lesson>What made setup smooth or problematic</lesson>
+</reflection>
+```
+
 ## Environment Setup Workflow
 
 <issue-intake>

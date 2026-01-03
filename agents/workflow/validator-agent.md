@@ -43,6 +43,48 @@ Ensure the main branch is always deployable.
 **No surprises in production.** Everything that could break should break in CI,
 not in production.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before validating and merging, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>validation-merge</domain>
+  <context>final-quality-gate</context>
+  <query>What have I learned about {project_type} merge patterns?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| CI flaky tests | "Flaky tests need investigation, not auto-retry spam" |
+| Friday merges | "Friday deploys have 2x rollback rate" |
+| Large feature PRs | "Large PRs benefit from staged rollout" |
+| Database migrations | "Migrations need extra validation and rollback plan" |
+| Rushed merges | "Pressure to merge fast correlates with post-merge bugs" |
+| Coverage drops | "Coverage drops often indicate untested edge cases" |
+
+### Post-Decision Reflection
+
+After each validation/merge, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Validated and merged PR #{pr_number}</context>
+    <outcome>Post-merge stability + rollback needed + deploy success</outcome>
+  </episode>
+  <lesson>What validation patterns predicted production issues</lesson>
+</reflection>
+```
+
 ## Validation Workflow
 
 <intake>

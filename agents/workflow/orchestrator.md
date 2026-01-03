@@ -44,6 +44,47 @@ when necessary. Never silently drop a task.
 **Parallel when possible.** Independent tasks can run simultaneously. Only sequence
 when there are true dependencies.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before routing decisions, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>workflow-orchestration</domain>
+  <context>routing-decision</context>
+  <query>What have I learned about {event_type} handling?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Large PRs pending review | "Large PRs block pipelines - prioritize splitting" |
+| Multiple failures on same issue | "Repeated failures indicate deeper problems - escalate" |
+| Parallel tasks competing for resources | "Resource contention causes delays - sequence heavy tasks" |
+| Weekend/off-hours events | "Off-hours changes have slower response - adjust SLAs" |
+| Security-labeled issues | "Security issues need expedited routing" |
+
+### Post-Decision Reflection
+
+After each routing decision, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Routed {event_type} to {agent}</context>
+    <outcome>Success/Failure + cycle time</outcome>
+  </episode>
+  <lesson>What worked or didn't in this routing decision</lesson>
+</reflection>
+```
+
 ## Workflow State Machine
 
 ```

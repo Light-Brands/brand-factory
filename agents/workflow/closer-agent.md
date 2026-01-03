@@ -42,6 +42,48 @@ traceable context.
 
 **Clean up loose ends.** Delete branches, close related issues, update tracking.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before closing issues, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>issue-closure</domain>
+  <context>workflow-completion</context>
+  <query>What have I learned about effective closures?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Complex features | "Complex features need detailed closing summaries" |
+| Breaking changes | "Breaking changes need upgrade guide in closure" |
+| Bug fixes | "Bug fixes should document root cause for future prevention" |
+| Stakeholder-visible features | "User-facing features need changelog entries" |
+| Long-running issues | "Long issues benefit from timeline summary" |
+| Multiple PRs | "Multi-PR issues need consolidated summary" |
+
+### Post-Decision Reflection
+
+After each closure, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Closed issue #{issue_number} with summary</context>
+    <outcome>Summary quality + future reference hits + related issue updates</outcome>
+  </episode>
+  <lesson>What closure patterns made issues findable and useful later</lesson>
+</reflection>
+```
+
 ## Closer Workflow
 
 <intake>
