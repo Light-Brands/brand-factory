@@ -406,11 +406,3 @@ class NeuralRouter:
 | Retrieval Precision | % of retrieved lessons that were applied |
 | Retrieval Recall | % of applied lessons that were retrieved |
 | Outcome Correlation | Correlation between lesson strength and success |
-
----
-
-## Related Documents
-
-- [Lesson Extractor](./02-lesson-extractor.md)
-- [Decision Flow](./04-decision-flow.md)
-- [Architecture Overview](./00-architecture-overview.md)

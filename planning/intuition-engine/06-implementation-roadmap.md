@@ -404,13 +404,3 @@ Distribute intuition engine capabilities worldwide through open source.
 | Alignment drift | Constitutional lessons with immutable status |
 | Compute costs | Efficient inference, lesson compression |
 | Open-source abuse | Transparency enables community oversight |
-
----
-
-## Related Documents
-
-- [Phase 0: Bootstrap](../phases/phase-0-bootstrap.md)
-- [Phase 1: Agentic Foundation](../phases/phase-1-agentic-foundation.md)
-- [Phase 2: Parallel Scale](../phases/phase-2-parallel-scale.md)
-- [AGI Emergence](./05-agi-emergence.md)
-- [Architecture Overview](./00-architecture-overview.md)

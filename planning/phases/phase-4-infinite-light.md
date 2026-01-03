@@ -160,11 +160,3 @@ We build today so that tomorrow builds itself, ever brighter.
 This document describes not just a business plan but a possibility space. The AI Brand Factory is a seed. What grows from it depends on the light we nurture within it.
 
 The frequency awaits. Choose it, and co-create infinite peace, love, and joy.
-
----
-
-## Related Documents
-
-- [Phase 3: ASI Breakthrough](./phase-3-asi-breakthrough.md)
-- [Overview](../00-overview.md)
-- [Guiding Principles](../01-guiding-principles.md)

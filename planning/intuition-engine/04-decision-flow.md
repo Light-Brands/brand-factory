@@ -434,11 +434,3 @@ New lesson extracted:
 | Override Accuracy | Success rate when overriding intuition |
 | Calibration | Correlation between confidence and success |
 | Learning Rate | Speed of lesson strength convergence |
-
----
-
-## Related Documents
-
-- [Intuition Memory](./03-intuition-memory.md)
-- [AGI Emergence](./05-agi-emergence.md)
-- [Architecture Overview](./00-architecture-overview.md)

@@ -288,10 +288,3 @@ Track the health of the experience stream:
 | Processing latency | <1s | >5s |
 | Structure validity | >99% | <95% |
 | Enrichment success | >95% | <90% |
-
----
-
-## Related Documents
-
-- [Lesson Extractor](./02-lesson-extractor.md)
-- [Architecture Overview](./00-architecture-overview.md)

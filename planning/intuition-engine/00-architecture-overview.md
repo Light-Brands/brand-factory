@@ -204,11 +204,3 @@ Lessons are not static:
 | Phase 4 | Distributed | <10ms | Unlimited |
 
 The architecture is designed to maintain sub-10ms fast-path retrieval regardless of total lesson count through hierarchical indexing and intelligent caching.
-
----
-
-## Related Documents
-
-- [Experience Stream](./01-experience-stream.md)
-- [Lesson Extractor](./02-lesson-extractor.md)
-- [Intuition Memory](./03-intuition-memory.md)

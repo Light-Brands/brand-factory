@@ -138,11 +138,3 @@ Phase 1 concludes when:
 3. Proto-AGI agents functional
 4. Team ready for parallel execution
 5. Processes documented for scale
-
----
-
-## Related Documents
-
-- [Phase 0: Bootstrap](./phase-0-bootstrap.md)
-- [Phase 2: Parallel Scale](./phase-2-parallel-scale.md)
-- [Launch Cadence](../02-launch-cadence.md)

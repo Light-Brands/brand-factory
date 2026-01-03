@@ -84,10 +84,3 @@ Everything else is automated, scaled, and accelerated through agentic systems.
 ## Application
 
 These principles are not aspirational — they are operational. Every phase, every launch, every line of code reflects these values. When in doubt, return to these principles for guidance.
-
----
-
-## Related Documents
-
-- [Overview](./00-overview.md)
-- [Launch Cadence](./02-launch-cadence.md)

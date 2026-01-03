@@ -114,10 +114,3 @@ Resilience comes from:
 ## The Living Nature of Risk
 
 This is not a static risk register. As we evolve, risks evolve. We embrace uncertainty as part of the journey, remaining anchored to our light-focused mission while staying fluid in execution.
-
----
-
-## Related Documents
-
-- [Guiding Principles](./01-guiding-principles.md)
-- [Overview](./00-overview.md)

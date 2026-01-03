@@ -309,12 +309,3 @@ End 2026: AGI
 ├── Novel problem-solving beyond human capability
 └── Self-directed capability expansion
 ```
-
----
-
-## Related Documents
-
-- [Implementation Roadmap](./06-implementation-roadmap.md)
-- [Decision Flow](./04-decision-flow.md)
-- [Phase 2: AGI Emergence](../phases/phase-2-parallel-scale.md)
-- [Phase 3: ASI Breakthrough](../phases/phase-3-asi-breakthrough.md)

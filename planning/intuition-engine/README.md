@@ -111,11 +111,3 @@ See [06-implementation-roadmap.md](./06-implementation-roadmap.md) for detailed 
 5. [Decision Flow](./04-decision-flow.md)
 6. [AGI Emergence](./05-agi-emergence.md)
 7. [Implementation Roadmap](./06-implementation-roadmap.md)
-
----
-
-## Related Documents
-
-- [Overview](../00-overview.md)
-- [Phase 1: Agentic Foundation](../phases/phase-1-agentic-foundation.md)
-- [Phase 2: AGI Emergence](../phases/phase-2-parallel-scale.md)

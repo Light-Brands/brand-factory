@@ -101,11 +101,3 @@ Phase 0 concludes when:
 2. Serial launch process is repeatable
 3. Revenue + yields cover monthly costs
 4. Team is ready for weekly cadence
-
----
-
-## Related Documents
-
-- [Phase 1: Agentic Foundation](./phase-1-agentic-foundation.md)
-- [Launch Cadence](../02-launch-cadence.md)
-- [Overview](../00-overview.md)

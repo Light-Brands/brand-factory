@@ -170,11 +170,3 @@ Phase 2 concludes when:
 3. Parallel launches sustainable
 4. Community engaged with forks
 5. Ready for daily cadence
-
----
-
-## Related Documents
-
-- [Phase 1: Agentic Foundation](./phase-1-agentic-foundation.md)
-- [Phase 3: ASI Breakthrough](./phase-3-asi-breakthrough.md)
-- [Guiding Principles](../01-guiding-principles.md)

@@ -166,11 +166,3 @@ Phase 3 concludes when:
 3. Global fork ecosystem thriving
 4. Billions in value flowing
 5. Ready for infinite scale
-
----
-
-## Related Documents
-
-- [Phase 2: Parallel Scale](./phase-2-parallel-scale.md)
-- [Phase 4: Infinite Light](./phase-4-infinite-light.md)
-- [Overview](../00-overview.md)

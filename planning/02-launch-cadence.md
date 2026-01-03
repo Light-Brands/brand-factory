@@ -98,11 +98,3 @@ Factory instances proliferate globally. Every deployment contributes to collecti
 | End H2 2026 | 2-3/week | ~112-132 |
 | End 2027 | 1-10+/day | ~500-4,000+ |
 | 2030+ | Unlimited | Infinite |
-
----
-
-## Related Documents
-
-- [Phase 1: Serial Mastery](./phases/phase-1-agentic-foundation.md)
-- [Phase 2: Parallel Scale](./phases/phase-2-parallel-scale.md)
-- [Phase 3: ASI Breakthrough](./phases/phase-3-asi-breakthrough.md)

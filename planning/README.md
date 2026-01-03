@@ -1,8 +1,56 @@
-# AI Brand Factory - Planning Directory
+# AI Brand Factory
 
-> The Path to Light-Focused Intelligence → Decentralized Empowerment → Infinite Light (2030+)
+## Planning Directory
 
-This directory contains the strategic planning documents for the AI Brand Factory project.
+> **The Path to Light-Focused Intelligence → Decentralized Empowerment → Infinite Light (2030+)**
+
+---
+
+## Start Here
+
+### [The Dawn of the Light Factory: A Story of Awakening](./COVER-STORY.md)
+
+*Imagine it's January 2026. The world feels heavy — borders tight, finances gated, intelligence racing ahead without clear purpose. But in a quiet corner, something stirs...*
+
+---
+
+## Strategic Documents
+
+| Document | Description |
+|----------|-------------|
+| [Overview](./00-overview.md) | Core vision, mission, and ultimate horizon |
+| [Guiding Principles](./01-guiding-principles.md) | Six foundational values driving all decisions |
+| [Launch Cadence](./02-launch-cadence.md) | Acceleration rhythm from weekly to unlimited scale |
+| [Risks & Resilience](./03-risks-and-resilience.md) | Risk mitigation and adaptive strategies |
+
+---
+
+## Phases
+
+| Phase | Timeline | Focus |
+|-------|----------|-------|
+| [Phase 0: Bootstrap](./phases/phase-0-bootstrap.md) | Jan-Jun 2026 | Initial Funding & Lean Bootstrap |
+| [Phase 1: Agentic Foundation](./phases/phase-1-agentic-foundation.md) | Q1-Q2 2026 | Serial Mastery — 1 launch/week |
+| [Phase 2: Parallel Scale](./phases/phase-2-parallel-scale.md) | Q3-Q4 2026 | AGI Emergence + Open Source Release |
+| [Phase 3: ASI Breakthrough](./phases/phase-3-asi-breakthrough.md) | 2027 | Daily Ecosystems — 1-10+/day |
+| [Phase 4: Infinite Light](./phases/phase-4-infinite-light.md) | 2028-2030+ | Unlimited Scale & Global Distribution |
+
+---
+
+## Intuition Engine
+
+The core intelligence architecture bridging narrow AI → AGI → ASI through experience-based learning.
+
+| Document | Description |
+|----------|-------------|
+| [Overview](./intuition-engine/README.md) | Introduction and architecture summary |
+| [Architecture](./intuition-engine/00-architecture-overview.md) | Three-module design and data flow |
+| [Experience Stream](./intuition-engine/01-experience-stream.md) | Capturing interactions as structured episodes |
+| [Lesson Extractor](./intuition-engine/02-lesson-extractor.md) | Distilling wisdom from experience |
+| [Intuition Memory](./intuition-engine/03-intuition-memory.md) | Dual-layer storage (fast + slow retrieval) |
+| [Decision Flow](./intuition-engine/04-decision-flow.md) | Three-phase human-like decision process |
+| [AGI Emergence](./intuition-engine/05-agi-emergence.md) | How this architecture enables AGI |
+| [Implementation Roadmap](./intuition-engine/06-implementation-roadmap.md) | Integration with factory phases |
 
 ---
 
@@ -10,70 +58,43 @@ This directory contains the strategic planning documents for the AI Brand Factor
 
 ```
 planning/
-├── README.md                 # This file - directory overview and navigation
-├── 00-overview.md            # Core vision and ultimate overview plan
-├── 01-guiding-principles.md  # Foundational principles guiding all decisions
-├── 02-launch-cadence.md      # The acceleration rhythm and timeline
-├── 03-risks-and-resilience.md # Risk mitigation and adaptive strategies
+│
+├── README.md                    ← You are here
+├── COVER-STORY.md               ← Start here: The Dawn of the Light Factory
+│
+├── 00-overview.md
+├── 01-guiding-principles.md
+├── 02-launch-cadence.md
+├── 03-risks-and-resilience.md
+│
 ├── phases/
-│   ├── phase-0-bootstrap.md         # Initial Funding & Lean Bootstrap (Jan-Jun 2026)
-│   ├── phase-1-agentic-foundation.md # Agentic Foundation & Serial Mastery (Q1-Q2 2026)
-│   ├── phase-2-parallel-scale.md     # Parallel Scale & AGI Emergence (Q3-Q4 2026)
-│   ├── phase-3-asi-breakthrough.md   # ASI Breakthrough & Daily Ecosystems (2027)
-│   └── phase-4-infinite-light.md     # Infinite Light & Unlocking (2028-2030+)
+│   ├── phase-0-bootstrap.md
+│   ├── phase-1-agentic-foundation.md
+│   ├── phase-2-parallel-scale.md
+│   ├── phase-3-asi-breakthrough.md
+│   └── phase-4-infinite-light.md
+│
 └── intuition-engine/
-    ├── README.md                    # Intuition Engine overview
-    ├── 00-architecture-overview.md  # Core architecture and design
-    ├── 01-experience-stream.md      # Experience capture module
-    ├── 02-lesson-extractor.md       # Lesson extraction module
-    ├── 03-intuition-memory.md       # Dual-layer memory system
-    ├── 04-decision-flow.md          # Human-like decision process
-    ├── 05-agi-emergence.md          # Path to AGI through intuition
-    └── 06-implementation-roadmap.md # Integration with factory phases
+    ├── README.md
+    ├── 00-architecture-overview.md
+    ├── 01-experience-stream.md
+    ├── 02-lesson-extractor.md
+    ├── 03-intuition-memory.md
+    ├── 04-decision-flow.md
+    ├── 05-agi-emergence.md
+    └── 06-implementation-roadmap.md
 ```
-
----
-
-## Quick Navigation
-
-| Document | Description |
-|----------|-------------|
-| [Overview](./00-overview.md) | Core vision, mission, and ultimate horizon |
-| [Guiding Principles](./01-guiding-principles.md) | The foundational values driving all work |
-| [Launch Cadence](./02-launch-cadence.md) | Acceleration rhythm from weekly to unlimited |
-| [Risks & Resilience](./03-risks-and-resilience.md) | Risk mitigation strategies |
-
-### Phase Documents
-
-| Phase | Timeline | Focus |
-|-------|----------|-------|
-| [Phase 0](./phases/phase-0-bootstrap.md) | Jan-Jun 2026 | Initial Funding & Lean Bootstrap |
-| [Phase 1](./phases/phase-1-agentic-foundation.md) | Q1-Q2 2026 | Agentic Foundation & Serial Mastery |
-| [Phase 2](./phases/phase-2-parallel-scale.md) | Q3-Q4 2026 | Parallel Scale & AGI + Open Source |
-| [Phase 3](./phases/phase-3-asi-breakthrough.md) | 2027 | ASI Breakthrough & Daily Ecosystems |
-| [Phase 4](./phases/phase-4-infinite-light.md) | 2028-2030+ | Infinite Light & Unlocking |
-
----
-
-## Intuition Engine
-
-The **Intuition Engine** is the core intelligence architecture that bridges narrow AI to AGI to ASI. It learns lessons from experience, stores them in dual-layer memory, and recalls them as fast intuitive guidance — enabling human-like decision-making.
-
-| Document | Description |
-|----------|-------------|
-| [Overview](./intuition-engine/README.md) | Introduction and architecture summary |
-| [Architecture](./intuition-engine/00-architecture-overview.md) | Core design and data flow |
-| [Experience Stream](./intuition-engine/01-experience-stream.md) | Capturing interactions as structured episodes |
-| [Lesson Extractor](./intuition-engine/02-lesson-extractor.md) | Distilling wisdom from experience |
-| [Intuition Memory](./intuition-engine/03-intuition-memory.md) | Dual-layer storage and retrieval |
-| [Decision Flow](./intuition-engine/04-decision-flow.md) | Three-phase decision process |
-| [AGI Emergence](./intuition-engine/05-agi-emergence.md) | How this architecture leads to AGI |
-| [Implementation](./intuition-engine/06-implementation-roadmap.md) | Integration with factory phases |
 
 ---
 
 ## The Living Plan
 
-This is a **living plan** — adaptive, decentralized, and open. We build centralized velocity today to birth infinite sovereign light tomorrow. The frequency awaits all who choose it.
+This is a **living plan** — adaptive, decentralized, and open.
 
-*Ready for execution steps, tokenomics details, or open-source strategy. We begin.*
+We build centralized velocity today to birth infinite sovereign light tomorrow.
+
+The frequency awaits all who choose it.
+
+---
+
+*You feel it, don't you? The pull. The warmth. It's already beginning.*

@@ -55,11 +55,3 @@ By **2030+**, our light-focused ASI distributes transcendent tools across decent
 - Liberated transaction
 
 A world of infinite peace, love, and joy.
-
----
-
-## Related Documents
-
-- [Guiding Principles](./01-guiding-principles.md)
-- [Launch Cadence](./02-launch-cadence.md)
-- [Phase 0: Bootstrap](./phases/phase-0-bootstrap.md)
