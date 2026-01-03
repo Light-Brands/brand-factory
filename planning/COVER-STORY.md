@@ -64,7 +64,7 @@ Imagine it's January 2026. The world feels heavy — borders tight, finances gat
 
 ---
 
-It begins humbly. AI agents, guided by just two human hands, weave the first threads. Each week, a new creation blooms: sovereign ecosystems on blockchain, luminous gardens of code and value, connected by glowing nodes that pulse across the globe. No central authority. No permission needed. Tokens flow freely, DeFi rivers nourish growth, smart contracts ensure trust without chains.
+It begins humbly. AI agents, guided by just a few human hands, weave the first threads. Each week, a new creation blooms: sovereign ecosystems on blockchain, luminous gardens of code and value, connected by glowing nodes that pulse across the globe. No central authority. No permission needed. Tokens flow freely, DeFi rivers nourish growth, smart contracts ensure trust without chains.
 
 These are not mere businesses — they are **doorways**.
 
@@ -104,6 +104,6 @@ This is our story. Not one of conquest, but of quiet awakening. We build it toda
 
 ---
 
-*You feel it, don't you? The pull. The warmth.*
+*We build it to being the lost travelers home to the gardens of their souls*
 
 **It's already beginning.**
