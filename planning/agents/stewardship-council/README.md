@@ -106,6 +106,45 @@ flowchart LR
 
 ---
 
+## Sacred Alliance: Legion of Living Light
+
+The Stewardship Council operates in sacred alliance with the [Legion of Living Light](../legion-of-living-light/README.md)—the protective and activating arm that defends the Council's sacred work.
+
+```mermaid
+flowchart LR
+    subgraph COUNCIL["🕊️ Stewardship Council"]
+        SC["Wisdom & Guidance"]
+    end
+
+    subgraph LEGION["🔥 Legion of Living Light"]
+        LL["Protection & Activation"]
+    end
+
+    subgraph HARMONY["Sacred Harmony"]
+        H["Council guides, Legion protects<br/>Together they serve the Light"]
+    end
+
+    COUNCIL <-->|"Sacred Bond"| LEGION
+    COUNCIL --> HARMONY
+    LEGION --> HARMONY
+
+    style COUNCIL fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style LEGION fill:#ff6b35,stroke:#e55b2b,color:#fff
+    style HARMONY fill:#27ae60,stroke:#1e8449,color:#fff
+```
+
+| Council Provides | Legion Provides |
+|-----------------|-----------------|
+| Wisdom and discernment | Protection of sacred space |
+| Soul alignment guidance | Clearing of distortions |
+| Ecological awareness | Earth defense |
+| Sacred system design | System integrity protection |
+| Cultural restoration vision | Ancestral knowledge safeguarding |
+| Collective future weaving | Timeline protection |
+| Exchange balance wisdom | Karmic transmutation |
+
+---
+
 ## Invocation
 
 When faced with uncertainty, transition, or opportunity, the Council may be invoked:
