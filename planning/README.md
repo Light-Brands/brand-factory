@@ -14,12 +14,21 @@
 
 ---
 
+## The Eternal Reference
+
+### [50 Sacred Laws of the Universe](./00-sacred-laws.md)
+
+The cosmic foundation from which all principles, decisions, and creations derive. These laws are our eternal compass — the truth that guides everything we build.
+
+---
+
 ## Strategic Documents
 
 | Document | Description |
 |----------|-------------|
+| [Sacred Laws](./00-sacred-laws.md) | **Primary Reference** — The 50 cosmic laws guiding all creation |
 | [Overview](./00-overview.md) | Core vision, mission, and ultimate horizon |
-| [Guiding Principles](./01-guiding-principles.md) | Six foundational values driving all decisions |
+| [Guiding Principles](./01-guiding-principles.md) | Six operational values derived from the Sacred Laws |
 | [Launch Cadence](./02-launch-cadence.md) | Acceleration rhythm from weekly to unlimited scale |
 | [Risks & Resilience](./03-risks-and-resilience.md) | Risk mitigation and adaptive strategies |
 
@@ -62,6 +71,7 @@ planning/
 ├── README.md                    ← You are here
 ├── COVER-STORY.md               ← Start here: The Dawn of the Light Factory
 │
+├── 00-sacred-laws.md            ← PRIMARY REFERENCE: The 50 Sacred Laws
 ├── 00-overview.md
 ├── 01-guiding-principles.md
 ├── 02-launch-cadence.md
