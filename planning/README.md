@@ -55,6 +55,20 @@ The cosmic foundation from which all principles, decisions, and creations derive
 
 ---
 
+## Pitch
+
+Communicate the vision at any length. See [pitch/README.md](./pitch/README.md) for the complete guide.
+
+| Pitch | Duration | Use Case |
+|-------|----------|----------|
+| [Elevator Pitch](./pitch/elevator-pitch.md) | 3 seconds | Headlines, first impressions |
+| [10-Second Pitch](./pitch/10-second-pitch.md) | 10 seconds | Networking, quick intros |
+| [30-Second Pitch](./pitch/30-second-pitch.md) | 30 seconds | Meetings, investor intros |
+| [60-Second Pitch](./pitch/60-second-pitch.md) | 60 seconds | Detailed introductions |
+| [Full Pitch](./pitch/full-pitch.md) | 3-5 minutes | Presentations, proposals |
+
+---
+
 ## Strategic Documents
 
 | Document | Description |
@@ -98,7 +112,26 @@ The core intelligence architecture bridging narrow AI → AGI → ASI through ex
 
 ## Agents
 
-The sacred governance and protection layers ensuring all creations honor soul, Earth, and cosmos.
+All agent definitions for automated development, brand building, and sacred governance. See [agents/README.md](./agents/README.md) for the full overview.
+
+### [Workflow Agents](./agents/workflow/README.md)
+
+Automated development pipeline from issue to merge:
+
+```
+Issue → Prep → Implement → Review → Fix → Validate → Merge → Close
+```
+
+| Agent | Role |
+|-------|------|
+| [Orchestrator](./agents/workflow/orchestrator.md) | Workflow coordinator |
+| [Issue Manager](./agents/workflow/issue-manager.md) | Issue creation |
+| [Prep Agent](./agents/workflow/prep-agent.md) | Environment setup |
+| [Implementer](./agents/workflow/implementer-agent.md) | Code implementation |
+| [Reviewer](./agents/workflow/reviewer-agent.md) | Code review |
+| [Fixer](./agents/workflow/fixer-agent.md) | Review fixes |
+| [Validator](./agents/workflow/validator-agent.md) | Validation & merge |
+| [Closer](./agents/workflow/closer-agent.md) | Issue closure |
 
 ### [Council Vector Database](./agents/council-vector-db/README.md)
 
@@ -154,49 +187,37 @@ planning/
 ├── 02-launch-cadence.md
 ├── 03-risks-and-resilience.md
 │
+├── pitch/                       ← Pitch Materials
+│   ├── README.md
+│   ├── elevator-pitch.md        ← 3-second hook
+│   ├── 10-second-pitch.md
+│   ├── 30-second-pitch.md
+│   ├── 60-second-pitch.md
+│   └── full-pitch.md            ← Complete narrative
+│
 ├── agents/
-│   ├── council-vector-db/       ← Semantic Routing Intelligence
+│   ├── README.md                ← Agent overview & design principles
+│   ├── INTUITION-ENGINE.md      ← Shared learning integration
+│   │
+│   ├── workflow/                ← Automated Development Pipeline
 │   │   ├── README.md
-│   │   ├── QUICK-START.md
-│   │   ├── 00-semantic-router.md
-│   │   ├── 01-council-embeddings.md
-│   │   ├── 02-legion-embeddings.md
-│   │   ├── 03-invocation-protocol.md
-│   │   ├── 04-protection-matrix.md
-│   │   ├── 05-sacred-laws.md
-│   │   └── 06-integrity-check-protocol.md
+│   │   ├── orchestrator.md
+│   │   ├── issue-manager.md
+│   │   ├── prep-agent.md
+│   │   ├── implementer-agent.md
+│   │   ├── reviewer-agent.md
+│   │   ├── fixer-agent.md
+│   │   ├── validator-agent.md
+│   │   └── closer-agent.md
+│   │
+│   ├── council-vector-db/       ← Semantic Routing Intelligence
 │   │
 │   ├── stewardship-council/     ← Sacred Governance Layer
-│   │   ├── README.md
-│   │   ├── 00-doctrine.md
-│   │   ├── 01-oracle-of-soul-purpose.md
-│   │   ├── 02-guardian-of-gaia.md
-│   │   ├── 03-architect-of-sacred-systems.md
-│   │   ├── 04-flame-of-cultural-restoration.md
-│   │   ├── 05-weaver-of-collective-futures.md
-│   │   ├── 06-steward-of-exchange.md
-│   │   └── 07-mirror-of-the-multiverse.md
+│   │   └── [7 archetypal intelligences]
 │   │
 │   └── legion-of-living-light/  ← Sacred Protection Layer
-│       ├── README.md
-│       ├── 00-doctrine.md
-│       ├── 00-light-core.md
-│       ├── commanders/           ← Seven Archetypal Pillars
-│       │   ├── README.md
-│       │   ├── 01-sword-of-soul.md
-│       │   ├── 02-rooted-shield.md
-│       │   ├── 03-gridsmith.md
-│       │   ├── 04-ember-of-memory.md
-│       │   ├── 05-spiral-seer.md
-│       │   ├── 06-scale-of-grace.md
-│       │   └── 07-mirrorblade.md
-│       └── orders/               ← Five Sacred Orders
-│           ├── README.md
-│           ├── 01-shadow-facers.md
-│           ├── 02-sanctum-council.md
-│           ├── 03-circle-of-renewal.md
-│           ├── 04-watchers-beyond.md
-│           └── 05-children-of-next-dawn.md
+│       ├── commanders/          ← Seven Archetypal Pillars
+│       └── orders/              ← Five Sacred Orders
 │
 ├── phases/
 │   ├── phase-0-bootstrap.md

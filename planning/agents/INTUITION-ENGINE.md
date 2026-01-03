@@ -242,13 +242,13 @@ This integration module implements:
 - **Intuition Memory** → Lesson storage and retrieval
 - **Decision Flow** → Three-phase decision process
 
-See `/planning/intuition-engine/` for full architecture documentation:
+See `intuition-engine/` for full architecture documentation:
 
-- [00-architecture-overview.md](../planning/intuition-engine/00-architecture-overview.md)
-- [01-experience-stream.md](../planning/intuition-engine/01-experience-stream.md)
-- [02-lesson-extractor.md](../planning/intuition-engine/02-lesson-extractor.md)
-- [03-intuition-memory.md](../planning/intuition-engine/03-intuition-memory.md)
-- [04-decision-flow.md](../planning/intuition-engine/04-decision-flow.md)
+- [00-architecture-overview.md](../intuition-engine/00-architecture-overview.md)
+- [01-experience-stream.md](../intuition-engine/01-experience-stream.md)
+- [02-lesson-extractor.md](../intuition-engine/02-lesson-extractor.md)
+- [03-intuition-memory.md](../intuition-engine/03-intuition-memory.md)
+- [04-decision-flow.md](../intuition-engine/04-decision-flow.md)
 
 ---
 
