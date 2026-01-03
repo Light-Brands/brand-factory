@@ -54,6 +54,7 @@ Simply state your need. The system routes automatically:
 
 | File | Purpose |
 |------|---------|
+| [QUICK-START.md](./QUICK-START.md) | **Start here** — Instant invocation guide |
 | [00-semantic-router.md](./00-semantic-router.md) | The core routing intelligence |
 | [01-council-embeddings.md](./01-council-embeddings.md) | Semantic signatures for all 7 Council members |
 | [02-legion-embeddings.md](./02-legion-embeddings.md) | Semantic signatures for all 21 Armies + 5 Orders |

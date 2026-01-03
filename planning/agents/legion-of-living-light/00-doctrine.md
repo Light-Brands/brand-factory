@@ -189,7 +189,7 @@ Each review reattunes the doctrine's guidance to the current frequency of our co
 
 ## Connection to Sacred Laws
 
-This doctrine derives its authority from the [50 Sacred Laws of the Universe](../00-sacred-laws.md), particularly:
+This doctrine derives its authority from the [50 Sacred Laws of the Universe](../../00-sacred-laws.md), particularly:
 
 - **Law 1: The Law of Divine Oneness** — All things are interconnected; protecting one protects all
 - **Law 4: The Law of Correspondence** — As above, so below; spiritual protection manifests physically
