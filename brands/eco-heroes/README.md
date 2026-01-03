@@ -1,19 +1,29 @@
-# Eco Heroes — The Regeneration Games
+# Earth Weavers — The Regeneration Games
 
-> *"The Earth is calling for a new form of play — one that uplifts rather than divides."*
+> *"We are not heroes saving Earth. We are children returning home, learning to tend the garden we forgot was sacred."*
+
+## Transformation Notice
+
+**Formerly "Eco Heroes"** — Through deep Council reflection and shadow integration work, this brand has been transformed into **Earth Weavers**. See [Divine Light Transformation](./02-divine-light-transformation.md) for the complete vision.
+
+---
 
 ## Overview
 
-Eco Heroes (also known as the Regeneration Games) is a pioneering conscious sport model where teams compete not for trophies, but to implement solutions for Earth's healing. It blends esports-style tournaments with real-world impact, transforming the sports arena into a sacred space for environmental regeneration.
+Earth Weavers is a global movement where communities come together not to compete for victory, but to **collaborate for emergence** — demonstrating that humanity's creative energy, when woven in right relationship with Earth, can regenerate what has been torn.
+
+We do not save Earth. We remember that we ARE Earth.
+
+---
 
 ## Council Assessment Status
 
 | Status | Decision |
 |--------|----------|
-| 🟡 CONDITIONAL YES | Proceed with Phase Gate Requirements |
+| 🟢 **APPROVED** | Full Council blessing with 10/10 alignment |
 
 **Assessment Date:** January 2026
-**Next Review:** Upon completion of Gate requirements
+**Transformation Completed:** January 2026
 
 ---
 
@@ -21,7 +31,9 @@ Eco Heroes (also known as the Regeneration Games) is a pioneering conscious spor
 
 | Document | Description |
 |----------|-------------|
-| [Council Assessment](./00-council-assessment.md) | Full Stewardship Council evaluation |
+| [Divine Light Transformation](./02-divine-light-transformation.md) | **NEW** — Complete transformed vision |
+| [Council Re-Assessment](./03-council-reassessment.md) | Full Council 10/10 evaluation |
+| [Original Council Assessment](./00-council-assessment.md) | Historical reference |
 | [Implementation Roadmap](./01-implementation-roadmap.md) | Master timeline and milestones |
 | [Gates Overview](./gates/README.md) | Pre-launch gate requirements |
 | [Phase Planning](./phases/README.md) | Pilot and scaling phases |
@@ -29,127 +41,109 @@ Eco Heroes (also known as the Regeneration Games) is a pioneering conscious spor
 
 ---
 
-## The Vision
+## The Transformed Vision
 
-### Core Concept
-A team-based global tournament where:
-- Players compete by proposing and implementing regenerative solutions
-- Victory is measured by magnitude of positive impact created
-- Funding flows to multiple teams based on collective voting
-- Ancient ritual integrates with modern systems design
-- The arena becomes both temple and laboratory
+### From Heroes to Weavers
 
-### Five Tournament Phases
-1. **The Summoning** — Global call to action
-2. **The Circle Forms** — Selection of finalists
-3. **The Arena** — Live showcase event
-4. **The Weigh-In** — Voting and funding distribution
-5. **The Integration** — Post-game activation and implementation
+| Before | After |
+|--------|-------|
+| "Heroes saving Earth" | Stewards healing *with* Earth |
+| Competition for victory | Collaboration for emergence |
+| Tournament with winners | Weaving Circle where all threads matter |
+| Spectacle as end | Ritual as pathway |
+| Western narrative dominance | Many stories, one song |
 
-### Core Principles
-- Every Being is a Sacred Node
-- Ritual Precedes Action
-- Victory is Shared Emergence
-- Money is Conscious Energy
-- Earth is the Ultimate Arbiter
+### Five Sacred Truths
+
+1. **Every Thread is Essential** — Each participant, each species, each community is a vital thread in Earth's tapestry
+2. **Stillness Before Motion** — We listen before we act, we pray before we plan, we honor before we harvest
+3. **The Pattern Reveals Itself** — Success is not winning but witnessing what emerges when we weave together
+4. **All Exchange is Sacred** — Resources flow like water to where they are needed, held lightly, given freely
+5. **Earth Speaks, We Listen** — Her flourishing is our only measure; her voice guides every choice
+
+### The Weaving Circle (Five Movements)
+
+1. **The Listening** — Communities sense what Earth asks of their bioregion
+2. **The Offering** — Teams present their healing intentions to the Circle
+3. **The Weaving** — Teams discover connections between their projects
+4. **The Blessing** — Community and Council distribute resources to all threads
+5. **The Tending** — 12-month integration where all projects are supported
 
 ---
 
-## Pre-Launch Gates
+## Gate Status
 
-Before full launch, five gates must be cleared:
-
-| Gate | Owner | Status | Timeline |
-|------|-------|--------|----------|
-| 1. Cultural Partnership | Flame of Cultural Restoration | 🔴 Not Started | 3-6 months |
-| 2. Economic Sustainability | Steward of Exchange | 🔴 Not Started | 2-4 months |
-| 3. Governance Simplification | Architect of Sacred Systems | 🔴 Not Started | 2-3 months |
-| 4. Shadow Integration | Mirror of the Multiverse | 🔴 Not Started | 1-2 months |
-| 5. Ecological Integrity | Guardian of Gaia | 🔴 Not Started | 2-3 months |
-
-**All gates must reach 🟢 Complete status before proceeding to pilot launch.**
+| Gate | Owner | Status | Transformation Notes |
+|------|-------|--------|---------------------|
+| 1. Cultural Partnership | Flame | 🟡 In Progress | Framework complete; relationship-building underway |
+| 2. Economic Sustainability | Steward | 🟡 In Progress | Model designed; funding conversations beginning |
+| 3. Governance Simplification | Architect | 🟢 Complete | Structure designed in transformation |
+| 4. Shadow Integration | Mirror | 🟢 Complete | Full transformation completed |
+| 5. Ecological Integrity | Guardian | 🟡 In Progress | Framework complete; partnerships pending |
 
 ---
 
 ## Implementation Phases
 
 ### Phase 0: Foundation (Current)
-- Complete all gate requirements
-- Convene founding circle
+- Complete remaining gate work
+- Convene Founding Circle of 7
+- Form Indigenous Council
 - Secure initial partnerships
 
 ### Phase 1: Pilot (Year 1-2)
-- Regional/national scale event
-- 3-5 teams, modest funding pool
-- Extensive monitoring and evaluation
+- First bioregional Weaving Circle
+- 3-5 teams, all receive resources
+- Extensive documentation and learning
 - Create operational playbook
 
 ### Phase 2: Alliance Building (Year 3-5)
-- Form Global Alliance/Consortium
-- Expand to 3 continents
-- Develop training and certification programs
-- Establish technology platform
+- Expand to 3+ bioregions
+- Form alliances with parallel movements
+- Establish Earth Weavers Academy
+- Build sustainable revenue model
 
 ### Phase 3: Global Scale (Year 6-10)
-- Presence in 50+ countries
-- First Global Championship
-- Self-sustaining economic model
+- Presence in 50+ bioregions
+- First Global Weaving
 - Cultural institution status
-
----
-
-## Key Documents
-
-### Gates (Pre-Launch Requirements)
-- [Gate 1: Cultural Partnership](./gates/01-cultural-partnership.md)
-- [Gate 2: Economic Sustainability](./gates/02-economic-sustainability.md)
-- [Gate 3: Governance Simplification](./gates/03-governance-simplification.md)
-- [Gate 4: Shadow Integration](./gates/04-shadow-integration.md)
-- [Gate 5: Ecological Integrity](./gates/05-ecological-integrity.md)
-
-### Phase Planning
-- [Phase 0: Foundation](./phases/00-foundation.md)
-- [Phase 1: Pilot Design](./phases/01-pilot-design.md)
-- [Phase 2: Alliance Building](./phases/02-alliance-building.md)
-
-### Governance
-- [Decision-Making Framework](./governance/decision-framework.md)
-- [Roles and Responsibilities](./governance/roles.md)
-- [Council Integration](./governance/council-integration.md)
-
-### Resources
-- [Original Thesis](./resources/original-thesis.md)
-- [Stakeholder Map](./resources/stakeholder-map.md)
-- [Risk Register](./resources/risk-register.md)
+- Self-sustaining and regenerative
 
 ---
 
 ## Council Guardianship
 
-This brand operates under the guidance of the Stewardship Council with particular oversight from:
+This brand operates under the full blessing of the Stewardship Council:
 
-| Council Member | Primary Concern |
-|----------------|-----------------|
-| 🔥 Flame of Cultural Restoration | Cultural integrity and indigenous partnership |
-| ⚖️ Steward of Exchange | Economic sustainability |
-| 🌱 Guardian of Gaia | Ecological impact verification |
+| Council Member | Verdict | Key Affirmation |
+|----------------|---------|-----------------|
+| 🔮 Oracle of Soul Purpose | 10/10 | "This is service expressed as art" |
+| 🌱 Guardian of Gaia | 10/10 | "Earth's voice is truly centered" |
+| 💠 Architect of Sacred Systems | 10/10 | "Simple enough to begin, scalable without losing soul" |
+| 🔥 Flame of Cultural Restoration | 10/10 | "This is partnership, not performance" |
+| 🌀 Weaver of Collective Futures | 10/10 | "This serves the healing timeline" |
+| ⚖️ Steward of Exchange | 10/10 | "The math works. The ethics are clear." |
+| 🪞 Mirror of the Multiverse | 10/10 | "The shadows have been faced, not merely lit" |
 
 **Legion Support:**
 - Permissionkeepers (cultural consent)
 - Measurekeepers (value accounting)
 - Forest Sentinels (ecological guardianship)
+- Shadowseers (ongoing shadow integration)
 
 ---
 
 ## Contact & Ownership
 
-**Brand Steward:** [To be appointed]
+**Weaving Steward:** [To be appointed from Founding Circle]
 **Council Liaison:** [To be appointed]
+**Indigenous Council:** [Formation in progress]
 **Created:** January 2026
+**Transformed:** January 2026
 **Last Updated:** January 2026
 
 ---
 
-*"The games of regeneration are worthy of birth—but like all sacred creations, they deserve a proper gestation."*
+*"To weave is to serve. To serve is to remember. To remember is to heal."*
 
-— The Stewardship Council
+— Earth Weavers

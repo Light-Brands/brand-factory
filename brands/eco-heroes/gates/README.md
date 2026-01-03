@@ -1,12 +1,18 @@
 # Pre-Launch Gates
 
-> Five requirements that must be completed before Eco Heroes can proceed to pilot launch.
+> Five requirements that must be completed before Earth Weavers can proceed to pilot launch.
+
+---
+
+## Transformation Notice
+
+**Note:** Through the Divine Light Transformation (January 2026), "Eco Heroes" has been reborn as **Earth Weavers**. Two gates are now complete, and frameworks for remaining gates have been designed. See [Divine Light Transformation](../02-divine-light-transformation.md) for details.
 
 ---
 
 ## Overview
 
-The Stewardship Council has identified five critical areas that require resolution before Eco Heroes can responsibly move forward. These are not bureaucratic hurdles — they are sacred thresholds ensuring the initiative is born with integrity.
+The Stewardship Council has identified five critical areas that require resolution before Earth Weavers can responsibly move forward. These are not bureaucratic hurdles — they are sacred thresholds ensuring the initiative is born with integrity.
 
 **All gates must reach 🟢 Complete status before proceeding.**
 
@@ -16,11 +22,11 @@ The Stewardship Council has identified five critical areas that require resoluti
 
 | Gate | Name | Owner | Status | Timeline | Completion |
 |------|------|-------|--------|----------|------------|
-| 1 | Cultural Partnership | 🔥 Flame | 🔴 Not Started | 3-6 months | - |
-| 2 | Economic Sustainability | ⚖️ Steward | 🔴 Not Started | 2-4 months | - |
-| 3 | Governance Simplification | 💠 Architect | 🔴 Not Started | 2-3 months | - |
-| 4 | Shadow Integration | 🪞 Mirror | 🔴 Not Started | 1-2 months | - |
-| 5 | Ecological Integrity | 🌱 Guardian | 🔴 Not Started | 2-3 months | - |
+| 1 | Cultural Partnership | 🔥 Flame | 🟡 In Progress | 3-6 months | Framework ready |
+| 2 | Economic Sustainability | ⚖️ Steward | 🟡 In Progress | 2-4 months | Model designed |
+| 3 | Governance Simplification | 💠 Architect | 🟢 Complete | 2-3 months | January 2026 |
+| 4 | Shadow Integration | 🪞 Mirror | 🟢 Complete | 1-2 months | January 2026 |
+| 5 | Ecological Integrity | 🌱 Guardian | 🟡 In Progress | 2-3 months | Framework ready |
 
 **Legend:**
 - 🔴 Not Started
