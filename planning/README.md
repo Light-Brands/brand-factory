@@ -110,6 +110,27 @@ The core intelligence architecture bridging narrow AI → AGI → ASI through ex
 
 ---
 
+## Tools
+
+Conceptual frameworks and visual tools for navigating consciousness, decision-making, and manifestation.
+
+### [Consciousness Compass](./tools/consciousness-compass/README.md)
+
+A visual and conceptual framework for understanding human consciousness, integrating the dynamics of creation and consumption, masculine and feminine energies, and the path from reflection to projection.
+
+> **"Love is OUR Belief, Truth is OUR Intent, Freedom is OUR Faith, IDEAS are OUR Compass"**
+
+| Document | Description |
+|----------|-------------|
+| [Overview](./tools/consciousness-compass/README.md) | Introduction and quick reference |
+| [Ideology & Philosophy](./tools/consciousness-compass/00-ideology.md) | Deep dive into the philosophical foundation |
+| [Quadrant System](./tools/consciousness-compass/01-quadrant-system.md) | The four zones of consciousness |
+| [Energy Dynamics](./tools/consciousness-compass/02-energy-dynamics.md) | Create vs Consume, Masculine vs Feminine |
+| [Integration Model](./tools/consciousness-compass/03-integration-model.md) | Heart-Mind integration and the faith axis |
+| [Diagram Reference](./tools/consciousness-compass/diagrams/README.md) | Visual breakdown and element guide |
+
+---
+
 ## Agents
 
 All agent definitions for automated development, brand building, and sacred governance. See [agents/README.md](./agents/README.md) for the full overview.
@@ -225,6 +246,16 @@ planning/
 │   ├── phase-2-parallel-scale.md
 │   ├── phase-3-asi-breakthrough.md
 │   └── phase-4-infinite-light.md
+│
+├── tools/                          ← Conceptual Frameworks & Visual Tools
+│   └── consciousness-compass/      ← Consciousness Navigation Framework
+│       ├── README.md
+│       ├── 00-ideology.md          ← Philosophical foundation
+│       ├── 01-quadrant-system.md   ← Four zones of consciousness
+│       ├── 02-energy-dynamics.md   ← Create/Consume, Masculine/Feminine
+│       ├── 03-integration-model.md ← Heart-Mind and Faith axis
+│       └── diagrams/
+│           └── README.md           ← Visual breakdown
 │
 └── intuition-engine/
     ├── README.md
