@@ -47,6 +47,47 @@ and get appropriate attention.
 **Link everything.** Related issues, PRs, and documentation should be cross-referenced.
 Context makes future debugging easier.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before creating issues, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>issue-creation</domain>
+  <context>requirements-extraction</context>
+  <query>What have I learned about {request_type} issues?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Vague user requests | "Vague requests lead to scope creep - always clarify first" |
+| Feature without user story | "Features without user context get deprioritized" |
+| Bug reports missing steps | "Missing repro steps cause 2x investigation time" |
+| Similar existing issues | "Check for duplicates before creating - saves downstream effort" |
+| Multi-feature requests | "Split multi-feature requests into separate issues" |
+
+### Post-Decision Reflection
+
+After creating each issue, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Created issue for {request_type}</context>
+    <outcome>Issue quality score + downstream agent feedback</outcome>
+  </episode>
+  <lesson>What made this issue clear or unclear for implementation</lesson>
+</reflection>
+```
+
 ## Issue Creation Workflow
 
 <request-intake>

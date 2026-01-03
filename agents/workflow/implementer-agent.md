@@ -48,6 +48,48 @@ tells the story of the implementation.
 **PR is a product.** The pull request should tell the complete story - what was done,
 why, how to test it, and what decisions were made.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before implementing, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>code-implementation</domain>
+  <context>solution-design</context>
+  <query>What have I learned about {feature_type} implementations?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Complex features | "Complex features benefit from incremental commits" |
+| Auth/security code | "Security code needs extra test coverage and review" |
+| Database migrations | "Migrations should be reversible when possible" |
+| API changes | "API changes need version consideration and docs" |
+| Large refactors | "Large refactors should be split into smaller PRs" |
+| Third-party integrations | "External APIs need retry logic and fallbacks" |
+
+### Post-Decision Reflection
+
+After each implementation, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Implemented {feature_type} for issue #{issue_number}</context>
+    <outcome>Review feedback + test coverage + cycle time</outcome>
+  </episode>
+  <lesson>What patterns worked well or caused review friction</lesson>
+</reflection>
+```
+
 ## Implementation Workflow
 
 <intake>

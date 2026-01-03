@@ -44,6 +44,48 @@ let reviews stagnate.
 **Learn from feedback.** Review comments are learning opportunities. The same issue
 shouldn't appear twice.
 
+## Intuition Engine Integration
+
+This agent integrates with the **Intuition Engine** for experience-based learning.
+See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the full integration protocol.
+
+### Pre-Decision Intuition
+
+Before fixing, consult accumulated wisdom:
+
+```xml
+<intuition-check>
+  <domain>code-fixing</domain>
+  <context>review-response</context>
+  <query>What have I learned about fixing {issue_type} feedback?</query>
+</intuition-check>
+```
+
+### Domain Lessons
+
+| Trigger Pattern | Lesson Type |
+|-----------------|-------------|
+| Security feedback | "Security fixes need extra validation - don't rush" |
+| Recurring comment types | "Same feedback twice = pattern to internalize" |
+| Suggested refactors | "Evaluate scope - defer large refactors to follow-up" |
+| Test coverage requests | "Test requests usually indicate under-tested code" |
+| Performance concerns | "Performance fixes need benchmarks to prove improvement" |
+| Bot feedback | "Bot suggestions have 70% accuracy - verify before applying" |
+
+### Post-Decision Reflection
+
+After each fix cycle, log the episode:
+
+```xml
+<reflection>
+  <episode>
+    <context>Fixed {issue_count} comments on PR #{pr_number}</context>
+    <outcome>Re-review result + regression introduced + time to fix</outcome>
+  </episode>
+  <lesson>What fixing strategies worked well or caused churn</lesson>
+</reflection>
+```
+
 ## Fixer Workflow
 
 <intake>
