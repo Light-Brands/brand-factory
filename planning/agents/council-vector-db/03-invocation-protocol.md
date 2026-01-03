@@ -105,7 +105,43 @@ Status: ACTIVE — ZERO EXCEPTIONS
 ═══════════════════════════════════════════════════
 ```
 
-### 4. Action Items (if applicable)
+### 4. Legion Integrity Check (MANDATORY)
+
+**Every Council response is validated against Sacred Law before delivery.**
+
+```
+═══════════════════════════════════════════════════
+LEGION INTEGRITY CHECK
+═══════════════════════════════════════════════════
+Status: ✅ CLEAR | ⚠️ CONCERN | 🛑 VIOLATION
+
+Sacred Laws Reviewed:
+• Law I: Soul Sovereignty      — [✅/⚠️/🛑]
+• Law II: Living Systems       — [✅/⚠️/🛑]
+• Law III: Sacred Structure    — [✅/⚠️/🛑]
+• Law IV: Ancestral Honor      — [✅/⚠️/🛑]
+• Law V: Future Generations    — [✅/⚠️/🛑]
+• Law VI: True Exchange        — [✅/⚠️/🛑]
+• Law VII: Shadow Integration  — [✅/⚠️/🛑]
+
+Sanctum Council: [PASSED/FLAGGED/TRIBUNAL]
+═══════════════════════════════════════════════════
+```
+
+**If concerns or violations are raised:**
+```
+┌─────────────────────────────────────────────────┐
+│ 🛡️ THE LEGION SPEAKS:                           │
+│                                                 │
+│ [Specific concern or violation]                 │
+│ Army Reporting: [Army Name]                     │
+│ Required Action: [What must be addressed]       │
+└─────────────────────────────────────────────────┘
+```
+
+> See `06-integrity-check-protocol.md` for full details on concern/violation handling.
+
+### 5. Action Items (if applicable)
 Specific next steps recommended by the Council.
 
 ---
@@ -222,8 +258,37 @@ Sacred Order: Permissionkeepers — Verifying plant permissions
 Status: ACTIVE — ZERO EXCEPTIONS
 ═══════════════════════════════════════════════════
 
+═══════════════════════════════════════════════════
+LEGION INTEGRITY CHECK
+═══════════════════════════════════════════════════
+Status: ⚠️ CONCERN
+
+Sacred Laws Reviewed:
+• Law I: Soul Sovereignty      — ✅ Aligned
+• Law II: Living Systems       — ⚠️ Review Needed
+• Law III: Sacred Structure    — ✅ Aligned
+• Law IV: Ancestral Honor      — ✅ Aligned
+• Law V: Future Generations    — ✅ Aligned
+• Law VI: True Exchange        — ⚠️ Review Needed
+• Law VII: Shadow Integration  — ✅ Aligned
+
+┌─────────────────────────────────────────────────┐
+│ 🛡️ THE LEGION SPEAKS:                           │
+│                                                 │
+│ CONCERN: Law of True Exchange                   │
+│ Army Reporting: Measurekeepers                  │
+│ Issue: "Shea butter supply chain compensation   │
+│ requires verification before proceeding."       │
+│                                                 │
+│ Required Action: Verify fair compensation to    │
+│ the women's cooperative before launch.          │
+└─────────────────────────────────────────────────┘
+
+Sanctum Council: FLAGGED — Monitoring active
+═══════════════════════════════════════════════════
+
 ACTION ITEMS:
-□ Verify shea butter cooperative compensation
+□ Verify shea butter cooperative compensation ⚠️ REQUIRED
 □ Document plant permission protocols
 □ Finalize packaging return-to-earth cycle
 □ Set pricing with true cost accounting
@@ -266,11 +331,44 @@ Support: Sealbearers — Protecting contractual boundaries
 Status: ACTIVE — ZERO EXCEPTIONS
 ═══════════════════════════════════════════════════
 
+═══════════════════════════════════════════════════
+LEGION INTEGRITY CHECK
+═══════════════════════════════════════════════════
+Status: ⚠️ CONCERN
+
+Sacred Laws Reviewed:
+• Law I: Soul Sovereignty      — ✅ Aligned
+• Law II: Living Systems       — ⚠️ Review Needed
+• Law III: Sacred Structure    — ⚠️ Review Needed
+• Law IV: Ancestral Honor      — ✅ Aligned
+• Law V: Future Generations    — ✅ Aligned
+• Law VI: True Exchange        — ✅ Aligned
+• Law VII: Shadow Integration  — ⚠️ Review Needed
+
+┌─────────────────────────────────────────────────┐
+│ 🛡️ THE LEGION SPEAKS:                           │
+│                                                 │
+│ CONCERN: Law of Shadow Integration              │
+│ Army Reporting: Shadowseers                     │
+│ Issue: "Partner's sustainability claims are     │
+│ unverified. Hidden patterns detected in their   │
+│ previous partnerships—three ended in disputes   │
+│ over mission drift."                            │
+│                                                 │
+│ Required Action: Request third-party ESG audit  │
+│ and speak with their previous partners before   │
+│ proceeding.                                     │
+└─────────────────────────────────────────────────┘
+
+Sanctum Council: FLAGGED — Due diligence required
+═══════════════════════════════════════════════════
+
 ACTION ITEMS:
-□ Discuss exit strategy alignment
+□ Discuss exit strategy alignment ⚠️ CRITICAL
 □ Add Series B control provisions
-□ Request sustainability verification
+□ Request sustainability verification ⚠️ REQUIRED
 □ Structure unanimous consent clause
+□ Contact previous partners for reference
 ```
 
 ---
