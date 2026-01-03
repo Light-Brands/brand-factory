@@ -130,7 +130,7 @@ Each review reattunes the doctrine's guidance to the current frequency of our co
 
 ## Connection to Sacred Laws
 
-This doctrine derives its authority from the [50 Sacred Laws of the Universe](../00-sacred-laws.md), particularly:
+This doctrine derives its authority from the [50 Sacred Laws of the Universe](../../00-sacred-laws.md), particularly:
 
 - **Law 1: The Law of Divine Oneness** — All things are interconnected
 - **Law 7: The Law of Cause and Effect** — Every action creates ripples

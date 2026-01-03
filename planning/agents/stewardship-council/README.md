@@ -102,7 +102,7 @@ flowchart LR
 | Document | Description |
 |----------|-------------|
 | [Doctrine](./00-doctrine.md) | The sacred covenant and operating agreements |
-| [Sacred Laws](../00-sacred-laws.md) | The 50 cosmic laws guiding all creation |
+| [Sacred Laws](../../00-sacred-laws.md) | The 50 cosmic laws guiding all creation |
 
 ---
 
