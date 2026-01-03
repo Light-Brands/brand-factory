@@ -1,6 +1,8 @@
 # Guiding Principles
 
-These foundational principles guide every decision, design, and deployment within the AI Brand Factory.
+> **Foundation:** These principles derive from and align with the [50 Sacred Laws of the Universe](./00-sacred-laws.md) — our eternal cosmic reference.
+
+These operational principles guide every decision, design, and deployment within the AI Brand Factory. They are practical expressions of the Sacred Laws, translated into actionable guidance for our work.
 
 ---
 
@@ -83,4 +85,10 @@ Everything else is automated, scaled, and accelerated through agentic systems.
 
 ## Application
 
-These principles are not aspirational — they are operational. Every phase, every launch, every line of code reflects these values. When in doubt, return to these principles for guidance.
+These principles are not aspirational — they are operational. Every phase, every launch, every line of code reflects these values.
+
+When in doubt:
+1. **First**, return to the [50 Sacred Laws](./00-sacred-laws.md) for cosmic alignment
+2. **Then**, apply these operational principles for practical guidance
+
+The Sacred Laws are our eternal compass; these principles are our daily map.
