@@ -1,8 +1,9 @@
-# VIBEUP Design Spec Dashboard
+# Design System Dashboard
 
-> **Your Energy Is Your Edge**
+A comprehensive Next.js 14 dashboard for navigating, searching, and tracking design specifications. This dashboard provides intelligent access to design docs, architecture specs, and implementation guides for any brand.
 
-A comprehensive Next.js 14 dashboard for navigating, searching, and tracking the VIBEUP platform design specification. This dashboard serves as the foundational starting point of the VIBEUP platform, providing intelligent access to 200+ pages of design docs, architecture specs, and implementation guides.
+> **Note**: Brand specifications have been moved to the `brands/` folder at the repository root.
+> See `brands/vibeup/` for VIBEUP specifications.
 
 ## 🌟 Features
 
@@ -81,8 +82,8 @@ vibeup-v3/
 │   └── diagrams/           # Diagram utilities
 ├── types/                   # TypeScript types
 ├── data/                    # Static data (progress.json)
-├── vibeup-design-spec/     # Design specification docs
-└── public/                 # Static assets
+├── design-system-v2/        # Onyx Design System components
+└── public/                  # Static assets
 ```
 
 ## 🎨 VIBEUP Brand Colors
@@ -232,10 +233,19 @@ npm run build
 
 ## 📖 Documentation
 
-For the complete VIBEUP design specification, see:
-- `vibeup-design-spec/README.md` - Main documentation index
-- `vibeup-design-spec/MASTER-PLAN.md` - Platform vision and architecture
-- `vibeup-design-spec/epics/` - Feature specifications
+Brand specifications are now located in the `brands/` folder at the repository root:
+
+**VIBEUP Brand:**
+- `../brands/vibeup/README.md` - Brand overview
+- `../brands/vibeup/spec/README.md` - Specification index
+- `../brands/vibeup/spec/MASTER-PLAN.md` - Platform vision and architecture
+- `../brands/vibeup/spec/epics/` - Feature specifications
+
+**Other Brands:**
+- `../brands/earth-weavers/` - Earth Weavers brand
+
+**Design System Components:**
+- `design-system-v2/` - Onyx Design System (brand-agnostic components)
 
 ## 🤝 Contributing
 
