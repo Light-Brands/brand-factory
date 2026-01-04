@@ -18,7 +18,7 @@
 
 ## Purpose
 
-Phase 2 transforms Eco Heroes from a single pilot into a networked movement. The focus is on building the **institutional infrastructure** for global presence without losing soul. This is not about running more events — it's about creating the conditions for others to run aligned events while maintaining quality and integrity.
+Phase 2 transforms Earth Weavers from a single pilot into a networked movement. The focus is on building the **institutional infrastructure** for global presence without losing soul. This is not about running more events — it's about creating the conditions for others to run aligned events while maintaining quality and integrity.
 
 ---
 
@@ -41,7 +41,7 @@ Develop multiple revenue streams moving toward self-sustainability.
 ## Year 3: Alliance Formation
 
 ### Objective
-Create a formal Global Alliance of 15+ partner organizations that collectively steward Eco Heroes.
+Create a formal Global Alliance of 15+ partner organizations that collectively steward Earth Weavers.
 
 ### Alliance Partner Types
 
@@ -83,7 +83,7 @@ Create a formal Global Alliance of 15+ partner organizations that collectively s
 
 ### Alliance Operating Agreements
 
-1. **Shared Mission:** All partners commit to Eco Heroes core principles
+1. **Shared Mission:** All partners commit to Earth Weavers core principles
 2. **Distributed Benefit:** Revenue and credit shared equitably
 3. **Quality Standards:** All events meet minimum standards
 4. **Cultural Integrity:** IAC oversight applies to all chapters
@@ -104,7 +104,7 @@ Create a formal Global Alliance of 15+ partner organizations that collectively s
 ## Year 4: Regional Expansion
 
 ### Objective
-Establish regional chapters on 3+ continents, each running localized Eco Heroes events.
+Establish regional chapters on 3+ continents, each running localized Earth Weavers events.
 
 ### Regional Chapter Model
 
@@ -207,9 +207,9 @@ Create shared infrastructure that enables quality, decentralized operation.
 - Mobile-first for emerging markets
 - Designed for low-bandwidth contexts
 
-### Eco Heroes Academy
+### Earth Weavers Academy
 
-**Purpose:** Train and certify local leaders to run Eco Heroes events.
+**Purpose:** Train and certify local leaders to run Earth Weavers events.
 
 **Programs:**
 

@@ -6,7 +6,7 @@
 
 ## Overview
 
-This document catalogs risks to Eco Heroes across all phases, with assessment and mitigation strategies. A living document — update as new risks emerge and old ones resolve.
+This document catalogs risks to Earth Weavers across all phases, with assessment and mitigation strategies. A living document — update as new risks emerge and old ones resolve.
 
 ---
 
@@ -108,7 +108,7 @@ This document catalogs risks to Eco Heroes across all phases, with assessment an
 
 ### C1: Cultural Appropriation Accusations
 
-**Description:** Eco Heroes uses indigenous elements inappropriately, leading to public accusations of cultural appropriation, damaging credibility and harming communities.
+**Description:** Earth Weavers uses indigenous elements inappropriately, leading to public accusations of cultural appropriation, damaging credibility and harming communities.
 
 **Root Causes:**
 - Ceremony used without genuine permission
@@ -142,7 +142,7 @@ This document catalogs risks to Eco Heroes across all phases, with assessment an
 
 ### C2: Key Founder Dependency
 
-**Description:** Eco Heroes is overly dependent on founding individual(s), creating risk if they leave, burn out, or become problematic.
+**Description:** Earth Weavers is overly dependent on founding individual(s), creating risk if they leave, burn out, or become problematic.
 
 **Root Causes:**
 - Vision concentrated in one person

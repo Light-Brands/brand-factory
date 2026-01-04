@@ -6,7 +6,7 @@
 
 ## Overview
 
-This document establishes how decisions are made in Eco Heroes. Clear decision-making prevents both paralysis (everyone must agree) and autocracy (one person decides everything).
+This document establishes how decisions are made in Earth Weavers. Clear decision-making prevents both paralysis (everyone must agree) and autocracy (one person decides everything).
 
 ---
 

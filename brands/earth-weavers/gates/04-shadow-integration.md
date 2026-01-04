@@ -19,7 +19,7 @@
 
 ## Purpose
 
-This gate ensures the core team has faced the shadow aspects of the Eco Heroes vision and built appropriate safeguards. Every bright vision casts a shadow. Eco Heroes' shadows include savior complex, spectacle addiction, spiritual bypassing, competition's ego activation, and founder dependency.
+This gate ensures the core team has faced the shadow aspects of the Earth Weavers vision and built appropriate safeguards. Every bright vision casts a shadow. Earth Weavers' shadows include savior complex, spectacle addiction, spiritual bypassing, competition's ego activation, and founder dependency.
 
 The Mirror of the Multiverse insists: **the shadows you don't integrate will unconsciously run your project**. This gate brings hidden dynamics into the light before they sabotage the mission.
 
@@ -27,7 +27,7 @@ The Mirror of the Multiverse insists: **the shadows you don't integrate will unc
 
 ## The Problem Being Addressed
 
-The original Eco Heroes proposal is luminous — but every light casts shadows:
+The original Earth Weavers proposal is luminous — but every light casts shadows:
 
 | Light | Shadow |
 |-------|--------|
@@ -51,12 +51,12 @@ The original Eco Heroes proposal is luminous — but every light casts shadows:
 
 ### 1. Pre-Mortem Exercise
 
-**Requirement:** Conduct a formal "pre-mortem" — imagining Eco Heroes has failed catastrophically and analyzing why.
+**Requirement:** Conduct a formal "pre-mortem" — imagining Earth Weavers has failed catastrophically and analyzing why.
 
 **Process:**
 1. Gather core team (and possibly external advisors)
-2. Imagine it is 3 years from now and Eco Heroes has failed badly
-3. Each person writes: "Eco Heroes failed because..."
+2. Imagine it is 3 years from now and Earth Weavers has failed badly
+3. Each person writes: "Earth Weavers failed because..."
 4. Share and compile all failure scenarios
 5. Categorize by likelihood and impact
 6. Identify preventive actions for top risks
@@ -87,13 +87,13 @@ The original Eco Heroes proposal is luminous — but every light casts shadows:
 - Hero needs a villain — who is the villain in this framing?
 - Hero implies Earth needs saving — by whom?
 - Hero archetype is Western/individualist, not universal
-- "Eco Heroes" can attract ego-driven participants
+- "Earth Weavers" can attract ego-driven participants
 
 **Reframe Options to Consider:**
 
 | Current | Alternative Options |
 |---------|---------------------|
-| Eco Heroes | Eco Stewards, Earth Weavers, Regenerators, Restoration Circle |
+| Earth Weavers | Eco Stewards, Earth Weavers, Regenerators, Restoration Circle |
 | Heroes | Healers, Stewards, Gardeners, Weavers, Keepers |
 | Save the Earth | Serve the Earth, Heal with the Earth, Tend the Earth |
 | Battle / Fight | Tend, Cultivate, Restore, Regenerate |
@@ -154,7 +154,7 @@ The original Eco Heroes proposal is luminous — but every light casts shadows:
 **Questions to Answer:**
 - Who is driving this vision?
 - What happens if they leave, burn out, or become problematic?
-- Is Eco Heroes a movement or a personality?
+- Is Earth Weavers a movement or a personality?
 - How is succession planned?
 - Are there checks on founder ego inflation?
 
@@ -369,7 +369,7 @@ The Divine Light Transformation (see `02-divine-light-transformation.md`) addres
 - Preventive structures designed for each risk
 
 ### Language Reframe: ✅ Complete
-- "Eco Heroes" → "Earth Weavers"
+- "Earth Weavers" → "Earth Weavers"
 - "Heroes saving Earth" → "Stewards healing with Earth"
 - "Tournament/Competition" → "Weaving Circle/Collaboration"
 - "Winners" → "All threads woven"

@@ -1,12 +1,12 @@
 # Resources
 
-> Supporting documents and reference materials for Eco Heroes
+> Supporting documents and reference materials for Earth Weavers
 
 ---
 
 ## Overview
 
-This folder contains reference documents, templates, and supporting materials for Eco Heroes planning and operations.
+This folder contains reference documents, templates, and supporting materials for Earth Weavers planning and operations.
 
 ---
 
@@ -48,7 +48,7 @@ This folder contains reference documents, templates, and supporting materials fo
 
 ## Additional Resources (To Be Developed)
 
-The following resources will be developed as Eco Heroes progresses:
+The following resources will be developed as Earth Weavers progresses:
 
 | Resource | Purpose | When Needed |
 |----------|---------|-------------|

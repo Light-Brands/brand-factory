@@ -19,9 +19,9 @@
 
 ## Purpose
 
-This gate ensures that Eco Heroes events are themselves regenerative, not extractive. It addresses the profound irony risk: claiming to heal the Earth while creating environmental harm through event production, travel, and resource consumption.
+This gate ensures that Earth Weavers events are themselves regenerative, not extractive. It addresses the profound irony risk: claiming to heal the Earth while creating environmental harm through event production, travel, and resource consumption.
 
-The Guardian of Gaia demands that Eco Heroes not just fund regenerative projects, but *be* regenerative in its own operations. The event must model what it preaches.
+The Guardian of Gaia demands that Earth Weavers not just fund regenerative projects, but *be* regenerative in its own operations. The event must model what it preaches.
 
 ---
 

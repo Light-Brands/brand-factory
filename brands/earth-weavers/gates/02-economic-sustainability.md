@@ -19,7 +19,7 @@
 
 ## Purpose
 
-This gate ensures that Eco Heroes has a viable, sustainable financial model — not just for launch, but for long-term thriving. The original proposal relies heavily on philanthropic funders, conscious brands, and donations. This is vulnerable to donor fatigue and economic downturns.
+This gate ensures that Earth Weavers has a viable, sustainable financial model — not just for launch, but for long-term thriving. The original proposal relies heavily on philanthropic funders, conscious brands, and donations. This is vulnerable to donor fatigue and economic downturns.
 
 The Steward of Exchange requires that money be treated as "conscious energy" — but conscious energy still needs to flow sustainably. This gate ensures the math works alongside the meaning.
 
@@ -27,7 +27,7 @@ The Steward of Exchange requires that money be treated as "conscious energy" —
 
 ## The Problem Being Addressed
 
-The original Eco Heroes proposal has economic gaps:
+The original Earth Weavers proposal has economic gaps:
 
 1. **Dependency Model:** Relies on philanthropy and sponsorship without earned revenue
 2. **Participant Economics Unclear:** What do non-winning teams receive?
@@ -35,7 +35,7 @@ The original Eco Heroes proposal has economic gaps:
 4. **Scale Economics Unknown:** What does it actually cost to run global events?
 5. **No Contingency Planning:** What happens if funding dries up?
 
-Without addressing these, Eco Heroes could:
+Without addressing these, Earth Weavers could:
 - Launch with fanfare, then collapse when grants end
 - Exploit passionate volunteers under "conscious" branding
 - Create participant inequity (winners thrive, others lose time/money)
@@ -110,7 +110,7 @@ Without addressing these, Eco Heroes could:
 | Stream | Description | When Viable |
 |--------|-------------|-------------|
 | Licensing fees | Regional chapters pay for brand, playbook, platform access | Phase 2+ |
-| Certification | Eco Heroes Academy trains and certifies facilitators | Phase 2+ |
+| Certification | Earth Weavers Academy trains and certifies facilitators | Phase 2+ |
 | Media rights | Broadcast, streaming, documentary licensing | Phase 2+ |
 | Merchandise | Values-aligned products that fund projects | Phase 1+ |
 | Corporate partnerships | Mission-aligned sponsors | Phase 1+ |
@@ -224,7 +224,7 @@ For each scenario, define:
 
 The Steward asks these questions to determine completion:
 
-1. **Could this survive a recession?** If philanthropy dried up, would Eco Heroes die?
+1. **Could this survive a recession?** If philanthropy dried up, would Earth Weavers die?
 
 2. **Is anyone being exploited?** Are "volunteers" actually essential unpaid workers?
 

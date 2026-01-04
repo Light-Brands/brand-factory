@@ -19,7 +19,7 @@
 
 ## Purpose
 
-This gate ensures that Eco Heroes' governance is clear, effective, and scalable without becoming bureaucratic. The original vision includes multiple overlapping bodies: Wisdom Councils, Indigenous Advisory Council, Regional Custodians, Alliance Board, Energetic Council, and more. Without simplification, decision-making could become paralyzed.
+This gate ensures that Earth Weavers' governance is clear, effective, and scalable without becoming bureaucratic. The original vision includes multiple overlapping bodies: Wisdom Councils, Indigenous Advisory Council, Regional Custodians, Alliance Board, Energetic Council, and more. Without simplification, decision-making could become paralyzed.
 
 The Architect of Sacred Systems appreciates systemic sophistication but insists: **every layer of governance must earn its existence**. If it doesn't add value, it adds friction.
 
@@ -127,7 +127,7 @@ The original proposal layers multiple governance bodies:
 
 ### 3. Scalability Plan
 
-**Requirement:** Design how governance evolves as Eco Heroes grows, without losing integrity.
+**Requirement:** Design how governance evolves as Earth Weavers grows, without losing integrity.
 
 **Principles:**
 - Governance should scale with need, not ahead of it

@@ -1,4 +1,4 @@
-# Eco Heroes Implementation Roadmap
+# Earth Weavers Implementation Roadmap
 
 > Master timeline from foundation through global scale
 

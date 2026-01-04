@@ -6,7 +6,7 @@
 
 ## Overview
 
-Eco Heroes implementation unfolds through four major phases, each building on the previous. This is not a race — it's a cultivation. Each phase must be completed with integrity before proceeding.
+Earth Weavers implementation unfolds through four major phases, each building on the previous. This is not a race — it's a cultivation. Each phase must be completed with integrity before proceeding.
 
 ---
 
@@ -76,7 +76,7 @@ Scale through partnership, build institutional foundation for global presence.
 - Form Global Alliance with 15+ partners
 - Expand to 3+ continents
 - Develop technology platform
-- Launch Eco Heroes Academy
+- Launch Earth Weavers Academy
 - Establish sustainable revenue model
 
 **Success Criteria:**
@@ -92,7 +92,7 @@ Scale through partnership, build institutional foundation for global presence.
 **Duration:** Year 6-10
 **Status:** ⚪ Not Started (depends on Phase 2)
 
-Establish Eco Heroes as recognized global cultural institution.
+Establish Earth Weavers as recognized global cultural institution.
 
 **Key Activities:**
 - Expand to 50+ countries
