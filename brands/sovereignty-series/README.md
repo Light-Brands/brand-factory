@@ -25,7 +25,9 @@ The series begins with pattern recognition and trauma bond understanding, progre
 **Assessment Date:** January 4, 2026
 **Review Type:** Full Seven-Agent Deliberation
 
-See [Council Assessment](./00-council-assessment.md) for complete analysis.
+See [Council Reviews](./reviews/) for complete analyses:
+- [Volume 1: The Narcissism Decoder](./reviews/vol-1-narcissism-decoder-review.md)
+- [Volume 2: The Bridge](./reviews/vol-2-the-bridge-review.md)
 
 ---
 
@@ -109,10 +111,10 @@ She offers private counseling through **Light Field Institute**.
 
 | Document | Description |
 |----------|-------------|
-| [Council Assessment](./00-council-assessment.md) | Full seven-agent analysis |
+| [Council Reviews](./reviews/) | Full seven-agent analyses |
 | [Volume Guide](./volumes/README.md) | Overview of all 8 volumes |
 | [Volume 1: The Narcissism Decoder](./volumes/vol-1-narcissism-decoder/README.md) | Recognition & Breaking Free |
-| [Volume 2: The Bridge](./volumes/vol-2-bridge/README.md) | Attachment Repair (Planned) |
+| [Volume 2: The Bridge](./volumes/vol-2-bridge/README.md) | Attachment Repair & Secure Relating |
 
 ---
 
