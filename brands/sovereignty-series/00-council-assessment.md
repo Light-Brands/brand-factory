@@ -1,6 +1,6 @@
-# Council Analysis: The Narcissism Decoder
+# Council Analysis: The Sovereignty Series
 
-> *Control Disguised as Care: A Guide to Recognizing, Understanding, and Breaking Free from Manipulation Patterns*
+> *Volume 1: The Narcissism Decoder — Control Disguised as Care*
 > By Jennifer Brooke Lawless
 
 **Analysis Date:** January 4, 2026
@@ -12,7 +12,7 @@
 
 ## Overview
 
-The Stewardship Council was convened to analyze *The Narcissism Decoder* and assess its benefit to the cosmos. This book provides comprehensive guidance for recognizing, understanding, and recovering from narcissistic manipulation patterns.
+The Stewardship Council was convened to analyze *The Sovereignty Series*, beginning with Volume 1: *The Narcissism Decoder*, and assess its benefit to the cosmos. This 8-volume series guides readers from recognizing manipulation patterns through deep recovery into full self-sovereignty.
 
 ---
 

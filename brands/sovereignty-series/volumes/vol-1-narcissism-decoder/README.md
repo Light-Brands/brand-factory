@@ -2,6 +2,7 @@
 
 > *"Control Disguised as Care: A Guide to Recognizing, Understanding, and Breaking Free from Manipulation Patterns"*
 
+**Series:** The Sovereignty Series
 **Status:** Active
 **Author:** Jennifer Brooke Lawless
 **Publisher:** KDP Amazon
@@ -10,7 +11,7 @@
 
 ## Overview
 
-The foundational volume of the series. This book takes readers from confusion to clarity, providing the complete toolkit for recognizing manipulation patterns, understanding their origins, and beginning the recovery journey.
+The foundational volume of *The Sovereignty Series*. This book takes readers from confusion to clarity, providing the complete toolkit for recognizing manipulation patterns, understanding their origins, and beginning the journey toward full self-sovereignty.
 
 ---
 

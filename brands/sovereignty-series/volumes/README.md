@@ -1,4 +1,4 @@
-# The Narcissism Decoder — Volume Guide
+# The Sovereignty Series — Volume Guide
 
 > *An 8-Volume Journey from Confusion to Clarity to Contribution*
 
@@ -6,7 +6,7 @@
 
 ## Series Overview
 
-*The Narcissism Decoder* series is a comprehensive healing journey that guides readers through recognition, understanding, recovery, and ultimately into service. Each volume builds on the previous, creating a complete transformation arc.
+*The Sovereignty Series* is a comprehensive healing journey that guides readers through recognition, understanding, recovery, and ultimately into full self-sovereignty. Each volume builds on the previous, creating a complete transformation arc from manipulation survivor to sovereign being.
 
 ---
 
@@ -25,7 +25,7 @@
 
 ---
 
-## The Healing Arc
+## The Sovereignty Arc
 
 ```
 Volume 1: RECOGNIZE
@@ -33,9 +33,9 @@ Volume 1: RECOGNIZE
 Volume 2: REPAIR
     ↓ "I am rebuilding trust"
 Volumes 3-7: RESTORE
-    ↓ "I am becoming whole"
+    ↓ "I am reclaiming all of myself"
 Volume 8: RADIATE
-    → "I am in service"
+    → "I am living in full sovereignty"
 ```
 
 ---
@@ -44,6 +44,8 @@ Volume 8: RADIATE
 
 ### Volume 1: The Narcissism Decoder
 **Theme:** Recognition, Understanding, Breaking Free
+
+*"Control Disguised as Care"*
 
 The foundational volume. Readers learn to recognize 38 manipulation tactics, understand trauma bonds, decode patterns in real-time, and begin nervous system recovery. Includes the Decoder Cards system and practical scripts for response.
 
@@ -59,7 +61,7 @@ After recognizing dysfunction, readers learn to build what may never have been m
 ### Volumes 3-8
 **Status:** Content emerging
 
-Space is held for the remaining volumes as the complete healing journey reveals itself.
+Space is held for the remaining volumes as the complete sovereignty journey reveals itself.
 
 ---
 
@@ -81,14 +83,27 @@ Each volume can stand alone for readers seeking specific support.
 
 ## Series Philosophy
 
-This series operates on several core principles:
+The Sovereignty Series operates on several core principles:
 
 1. **Body First:** The nervous system knows before the mind
 2. **No Diagnosis Required:** You don't need a label to protect yourself
 3. **Both/And:** Recognition AND compassion can coexist
-4. **Sovereignty:** Your perception is valid
+4. **Sovereignty:** Your perception is valid—reclaim it
 5. **Service:** Healed people heal people
 
 ---
 
-*"The confusion ends here. And the clarity continues."*
+## The Destination: Sovereignty
+
+What does sovereignty look like?
+
+- **Trusting your own perception** without external validation
+- **Setting boundaries** as acts of love, not walls of fear
+- **Connecting authentically** with discernment, not hypervigilance
+- **Speaking your truth** without apology or aggression
+- **Living your purpose** free from manipulation patterns
+- **Serving others** from overflow, not depletion
+
+---
+
+*"The confusion ends here. Sovereignty begins now."*
