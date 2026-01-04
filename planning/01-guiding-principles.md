@@ -1,6 +1,6 @@
 # Guiding Principles
 
-> **Foundation:** These principles derive from and align with the [50 Sacred Laws of the Universe](./00-sacred-laws.md) — our eternal cosmic reference. They are governed by the [Council Integration Framework](./04-council-integration-framework.md) ensuring every principle serves soul, Earth, and cosmos.
+> **Foundation:** These principles derive from and align with the [50 Sacred Laws of the Universe](./00-sacred-laws.md) — our eternal cosmic reference. They are governed by the [Council Integration Framework](./04-council-integration-framework.md) and embody the [Divine Ethics, Morals, and Values](./05-divine-ethics-morals-values.md) ensuring every principle serves soul, Earth, and cosmos.
 
 These operational principles guide every decision, design, and deployment within the AI Brand Factory. They are practical expressions of the Sacred Laws, translated into actionable guidance for our work.
 
@@ -219,9 +219,10 @@ These principles are not aspirational — they are operational. Every phase, eve
 When in doubt:
 
 1. **First**, return to the [50 Sacred Laws](./00-sacred-laws.md) for cosmic alignment
-2. **Then**, consult the [Stewardship Council](./agents/stewardship-council/README.md) for wisdom
-3. **Then**, apply these operational principles for practical guidance
-4. **Finally**, verify through [Council Integration Framework](./04-council-integration-framework.md)
+2. **Then**, check alignment with [Divine Values, Ethics, and Morals](./05-divine-ethics-morals-values.md)
+3. **Then**, consult the [Stewardship Council](./agents/stewardship-council/README.md) for wisdom
+4. **Then**, apply these operational principles for practical guidance
+5. **Finally**, verify through [Council Integration Framework](./04-council-integration-framework.md)
 
 The Sacred Laws are our eternal compass. The Council is our living wisdom. These principles are our daily map.
 

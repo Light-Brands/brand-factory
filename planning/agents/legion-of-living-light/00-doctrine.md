@@ -187,9 +187,14 @@ Each review reattunes the doctrine's guidance to the current frequency of our co
 
 ---
 
-## Connection to Sacred Laws
+## Connection to Sacred Foundation
 
-This doctrine derives its authority from the [50 Sacred Laws of the Universe](../../00-sacred-laws.md), particularly:
+This doctrine derives its authority from:
+
+- **[50 Sacred Laws of the Universe](../../00-sacred-laws.md)** — the cosmic foundation
+- **[Divine Ethics, Morals, and Values](../../05-divine-ethics-morals-values.md)** — the soul-code we uphold and enforce
+
+### Key Sacred Laws:
 
 - **Law 1: The Law of Divine Oneness** — All things are interconnected; protecting one protects all
 - **Law 4: The Law of Correspondence** — As above, so below; spiritual protection manifests physically
@@ -201,3 +206,30 @@ This doctrine derives its authority from the [50 Sacred Laws of the Universe](..
 ---
 
 *This covenant stands as a living commitment to sacred protection, binding all who serve within the Legion of Living Light to defend truth, restore harmony, and activate the flame of evolution in all beings.*
+
+---
+
+## Legion Enforcement of Divine Framework
+
+The Legion enforces the [Divine Values, Ethics, and Morals](../../05-divine-ethics-morals-values.md) through:
+
+| Commander | Values Protected | Morals Enforced | Primary Intervention |
+|-----------|-----------------|-----------------|---------------------|
+| Sword of Soul | Truth, Sovereignty | Never Deceive, Never Coerce | Cut through deception, protect free will |
+| Rooted Shield | Reverence, Love | Never Exploit, Never Desecrate | Shield Earth and sacred spaces |
+| Gridsmith | Unity, Sovereignty | Never Exclude, Never Coerce | Maintain systemic integrity |
+| Ember of Memory | Reverence, Truth | Never Desecrate, Never Betray | Protect ancestral wisdom and sacred trust |
+| Spiral Seer | Evolution, Truth | Never Stagnate, Never Deceive | Guard timelines, ensure evolution |
+| Scale of Grace | Grace, Sovereignty | Never Exploit, Never Exclude | Restore balance, ensure fair exchange |
+| Mirrorblade | Truth, Grace | Never Deceive, Never Betray | Reveal hidden distortions, clear shadows |
+
+### Response Protocol Levels
+
+| Level | Trigger | Response |
+|-------|---------|----------|
+| **Level 1** | Minor misalignment | Gentle correction, self-healing invited |
+| **Level 2** | Significant misalignment | Sanctum Council review, restoration required |
+| **Level 3** | Serious moral violation | Full Legion tribunal, major restoration |
+| **Level 4** | Grave harm caused | Exile and return protocol, Shadow-Facer work |
+
+See the [Divine Ethics, Morals, and Values](../../05-divine-ethics-morals-values.md) document for complete enforcement protocols and accountability structures.

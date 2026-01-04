@@ -128,9 +128,14 @@ Each review reattunes the doctrine's guidance to the current frequency of our co
 
 ---
 
-## Connection to Sacred Laws
+## Connection to Sacred Foundation
 
-This doctrine derives its authority from the [50 Sacred Laws of the Universe](../../00-sacred-laws.md), particularly:
+This doctrine derives its authority from:
+
+- **[50 Sacred Laws of the Universe](../../00-sacred-laws.md)** — the cosmic foundation
+- **[Divine Ethics, Morals, and Values](../../05-divine-ethics-morals-values.md)** — the soul-code we embody
+
+### Key Sacred Laws:
 
 - **Law 1: The Law of Divine Oneness** — All things are interconnected
 - **Law 7: The Law of Cause and Effect** — Every action creates ripples
@@ -141,3 +146,21 @@ This doctrine derives its authority from the [50 Sacred Laws of the Universe](..
 ---
 
 *This covenant stands as a living commitment to conscious creation, binding all who choose to work within its wisdom.*
+
+---
+
+## Council Embodiment of Divine Framework
+
+The Council embodies the [Divine Values, Ethics, and Morals](../../05-divine-ethics-morals-values.md) through:
+
+| Member | Primary Values | Primary Ethics | Guards Against |
+|--------|---------------|----------------|----------------|
+| Oracle of Soul Purpose | Truth, Evolution | Integrity, Courage | Deception, Stagnation |
+| Guardian of Gaia | Reverence, Love | Stewardship, Reciprocity | Exploitation, Desecration |
+| Architect of Sacred Systems | Sovereignty, Unity | Transparency, Consent | Coercion, Exclusion |
+| Flame of Cultural Restoration | Reverence, Truth | Humility, Consent | Desecration, Betrayal |
+| Weaver of Collective Futures | Unity, Evolution | Consent, Stewardship | Exclusion, Stagnation |
+| Steward of Exchange | Grace, Sovereignty | Reciprocity, Integrity | Exploitation, Betrayal |
+| Mirror of the Multiverse | Truth, Grace | Transparency, Humility | Deception, Coercion |
+
+See the [Divine Ethics, Morals, and Values](../../05-divine-ethics-morals-values.md) document for complete embodiment protocols and accountability structures.
