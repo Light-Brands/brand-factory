@@ -19,15 +19,15 @@
 
 ## Purpose
 
-This gate ensures that Eco Heroes' integration of indigenous wisdom, ceremony, and cultural elements is done through **genuine relationship, not extraction**. It addresses the critical risk of cultural appropriation — taking sacred elements for aesthetic value without reciprocity, permission, or partnership.
+This gate ensures that Earth Weavers' integration of indigenous wisdom, ceremony, and cultural elements is done through **genuine relationship, not extraction**. It addresses the critical risk of cultural appropriation — taking sacred elements for aesthetic value without reciprocity, permission, or partnership.
 
-The Flame of Cultural Restoration has identified this as the most critical gate. Without authentic cultural partnership, Eco Heroes risks becoming another well-intentioned project that harms the very wisdom traditions it claims to honor.
+The Flame of Cultural Restoration has identified this as the most critical gate. Without authentic cultural partnership, Earth Weavers risks becoming another well-intentioned project that harms the very wisdom traditions it claims to honor.
 
 ---
 
 ## The Problem Being Addressed
 
-Eco Heroes proposes to include:
+Earth Weavers proposes to include:
 - Indigenous drummers and ceremonial leaders
 - Land acknowledgments and blessings
 - Sacred geometry and medicine wheel concepts
@@ -47,7 +47,7 @@ Each of these draws from specific cultural lineages. Without proper relationship
 
 ### 1. Indigenous Advisory Council with Veto Power
 
-**Requirement:** Establish an Indigenous Advisory Council (IAC) that has genuine authority over ceremonial and cultural elements of Eco Heroes.
+**Requirement:** Establish an Indigenous Advisory Council (IAC) that has genuine authority over ceremonial and cultural elements of Earth Weavers.
 
 **Specifications:**
 - Minimum 5 members from diverse indigenous traditions
@@ -73,10 +73,10 @@ Each of these draws from specific cultural lineages. Without proper relationship
 
 ### 2. Reciprocal Funding Commitment
 
-**Requirement:** Ensure that indigenous communities benefit materially from Eco Heroes, not just contribute wisdom.
+**Requirement:** Ensure that indigenous communities benefit materially from Earth Weavers, not just contribute wisdom.
 
 **Specifications:**
-- Minimum 10% of total Eco Heroes funding pool directed to indigenous-led projects
+- Minimum 10% of total Earth Weavers funding pool directed to indigenous-led projects
 - This is separate from any indigenous teams that might win through competition
 - Funding flows TO communities, not just FROM their wisdom
 - Indigenous communities have input on how these funds are used
@@ -211,7 +211,7 @@ The Flame asks these questions to determine completion:
 - Schedule first meeting
 
 ### Month 3-4: First IAC Meeting
-- Present Eco Heroes vision for feedback
+- Present Earth Weavers vision for feedback
 - Listen more than speak
 - Accept critique gracefully
 - Begin cultural impact assessment together
@@ -271,7 +271,7 @@ The Flame asks these questions to determine completion:
 | Spiritual harm | Moderate | Severe | Participants damaged by misused practices |
 | Perpetuating colonial patterns | High | Severe | Becomes part of the problem, not solution |
 
-**The Flame's Warning:** *Without genuine partnership, Eco Heroes will cause more harm than good. Better to not proceed than to proceed with extraction.*
+**The Flame's Warning:** *Without genuine partnership, Earth Weavers will cause more harm than good. Better to not proceed than to proceed with extraction.*
 
 ---
 

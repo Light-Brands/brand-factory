@@ -6,7 +6,7 @@
 
 ## Overview
 
-This section documents the governance structures, decision-making frameworks, and accountability mechanisms for Eco Heroes. Governance must balance:
+This section documents the governance structures, decision-making frameworks, and accountability mechanisms for Earth Weavers. Governance must balance:
 
 - **Speed** with **inclusion**
 - **Autonomy** with **coherence**
@@ -21,7 +21,7 @@ This section documents the governance structures, decision-making frameworks, an
 |----------|-------------|
 | [Decision Framework](./decision-framework.md) | How decisions are made at every level |
 | [Roles & Responsibilities](./roles.md) | Who does what, with what authority |
-| [Council Integration](./council-integration.md) | How Stewardship Council guides Eco Heroes |
+| [Council Integration](./council-integration.md) | How Stewardship Council guides Earth Weavers |
 
 ---
 

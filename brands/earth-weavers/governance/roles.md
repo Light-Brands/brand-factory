@@ -6,7 +6,7 @@
 
 ## Overview
 
-This document defines the key roles in Eco Heroes governance and operations. Each role has clear authority, accountability, and boundaries.
+This document defines the key roles in Earth Weavers governance and operations. Each role has clear authority, accountability, and boundaries.
 
 ---
 
@@ -14,13 +14,13 @@ This document defines the key roles in Eco Heroes governance and operations. Eac
 
 ### Brand Steward
 
-**Purpose:** Overall leadership and day-to-day decision authority for Eco Heroes.
+**Purpose:** Overall leadership and day-to-day decision authority for Earth Weavers.
 
 **Reports To:** Founding Circle
 **Supervises:** All operational leads
 
 **Responsibilities:**
-- Represent Eco Heroes publicly
+- Represent Earth Weavers publicly
 - Make operational decisions within delegated authority
 - Coordinate across functions
 - Maintain Council and IAC relationships
@@ -49,7 +49,7 @@ This document defines the key roles in Eco Heroes governance and operations. Eac
 
 ### Council Liaison
 
-**Purpose:** Bridge between Stewardship Council and Eco Heroes operations.
+**Purpose:** Bridge between Stewardship Council and Earth Weavers operations.
 
 **Reports To:** Stewardship Council
 **Works With:** Brand Steward, Founding Circle
@@ -234,7 +234,7 @@ This document defines the key roles in Eco Heroes governance and operations. Eac
 
 ### Founding Circle
 
-**Purpose:** Strategic direction and major decisions for Eco Heroes.
+**Purpose:** Strategic direction and major decisions for Earth Weavers.
 
 **Composition:** 5-7 partners from founding organizations
 **Convenes:** Monthly (more during Phase 0)

@@ -6,7 +6,7 @@
 
 ## Overview
 
-This document maps the key stakeholders for Eco Heroes, their interests, influence, and engagement strategies. Understanding stakeholders helps ensure we serve those we claim to serve and manage relationships effectively.
+This document maps the key stakeholders for Earth Weavers, their interests, influence, and engagement strategies. Understanding stakeholders helps ensure we serve those we claim to serve and manage relationships effectively.
 
 ---
 

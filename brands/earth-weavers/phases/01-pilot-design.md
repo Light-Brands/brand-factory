@@ -18,7 +18,7 @@
 
 ## Purpose
 
-Phase 1 tests the Eco Heroes model at regional scale. The goal is not to create a perfect event, but to learn what works, what doesn't, and document everything for replication. Success is measured not just by the pilot event, but by the playbook and lessons that emerge.
+Phase 1 tests the Earth Weavers model at regional scale. The goal is not to create a perfect event, but to learn what works, what doesn't, and document everything for replication. Success is measured not just by the pilot event, but by the playbook and lessons that emerge.
 
 ---
 
