@@ -86,6 +86,7 @@ Communicate the vision at any length. See [pitch/README.md](./pitch/README.md) f
 | [Launch Cadence](./02-launch-cadence.md) | Council-governed acceleration rhythm with tiered review |
 | [Risks & Resilience](./03-risks-and-resilience.md) | Risk mitigation with shadow integration |
 | [Council Integration Framework](./04-council-integration-framework.md) | **Central Governance** — Council as constitutive authority |
+| [Divine Ethics, Morals & Values](./05-divine-ethics-morals-values.md) | **Soul Code** — What we hold sacred, how we act, what we never do |
 
 ### Council Reviews
 
@@ -223,6 +224,7 @@ planning/
 ├── 02-launch-cadence.md         ← Council-governed tiered review system
 ├── 03-risks-and-resilience.md   ← Shadow integration & vigilance
 ├── 04-council-integration-framework.md ← CENTRAL GOVERNANCE
+├── 05-divine-ethics-morals-values.md  ← SOUL CODE: Values, Ethics, Morals
 │
 ├── council-reviews/             ← Council Assessment Documents
 │   ├── 2026-01-04-brand-factory-assessment.md         ← Initial assessment
