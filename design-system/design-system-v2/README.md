@@ -30,10 +30,13 @@ design-system-v2/
 ├── contexts/            # React context providers
 ├── lib/                 # Utility libraries
 ├── data/                # Data types and storage
+├── spec/                # Brand-agnostic specification templates
+│   ├── architecture/    # Technical design templates
+│   ├── brand/           # Brand identity templates
+│   ├── design/          # UX/UI specification templates
+│   ├── operations/      # Operational templates
+│   └── development/     # Development infrastructure
 └── public/              # Static assets
-
-# Brand specs are now located in:
-# ../../brands/{brand-name}/spec/
 ```
 
 ## Component Groups
@@ -127,18 +130,28 @@ Only include the components you use.
 - **[tokens/spacing.ts](tokens/spacing.ts)** - Spacing & border radius
 - **[tokens/shadows.ts](tokens/shadows.ts)** - Elevation & glows
 
-### Brand Specifications
+### Specification Templates
 
-Brand-specific documentation is located in the `brands/` folder at the repository root:
-- `brands/{brand-name}/spec/brand/` - Visual identity, voice & tone, AI personality
-- `brands/{brand-name}/spec/design/` - Design system implementation, component catalog, user journeys
-- `brands/{brand-name}/spec/epics/` - Feature specifications
-- `brands/{brand-name}/spec/architecture/` - Technical design
-- `brands/{brand-name}/spec/operations/` - Operational docs
+Brand-agnostic templates are available in the `spec/` folder:
+- **[spec/README.md](spec/README.md)** - Template overview and usage guide
+- **[spec/architecture/](spec/architecture/)** - Data models, APIs, deployment
+- **[spec/brand/](spec/brand/)** - Visual identity, voice, AI personality
+- **[spec/design/](spec/design/)** - Guidelines, components, user journeys
+- **[spec/operations/](spec/operations/)** - Feature flags, testing, observability
+- **[spec/development/](spec/development/)** - Coding standards, AI agents
+
+### Brand Implementations
+
+Brand-specific documentation is located in the `brands/` folder:
 
 **Available Brands:**
 - [vibeup](../../brands/vibeup/) - VIBEUP platform specifications
 - [earth-weavers](../../brands/earth-weavers/) - Earth Weavers brand
+
+**Creating a New Brand:**
+1. Create folder: `brands/{brand-name}/spec/`
+2. Copy templates from `design-system-v2/spec/`
+3. Customize for your brand
 
 ## Tech Stack
 
