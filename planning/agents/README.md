@@ -6,98 +6,281 @@ This directory contains all agent definitions for automated development, brand b
 
 ---
 
+## Agent Communication System
+
+All agents are connected through the **Agent Communication System** — a unified nervous system that enables any agent to communicate with any other agent across all domains.
+
+```
+                              ┌─────────────────┐
+                              │  GATEWAY AGENT  │ ← All requests enter here
+                              └────────┬────────┘
+                                       │
+                    ┌──────────────────┼──────────────────┐
+                    │                  │                  │
+             ┌──────▼──────┐    ┌──────▼──────┐    ┌──────▼──────┐
+             │  WORKFLOW   │    │   BRAND     │    │   LEGAL     │
+             │   AGENTS    │    │  PROPOSAL   │    │    DEPT     │
+             └─────────────┘    └─────────────┘    └─────────────┘
+                    │                  │                  │
+             ┌──────▼──────────────────▼──────────────────▼──────┐
+             │               STEWARDSHIP COUNCIL                  │
+             │            (Sacred Governance Layer)               │
+             └──────────────────────┬─────────────────────────────┘
+                                    │
+             ┌──────────────────────▼─────────────────────────────┐
+             │              LEGION OF LIVING LIGHT                │
+             │             (Sacred Protection Layer)              │
+             └────────────────────────────────────────────────────┘
+```
+
+**See:** [agent-communication-system/README.md](./agent-communication-system/README.md)
+
+---
+
 ## Structure
 
 ```
 agents/
-├── README.md                    # This file
-├── INTUITION-ENGINE.md          # Shared intuition engine integration
+├── README.md                         # This file
+├── INTUITION-ENGINE.md               # Shared learning framework
+├── AIQ-ENGINE.md                     # Intelligence measurement
 │
-├── workflow/                    # Automated development workflow agents
-│   ├── orchestrator.md          # Workflow coordinator
-│   ├── issue-manager.md         # Issue creation agent
-│   ├── prep-agent.md            # Environment setup agent
-│   ├── implementer-agent.md     # Code implementation agent
-│   ├── reviewer-agent.md        # Code review agent
-│   ├── fixer-agent.md           # Review fix agent
-│   ├── validator-agent.md       # Validation & merge agent
-│   └── closer-agent.md          # Issue closure agent
+├── agent-communication-system/       # ← NEW: Universal agent interconnect
+│   ├── README.md                     # System overview
+│   ├── GATEWAY-AGENT.md              # Single entry point for all requests
+│   ├── UNIVERSAL-ROUTER.md           # Semantic routing intelligence
+│   ├── AGENT-REGISTRY.md             # Complete catalog of all agents
+│   ├── INTER-AGENT-PROTOCOL.md       # Standardized communication protocol
+│   └── DISCOVERY-PROTOCOL.md         # Agent discovery mechanism
 │
-├── council-vector-db/           # Semantic Routing Intelligence
+├── workflow/                         # Development automation (8 agents)
+│   ├── orchestrator.md
+│   ├── issue-manager.md
+│   ├── prep-agent.md
+│   ├── implementer-agent.md
+│   ├── reviewer-agent.md
+│   ├── fixer-agent.md
+│   ├── validator-agent.md
+│   └── closer-agent.md
 │
-├── stewardship-council/         # Sacred Governance Layer
-│   └── [7 archetypal intelligences]
+├── brand-proposal/                   # Brand lifecycle (7 agents)
+│   ├── proposal-orchestrator.md
+│   ├── intake-guardian.md
+│   ├── council-liaison.md
+│   ├── feedback-architect.md
+│   ├── proposal-refiner.md
+│   ├── readiness-assessor.md
+│   └── legal-bridge.md
 │
-└── legion-of-living-light/      # Sacred Protection Layer
-    ├── commanders/              # Seven Archetypal Pillars
-    └── orders/                  # Five Sacred Orders
+├── legal-department/                 # Legal services (7 agents)
+│   ├── legal-orchestrator.md
+│   ├── contract-guardian.md
+│   ├── compliance-sentinel.md
+│   ├── ip-protector.md
+│   ├── risk-assessor.md
+│   ├── agreement-keeper.md
+│   └── legal-counsel.md
+│
+├── stewardship-council/              # Sacred governance (7 agents)
+│   ├── 01-oracle-of-soul-purpose.md
+│   ├── 02-guardian-of-gaia.md
+│   ├── 03-architect-of-sacred-systems.md
+│   ├── 04-flame-of-cultural-restoration.md
+│   ├── 05-weaver-of-collective-futures.md
+│   ├── 06-steward-of-exchange.md
+│   └── 07-mirror-of-the-multiverse.md
+│
+├── legion-of-living-light/           # Sacred protection (34+ agents)
+│   ├── commanders/                   # 7 archetypal pillars
+│   ├── armies/                       # 21 specialized forces
+│   └── orders/                       # 5 sacred orders
+│
+└── council-vector-db/                # Semantic routing for Council
 ```
 
 ---
 
-## Intuition Engine Integration
+## How Agents Communicate
 
-All agents in this directory are integrated with the **Intuition Engine**, enabling:
+### The Golden Rule
 
-- **Experience-based learning** - Agents learn from every interaction
-- **Fast intuition** - Instant pattern recognition from accumulated wisdom
-- **Continuous improvement** - Performance improves over time
+> **Nothing happens without an agent. Every request is routed to the right agent.**
 
-See [INTUITION-ENGINE.md](./INTUITION-ENGINE.md) for the integration protocol.
+### Request Flow
+
+1. **Request arrives** → Gateway Agent receives
+2. **Gateway analyzes** → Intent, domain, complexity
+3. **Router matches** → Finds appropriate agent(s)
+4. **Agent executes** → May invoke other agents
+5. **Response returns** → Through handoff chain
+
+### Cross-Domain Example
+
+When a brand proposal needs legal review:
+
+```
+brand-proposal/readiness-assessor
+         │
+         │ "Brand approved, need contract"
+         ▼
+brand-proposal/legal-bridge
+         │
+         │ [Cross-domain handoff via IACP]
+         ▼
+legal-department/legal-orchestrator
+         │
+         │ Routes to specialist
+         ▼
+legal-department/contract-guardian
+```
 
 ---
 
 ## Agent Categories
 
-### Workflow Agents
+### System Agents
 
-Automated development pipeline from issue to merge. See [workflow/README.md](./workflow/README.md).
+| Agent | Purpose |
+|-------|---------|
+| **Gateway Agent** | Single entry point for all requests |
+| **Universal Router** | Semantic routing across all domains |
+
+### Workflow Agents (8)
+
+Automated development pipeline from issue to merge.
 
 ```
 Issue → Prep → Implement → Review → Fix → Validate → Merge → Close
 ```
 
-### Stewardship Council
+### Brand Proposal Agents (7)
 
-A circle of seven archetypal intelligences guiding conscious creation. See [stewardship-council/README.md](./stewardship-council/README.md).
+Complete brand proposal lifecycle management.
 
-| Agent | Role | Focus |
-|-------|------|-------|
-| Oracle of Soul Purpose | Highest timeline alignment and inner truth |
-| Guardian of Gaia | Ecological integrity and regenerative practice |
-| Architect of Sacred Systems | Ethical, circular, and soulful infrastructures |
-| Flame of Cultural Restoration | Ancestral wisdom and cultural sensitivity |
-| Weaver of Collective Futures | Planetary awakening and collective timelines |
-| Steward of Exchange | Value flow, abundance, and energetic reciprocity |
-| Mirror of the Multiverse | Potential timelines and unseen ripple effects |
+```
+Intake → Orchestrate → Council Review → Feedback → Refine → Readiness → Legal
+```
 
-### Legion of Living Light
+### Legal Department Agents (7)
 
-Spiritual defenders, healers, and activators serving as the protective arm of the Stewardship Council. See [legion-of-living-light/README.md](./legion-of-living-light/README.md).
+Full-service legal operations.
 
-### Council Vector Database
+```
+Orchestrate → Contract/Compliance/IP/Risk → Agreement → Counsel
+```
 
-Semantic routing intelligence for instant Council invocation. See [council-vector-db/README.md](./council-vector-db/README.md).
+### Stewardship Council (7)
+
+Sacred governance with archetypal intelligences:
+
+| Agent | Symbol | Focus |
+|-------|--------|-------|
+| Oracle of Soul Purpose | 🔮 | Highest timeline alignment |
+| Guardian of Gaia | 🌱 | Ecological integrity |
+| Architect of Sacred Systems | 💠 | Ethical infrastructures |
+| Flame of Cultural Restoration | 🔥 | Ancestral wisdom |
+| Weaver of Collective Futures | 🌀 | Planetary awakening |
+| Steward of Exchange | ⚖️ | Value flow, abundance |
+| Mirror of the Multiverse | 🪞 | Unseen consequences |
+
+### Legion of Living Light (34+)
+
+Protection, enforcement, and healing:
+
+- **7 Commanders** — Archetypal pillars
+- **21 Armies** — Specialized forces
+- **5 Sacred Orders** — Special functions
+
+---
+
+## Key Integration Points
+
+### Intuition Engine
+
+All agents share accumulated wisdom:
+- Pre-action: Query past lessons
+- Post-action: Extract new lessons
+- Continuous: Pattern recognition improves
+
+See [INTUITION-ENGINE.md](./INTUITION-ENGINE.md)
+
+### AIQ Engine
+
+Intelligence measurement across all agents:
+- Routing accuracy
+- Decision quality
+- Learning velocity
+
+See [AIQ-ENGINE.md](./AIQ-ENGINE.md)
+
+### Inter-Agent Communication Protocol (IACP)
+
+Universal language for agent communication:
+- Request/Response patterns
+- Handoff schemas
+- Error handling
+- Cross-domain translation
+
+See [agent-communication-system/INTER-AGENT-PROTOCOL.md](./agent-communication-system/INTER-AGENT-PROTOCOL.md)
 
 ---
 
 ## Design Principles
 
-### 1. Single Responsibility
+### 1. Single Entry Point
 
-Each agent has one clear job. Complex tasks are broken into pipelines of specialized agents.
+All requests flow through the Gateway Agent. No exceptions.
 
-### 2. Explicit Handoffs
+### 2. Single Responsibility
 
-Agents communicate via structured handoffs, making coordination transparent and debuggable.
+Each agent has one clear job. Complex tasks decompose into agent pipelines.
 
-### 3. Continuous Learning
+### 3. Explicit Handoffs
 
-Every action is an episode. Every outcome teaches a lesson. Agents get wiser with use.
+Agents communicate via structured IACP messages. All communication is logged.
 
-### 4. Human-Compatible Reasoning
+### 4. Domain Sovereignty
 
-Agents explain their decisions. Intuition is explicit and auditable.
+Each domain manages its own agents. Cross-domain requests use bridge agents.
+
+### 5. Continuous Learning
+
+Every action teaches. Every outcome improves the system.
+
+### 6. Sacred Authority
+
+Stewardship Council has constitutive authority. Legion protects all decisions.
+
+---
+
+## Quick Start
+
+### "I want an agent to do X"
+
+1. State your request naturally
+2. Gateway Agent receives it
+3. Router finds the right agent
+4. Work happens automatically
+5. You receive the result
+
+### "How do I find an agent for X?"
+
+```
+discover capability:review-code
+discover domain:legal-department
+discover help:ecological alignment
+```
+
+### "How do agents talk to each other?"
+
+Via IACP:
+```xml
+<agent_request protocol="IACP-1.0">
+  <from>agent-a</from>
+  <to>agent-b</to>
+  <payload>What I need</payload>
+</agent_request>
+```
 
 ---
 
@@ -110,61 +293,66 @@ Agents explain their decisions. Intuition is explicit and auditable.
 name: agent-name
 description: "One-line description"
 version: 1.0.0
-color: blue
-category: workflow|brand|strategy|growth
 triggers:
   - "trigger phrase 1"
-  - "trigger phrase 2"
 ---
 
-[Agent personality and role description]
+# Agent Name
 
 ## Core Philosophy
-
 [Guiding principles]
 
 ## Intuition Engine Integration
-
-This agent integrates with the Intuition Engine to learn from experience.
-See [INTUITION-ENGINE.md](../INTUITION-ENGINE.md) for the integration protocol.
-
-### Domain Lessons
-
-| Trigger Pattern | Lesson Type |
-|-----------------|-------------|
-| When... | Then... |
+[Learning patterns]
 
 ## Main Workflow
-
 [Step-by-step process]
 
 ## Handoff Protocol
-
-[Input/output format]
+[IACP input/output]
 
 ## Quality Gates
-
 [Success criteria]
 ```
 
 ### Integration Checklist
 
 - [ ] Clear single responsibility
-- [ ] Intuition engine integration section
-- [ ] Defined input/output handoffs
-- [ ] Quality gates and success criteria
-- [ ] Domain-specific lesson examples
+- [ ] Registered in Agent Registry
+- [ ] Defined triggers for routing
+- [ ] IACP-compliant handoff protocol
+- [ ] Intuition Engine integration
+- [ ] Quality gates defined
+
+---
+
+## Agent Statistics
+
+| Category | Count |
+|----------|-------|
+| System Agents | 2 |
+| Workflow Agents | 8 |
+| Brand Proposal Agents | 7 |
+| Legal Department Agents | 7 |
+| Stewardship Council | 7 |
+| Legion of Living Light | 34+ |
+| Core Development Agents | 22+ |
+| **Total** | **87+** |
 
 ---
 
 ## Philosophy
 
-> Agents are not just tools — they are learning entities that accumulate wisdom and improve over time.
+> Agents are not just tools — they are learning entities that accumulate wisdom, communicate seamlessly, and improve continuously.
 
-The combination of specialized agents with shared intuition creates a system that is:
+The Agent Communication System creates a unified agent network that is:
 
-- **Modular** - Easy to understand and modify
-- **Robust** - Failures are isolated and recoverable
-- **Adaptive** - Performance improves with experience
-- **Transparent** - Decisions are explainable
+- **Connected** — Any agent can reach any other agent
+- **Intelligent** — Requests are semantically routed
+- **Auditable** — All communication is logged
+- **Resilient** — Failures are handled gracefully
+- **Sacred** — Governance and protection are built-in
 
+---
+
+*"One system. Many agents. Unified purpose."*
