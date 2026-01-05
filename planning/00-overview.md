@@ -194,6 +194,77 @@ flowchart TB
 
 ---
 
+## Intelligence Systems
+
+The Factory operates with two complementary intelligence systems that make wisdom visible and measurable:
+
+```mermaid
+flowchart LR
+    subgraph INTUITION["🧠 INTUITION ENGINE"]
+        IE["Experience-Based Learning"]
+        IL["Lesson Memory"]
+        IE --> IL
+    end
+
+    subgraph AIQ["📊 AIQ ENGINE"]
+        AM["Intelligence Measurement"]
+        AR["AIQ Reporting"]
+        AM --> AR
+    end
+
+    subgraph AGENTS["🤖 AGENTS"]
+        AG["All Factory Agents"]
+    end
+
+    INTUITION --> AGENTS
+    AGENTS --> AIQ
+    AIQ -.->|"Quality feedback"| INTUITION
+
+    style INTUITION fill:#9b59b6,stroke:#8e44ad,color:#fff
+    style AIQ fill:#3498db,stroke:#2980b9,color:#fff
+    style AGENTS fill:#27ae60,stroke:#1e8449,color:#fff
+```
+
+### Intuition Engine
+*"What have we learned?"*
+
+The Intuition Engine captures experience, extracts lessons, and provides fast intuitive guidance for decisions. Every action teaches; every decision draws from accumulated wisdom.
+
+**See:** [Intuition Engine Architecture](./intuition-engine/00-architecture-overview.md)
+
+### AIQ Engine (Artificial Intelligence Quotient)
+*"How intelligently are we applying what we know?"*
+
+The AIQ Engine measures, tracks, and reports the level of intelligence being leveraged through every decision. It makes the invisible cognitive layer visible and improvable.
+
+**Six Dimensions Measured:**
+| Dimension | Weight | What It Captures |
+|-----------|--------|------------------|
+| Reasoning Depth | 25% | Causal analysis, inference chains |
+| Pattern Recognition | 20% | Cross-domain analogies, trend detection |
+| Context Integration | 20% | Stakeholder awareness, system thinking |
+| Creativity | 15% | Novel solutions, alternative generation |
+| Adaptability | 10% | Response to change, course correction |
+| Self-Reflection | 10% | Meta-cognition, uncertainty acknowledgment |
+
+**Intelligence Levels (0-1000 scale):**
+- **Reactive** (0-100) → Simple stimulus-response
+- **Procedural** (101-250) → Following patterns
+- **Analytical** (251-400) → Breaking down problems
+- **Synthetic** (401-550) → Combining insights
+- **Strategic** (551-700) → Planning and anticipating
+- **Creative** (701-850) → Novel solutions
+- **Visionary** (851-950) → Systems-level insight
+- **Transcendent** (951-1000) → Wisdom integration
+
+**See:** [AIQ Engine Architecture](./aiq-engine/00-architecture-overview.md)
+
+### Synergy
+
+High AIQ decisions produce better lessons for the Intuition Engine. Rich intuition enables higher AIQ decisions. Together, they create a self-improving intelligence system aligned with Council wisdom.
+
+---
+
 ## Document Relationships
 
 | Document | Purpose |
@@ -204,6 +275,8 @@ flowchart TB
 | [Risks & Resilience](./03-risks-and-resilience.md) | Adaptive risk framework |
 | [Council Integration](./04-council-integration-framework.md) | Central governance structure |
 | [Stewardship Council](./agents/stewardship-council/README.md) | Seven archetypal intelligences |
+| [Intuition Engine](./intuition-engine/00-architecture-overview.md) | Experience-based learning system |
+| [AIQ Engine](./aiq-engine/00-architecture-overview.md) | Intelligence measurement and reporting |
 
 ---
 
