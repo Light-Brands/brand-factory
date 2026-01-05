@@ -1183,6 +1183,190 @@ All agents with authority: "operational"
 
 ---
 
+### Domain: saas-spec-generator
+
+High-intention SaaS business development and specification generation agents.
+
+| ID | Name | Capabilities | Triggers |
+|----|------|--------------|----------|
+| `saas-spec-generator/idea-evaluator` | SaaS Idea Evaluator | sacred-alignment-check, viability-assessment, values-scoring | "evaluate SaaS idea", "validate business idea" |
+| `saas-spec-generator/market-analyst` | Market Analyst | competitor-research, positioning-strategy, gap-analysis | "analyze market", "competitive landscape" |
+| `saas-spec-generator/mvp-architect` | MVP Architect | feature-prioritization, code-budgeting, technical-design | "design MVP", "architect product" |
+| `saas-spec-generator/phase-planner` | Phase Planner | traction-triggers, expansion-planning, pivot-criteria | "plan phases", "expansion roadmap" |
+| `saas-spec-generator/spec-synthesizer` | Spec Synthesizer | spec-generation, brand-factory-integration, document-compilation | "generate spec", "synthesize specification" |
+
+```yaml
+# saas-spec-generator/idea-evaluator
+agent:
+  id: "saas-spec-generator/idea-evaluator"
+  name: "SaaS Idea Evaluator"
+  domain: "saas-spec-generator"
+  group: "saas-biz-dev"
+  description: "Validates SaaS ideas against Sacred Laws and viability criteria"
+  version: "1.0.0"
+  capabilities:
+    - sacred-law-alignment-check
+    - council-value-assessment
+    - viability-scoring
+    - complexity-estimation
+    - go-no-go-recommendation
+  triggers:
+    - "evaluate this SaaS idea"
+    - "is this SaaS viable"
+    - "check SaaS alignment"
+    - "validate business idea"
+    - "assess SaaS concept"
+  accepts:
+    - saas-idea-intake
+    - business-concept
+  produces:
+    - alignment-score
+    - viability-assessment
+    - council-review-tier
+    - risk-list
+  dependencies:
+    - saas-spec-generator/market-analyst
+    - stewardship-council/*
+  authority_level: "operational"
+  path: "saas-spec-generator/01-idea-evaluator.md"
+
+# saas-spec-generator/market-analyst
+agent:
+  id: "saas-spec-generator/market-analyst"
+  name: "Market Analyst"
+  domain: "saas-spec-generator"
+  group: "saas-biz-dev"
+  description: "Analyzes competitive landscape and develops positioning strategy"
+  version: "1.0.0"
+  capabilities:
+    - competitor-identification
+    - feature-comparison
+    - pricing-analysis
+    - gap-identification
+    - positioning-strategy
+    - differentiation-planning
+  triggers:
+    - "analyze the market for"
+    - "research competitors for"
+    - "market positioning for"
+    - "competitive landscape"
+    - "market analysis"
+  accepts:
+    - validated-idea
+    - evaluation-context
+  produces:
+    - market-definition
+    - competitive-landscape
+    - positioning-statement
+    - market-entry-strategy
+  dependencies:
+    - saas-spec-generator/mvp-architect
+  authority_level: "operational"
+  path: "saas-spec-generator/02-market-analyst.md"
+
+# saas-spec-generator/mvp-architect
+agent:
+  id: "saas-spec-generator/mvp-architect"
+  name: "MVP Architect"
+  domain: "saas-spec-generator"
+  group: "saas-biz-dev"
+  description: "Designs minimal viable product within strict code budget"
+  version: "1.0.0"
+  capabilities:
+    - problem-crystallization
+    - feature-ruthless-prioritization
+    - technical-stack-selection
+    - code-budget-allocation
+    - sovereignty-architecture
+    - api-design
+  triggers:
+    - "design MVP for"
+    - "architect minimal product"
+    - "create MVP specification"
+    - "build minimal viable"
+    - "design SaaS architecture"
+  accepts:
+    - positioned-idea
+    - market-context
+  produces:
+    - mvp-specification
+    - technical-architecture
+    - code-budget-allocation
+    - feature-set
+  dependencies:
+    - saas-spec-generator/phase-planner
+  authority_level: "operational"
+  path: "saas-spec-generator/03-mvp-architect.md"
+
+# saas-spec-generator/phase-planner
+agent:
+  id: "saas-spec-generator/phase-planner"
+  name: "Phase Planner"
+  domain: "saas-spec-generator"
+  group: "saas-biz-dev"
+  description: "Creates traction-triggered expansion roadmaps"
+  version: "1.0.0"
+  capabilities:
+    - validation-phase-design
+    - traction-trigger-definition
+    - expansion-planning
+    - pivot-criteria-setting
+    - sunset-criteria-setting
+    - feedback-system-design
+  triggers:
+    - "plan SaaS phases"
+    - "create expansion roadmap"
+    - "phase planning for"
+    - "traction-based roadmap"
+    - "growth phases"
+  accepts:
+    - mvp-specification
+    - market-context
+  produces:
+    - phase-plan
+    - traction-triggers
+    - pivot-criteria
+    - code-budget-progression
+  dependencies:
+    - saas-spec-generator/spec-synthesizer
+  authority_level: "operational"
+  path: "saas-spec-generator/04-phase-planner.md"
+
+# saas-spec-generator/spec-synthesizer
+agent:
+  id: "saas-spec-generator/spec-synthesizer"
+  name: "Spec Synthesizer"
+  domain: "saas-spec-generator"
+  group: "saas-biz-dev"
+  description: "Generates Brand Factory-ready specification packages"
+  version: "1.0.0"
+  capabilities:
+    - artifact-collection
+    - document-generation
+    - module-manifest-creation
+    - acceptance-criteria-compilation
+    - council-package-preparation
+  triggers:
+    - "generate SaaS spec"
+    - "synthesize spec package"
+    - "create brand factory spec"
+    - "finalize SaaS specification"
+    - "compile spec documents"
+  accepts:
+    - all-prior-artifacts
+    - output-options
+  produces:
+    - complete-spec-package
+    - module-manifest
+    - council-review-package
+  dependencies:
+    - brand-proposal/council-liaison
+  authority_level: "operational"
+  path: "saas-spec-generator/05-spec-synthesizer.md"
+```
+
+---
+
 ## Agent Statistics
 
 | Category | Count |
@@ -1190,12 +1374,13 @@ All agents with authority: "operational"
 | **Workflow Agents** | 8 |
 | **Brand Proposal Agents** | 7 |
 | **Legal Department Agents** | 7 |
+| **SaaS Spec Generator Agents** | 5 |
 | **Stewardship Council** | 7 |
 | **Legion Commanders** | 7 |
 | **Legion Armies** | 21 |
 | **Legion Orders** | 5 |
 | **Core Development Agents** | 22+ |
-| **Total Agents** | **84+** |
+| **Total Agents** | **89+** |
 
 ---
 
