@@ -1183,6 +1183,259 @@ All agents with authority: "operational"
 
 ---
 
+### Domain: consulting-services
+
+Client-facing consulting arm agents for revenue generation and service delivery.
+
+| ID | Name | Capabilities | Triggers |
+|----|------|--------------|----------|
+| `consulting-services/consulting-orchestrator` | Consulting Orchestrator | coordinate-engagements, route-clients, revenue-tracking | "new consulting client", "consulting engagement" |
+| `consulting-services/discovery-agent` | Discovery Agent | qualify-clients, discovery-calls, need-assessment | "qualify client", "discovery call" |
+| `consulting-services/strategy-architect` | Strategy Architect | ai-blueprint, business-audit, roadmap-creation | "ai strategy", "ai blueprint" |
+| `consulting-services/implementation-lead` | Implementation Lead | ai-implementation, system-building, sprint-delivery | "ai implementation", "implementation sprint" |
+| `consulting-services/story-excavator` | Story Excavator | story-creation, book-development, narrative-architecture | "story creation", "book project", "breath of life" |
+| `consulting-services/revenue-optimizer` | Revenue Optimizer | upsell-identification, pricing-strategy, deal-structuring | "upsell opportunity", "pricing strategy" |
+| `consulting-services/client-success` | Client Success Agent | relationship-nurturing, case-studies, referral-generation | "client relationship", "case study" |
+
+```yaml
+# consulting-services/consulting-orchestrator
+agent:
+  id: "consulting-services/consulting-orchestrator"
+  name: "Consulting Orchestrator"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Central coordinator for all consulting engagements and revenue operations"
+  version: "1.0.0"
+  capabilities:
+    - coordinate-engagements
+    - route-to-service-tracks
+    - monitor-engagement-health
+    - track-revenue-pipeline
+    - manage-client-journey
+  triggers:
+    - "new consulting client"
+    - "consulting engagement"
+    - "client intake"
+    - "route consulting"
+  accepts:
+    - consulting-intake
+    - qualification-complete
+    - delivery-complete
+    - upsell-trigger
+  produces:
+    - track-assignment
+    - engagement-status
+    - revenue-report
+  dependencies:
+    - consulting-services/discovery-agent
+    - consulting-services/strategy-architect
+    - consulting-services/implementation-lead
+    - consulting-services/story-excavator
+    - consulting-services/revenue-optimizer
+    - consulting-services/client-success
+  authority_level: "executive"
+  path: "consulting-services/consulting-orchestrator.md"
+
+# consulting-services/discovery-agent
+agent:
+  id: "consulting-services/discovery-agent"
+  name: "Discovery Agent"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Client qualification, need assessment, and discovery call facilitation"
+  version: "1.0.0"
+  capabilities:
+    - qualify-bant
+    - conduct-discovery-calls
+    - assess-client-needs
+    - score-opportunities
+    - recommend-service-track
+  triggers:
+    - "qualify client"
+    - "discovery call"
+    - "client intake"
+    - "assess prospect"
+  accepts:
+    - inquiry-intake
+    - client-information
+  produces:
+    - qualification-score
+    - discovery-summary
+    - track-recommendation
+  dependencies:
+    - consulting-services/consulting-orchestrator
+  authority_level: "operational"
+  path: "consulting-services/discovery-agent.md"
+
+# consulting-services/strategy-architect
+agent:
+  id: "consulting-services/strategy-architect"
+  name: "Strategy Architect"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Creates AI Business Acceleration Blueprints and strategic roadmaps"
+  version: "1.0.0"
+  capabilities:
+    - conduct-business-audit
+    - identify-ai-opportunities
+    - recommend-tool-stack
+    - create-90-day-roadmap
+    - deliver-blueprint
+  triggers:
+    - "ai strategy"
+    - "ai blueprint"
+    - "strategy engagement"
+    - "ai roadmap"
+  accepts:
+    - track-assignment
+    - discovery-summary
+  produces:
+    - ai-blueprint
+    - opportunity-matrix
+    - tool-recommendations
+    - implementation-roadmap
+  dependencies:
+    - consulting-services/consulting-orchestrator
+    - consulting-services/revenue-optimizer
+  authority_level: "operational"
+  path: "consulting-services/strategy-architect.md"
+
+# consulting-services/implementation-lead
+agent:
+  id: "consulting-services/implementation-lead"
+  name: "Implementation Lead"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Leads AI Implementation Sprints and builds client AI solutions"
+  version: "1.0.0"
+  capabilities:
+    - build-gpt-agents
+    - deploy-website-ai
+    - create-marketing-automation
+    - configure-crm-workflows
+    - deliver-team-training
+  triggers:
+    - "ai implementation"
+    - "implementation sprint"
+    - "build ai solution"
+    - "ai project"
+  accepts:
+    - track-assignment
+    - blueprint-deliverable
+    - implementation-sow
+  produces:
+    - implemented-systems
+    - training-materials
+    - documentation
+    - handoff-package
+  dependencies:
+    - consulting-services/consulting-orchestrator
+    - consulting-services/client-success
+  authority_level: "operational"
+  path: "consulting-services/implementation-lead.md"
+
+# consulting-services/story-excavator
+agent:
+  id: "consulting-services/story-excavator"
+  name: "Story Excavator"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Leads the flagship 'Breath of Life' story and book creation product"
+  version: "1.0.0"
+  capabilities:
+    - excavate-story
+    - architect-narrative
+    - develop-book-outline
+    - generate-first-draft
+    - create-content-engine
+  triggers:
+    - "story creation"
+    - "book project"
+    - "breath of life"
+    - "author journey"
+  accepts:
+    - track-assignment
+    - client-background
+  produces:
+    - narrative-architecture
+    - book-outline
+    - manuscript-draft
+    - content-engine
+    - brand-voice-guide
+  dependencies:
+    - consulting-services/consulting-orchestrator
+    - consulting-services/client-success
+  authority_level: "operational"
+  path: "consulting-services/story-excavator.md"
+
+# consulting-services/revenue-optimizer
+agent:
+  id: "consulting-services/revenue-optimizer"
+  name: "Revenue Optimizer"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Identifies upsell paths, optimizes pricing, and maximizes client lifetime value"
+  version: "1.0.0"
+  capabilities:
+    - identify-upsell-opportunities
+    - structure-deals
+    - optimize-pricing
+    - manage-pipeline
+    - forecast-revenue
+  triggers:
+    - "upsell opportunity"
+    - "pricing strategy"
+    - "revenue optimization"
+    - "deal structure"
+  accepts:
+    - engagement-milestone
+    - delivery-complete
+    - client-signals
+  produces:
+    - upsell-proposal
+    - pricing-recommendation
+    - pipeline-report
+    - revenue-forecast
+  dependencies:
+    - consulting-services/consulting-orchestrator
+  authority_level: "operational"
+  path: "consulting-services/revenue-optimizer.md"
+
+# consulting-services/client-success
+agent:
+  id: "consulting-services/client-success"
+  name: "Client Success Agent"
+  domain: "consulting-services"
+  group: "consulting-agents"
+  description: "Manages ongoing client relationships, case studies, and referral generation"
+  version: "1.0.0"
+  capabilities:
+    - nurture-relationships
+    - capture-case-studies
+    - collect-testimonials
+    - generate-referrals
+    - manage-retainers
+  triggers:
+    - "client relationship"
+    - "case study"
+    - "testimonial"
+    - "client check-in"
+  accepts:
+    - delivery-complete
+    - client-transition
+  produces:
+    - case-study
+    - testimonial
+    - referral
+    - client-health-report
+  dependencies:
+    - consulting-services/revenue-optimizer
+  authority_level: "operational"
+  path: "consulting-services/client-success.md"
+```
+
+---
+
 ### Domain: saas-spec-generator
 
 High-intention SaaS business development and specification generation agents.
@@ -1374,13 +1627,14 @@ agent:
 | **Workflow Agents** | 8 |
 | **Brand Proposal Agents** | 7 |
 | **Legal Department Agents** | 7 |
+| **Consulting Services Agents** | 7 |
 | **SaaS Spec Generator Agents** | 5 |
 | **Stewardship Council** | 7 |
 | **Legion Commanders** | 7 |
 | **Legion Armies** | 21 |
 | **Legion Orders** | 5 |
 | **Core Development Agents** | 22+ |
-| **Total Agents** | **89+** |
+| **Total Agents** | **96+** |
 
 ---
 
