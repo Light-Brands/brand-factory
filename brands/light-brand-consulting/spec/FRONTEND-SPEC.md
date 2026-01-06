@@ -52,36 +52,96 @@ import {
 
 ### Brand Adaptation
 
-While maintaining Onyx's dark-mode-first aesthetic, Light Brand Consulting introduces warmth through strategic use of:
+Light Brand Consulting uses a **unique Illumination Palette** that differentiates from other brands while maintaining compatibility with the Onyx Design System. Our colors embody the concept of "light emerging from depth" — warm, luminous accents against sophisticated dark backgrounds.
 
-| Token | Usage | Consulting Context |
-|-------|-------|-------------------|
-| `gold-accent` | Primary CTA, premium indicators | "Illumination" moments |
-| `aqua-light` | Secondary actions, guides | AI/clarity themes |
-| `moonlight` | Primary text | Clear communication |
-| `abyss-base` | Background | Professional depth |
+See: `/spec/brand/01-visual-identity.md` for complete color specifications.
+
+#### Primary Palette — Radiance Scale (Accent Colors)
+
+| Token | Hex | Usage | Meaning |
+|-------|-----|-------|---------|
+| `radiance-gold` | `#E8B84A` | Primary CTAs, illumination moments | Breakthrough insights, clarity |
+| `radiance-amber` | `#D4944C` | Hover states, active interactions | Sustained illumination |
+| `radiance-warm` | `#C67D4E` | Tertiary accents, gradients | Human warmth, connection |
+
+#### Secondary Palette — Clarity Scale
+
+| Token | Hex | Usage | Meaning |
+|-------|-----|-------|---------|
+| `clarity-cream` | `#FDF6E3` | Premium highlights, special text | Pure clarity, revelation |
+| `clarity-soft` | `#F5E6C8` | Subtle highlights | Soft illumination |
+| `clarity-muted` | `#D9C9A5` | Borders, secondary elements | Gentle guidance |
+
+#### Intelligence Palette — Wisdom Scale (AI Features)
+
+| Token | Hex | Usage | Meaning |
+|-------|-----|-------|---------|
+| `wisdom-violet` | `#8B7EC8` | AI elements, intelligence indicators | Deep insight, AI wisdom |
+| `wisdom-soft` | `#A599D4` | Secondary AI accents | Supported intelligence |
+
+#### Background Palette — Depth Scale
+
+| Token | Hex | Usage | Contrast |
+|-------|-----|-------|----------|
+| `depth-base` | `#0F0E0D` | Page backgrounds | 18.5:1 (AAA) |
+| `depth-elevated` | `#151413` | Cards, modals | 16.8:1 (AAA) |
+| `depth-surface` | `#1C1A18` | Hover states | 14.6:1 (AAA) |
+| `depth-border` | `#2A2724` | Borders, dividers | 10.2:1 (AAA) |
+
+#### Text Palette — Warm Moonlight
+
+| Token | Hex | Usage | Contrast |
+|-------|-----|-------|----------|
+| `text-primary` | `#F8F5F0` | Headings, primary content | 18.2:1 (AAA) |
+| `text-secondary` | `#E5E0D8` | Body text, descriptions | 15.1:1 (AAA) |
+| `text-muted` | `#A8A299` | Captions, metadata | 7.8:1 (AA) |
+
+#### Design System Token Mapping
+
+| Onyx Token | Light Brand Token |
+|------------|-------------------|
+| `aqua-light` | `radiance-gold` |
+| `aqua-medium` | `radiance-amber` |
+| `teal-light` | `wisdom-violet` |
+| `gold-accent` | `clarity-cream` |
+| `abyss-base` | `depth-base` |
+| `abyss-mystic` | `depth-elevated` |
+| `abyss-light` | `depth-surface` |
+| `abyss-lighter` | `depth-border` |
+| `moonlight` | `text-primary` |
+| `moonlight-soft` | `text-secondary` |
+| `moonlight-muted` | `text-muted` |
 
 ### Typography Hierarchy
 
 ```css
 /* Hero statements - The Light Brand promise */
 .hero-statement {
-  @apply text-4xl md:text-6xl font-black tracking-ultra-wide text-moonlight;
+  @apply text-4xl md:text-6xl font-black tracking-tight text-text-primary;
+}
+
+.hero-statement .highlight {
+  @apply text-radiance-gold;
 }
 
 /* Section headers - Service introductions */
 .section-header {
-  @apply text-3xl font-bold tracking-tight text-moonlight;
+  @apply text-3xl font-bold tracking-tight text-text-primary;
 }
 
 /* Body content - Explanatory text */
 .body-content {
-  @apply text-base font-normal text-moonlight-soft leading-relaxed;
+  @apply text-base font-normal text-text-secondary leading-relaxed;
 }
 
-/* Emphasis - Key insights */
+/* Emphasis - Key insights, illumination moments */
 .emphasis {
-  @apply text-lg font-semibold text-gold-accent;
+  @apply text-lg font-semibold text-radiance-gold;
+}
+
+/* AI/Wisdom elements */
+.wisdom-text {
+  @apply text-wisdom-violet;
 }
 ```
 
@@ -124,25 +184,31 @@ lightbrandconsulting.com/
 
 **Hero Section**
 ```tsx
-<section className="min-h-screen bg-abyss-base flex flex-col justify-center px-8 md:px-16">
-  <div className="max-w-4xl">
-    <Tag variant="premium" className="mb-6">AI Consulting</Tag>
+<section className="min-h-screen bg-depth-base relative overflow-hidden flex flex-col justify-center px-8 md:px-16">
+  {/* Illumination glow effect */}
+  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px]
+                  bg-radial-gradient from-radiance-gold/8 to-transparent blur-3xl pointer-events-none" />
+
+  <div className="relative z-10 max-w-4xl">
+    <Tag variant="premium" className="mb-6 bg-radiance-gold/15 text-radiance-gold border-radiance-gold/30">
+      AI Consulting
+    </Tag>
 
     <h1 className="hero-statement mb-8">
       Let us help you see your
-      <span className="text-gold-accent"> fullest capacity</span>
+      <span className="text-radiance-gold"> fullest capacity</span>
     </h1>
 
-    <p className="text-xl text-moonlight-soft mb-12 max-w-2xl">
+    <p className="text-xl text-text-secondary mb-12 max-w-2xl leading-relaxed">
       Transform your business into an AI super intelligence.
       Light consulting creates capacity, not dependency.
     </p>
 
     <div className="flex gap-4">
-      <Button variant="primary" size="lg">
+      <Button variant="primary" size="lg" className="bg-gradient-to-br from-radiance-gold to-radiance-amber text-depth-base shadow-lg shadow-radiance-gold/25 hover:shadow-xl">
         Book Illumination Session
       </Button>
-      <Button variant="ghost" size="lg">
+      <Button variant="secondary" size="lg" className="border-clarity-muted text-clarity-cream hover:bg-clarity-cream/8">
         Explore Services
       </Button>
     </div>
@@ -152,20 +218,21 @@ lightbrandconsulting.com/
 
 **The Capacity Gap Visualization**
 ```tsx
-<Card elevation="subtle" className="p-12">
-  <h2 className="text-2xl font-bold text-moonlight mb-8">
+<Card elevation="subtle" className="p-12 bg-depth-elevated border-depth-border">
+  <h2 className="text-2xl font-bold text-text-primary mb-8">
     The Capacity Gap
   </h2>
 
   <CapacityGapDiagram
     stages={[
-      { label: "Where You Are", icon: "current", color: "moonlight-muted" },
-      { label: "The Gap", icon: "bridge", color: "gold-accent", glow: true },
-      { label: "Fullest Capacity", icon: "star", color: "aqua-light" }
+      { label: "Where You Are", icon: "current", color: "text-muted" },
+      { label: "The Gap", icon: "bridge", color: "radiance-gold", glow: true },
+      { label: "Fullest Capacity", icon: "star", color: "clarity-cream" }
     ]}
+    bridgeGradient="from-text-muted via-radiance-gold to-clarity-cream"
   />
 
-  <p className="text-moonlight-soft mt-8">
+  <p className="text-text-secondary mt-8">
     2024-2026 is the strategic moment. Like 1995 for the web,
     like 2008 for mobile. The question isn't if—it's how fast.
   </p>
@@ -226,21 +293,27 @@ lightbrandconsulting.com/
 
 **Lead Capture - Newsletter**
 ```tsx
-<Card className="bg-gradient-to-r from-abyss-mystic to-abyss-base p-8">
-  <h3 className="text-xl font-bold text-moonlight mb-4">
+<Card className="bg-gradient-to-r from-depth-elevated to-depth-base p-8 border border-depth-border relative overflow-hidden">
+  {/* Subtle illumination accent */}
+  <div className="absolute top-0 right-0 w-32 h-32 bg-radiance-gold/5 blur-3xl" />
+
+  <h3 className="text-xl font-bold text-text-primary mb-4 relative z-10">
     Weekly Illuminations
   </h3>
-  <p className="text-moonlight-soft mb-6">
+  <p className="text-text-secondary mb-6 relative z-10">
     AI insights for business leaders. No jargon, just clarity.
   </p>
 
-  <form className="flex gap-4">
+  <form className="flex gap-4 relative z-10">
     <Input
       type="email"
       placeholder="your@email.com"
-      className="flex-1"
+      className="flex-1 bg-depth-surface border-depth-border text-text-primary
+                 placeholder:text-text-muted focus:border-radiance-gold focus:ring-radiance-gold/20"
     />
-    <Button variant="secondary">Subscribe</Button>
+    <Button variant="secondary" className="bg-radiance-gold text-depth-base hover:bg-radiance-amber">
+      Subscribe
+    </Button>
   </form>
 </Card>
 ```
@@ -420,8 +493,8 @@ const intakeQuestions = {
 
 **Philosophy Section**
 ```tsx
-<section className="py-24">
-  <h2 className="text-3xl font-bold text-moonlight mb-12">
+<section className="py-24 bg-depth-base">
+  <h2 className="text-3xl font-bold text-text-primary mb-12">
     The Light Touch Principle
   </h2>
 
@@ -429,19 +502,22 @@ const intakeQuestions = {
     <PhilosophyCard
       title="Reveal, Don't Impose"
       description="Your business already contains its own genius. AI reveals it—we don't invent it."
-      icon={<RevealIcon />}
+      icon={<RevealIcon className="text-radiance-gold" />}
+      accentColor="radiance-gold"
     />
 
     <PhilosophyCard
       title="Speed Beats Perfection"
       description="A 70% solution today beats a 100% solution in six months."
-      icon={<SpeedIcon />}
+      icon={<SpeedIcon className="text-radiance-amber" />}
+      accentColor="radiance-amber"
     />
 
     <PhilosophyCard
       title="Clarity Is The Multiplier"
       description="One clear decision, properly executed, outperforms a dozen confused ones."
-      icon={<ClarityIcon />}
+      icon={<ClarityIcon className="text-clarity-cream" />}
+      accentColor="clarity-cream"
     />
   </div>
 </section>
@@ -449,8 +525,8 @@ const intakeQuestions = {
 
 **Team Section**
 ```tsx
-<section className="py-24">
-  <h2 className="text-3xl font-bold text-moonlight mb-12">
+<section className="py-24 bg-depth-elevated">
+  <h2 className="text-3xl font-bold text-text-primary mb-12">
     Your Guides
   </h2>
 
@@ -461,6 +537,7 @@ const intakeQuestions = {
       bio="Background and expertise..."
       avatar="/team/consultant.jpg"
       socials={{ linkedin: "...", twitter: "..." }}
+      className="bg-depth-base border-depth-border"
     />
   </div>
 </section>
@@ -470,8 +547,8 @@ const intakeQuestions = {
 
 **Blog Index**
 ```tsx
-<PageContainer>
-  <h1 className="text-4xl font-bold text-moonlight mb-12">
+<PageContainer className="bg-depth-base">
+  <h1 className="text-4xl font-bold text-text-primary mb-12">
     Insights
   </h1>
 
@@ -657,7 +734,7 @@ const QualificationReview: React.FC<{ leadId: string }> = ({ leadId }) => {
 
   return (
     <Card elevation="subtle" className="p-6">
-      <h3 className="text-xl font-bold text-moonlight mb-4">
+      <h3 className="text-xl font-bold text-text-primary mb-4">
         Qualification Assessment
       </h3>
 
@@ -715,7 +792,7 @@ const ProposalBuilder: React.FC<{ bookingId: string }> = ({ bookingId }) => {
   return (
     <PageContainer>
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-2xl font-bold text-moonlight">
+        <h2 className="text-2xl font-bold text-text-primary">
           Proposal for {lead.company}
         </h2>
 
@@ -809,13 +886,13 @@ const LegalCenter: React.FC<{ proposalId: string }> = ({ proposalId }) => {
 
   return (
     <PageContainer>
-      <h2 className="text-2xl font-bold text-moonlight mb-8">
+      <h2 className="text-2xl font-bold text-text-primary mb-8">
         Legal Documents
       </h2>
 
       {/* Contract Generation */}
       <Card className="p-6 mb-6">
-        <h3 className="text-lg font-semibold text-moonlight mb-4">
+        <h3 className="text-lg font-semibold text-text-primary mb-4">
           Generate Agreement
         </h3>
 
@@ -1186,7 +1263,7 @@ const NewEngagement: React.FC = () => {
 
   return (
     <PortalLayout>
-      <h1 className="text-3xl font-bold text-moonlight mb-8">
+      <h1 className="text-3xl font-bold text-text-primary mb-8">
         Start a New Engagement
       </h1>
 
@@ -1243,8 +1320,8 @@ const MessagesCenter: React.FC = () => {
     <PortalLayout>
       <div className="flex h-[calc(100vh-200px)]">
         {/* Thread List */}
-        <div className="w-80 border-r border-abyss-lighter">
-          <div className="p-4 border-b border-abyss-lighter">
+        <div className="w-80 border-r border-depth-border">
+          <div className="p-4 border-b border-depth-border">
             <Button
               variant="primary"
               className="w-full"
