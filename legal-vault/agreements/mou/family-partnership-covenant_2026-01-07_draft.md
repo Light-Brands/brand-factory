@@ -36,7 +36,7 @@ We believe that businesses built on genuine trust, transparent communication, an
 ## Article I: Foundation of Equality
 
 ### Equal Ownership
-Each family shall hold an equal **one-third (1/3) ownership interest** in any business entity formed under this covenant.
+Each family shall hold an equal **one-third (1/3) ownership interest** in the entity formed under this covenant.
 
 This equal division reflects our belief that each family brings irreplaceable value to our partnership. We do not measure contribution by hours logged or dollars invested alone, but by the full presence, wisdom, and commitment each family brings to our shared table.
 
