@@ -68,7 +68,7 @@
 
 | Component | Description | Investment |
 |-----------|-------------|------------|
-| **Central CRM Setup** | Multi-entity HubSpot/GoHighLevel configuration | $3,200 - $4,800 |
+| **Central CRM Setup** | Multi-entity HubSpot configuration | $3,200 - $4,800 |
 | **Unified Database Architecture** | Contact schema, data model, migration | $2,400 - $4,000 |
 | **Authentication & SSO** | Single sign-on across platforms | $2,000 - $3,200 |
 | **Design System** | Brand guidelines, component library, templates | $2,400 - $4,000 |
@@ -92,7 +92,7 @@
 
 | Component | Description | Investment |
 |-----------|-------------|------------|
-| **App Core Build** | React Native or PWA foundation | $6,000 - $10,000 |
+| **App Core Build** | Custom React/Next.js/Node.js stack | $6,000 - $10,000 |
 | **Member Profiles & Onboarding** | Registration, profiles, welcome journey | $3,200 - $4,800 |
 | **Content Library** | Article/video system, categories, search | $4,000 - $6,000 |
 | **Events System** | Calendar, RSVP, booking, reminders | $3,200 - $4,800 |
@@ -334,8 +334,8 @@
 
 | Component | Monthly Range | Notes |
 |-----------|--------------|-------|
-| CRM Platform (HubSpot/GHL) | $200 - $800 | Based on contacts & features |
-| Hosting Infrastructure | $200 - $600 | AWS/GCP for community app |
+| CRM Platform (HubSpot) | $200 - $800 | Based on contacts & features |
+| Hosting Infrastructure | $200 - $600 | Custom app hosting (AWS/GCP) |
 | AI API Costs | $200 - $800 | Claude/OpenAI usage |
 | Community Platform | $400 - $1,200 | App hosting, CDN, storage |
 | Support & Maintenance | $800 - $2,000 | Bug fixes, updates, monitoring |
