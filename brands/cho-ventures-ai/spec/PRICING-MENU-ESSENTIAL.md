@@ -1,6 +1,8 @@
-# Cho Ventures AI Integration: Pricing Menu
+# Cho Ventures AI Integration: Pricing Menu (Essential Tier)
 
 > *A modular pricing guide for selecting services across the AI ecosystem transformation.*
+>
+> **Pricing Tier: Essential (Base Rate)**
 
 ---
 
