@@ -1,0 +1,33 @@
+{
+  "name": "google-drive-demo",
+  "version": "1.0.0",
+  "description": "Google Drive API integration demo for AI Brand Factory",
+  "main": "lib/googleDrive.ts",
+  "scripts": {
+    "auth": "npx ts-node scripts/auth.ts",
+    "demo": "npx ts-node scripts/demo-create-files.ts",
+    "start": "npm run demo"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "google-auth-library": "^9.4.1",
+    "googleapis": "^129.0.0",
+    "open": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "google-drive",
+    "api",
+    "demo",
+    "ai-brand-factory"
+  ],
+  "author": "AI Brand Factory",
+  "license": "MIT"
+}
