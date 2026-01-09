@@ -29,7 +29,8 @@ export type PageKey =
   | 'about'
   | 'book'
   | 'insights'
-  | 'contact';
+  | 'contact'
+  | 'ai-funnel';
 
 export interface NavItem {
   key: PageKey;

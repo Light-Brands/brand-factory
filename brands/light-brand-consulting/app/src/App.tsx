@@ -13,6 +13,7 @@ import {
   BookPage,
   ContactPage,
   InsightsPage,
+  AIFunnelPage,
 } from './pages';
 import { PageKey } from './types';
 import { scrollToTop } from './lib/utils';
@@ -76,6 +77,8 @@ const App: React.FC = () => {
         return <ContactPage onNavigate={handleNavigate} />;
       case 'insights':
         return <InsightsPage onNavigate={handleNavigate} />;
+      case 'ai-funnel':
+        return <AIFunnelPage onNavigate={handleNavigate} />;
       default:
         return <HomePage onNavigate={handleNavigate} />;
     }
