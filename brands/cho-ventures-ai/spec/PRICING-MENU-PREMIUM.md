@@ -335,9 +335,9 @@
 | Component | Monthly Range | Notes |
 |-----------|--------------|-------|
 | CRM Platform (HubSpot) | $500 - $2,000 | Based on contacts & features |
-| Hosting Infrastructure | $500 - $1,500 | Custom app hosting (AWS/GCP) |
+| Hosting Infrastructure | $500 - $1,500 | Vercel hosting, Supabase database |
 | AI API Costs | $500 - $2,000 | Claude/OpenAI usage |
-| Community Platform | $1,000 - $3,000 | App hosting, CDN, storage |
+| Community Platform | $1,000 - $3,000 | Vercel, Supabase, Cloudflare |
 | Support & Maintenance | $2,000 - $5,000 | Bug fixes, updates, monitoring |
 | **Phase 2 Monthly Total** | **$4,500 - $13,500** | |
 
