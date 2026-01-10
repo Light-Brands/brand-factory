@@ -9,6 +9,8 @@ This folder contains templates and guides to help brands prepare strong proposal
 | Template | Purpose |
 |----------|---------|
 | `proposal-template.md` | Main proposal submission template with all required sections |
+| `ai-readiness-diagnostic.md` | Quick assessment to evaluate AI readiness and identify opportunities |
+| `ai-readiness-report.md` | Report template generated from the diagnostic assessment |
 
 ### Coming Soon
 
