@@ -87,6 +87,7 @@ Communicate the vision at any length. See [pitch/README.md](./pitch/README.md) f
 | [Risks & Resilience](./03-risks-and-resilience.md) | Risk mitigation with shadow integration |
 | [Council Integration Framework](./04-council-integration-framework.md) | **Central Governance** — Council as constitutive authority |
 | [Divine Ethics, Morals & Values](./05-divine-ethics-morals-values.md) | **Soul Code** — What we hold sacred, how we act, what we never do |
+| [Infrastructure Architecture](./06-infrastructure-architecture.md) | **Subdomain & Domain Setup** — Brands on lightbrands.com with custom domain integration |
 
 ### Council Reviews
 
@@ -225,6 +226,7 @@ planning/
 ├── 03-risks-and-resilience.md   ← Shadow integration & vigilance
 ├── 04-council-integration-framework.md ← CENTRAL GOVERNANCE
 ├── 05-divine-ethics-morals-values.md  ← SOUL CODE: Values, Ethics, Morals
+├── 06-infrastructure-architecture.md  ← SUBDOMAIN & DOMAIN SETUP
 │
 ├── council-reviews/             ← Council Assessment Documents
 │   ├── 2026-01-04-brand-factory-assessment.md         ← Initial assessment

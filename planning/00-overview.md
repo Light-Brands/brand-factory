@@ -274,6 +274,7 @@ High AIQ decisions produce better lessons for the Intuition Engine. Rich intuiti
 | [Launch Cadence](./02-launch-cadence.md) | Scaling rhythm with Council tiers |
 | [Risks & Resilience](./03-risks-and-resilience.md) | Adaptive risk framework |
 | [Council Integration](./04-council-integration-framework.md) | Central governance structure |
+| [Infrastructure Architecture](./06-infrastructure-architecture.md) | Subdomain & custom domain setup |
 | [Stewardship Council](./agents/stewardship-council/README.md) | Seven archetypal intelligences |
 | [Intuition Engine](./intuition-engine/00-architecture-overview.md) | Experience-based learning system |
 | [AIQ Engine](./aiq-engine/00-architecture-overview.md) | Intelligence measurement and reporting |
