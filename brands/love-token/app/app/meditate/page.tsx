@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Header, Footer } from '@/components/layout';
-import { Button, Card, CardContent } from '@/components/ui';
+import { Button, Card, CardContent, ImagePlaceholder } from '@/components/ui';
 import { Lumi } from '@/components/lumi';
 import {
   HeartIcon,
@@ -113,10 +113,24 @@ export default function MeditatePage() {
   }, [isHolding, state, startMeditation]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-meditation-dusk via-deep-root to-deep-root text-white">
+    <div className="min-h-screen bg-gradient-to-b from-meditation-dusk via-deep-root to-deep-root text-white relative">
+      {/* IMAGE PLACEMENT: Full page background image
+          File: lovetoken-meditation-bg-abstract-1920x1080.png
+          Abstract macro of light through fabric, dreamy and peaceful
+          Apply as background with low opacity (10-20%) */}
+      <div className="absolute inset-0 opacity-10">
+        <ImagePlaceholder
+          promptId="meditation-bg-abstract"
+          description="Abstract light through fabric - dreamy, peaceful, breathing"
+          aspectRatio="auto"
+          variant="background"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
       <Header />
 
-      <main className="pt-24 pb-16 min-h-screen flex flex-col items-center justify-center">
+      <main className="pt-24 pb-16 min-h-screen flex flex-col items-center justify-center relative z-10">
         <div className="container-love">
           <AnimatePresence mode="wait">
             {/* Intro State */}
@@ -372,14 +386,22 @@ export default function MeditatePage() {
                 transition={{ duration: 0.6 }}
                 className="text-center max-w-xl mx-auto"
               >
-                {/* Celebration */}
+                {/* Celebration - IMAGE PLACEMENT: Celebration graphic
+                    File: lovetoken-celebration-complete-256x256.png
+                    Replace checkmark with celebration illustration */}
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
                   transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
-                  className="w-24 h-24 mx-auto mb-6 rounded-full bg-success-sage/20 flex items-center justify-center"
+                  className="w-32 h-32 mx-auto mb-6"
                 >
-                  <CheckIcon size={48} className="text-success-sage" />
+                  <ImagePlaceholder
+                    promptId="celebration-meditation-complete"
+                    description="Meditation completion celebration - gentle joy, warmth"
+                    aspectRatio="square"
+                    variant="icon"
+                    className="w-full h-full rounded-full"
+                  />
                 </motion.div>
 
                 {/* Lumi */}

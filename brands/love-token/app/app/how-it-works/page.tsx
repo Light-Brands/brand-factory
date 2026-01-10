@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Header, Footer } from '@/components/layout';
-import { Button, Card, CardContent, Badge } from '@/components/ui';
+import { Button, Card, CardContent, Badge, ImagePlaceholder } from '@/components/ui';
 import {
   HeartIcon,
   MeditationIcon,
@@ -109,36 +109,48 @@ const flowSteps = [
     title: 'Donors Subscribe',
     description: 'Monthly contributions fund the Love Economy, creating the pool that backs Love Credits.',
     icon: HeartIcon,
+    imagePromptId: 'flow-step-1-donors',
+    imageDescription: 'Heart being given, donor generosity',
   },
   {
     step: 2,
     title: 'Farmers Meditate',
     description: 'Love Farmers participate in guided meditations, earning Love Credits based on their practice.',
     icon: MeditationIcon,
+    imagePromptId: 'flow-step-2-meditate',
+    imageDescription: 'Meditation with timer, presence',
   },
   {
     step: 3,
     title: 'Credits Flow to Wallets',
     description: 'Earned credits appear in digital wallets, ready to spend at participating vendors.',
     icon: CoinIcon,
+    imagePromptId: 'flow-step-3-credits',
+    imageDescription: 'Love Credits appearing in wallet',
   },
   {
     step: 4,
     title: 'Farmers Spend Locally',
     description: 'Credits are spent at local vendors for groceries, services, and daily necessities.',
     icon: StoreIcon,
+    imagePromptId: 'flow-step-4-spend',
+    imageDescription: 'Community market transaction',
   },
   {
     step: 5,
     title: 'Vendors Redeem',
     description: 'Vendors submit credits for redemption, receiving local currency from the fund.',
     icon: FlowIcon,
+    imagePromptId: 'flow-step-5-redeem',
+    imageDescription: 'Vendor receiving redemption',
   },
   {
     step: 6,
     title: 'Love Circulates',
     description: 'Donors receive notifications of their impact. The cycle continues. Love grows.',
     icon: SparklesIcon,
+    imagePromptId: 'flow-step-6-circulates',
+    imageDescription: 'Full circle of love flowing',
   },
 ];
 
@@ -151,26 +163,48 @@ export default function HowItWorksPage() {
       <section className="pt-32 pb-16 md:pt-40 md:pb-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-lotus-soft/20 to-transparent" />
 
+        {/* IMAGE PLACEMENT: Hero Background
+            File: lovetoken-hero-flow-river-1920x1080.png
+            A flowing river metaphor for love circulation */}
+
         <div className="container-love relative z-10">
-          <motion.div
-            initial="initial"
-            animate="animate"
-            variants={fadeIn}
-            className="text-center max-w-3xl mx-auto"
-          >
-            <span className="inline-flex items-center gap-2 px-4 py-2 bg-heart-rose/10 text-heart-rose rounded-full text-sm font-medium mb-6">
-              <FlowIcon size={16} />
-              The Love Economy
-            </span>
-            <h1 className="heading-1 mb-6">
-              How Love Token
-              <span className="gradient-text block">Works</span>
-            </h1>
-            <p className="body-large text-deep-root/70">
-              A complete guide to understanding how meditation creates real economic value
-              and transforms communities.
-            </p>
-          </motion.div>
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial="initial"
+              animate="animate"
+              variants={fadeIn}
+              className="text-center lg:text-left"
+            >
+              <span className="inline-flex items-center gap-2 px-4 py-2 bg-heart-rose/10 text-heart-rose rounded-full text-sm font-medium mb-6">
+                <FlowIcon size={16} />
+                The Love Economy
+              </span>
+              <h1 className="heading-1 mb-6">
+                How Love Token
+                <span className="gradient-text block">Works</span>
+              </h1>
+              <p className="body-large text-deep-root/70">
+                A complete guide to understanding how meditation creates real economic value
+                and transforms communities.
+              </p>
+            </motion.div>
+
+            {/* Hero Image */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="hidden lg:block"
+            >
+              <ImagePlaceholder
+                promptId="hero-love-flow-river"
+                description="Flowing river at golden hour - love circulating through landscape"
+                aspectRatio="square"
+                variant="hero"
+                alt="A flowing river symbolizing love circulation through communities"
+              />
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -199,14 +233,22 @@ export default function HowItWorksPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
               >
-                <Card className="h-full relative">
+                <Card className="h-full relative overflow-hidden">
                   <CardContent>
-                    <div className="absolute -top-3 -left-3 w-10 h-10 rounded-full bg-earth-clay text-white text-lg font-bold flex items-center justify-center">
+                    <div className="absolute -top-3 -left-3 w-10 h-10 rounded-full bg-earth-clay text-white text-lg font-bold flex items-center justify-center z-10">
                       {item.step}
                     </div>
                     <div className="pt-4">
-                      <div className="w-12 h-12 mb-4 rounded-full bg-lotus-soft/50 flex items-center justify-center">
-                        <item.icon size={24} className="text-meditation-dusk" />
+                      {/* IMAGE PLACEMENT: Flow step illustration
+                          Replace icon with step-specific image */}
+                      <div className="mb-4">
+                        <ImagePlaceholder
+                          promptId={item.imagePromptId}
+                          description={item.imageDescription}
+                          aspectRatio="wide"
+                          variant="icon"
+                          className="h-24"
+                        />
                       </div>
                       <h3 className="text-lg font-semibold text-deep-root mb-2">
                         {item.title}

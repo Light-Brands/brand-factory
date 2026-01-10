@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { Header, Footer } from '@/components/layout';
-import { Button, Card, CardContent } from '@/components/ui';
+import { Button, Card, CardContent, ImagePlaceholder } from '@/components/ui';
 import { LumiGreeting } from '@/components/lumi';
 import {
   HeartIcon,
@@ -42,56 +42,83 @@ export default function HomePage() {
         {/* Background Gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-lotus-soft/20 to-transparent" />
 
+        {/* IMAGE PLACEMENT: Hero Background Image
+            Once generated, add as background image with opacity overlay
+            File: lovetoken-hero-meditation-circle-1920x1080.png */}
+
         <div className="container-love relative z-10">
-          <motion.div
-            initial="initial"
-            animate="animate"
-            variants={stagger}
-            className="text-center max-w-4xl mx-auto"
-          >
-            {/* Badge */}
-            <motion.div variants={fadeIn} className="mb-6">
-              <span className="inline-flex items-center gap-2 px-4 py-2 bg-heart-rose/10 text-heart-rose rounded-full text-sm font-medium">
-                <SparklesIcon size={16} />
-                The World&apos;s Greatest Experiment
-              </span>
-            </motion.div>
-
-            {/* Main Heading */}
-            <motion.h1
-              variants={fadeIn}
-              className="heading-1 text-balance mb-6"
-            >
-              Where Love Becomes
-              <span className="gradient-text block">Real Currency</span>
-            </motion.h1>
-
-            {/* Subheading */}
-            <motion.p
-              variants={fadeIn}
-              className="body-large text-deep-root/70 max-w-2xl mx-auto mb-8"
-            >
-              Building the world&apos;s first functioning Love Economy where meditation,
-              intention, and presence generate measurable social and economic value.
-            </motion.p>
-
-            {/* CTA Buttons */}
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
-              variants={fadeIn}
-              className="flex flex-col sm:flex-row items-center justify-center gap-4"
+              initial="initial"
+              animate="animate"
+              variants={stagger}
+              className="text-center lg:text-left"
             >
-              <Button variant="primary" size="lg" rightIcon={<ArrowRightIcon size={20} />}>
-                Begin Your Journey
-              </Button>
-              <Button variant="outline" size="lg">
-                See How It Works
-              </Button>
+              {/* Badge */}
+              <motion.div variants={fadeIn} className="mb-6">
+                <span className="inline-flex items-center gap-2 px-4 py-2 bg-heart-rose/10 text-heart-rose rounded-full text-sm font-medium">
+                  <SparklesIcon size={16} />
+                  The World&apos;s Greatest Experiment
+                </span>
+              </motion.div>
+
+              {/* Main Heading */}
+              <motion.h1
+                variants={fadeIn}
+                className="heading-1 text-balance mb-6"
+              >
+                Where Love Becomes
+                <span className="gradient-text block">Real Currency</span>
+              </motion.h1>
+
+              {/* Subheading */}
+              <motion.p
+                variants={fadeIn}
+                className="body-large text-deep-root/70 max-w-2xl mx-auto lg:mx-0 mb-8"
+              >
+                Building the world&apos;s first functioning Love Economy where meditation,
+                intention, and presence generate measurable social and economic value.
+              </motion.p>
+
+              {/* CTA Buttons */}
+              <motion.div
+                variants={fadeIn}
+                className="flex flex-col sm:flex-row items-center lg:items-start justify-center lg:justify-start gap-4"
+              >
+                <Button variant="primary" size="lg" rightIcon={<ArrowRightIcon size={20} />}>
+                  Begin Your Journey
+                </Button>
+                <Button variant="outline" size="lg">
+                  See How It Works
+                </Button>
+              </motion.div>
             </motion.div>
 
-            {/* Lumi Greeting */}
-            <motion.div variants={fadeIn} className="mt-16">
-              <LumiGreeting />
+            {/* Hero Image Placeholder */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="hidden lg:block"
+            >
+              <ImagePlaceholder
+                promptId="hero-meditation-circle"
+                description="Community meditation circle at golden hour - warm, authentic, dignified"
+                aspectRatio="square"
+                variant="hero"
+                alt="A diverse community sitting in peaceful meditation outdoors at golden hour"
+              />
             </motion.div>
+          </div>
+
+          {/* Lumi Greeting */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            className="mt-16"
+          >
+            <LumiGreeting />
           </motion.div>
         </div>
       </section>
@@ -120,18 +147,24 @@ export default function HomePage() {
                 title: 'Grounded Love',
                 description:
                   'Love manifesting in material reality — Love Credits buying groceries, paying for services, creating real economic impact.',
+                imagePromptId: 'pillar-grounded-love',
+                imageDescription: 'Hands touching earth, planting seeds, real connection to material world',
               },
               {
                 icon: MeditationIcon,
                 title: 'Spiritual Love',
                 description:
                   'Love cultivated through meditation and conscious intention. Your presence creates value. Your practice is contribution.',
+                imagePromptId: 'pillar-spiritual-love',
+                imageDescription: 'Meditator with subtle aura, grounded presence, single flame',
               },
               {
                 icon: FlowIcon,
                 title: 'Living Love',
                 description:
                   'Love in continuous motion, flowing between all participants. Donors receive love back. Meditators earn real value.',
+                imagePromptId: 'pillar-living-love',
+                imageDescription: 'Hands exchanging, love in motion, community connections flowing',
               },
             ].map((pillar, index) => (
               <motion.div
@@ -143,8 +176,17 @@ export default function HomePage() {
               >
                 <Card variant="warm" className="h-full text-center p-8">
                   <CardContent>
-                    <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-love-flow flex items-center justify-center">
-                      <pillar.icon size={32} className="text-white" />
+                    {/* IMAGE PLACEMENT: Pillar illustration
+                        Replace icon circle with pillar-specific image */}
+                    <div className="mb-6">
+                      <ImagePlaceholder
+                        promptId={pillar.imagePromptId}
+                        description={pillar.imageDescription}
+                        aspectRatio="square"
+                        size="md"
+                        variant="feature"
+                        className="mx-auto w-32 h-32"
+                      />
                     </div>
                     <h3 className="text-xl font-semibold text-deep-root mb-3">
                       {pillar.title}
@@ -272,6 +314,8 @@ export default function HomePage() {
                   'Participate in meditations. Earn credits. Create real value through presence.',
                 cta: 'Start Farming',
                 href: '/join?role=farmer',
+                imagePromptId: 'role-love-farmer',
+                imageDescription: 'Love Farmer meditating at dawn, earning through presence',
               },
               {
                 icon: HeartIcon,
@@ -280,6 +324,8 @@ export default function HomePage() {
                   'Subscribe to fund communities. Receive daily love. See your impact flow.',
                 cta: 'Become a Donor',
                 href: '/join?role=donor',
+                imagePromptId: 'role-donor',
+                imageDescription: 'Heart being shared, love flowing to communities',
               },
               {
                 icon: StoreIcon,
@@ -288,6 +334,8 @@ export default function HomePage() {
                   'Accept Love Credits. Serve your community. Redeem for local currency.',
                 cta: 'Join as Vendor',
                 href: '/join?role=vendor',
+                imagePromptId: 'role-vendor',
+                imageDescription: 'Village vendor at market, accepting Love Credits',
               },
             ].map((role, index) => (
               <motion.div
@@ -298,8 +346,17 @@ export default function HomePage() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="bg-white/10 backdrop-blur-sm rounded-card p-8 text-center border border-white/10 hover:border-sunlit-gold/30 transition-colors"
               >
-                <div className="w-16 h-16 mx-auto mb-6 rounded-full bg-sunlit-gold/20 flex items-center justify-center">
-                  <role.icon size={32} className="text-sunlit-gold" />
+                {/* IMAGE PLACEMENT: Role feature image
+                    Replace icon with role-specific photograph */}
+                <div className="mb-6">
+                  <ImagePlaceholder
+                    promptId={role.imagePromptId}
+                    description={role.imageDescription}
+                    aspectRatio="square"
+                    size="md"
+                    variant="photo"
+                    className="mx-auto w-24 h-24 rounded-full"
+                  />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-3">{role.title}</h3>
                 <p className="text-white/70 mb-6">{role.description}</p>
