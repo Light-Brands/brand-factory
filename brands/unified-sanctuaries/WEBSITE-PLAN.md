@@ -295,11 +295,52 @@ Home
 
 ## Design Notes
 
-- Earthy, warm color palette (greens, browns, creams)
-- Nature photography featuring Vermont landscapes
-- Clean, accessible typography
-- Mobile-responsive design
-- Emphasis on community and connection imagery
+> **See full brand identity documentation:** `brand-identity/BRAND-IDENTITY.md`
+
+### Brand Vibe
+```
+earthy · organic · ancient future · healing arts · creative
+community · biomimicry · mycelial · flow
+```
+
+### Color Palette
+| Role | Color | Hex |
+|------|-------|-----|
+| Primary | Forest Floor | `#2D3A2E` |
+| Secondary | Living Green | `#5C7C5E` |
+| Accent | Rich Earth | `#8B7355` |
+| Background | Cream Canvas | `#F5F0E8` |
+| Text | Charcoal Root | `#1A1A1A` |
+
+**Platform Accents:**
+- Farm: Soil Umber `#704214`
+- Retreat: Mineral Spring `#7BA3A8`
+- Venue: Ember Glow `#C65D3B`
+- Community: Hearth Clay `#B5651D`
+
+### Typography
+- **Headlines:** Cormorant Garamond (elegant, ancient future)
+- **Body:** Source Sans Pro (clean, accessible)
+- **Line height:** 1.6-1.8 for generous breathing room
+
+### Photography Style
+- Warm, golden-hour lighting
+- Natural, not stock-feeling
+- Hands in action, people in genuine connection
+- Close-ups of soil, plants, fungi, water
+- Embrace imperfection and authenticity
+
+### Design Principles
+1. **Organic Flow** — Avoid rigid grids; allow asymmetry
+2. **Breathing Room** — Generous white space
+3. **Natural Hierarchy** — Information flows like water down the page
+4. **Grounded Feel** — Elements feel placed, not trapped
+5. **Warm Shadows** — Soft, earth-toned shadows
+
+### CSS Design System
+Implementation-ready tokens and components available at:
+- `brand-identity/design-system/tokens.css`
+- `brand-identity/design-system/components.css`
 
 ---
 
