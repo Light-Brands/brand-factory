@@ -1,0 +1,135 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background: var(--color-cream);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--color-river-deep);
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--color-river-deep);
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.links {
+  display: flex;
+  gap: 2.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  font-weight: 500;
+  color: var(--color-charcoal);
+  font-size: 0.9rem;
+  position: relative;
+  text-decoration: none;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--color-river-mist), var(--color-terracotta));
+  transition: width var(--transition-base);
+  border-radius: 1px;
+}
+
+.link:hover::after,
+.link.active::after {
+  width: 100%;
+}
+
+.link:hover {
+  color: var(--color-charcoal);
+}
+
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-river-deep);
+  padding: 0.5rem;
+}
+
+.mobileMenu {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--color-cream);
+  padding: 2rem;
+  z-index: 99;
+  animation: fadeIn 0.3s ease;
+}
+
+.mobileLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobileLink {
+  display: block;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: var(--color-river-deep);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(21, 48, 63, 0.1);
+}
+
+.mobileLink.active {
+  color: var(--color-terracotta);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    padding: 1.5rem 2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menuButton {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .logoText {
+    font-size: 1.1rem;
+  }
+}
