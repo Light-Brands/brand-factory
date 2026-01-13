@@ -9,6 +9,7 @@
 | Document | Description |
 |----------|-------------|
 | [MASTER-PLAN.md](./MASTER-PLAN.md) | Complete vision, narrative structure, episode guide, and production approach |
+| [WEBSITE-SPEC.md](./WEBSITE-SPEC.md) | One-pager website specification — visual identity, sections, and implementation plan |
 
 ---
 
@@ -18,9 +19,12 @@
 spec/
 ├── README.md           # This file - navigation hub
 ├── MASTER-PLAN.md      # Complete documentary vision and plan
+├── WEBSITE-SPEC.md     # One-pager website specification
 ├── brand/              # Brand identity and visual language (future)
 ├── episodes/           # Individual episode development (future)
 └── phases/             # Production phases and timeline (future)
+
+website/                # Implementation (see WEBSITE-SPEC.md for structure)
 ```
 
 ---
