@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Love Token Design System - Global Styles */
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --heart-rose: #C06C84;
+    --earth-clay: #8B5A3C;
+    --sunlit-gold: #D4A574;
+    --sacred-cream: #FAF7F2;
+
+    /* Spiritual Colors */
+    --meditation-dusk: #6B5B7A;
+    --om-sage: #7A8B6B;
+    --lotus-soft: #E8D5E0;
+
+    /* Functional Colors */
+    --deep-root: #2D2A26;
+    --stone-grey: #A69F96;
+    --border-mist: #D4CFC8;
+    --success-sage: #5A7A5A;
+    --warning-amber: #C4934A;
+    --error-soft: #A65A5A;
+
+    /* Gradients */
+    --love-flow: linear-gradient(135deg, #C06C84 0%, #D4A574 100%);
+    --grounded: linear-gradient(135deg, #8B5A3C 0%, #2D2A26 100%);
+    --spirit: linear-gradient(135deg, #6B5B7A 0%, #E8D5E0 100%);
+    --dawn: linear-gradient(135deg, #FAF7F2 0%, #D4A574 100%);
+
+    /* Shadows */
+    --shadow-gentle: 0 2px 12px rgba(45, 42, 38, 0.08);
+    --shadow-warm-glow: 0 0 24px rgba(192, 108, 132, 0.15);
+    --shadow-deep-ground: 0 8px 24px rgba(45, 42, 38, 0.12);
+
+    /* Typography */
+    --font-sans: 'Nunito', 'Inter', 'Work Sans', system-ui, sans-serif;
+
+    /* Animation Timing */
+    --timing-heartbeat: 200ms;
+    --timing-breath: 400ms;
+    --timing-meditation: 800ms;
+    --timing-celebration: 1200ms;
+
+    /* Easing */
+    --ease-love-flow: cubic-bezier(0.4, 0.0, 0.2, 1);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--deep-root);
+    background-color: var(--sacred-cream);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Selection color */
+  ::selection {
+    background-color: var(--lotus-soft);
+    color: var(--deep-root);
+  }
+
+  /* Focus styles - warm and visible */
+  :focus-visible {
+    outline: 2px solid var(--heart-rose);
+    outline-offset: 2px;
+  }
+
+  /* Smooth scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--sacred-cream);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--border-mist);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--stone-grey);
+  }
+}
+
+@layer components {
+  /* Typography Components */
+  .heading-1 {
+    @apply text-h1-mobile md:text-h1-desktop text-deep-root font-semibold tracking-tight;
+  }
+
+  .heading-2 {
+    @apply text-h2-mobile md:text-h2-desktop text-deep-root font-medium;
+  }
+
+  .heading-3 {
+    @apply text-h3-mobile md:text-h3-desktop text-deep-root font-medium;
+  }
+
+  .body-text {
+    @apply text-body text-deep-root/90;
+  }
+
+  .body-large {
+    @apply text-body-lg text-deep-root/90;
+  }
+
+  .caption-text {
+    @apply text-caption text-stone-grey;
+  }
+
+  /* Card Styles */
+  .love-card {
+    @apply bg-white rounded-card p-6 shadow-gentle transition-shadow duration-300 hover:shadow-deep-ground;
+  }
+
+  .love-card-warm {
+    @apply bg-gradient-to-br from-lotus-soft/30 to-sacred-cream rounded-card p-6 shadow-gentle;
+  }
+
+  /* Button Base Styles */
+  .btn-base {
+    @apply inline-flex items-center justify-center font-medium rounded-button transition-all duration-200 ease-out;
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-heart-rose focus-visible:ring-offset-2;
+    @apply disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-primary {
+    @apply btn-base bg-love-flow text-white px-6 py-3;
+    @apply hover:shadow-love-glow hover:scale-[1.02] active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply btn-base bg-earth-clay text-white px-6 py-3;
+    @apply hover:bg-earth-clay-600 active:bg-earth-clay-700;
+  }
+
+  .btn-ghost {
+    @apply btn-base bg-transparent text-deep-root px-6 py-3;
+    @apply hover:bg-sacred-cream active:bg-border-mist;
+  }
+
+  .btn-outline {
+    @apply btn-base bg-transparent border-2 border-heart-rose text-heart-rose px-6 py-3;
+    @apply hover:bg-heart-rose hover:text-white;
+  }
+
+  /* Input Styles */
+  .input-base {
+    @apply w-full px-4 py-3 rounded-input border border-border-mist bg-white;
+    @apply text-deep-root placeholder:text-stone-grey;
+    @apply transition-all duration-200;
+    @apply focus:border-heart-rose focus:ring-2 focus:ring-heart-rose/20 focus:outline-none;
+  }
+
+  /* Link Styles */
+  .love-link {
+    @apply text-heart-rose underline-offset-4 hover:underline transition-colors;
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-love-flow bg-clip-text text-transparent;
+  }
+
+  /* Lumi Glow Effect */
+  .lumi-glow {
+    @apply animate-glow rounded-full;
+  }
+
+  /* Meditation Circle */
+  .meditation-circle {
+    @apply rounded-full bg-lotus-soft/50 animate-pulse-soft;
+  }
+
+  /* Section Spacing */
+  .section-padding {
+    @apply py-16 md:py-24 px-4 md:px-8;
+  }
+
+  /* Container */
+  .container-love {
+    @apply max-w-7xl mx-auto px-4 md:px-8;
+  }
+
+  /* Divider */
+  .love-divider {
+    @apply h-px bg-gradient-to-r from-transparent via-border-mist to-transparent;
+  }
+}
+
+@layer utilities {
+  /* Animation utilities */
+  .animate-love-flow {
+    animation: loveFlow 3s ease-in-out infinite;
+  }
+
+  @keyframes loveFlow {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  /* Text balance for headings */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Breathing room */
+  .breathing-room {
+    @apply my-8 md:my-12;
+  }
+
+  /* Meditation space */
+  .meditation-space {
+    @apply my-12 md:my-16;
+  }
+}
+
+/* Import Nunito font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
