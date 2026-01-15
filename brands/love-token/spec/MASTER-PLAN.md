@@ -1,7 +1,7 @@
 # Love Token Platform Master Specification
 
-**Version:** 1.0.0
-**Last Updated:** January 10, 2026
+**Version:** 1.1.0
+**Last Updated:** January 15, 2026
 **Status:** Living Document - Foundation for AI-Driven Development
 
 ---
@@ -305,6 +305,68 @@ TWGE verifies transactions → Vendor paid in local currency →
 Redeemed credits permanently burned →
 Liquidity pool decreases proportionally
 ```
+
+---
+
+## Currency Ecosystem Structure
+
+### Structural Separation
+
+The Love Token ecosystem maintains a critical structural separation between two aligned but independent components:
+
+**The World's Greatest Experiment (TWGE) — Nonprofit**
+- Community membership management
+- Meditation programs and participation
+- Love Farms and real-world projects
+- Receives membership fees and protocol contributions
+- Does NOT sell or manage the currency
+
+**Digital Currency Protocol — Separate Entity**
+- Issues and manages the currency
+- Defines participation cohorts and caps
+- Enforces staking and lockups
+- Routes protocol fees to TWGE
+
+This separation ensures regulatory clarity, mission integrity, and long-term trust.
+
+### Membership as the Gate
+
+To participate in the digital currency ecosystem:
+- Individuals/organizations must first become TWGE members
+- Membership reflects alignment, contribution, and participation
+- Membership is NOT framed as purchasing financial access
+- Membership does NOT guarantee allocation or outcomes
+
+### Participation Layers
+
+The ecosystem expands through carefully structured layers:
+
+| Layer | Participants | Commitment | Structure |
+|-------|--------------|------------|-----------|
+| **Angels** | 22 | $222,000 | Invite-only foundational stewards |
+| **Layer 1** | 222 | $22,000 | 22 cohorts × 22 participants |
+| **Layer 2** | 4,884 | $2,222 | 222 cohorts × 22 participants |
+| **Layer 3** | 107,448 | $222 | 4,884 cohorts × 22 (Phase 2) |
+| **Layer 4** | Open | $22 | Mass adoption (Phase 2) |
+
+**Phase 1 Totals (Angels + Layers 1 & 2):**
+- Total Participants: 5,128
+- Currency Participation Capital: $18,608,000
+- TWGE Funding (Membership Fees): ~$2,012,000
+
+### Protocol Revenue
+
+Beyond membership, ongoing protocol revenue flows through transaction fees:
+
+| Fee Type | Rate | Allocation |
+|----------|------|------------|
+| Sender Fee | 2.2% | 50% Protocol Treasury / 50% TWGE |
+| Receiver Fee | 2.2% | 50% Protocol Treasury / 50% TWGE |
+| **Total** | **4.4%** | |
+
+This ensures that as usage increases, TWGE funding increases — impact scales with activity, not speculation.
+
+**Full Currency Ecosystem Documentation:** See [`architecture/currency-ecosystem.md`](architecture/currency-ecosystem.md) for complete details on participation layers, staking requirements, and economic design principles.
 
 ---
 
@@ -675,7 +737,9 @@ This master specification consists of:
 - See `/spec/epics/` folder
 
 **Technical Reference Documents**:
-- See `/spec/architecture/` for data models, API reference, service layer
+- See `/spec/architecture/` for:
+  - [`currency-ecosystem.md`](architecture/currency-ecosystem.md) — Complete currency participation structure, layers, staking, and protocol revenue
+  - Data models, API reference, service layer (forthcoming)
 - See `/spec/design/` for UI components, user journeys
 - See `/spec/operations/` for feature flags, testing, observability
 - See `/spec/development/` for coding standards, AI agents
@@ -738,7 +802,9 @@ This master specification consists of:
 
 **Love Points (LP)**: Recognition points earned by global users, non-monetary.
 
-**TWGE**: The World's Greatest Experiment — the organization stewarding Love Token.
+**TWGE**: The World's Greatest Experiment — the nonprofit organization stewarding the Love Token mission. Manages membership, meditation programs, and Love Farms. Does not manage the currency.
+
+**Digital Currency Protocol**: The separate entity that issues and manages the Love Token currency, defines participation cohorts, enforces staking, and routes protocol fees to TWGE.
 
 **Lumi**: The AI companion embodying love and guiding users through the platform.
 
@@ -750,12 +816,25 @@ This master specification consists of:
 
 **Energy Access Credits (EAC)**: Internal units tracking meditation toward resource unlocks.
 
+**Angels**: The 22 foundational stewards of the currency ecosystem. Invite-only participants with $222,000 commitment, longest lockups (4+ years), and founding-level TWGE membership.
+
+**Participation Layers**: The phased structure for currency ecosystem access. Layer 1 ($22,000), Layer 2 ($2,222), Layer 3 ($222), and Layer 4 ($22) expand access progressively with decreasing commitment levels.
+
+**Cohort**: A group of 22 participants entering the currency ecosystem together. The number 22 is used as a sacred design principle throughout the structure.
+
+**Staking**: The commitment to hold currency for a specified period. Earlier layers require longer staking periods (Angels: 4+ years, Layer 1: 3+ years, etc.).
+
+**Protocol Treasury**: One destination for 50% of transaction fees, used for ecosystem support, development, and operations.
+
+**Transaction Fees**: 4.4% total fee (2.2% from sender + 2.2% from receiver) on currency transactions, split equally between Protocol Treasury and TWGE.
+
 ---
 
 ## Revision History
 
 | Version | Date | Changes | Author |
 |---------|------|---------|--------|
+| 1.1.0 | 2026-01-15 | Added Currency Ecosystem Structure section, created architecture/currency-ecosystem.md, expanded glossary with participation layer terms | AI Development Team |
 | 1.0.0 | 2026-01-10 | Initial comprehensive specification created | AI Development Team |
 
 ---
