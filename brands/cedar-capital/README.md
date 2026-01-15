@@ -41,6 +41,14 @@ Cedar Capital is a real estate investment company focused on helping distressed 
 - [Visual Identity Guidelines](./spec/brand/01-visual-identity.md)
 - [Brand Voice & Messaging](./spec/brand/02-brand-voice-messaging.md)
 
+## Platform Documents
+
+- [Project Plan](./PROJECT-PLAN.md) - AI-powered platform development plan
+- [Dashboard Foundation Plan](./spec/dashboard/00-dashboard-foundation-plan.md) - Dashboard architecture and implementation
+- [Investor Dashboard Spec](./spec/dashboard/01-investor-dashboard-spec.md) - Private investor portal
+- [Operations Dashboard Spec](./spec/dashboard/02-operations-dashboard-spec.md) - Internal management console
+- [Landing Pages Plan](./spec/frontend/01-landing-pages-plan.md) - Public lead capture and investor onboarding
+
 ## Quick Design Reference
 
 ```
