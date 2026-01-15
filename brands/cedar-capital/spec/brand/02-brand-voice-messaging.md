@@ -29,7 +29,7 @@ We speak with genuine warmth, like greeting someone at our front door. Our tone 
 
 Like a cedar tree with deep roots, our voice is grounded, reliable, and steady. We speak with quiet confidence, never hype.
 
-**Example:** "We've been helping families in this community for three generations."
+**Example:** "We started Cedar Capital because we believe families deserve better—better homes, better processes, better care."
 **Not:** "We're the #1 agency crushing it in the market!"
 
 **Why:** Trust is earned through consistency, not claims. Families need to know we'll be there through every step.
@@ -79,7 +79,7 @@ We share our expertise generously, helping families understand every step withou
 
 **Primary:** "Finding your family's home is about more than square footage—it's about finding where you belong."
 
-**Trust:** "Three generations of helping families find home. We're here for your family's chapter."
+**Trust:** "Two families committed to helping your family find home. We're here for your family's chapter."
 
 **Community:** "We're not just in this community—we're part of it. Our kids go to the same schools."
 
@@ -147,7 +147,7 @@ We share our expertise generously, helping families understand every step withou
 - "More than an address—your family's story starts here"
 
 **About Us:**
-*"Cedar Capital started around our kitchen table in 1987 when Mom and Dad decided to help families find homes the way they'd want to be helped—with honesty, patience, and genuine care. Three generations later, we're still doing it the same way."*
+*"Cedar Capital started around a table in 2025 when two families—the McVeens and the Lawlesses—decided there had to be a better way to help families find homes. With backgrounds in construction and development, we're bringing fresh thinking to real estate—with honesty, innovation, and genuine care at the center of everything we do."*
 
 **Services:**
 - "Buying" → "Finding Your Family's Home"

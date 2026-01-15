@@ -10,7 +10,7 @@ Cedar Capital is a warm, family-focused real estate agency built on the belief t
 
 ### Our Story
 
-Cedar Capital started around a kitchen table in 1987 when a husband and wife decided to help families find homes the way they'd want to be helped—with honesty, patience, and genuine care. Three generations later, we're still doing it the same way.
+Cedar Capital started around a table in 2025 when two families—Kelly and Joe McVeen, and Jennifer and Dan Lawless—came together with a shared vision: to bring better ways of doing things to the real estate industry. With backgrounds in construction methods and development processes, we saw an opportunity to build homes and communities the way they should be built—with integrity, innovation, and families at the center.
 
 Like the cedar tree that inspired our name, we stand tall through every season, providing shelter and stability for the families we serve. We think in generations, not quarters. In relationships, not transactions. In community, not commission.
 
@@ -116,7 +116,7 @@ We think in decades, not deals. The families we help today become the families w
 
 > "Finding your family's home is about more than square footage—it's about finding where you belong."
 
-> "Three generations of helping families find home. We're here for your family's chapter."
+> "Two families committed to helping your family find home. We're here for your family's chapter."
 
 > "We're not just in this community—we're part of it."
 

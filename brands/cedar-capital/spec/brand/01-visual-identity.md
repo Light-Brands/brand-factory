@@ -6,7 +6,9 @@
 
 ## Brand Story
 
-Cedar Capital is a family-run real estate agency built on the belief that a home is more than a property—it's where families grow, memories are made, and legacies begin. Like the cedar tree that inspired our name, we stand tall through every season, providing shelter and stability for the families we serve.
+Cedar Capital was founded in 2025 when two families—Kelly and Joe McVeen, and Jennifer and Dan Lawless—sat around a table and asked: what if we could bring better ways of doing things to the real estate industry? With deep experience in construction methods and development processes, they saw an opportunity to help families find homes built with integrity, in communities designed to thrive.
+
+We believe a home is more than a property—it's where families grow, memories are made, and legacies begin. Like the cedar tree that inspired our name, we stand tall through every season, providing shelter and stability for the families we serve.
 
 We believe in generational thinking, not quarterly results. In relationships, not transactions. In community, not just commission.
 
