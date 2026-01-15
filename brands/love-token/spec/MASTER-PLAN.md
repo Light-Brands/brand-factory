@@ -339,20 +339,27 @@ To participate in the digital currency ecosystem:
 
 ### Participation Layers
 
-The ecosystem expands through carefully structured layers:
+The ecosystem expands through carefully structured layers, each with different commitment levels, staking requirements, and membership tiers:
 
-| Layer | Participants | Commitment | Structure |
-|-------|--------------|------------|-----------|
-| **Angels** | 22 | $222,000 | Invite-only foundational stewards |
-| **Layer 1** | 222 | $22,000 | 22 cohorts × 22 participants |
-| **Layer 2** | 4,884 | $2,222 | 222 cohorts × 22 participants |
-| **Layer 3** | 107,448 | $222 | 4,884 cohorts × 22 (Phase 2) |
-| **Layer 4** | Open | $22 | Mass adoption (Phase 2) |
+| Layer | Participants | Commitment | Staking | TWGE Membership |
+|-------|--------------|------------|---------|-----------------|
+| **Angels** | 22 | $222,000 | 4+ years | Founding Level |
+| **Layer 1** | 222 | $22,000 | 3+ years | Steward Level |
+| **Layer 2** | 4,884 | $2,222 | 2+ years | Standard Level |
+| **Layer 3** | 107,448 | $222 | 1+ year | Community Level |
+| **Layer 4** | Open | $22 | 6 months | Basic Level |
+
+**Structural Notes:**
+- **Angels**: 22 invite-only foundational stewards
+- **Layer 1**: 222 participants total (capped); cohorts of 22
+- **Layer 2**: 222 cohorts × 22 participants = 4,884
+- **Layer 3**: 4,884 cohorts × 22 participants = 107,448 (Phase 2)
+- **Layer 4**: Mass adoption on-ramp (Phase 2)
 
 **Phase 1 Totals (Angels + Layers 1 & 2):**
 - Total Participants: 5,128
 - Currency Participation Capital: $18,608,000
-- TWGE Funding (Membership Fees): ~$2,012,000
+- TWGE Funding (Membership Fees): ~$2,012,248
 
 ### Protocol Revenue
 
