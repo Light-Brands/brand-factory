@@ -586,5 +586,5 @@ The key to success: **meet clients where they are, deliver exceptional value, an
 
 ---
 
-*Service Tiers Document Version: 1.0*
-*Last Updated: January 2026*
+*Service Tiers Document Version: 1.1*
+*Last Updated: January 15, 2026*
