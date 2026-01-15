@@ -17,10 +17,10 @@ The goal: **One source, many expressions**—understanding how to create self-re
 | Document | Description |
 |----------|-------------|
 | [00-business-model-ideation.md](./00-business-model-ideation.md) | The Seven Pillars framework for categorizing and connecting business types |
-| *01-vertical-deep-dives.md* | (Planned) Detailed exploration of specific industry verticals |
-| *02-token-economics-models.md* | (Planned) Interlocking token economics across businesses |
-| *03-launch-sequence-strategy.md* | (Planned) Optimal ordering for flywheel acceleration |
-| *04-synergy-matrix.md* | (Planned) Cross-business value flow mapping |
+| [01-vertical-deep-dives.md](./01-vertical-deep-dives.md) | Detailed exploration of specific industry verticals (Creator, Health, Education, ReFi, Professional Services, Local Commerce) |
+| [02-token-economics-models.md](./02-token-economics-models.md) | Interlocking token economics across businesses ($LIGHT base layer, pillar tokens, utility mechanisms) |
+| [03-launch-sequence-strategy.md](./03-launch-sequence-strategy.md) | Optimal five-phase launch ordering for flywheel acceleration |
+| [04-synergy-matrix.md](./04-synergy-matrix.md) | Cross-business value flow mapping and synergy measurement framework |
 
 ---
 

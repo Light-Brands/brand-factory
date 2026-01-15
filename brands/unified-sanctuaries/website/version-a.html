@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unified Sanctuaries | Where Ancient Wisdom Meets Future Possibility</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-forest-floor: #2D3A2E;
+      --color-living-green: #5C7C5E;
+      --color-rich-earth: #8B7355;
+      --color-cream-canvas: #F5F0E8;
+      --color-charcoal-root: #1A1A1A;
+      --color-sage-mist: #6B8E7A;
+      --color-sand-path: #C9B896;
+      --color-deep-moss: #4A5D4A;
+      --color-goldenrod: #B8860B;
+      --color-farm-soil-umber: #704214;
+      --color-retreat-mineral-spring: #7BA3A8;
+      --color-venue-ember-glow: #C65D3B;
+      --color-community-hearth-clay: #B5651D;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 100%;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Source Sans Pro', -apple-system, sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.7;
+      color: var(--color-charcoal-root);
+      background-color: var(--color-cream-canvas);
+      margin: 0;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 400;
+      line-height: 1.2;
+      color: var(--color-forest-floor);
+      margin-top: 0;
+    }
+
+    p {
+      margin-top: 0;
+      max-width: 65ch;
+    }
+
+    a {
+      color: var(--color-living-green);
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--color-deep-moss);
+    }
+
+    /* Back Link */
+    .back-link {
+      position: fixed;
+      top: 1.5rem;
+      left: 1.5rem;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      background: white;
+      border-radius: 50px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--color-forest-floor);
+    }
+
+    .back-link svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Navigation */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 3rem;
+      background: transparent;
+      transition: background 0.4s ease, padding 0.4s ease;
+    }
+
+    .nav.scrolled {
+      background: rgba(245, 240, 232, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 1rem 3rem;
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--color-cream-canvas);
+      transition: color 0.4s ease;
+    }
+
+    .nav.scrolled .nav-logo {
+      color: var(--color-forest-floor);
+    }
+
+    .nav-logo svg {
+      width: 40px;
+      height: 40px;
+    }
+
+    .nav-logo-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      color: var(--color-cream-canvas);
+      font-size: 0.95rem;
+      transition: color 0.4s ease;
+    }
+
+    .nav.scrolled .nav-link {
+      color: var(--color-charcoal-root);
+    }
+
+    .nav-link:hover {
+      color: var(--color-sage-mist);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background: linear-gradient(135deg, var(--color-forest-floor) 0%, var(--color-deep-moss) 50%, var(--color-living-green) 100%);
+    }
+
+    /* Animated Mycelial Network Background */
+    .mycelial-bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      opacity: 0.4;
+    }
+
+    .mycelial-bg svg {
+      position: absolute;
+      width: 150%;
+      height: 150%;
+      top: -25%;
+      left: -25%;
+      animation: floatNetwork 30s ease-in-out infinite;
+    }
+
+    @keyframes floatNetwork {
+      0%, 100% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(2%, 3%) rotate(1deg); }
+      50% { transform: translate(-1%, 2%) rotate(-0.5deg); }
+      75% { transform: translate(1%, -1%) rotate(0.5deg); }
+    }
+
+    /* Flowing Shapes */
+    .flow-shape {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      animation: flowPulse 8s ease-in-out infinite;
+    }
+
+    .flow-shape-1 {
+      width: 600px;
+      height: 600px;
+      background: var(--color-sage-mist);
+      top: -200px;
+      right: -200px;
+      opacity: 0.3;
+      animation-delay: 0s;
+    }
+
+    .flow-shape-2 {
+      width: 400px;
+      height: 400px;
+      background: var(--color-retreat-mineral-spring);
+      bottom: -100px;
+      left: -100px;
+      opacity: 0.25;
+      animation-delay: -2s;
+    }
+
+    .flow-shape-3 {
+      width: 300px;
+      height: 300px;
+      background: var(--color-goldenrod);
+      top: 50%;
+      left: 50%;
+      opacity: 0.15;
+      animation-delay: -4s;
+    }
+
+    @keyframes flowPulse {
+      0%, 100% { transform: scale(1) translate(0, 0); }
+      50% { transform: scale(1.1) translate(20px, -20px); }
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 10;
+      max-width: 900px;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-cream-canvas);
+    }
+
+    .hero-tagline {
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      opacity: 0.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-size: clamp(3rem, 8vw, 5.5rem);
+      font-weight: 300;
+      color: var(--color-cream-canvas);
+      margin-bottom: 1.5rem;
+      line-height: 1.1;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--color-sage-mist);
+    }
+
+    .hero-subtitle {
+      font-size: 1.35rem;
+      font-weight: 300;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto 3rem;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1.25rem 2.5rem;
+      background: var(--color-cream-canvas);
+      color: var(--color-forest-floor);
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hero-cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+      color: var(--color-forest-floor);
+    }
+
+    .hero-cta svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Scroll Indicator */
+    .scroll-indicator {
+      position: absolute;
+      bottom: 3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-cream-canvas);
+      opacity: 0.7;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+    }
+
+    .scroll-indicator .line {
+      width: 1px;
+      height: 40px;
+      background: var(--color-cream-canvas);
+      animation: scrollBounce 2s ease-in-out infinite;
+    }
+
+    @keyframes scrollBounce {
+      0%, 100% { transform: scaleY(1); opacity: 1; }
+      50% { transform: scaleY(0.5); opacity: 0.5; }
+    }
+
+    /* Mission Section - Asymmetric */
+    .mission-section {
+      position: relative;
+      padding: 10rem 3rem;
+      overflow: hidden;
+    }
+
+    .mission-bg-shape {
+      position: absolute;
+      width: 800px;
+      height: 800px;
+      border-radius: 50%;
+      background: var(--color-living-green);
+      opacity: 0.05;
+      top: -200px;
+      right: -300px;
+    }
+
+    .mission-content {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 6rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      align-items: center;
+    }
+
+    .mission-text h2 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin-bottom: 2rem;
+      line-height: 1.15;
+    }
+
+    .mission-text p {
+      font-size: 1.15rem;
+      color: #555;
+      margin-bottom: 1.5rem;
+    }
+
+    .mission-visual {
+      position: relative;
+    }
+
+    .network-diagram {
+      width: 100%;
+      aspect-ratio: 1;
+      position: relative;
+    }
+
+    .network-diagram svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    .network-node {
+      animation: nodePulse 3s ease-in-out infinite;
+    }
+
+    .network-node:nth-child(2) { animation-delay: 0.5s; }
+    .network-node:nth-child(3) { animation-delay: 1s; }
+    .network-node:nth-child(4) { animation-delay: 1.5s; }
+
+    @keyframes nodePulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+
+    .network-line {
+      stroke-dasharray: 10, 5;
+      animation: flowLine 2s linear infinite;
+    }
+
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: -15; }
+    }
+
+    /* Platforms Section */
+    .platforms-section {
+      background: white;
+      padding: 8rem 3rem;
+      position: relative;
+    }
+
+    .platforms-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 5rem;
+    }
+
+    .platforms-header h2 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin-bottom: 1rem;
+    }
+
+    .platforms-header p {
+      font-size: 1.2rem;
+      color: #666;
+      margin: 0 auto;
+    }
+
+    /* Organic Platform Grid */
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .platform-card {
+      position: relative;
+      padding: 3rem;
+      border-radius: 2rem;
+      overflow: hidden;
+      transition: transform 0.4s ease;
+      min-height: 350px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .platform-card:hover {
+      transform: translateY(-8px);
+    }
+
+    /* Organic shape backgrounds */
+    .platform-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 2rem;
+      z-index: 0;
+    }
+
+    .platform-card--farm::before {
+      background: linear-gradient(135deg, var(--color-farm-soil-umber) 0%, #8B5A2B 100%);
+    }
+
+    .platform-card--retreat::before {
+      background: linear-gradient(135deg, var(--color-retreat-mineral-spring) 0%, #5C8A8F 100%);
+    }
+
+    .platform-card--venue::before {
+      background: linear-gradient(135deg, var(--color-venue-ember-glow) 0%, #A84832 100%);
+    }
+
+    .platform-card--community::before {
+      background: linear-gradient(135deg, var(--color-community-hearth-clay) 0%, #8B4513 100%);
+    }
+
+    /* Organic blob shapes */
+    .platform-card::after {
+      content: '';
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      filter: blur(50px);
+      top: -100px;
+      right: -100px;
+      z-index: 1;
+    }
+
+    .platform-content {
+      position: relative;
+      z-index: 2;
+      color: var(--color-cream-canvas);
+    }
+
+    .platform-icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      opacity: 0.9;
+    }
+
+    .platform-content h3 {
+      font-size: 1.75rem;
+      color: var(--color-cream-canvas);
+      margin-bottom: 1rem;
+    }
+
+    .platform-content p {
+      opacity: 0.9;
+      margin-bottom: 1.5rem;
+      font-size: 1rem;
+    }
+
+    .platform-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--color-cream-canvas);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .platform-link svg {
+      width: 16px;
+      height: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    .platform-link:hover svg {
+      transform: translateX(5px);
+    }
+
+    /* Values Flow Section */
+    .values-section {
+      padding: 8rem 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .values-flow-bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 120%;
+      height: 120%;
+      opacity: 0.03;
+    }
+
+    .values-header {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .values-header h2 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+    }
+
+    .values-stream {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .value-pill {
+      padding: 1.25rem 2rem;
+      background: linear-gradient(135deg, var(--color-living-green) 0%, var(--color-sage-mist) 100%);
+      color: white;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .value-pill:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 10px 30px rgba(92, 124, 94, 0.3);
+    }
+
+    .value-pill:nth-child(even) {
+      background: linear-gradient(135deg, var(--color-rich-earth) 0%, var(--color-sand-path) 100%);
+    }
+
+    /* Quote Section */
+    .quote-section {
+      padding: 6rem 3rem;
+      background: var(--color-forest-floor);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .quote-shape {
+      position: absolute;
+      width: 500px;
+      height: 500px;
+      border-radius: 50%;
+      background: var(--color-living-green);
+      opacity: 0.1;
+      animation: floatShape 10s ease-in-out infinite;
+    }
+
+    .quote-shape-1 {
+      top: -200px;
+      left: -200px;
+    }
+
+    .quote-shape-2 {
+      bottom: -200px;
+      right: -200px;
+      animation-delay: -5s;
+    }
+
+    @keyframes floatShape {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(30px, 30px); }
+    }
+
+    .quote-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .quote-content blockquote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-style: italic;
+      color: var(--color-cream-canvas);
+      line-height: 1.4;
+      margin: 0 0 2rem;
+    }
+
+    .quote-content cite {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1rem;
+      color: var(--color-sage-mist);
+      font-style: normal;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      padding: 8rem 3rem;
+      text-align: center;
+      background: linear-gradient(180deg, var(--color-cream-canvas) 0%, white 100%);
+    }
+
+    .cta-section h2 {
+      font-size: clamp(2.5rem, 5vw, 3.5rem);
+      margin-bottom: 1.5rem;
+    }
+
+    .cta-section p {
+      font-size: 1.25rem;
+      color: #666;
+      margin: 0 auto 3rem;
+      max-width: 500px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      padding: 1.25rem 2.5rem;
+      background: var(--color-living-green);
+      color: white;
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background: var(--color-deep-moss);
+      transform: translateY(-3px);
+      color: white;
+    }
+
+    .btn-secondary {
+      padding: 1.25rem 2.5rem;
+      background: transparent;
+      color: var(--color-rich-earth);
+      border: 2px solid var(--color-rich-earth);
+      border-radius: 50px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+      background: var(--color-rich-earth);
+      color: white;
+    }
+
+    /* Newsletter Section */
+    .newsletter-section {
+      padding: 5rem 3rem;
+      background: white;
+      text-align: center;
+    }
+
+    .newsletter-section h3 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .newsletter-section p {
+      color: #666;
+      margin: 0 auto 2rem;
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: 1rem;
+      max-width: 450px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      min-width: 250px;
+      padding: 1rem 1.5rem;
+      border: 1px solid var(--color-sand-path);
+      border-radius: 50px;
+      font-size: 1rem;
+      font-family: inherit;
+    }
+
+    .newsletter-form input:focus {
+      outline: none;
+      border-color: var(--color-living-green);
+    }
+
+    .newsletter-form button {
+      padding: 1rem 2rem;
+      background: var(--color-living-green);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .newsletter-form button:hover {
+      background: var(--color-deep-moss);
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--color-forest-floor);
+      color: var(--color-cream-canvas);
+      padding: 5rem 3rem 2rem;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr repeat(3, 1fr);
+      gap: 4rem;
+      max-width: 1200px;
+      margin: 0 auto 4rem;
+    }
+
+    .footer-brand p {
+      opacity: 0.8;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .footer-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: var(--color-sage-mist);
+      font-size: 0.95rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--color-cream-canvas);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.1);
+      padding-top: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .mission-content {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+      }
+
+      .platforms-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .nav {
+        padding: 1rem 1.5rem;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero-content {
+        padding: 1rem;
+      }
+
+      .mission-section,
+      .platforms-section,
+      .values-section,
+      .cta-section {
+        padding: 5rem 1.5rem;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .back-link {
+        top: 1rem;
+        left: 1rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Back to Selection -->
+  <a href="index.html" class="back-link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M19 12H5M12 19l-7-7 7-7"/>
+    </svg>
+    View All Designs
+  </a>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">
+      <svg viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="1.5" fill="none"/>
+        <circle cx="20" cy="20" r="3" fill="currentColor"/>
+        <circle cx="20" cy="8" r="4" fill="#704214"/>
+        <circle cx="8" cy="20" r="4" fill="#7BA3A8"/>
+        <circle cx="32" cy="20" r="4" fill="#C65D3B"/>
+        <circle cx="20" cy="32" r="4" fill="#B5651D"/>
+        <path d="M20 12 L20 17 M12 20 L17 20 M20 28 L20 23 M28 20 L23 20" stroke="currentColor" stroke-width="1"/>
+      </svg>
+      <span class="nav-logo-text">Unified Sanctuaries</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="nav-link">About</a></li>
+      <li><a href="#" class="nav-link">Vision</a></li>
+      <li><a href="#" class="nav-link">Governance</a></li>
+      <li><a href="#" class="nav-link">Get Involved</a></li>
+      <li><a href="#" class="nav-link">Support Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <!-- Animated Mycelial Background -->
+    <div class="mycelial-bg">
+      <svg viewBox="0 0 1000 1000" fill="none">
+        <g stroke="rgba(255,255,255,0.3)" stroke-width="1">
+          <path d="M100,500 Q250,400 400,500 T700,450 T950,500" class="network-line"/>
+          <path d="M50,300 Q200,350 350,300 T650,350 T900,300" class="network-line"/>
+          <path d="M150,700 Q300,650 450,700 T750,650 T950,700" class="network-line"/>
+          <path d="M500,100 Q450,250 500,400 T450,700 T500,900" class="network-line"/>
+          <path d="M300,150 Q350,300 300,450 T350,700 T300,850" class="network-line"/>
+          <path d="M700,150 Q650,300 700,450 T650,700 T700,850" class="network-line"/>
+        </g>
+        <circle cx="200" cy="300" r="8" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="500" cy="200" r="8" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="800" cy="350" r="8" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="150" cy="600" r="8" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="850" cy="650" r="8" fill="rgba(255,255,255,0.5)"/>
+        <circle cx="500" cy="800" r="8" fill="rgba(255,255,255,0.5)"/>
+      </svg>
+    </div>
+
+    <!-- Flowing Shapes -->
+    <div class="flow-shape flow-shape-1"></div>
+    <div class="flow-shape flow-shape-2"></div>
+    <div class="flow-shape flow-shape-3"></div>
+
+    <div class="hero-content">
+      <p class="hero-tagline">A Living Blueprint for Regenerative Community</p>
+      <h1 class="hero-title">Where Ancient Wisdom Meets <em>Future Possibility</em></h1>
+      <p class="hero-subtitle">Growing community from the ground up. Like mycelium beneath a forest floor, we're weaving together land, people, and purpose.</p>
+      <a href="#" class="hero-cta">
+        Explore Our Vision
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M5 12h14M12 5l7 7-7 7"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="line"></div>
+    </div>
+  </header>
+
+  <!-- Mission Section -->
+  <section class="mission-section">
+    <div class="mission-bg-shape"></div>
+    <div class="mission-content">
+      <div class="mission-text">
+        <h2>Land heals people.<br>People heal land.</h2>
+        <p>Unified Sanctuaries is a regenerative, land-based community committed to solving for each other's basic needs of food, housing, and community within a supportive, earth-friendly environment.</p>
+        <p>We're not just building a place. We're <em>growing</em> one. Four interconnected platforms, each distinct yet fundamentally inseparable, sharing resources and wisdom through invisible threads of mutual support.</p>
+      </div>
+      <div class="mission-visual">
+        <div class="network-diagram">
+          <svg viewBox="0 0 400 400" fill="none">
+            <!-- Connection lines -->
+            <g stroke="var(--color-living-green)" stroke-width="2" opacity="0.3">
+              <path d="M200 80 L200 200" class="network-line"/>
+              <path d="M80 200 L200 200" class="network-line"/>
+              <path d="M200 320 L200 200" class="network-line"/>
+              <path d="M320 200 L200 200" class="network-line"/>
+              <path d="M200 80 Q 280 140 320 200" class="network-line"/>
+              <path d="M320 200 Q 260 280 200 320" class="network-line"/>
+              <path d="M200 320 Q 120 260 80 200" class="network-line"/>
+              <path d="M80 200 Q 140 120 200 80" class="network-line"/>
+            </g>
+            <!-- Center node -->
+            <circle cx="200" cy="200" r="25" fill="var(--color-forest-floor)"/>
+            <circle cx="200" cy="200" r="10" fill="var(--color-cream-canvas)"/>
+            <!-- Platform nodes -->
+            <g class="network-node">
+              <circle cx="200" cy="60" r="35" fill="var(--color-farm-soil-umber)"/>
+              <text x="200" y="65" text-anchor="middle" fill="white" font-size="24">🌱</text>
+            </g>
+            <g class="network-node">
+              <circle cx="60" cy="200" r="35" fill="var(--color-retreat-mineral-spring)"/>
+              <text x="60" y="205" text-anchor="middle" fill="white" font-size="24">💧</text>
+            </g>
+            <g class="network-node">
+              <circle cx="340" cy="200" r="35" fill="var(--color-venue-ember-glow)"/>
+              <text x="340" y="205" text-anchor="middle" fill="white" font-size="24">🔥</text>
+            </g>
+            <g class="network-node">
+              <circle cx="200" cy="340" r="35" fill="var(--color-community-hearth-clay)"/>
+              <text x="200" y="345" text-anchor="middle" fill="white" font-size="24">🏠</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Platforms Section -->
+  <section class="platforms-section">
+    <header class="platforms-header">
+      <h2>The Four Platforms</h2>
+      <p>Four interconnected pillars, one living ecosystem. Each platform feeds and supports the others.</p>
+    </header>
+
+    <div class="platforms-grid">
+      <article class="platform-card platform-card--farm">
+        <div class="platform-content">
+          <div class="platform-icon">🌱</div>
+          <h3>Permaculture Farm & Education</h3>
+          <p>Regenerative agriculture, food sovereignty, and hands-on learning. From soil to table to community.</p>
+          <a href="#" class="platform-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="platform-card platform-card--retreat">
+        <div class="platform-content">
+          <div class="platform-icon">💧</div>
+          <h3>Retreat & Healing Arts</h3>
+          <p>Immersive wellness, somatic healing, bathhouse sanctuary. A place to return to wholeness.</p>
+          <a href="#" class="platform-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="platform-card platform-card--venue">
+        <div class="platform-content">
+          <div class="platform-icon">🔥</div>
+          <h3>Event Venue</h3>
+          <p>Festivals, gatherings, markets, and celebrations. Where community comes alive through shared experience.</p>
+          <a href="#" class="platform-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="platform-card platform-card--community">
+        <div class="platform-content">
+          <div class="platform-icon">🏠</div>
+          <h3>Community Living</h3>
+          <p>20+ homes woven together. Shared resources, earned equity, and a place to call home in the web.</p>
+          <a href="#" class="platform-link">
+            Learn More
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="values-section">
+    <header class="values-header">
+      <h2>Rooted in Values</h2>
+    </header>
+    <div class="values-stream">
+      <span class="value-pill">Regeneration over extraction</span>
+      <span class="value-pill">Non-speculative land stewardship</span>
+      <span class="value-pill">Equity through contribution</span>
+      <span class="value-pill">Participatory governance</span>
+      <span class="value-pill">Open-source sharing</span>
+      <span class="value-pill">Indigenous wisdom honored</span>
+      <span class="value-pill">Joy as medicine</span>
+      <span class="value-pill">Flexibility & resilience</span>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="quote-section">
+    <div class="quote-shape quote-shape-1"></div>
+    <div class="quote-shape quote-shape-2"></div>
+    <div class="quote-content">
+      <blockquote>"Land heals people. People heal land. This is the spiral we're tending."</blockquote>
+      <cite>— The Unified Sanctuaries Ethos</cite>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <h2>Join the Growing</h2>
+    <p>Whether you're ready to dig in or just curious, there's a place for you in this network.</p>
+    <div class="cta-buttons">
+      <a href="#" class="btn-primary">Get Involved</a>
+      <a href="#" class="btn-secondary">Support the Vision</a>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <h3>Stay Connected</h3>
+    <p>Receive updates on our land search, community gatherings, and the journey ahead.</p>
+    <form class="newsletter-form">
+      <input type="email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4 class="footer-heading">Unified Sanctuaries</h4>
+        <p>A living blueprint for regenerative living & community resilience in Southern Vermont.</p>
+      </div>
+      <div>
+        <h4 class="footer-heading">Explore</h4>
+        <ul class="footer-links">
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Vision</a></li>
+          <li><a href="#">Governance</a></li>
+          <li><a href="#">News & Updates</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">Get Involved</h4>
+        <ul class="footer-links">
+          <li><a href="#">Memberships</a></li>
+          <li><a href="#">Volunteer</a></li>
+          <li><a href="#">Partner With Us</a></li>
+          <li><a href="#">Support Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-heading">Connect</h4>
+        <ul class="footer-links">
+          <li><a href="mailto:unifiedsanctuaries@gmail.com">Email Us</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Unified Sanctuaries &copy; 2026. Growing community from the ground up.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 100) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>

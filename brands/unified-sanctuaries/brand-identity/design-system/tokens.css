@@ -1,0 +1,254 @@
+/**
+ * Unified Sanctuaries Design Tokens
+ * CSS Custom Properties for Brand Implementation
+ *
+ * Vibe: earthy, organic, ancient future, healing arts,
+ *       creative, community, biomimicry, mycelial, flow
+ */
+
+:root {
+  /* ================================
+     COLOR SYSTEM
+     ================================ */
+
+  /* Primary Palette */
+  --color-forest-floor: #2D3A2E;
+  --color-living-green: #5C7C5E;
+  --color-rich-earth: #8B7355;
+  --color-cream-canvas: #F5F0E8;
+  --color-charcoal-root: #1A1A1A;
+
+  /* Secondary Palette */
+  --color-goldenrod: #B8860B;
+  --color-saddle-brown: #8B4513;
+  --color-sage-mist: #6B8E7A;
+  --color-sand-path: #C9B896;
+  --color-deep-moss: #4A5D4A;
+
+  /* Platform Accents */
+  --color-farm-soil-umber: #704214;
+  --color-retreat-mineral-spring: #7BA3A8;
+  --color-venue-ember-glow: #C65D3B;
+  --color-community-hearth-clay: #B5651D;
+
+  /* Semantic Colors */
+  --color-primary: var(--color-forest-floor);
+  --color-secondary: var(--color-living-green);
+  --color-accent: var(--color-rich-earth);
+  --color-background: var(--color-cream-canvas);
+  --color-text: var(--color-charcoal-root);
+  --color-text-muted: #5A5A5A;
+  --color-text-light: #7A7A7A;
+
+  /* Feedback Colors (softened for brand) */
+  --color-success: var(--color-living-green);
+  --color-warning: var(--color-goldenrod);
+  --color-error: #A85C5C;
+  --color-info: var(--color-sage-mist);
+
+  /* ================================
+     TYPOGRAPHY
+     ================================ */
+
+  /* Font Families */
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-body: 'Source Sans Pro', 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Sorts Mill Goudy', 'Cormorant Garamond', Georgia, serif;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Font Sizes - Desktop */
+  --font-size-hero: clamp(2.5rem, 5vw, 4.5rem);
+  --font-size-h1: clamp(2rem, 4vw, 3rem);
+  --font-size-h2: clamp(1.75rem, 3vw, 2rem);
+  --font-size-h3: clamp(1.375rem, 2.5vw, 1.625rem);
+  --font-size-h4: clamp(1.125rem, 2vw, 1.25rem);
+  --font-size-body: clamp(1rem, 1.5vw, 1.125rem);
+  --font-size-caption: 0.875rem;
+  --font-size-small: 0.75rem;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-snug: 1.4;
+  --line-height-normal: 1.6;
+  --line-height-relaxed: 1.8;
+  --line-height-loose: 2;
+
+  /* Letter Spacing */
+  --letter-spacing-tight: -0.025em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.025em;
+  --letter-spacing-wider: 0.05em;
+  --letter-spacing-widest: 0.1em;
+
+  /* ================================
+     SPACING
+     ================================ */
+
+  /* Base unit: 8px */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.5rem;    /* 24px */
+  --space-6: 2rem;      /* 32px */
+  --space-7: 2.5rem;    /* 40px */
+  --space-8: 3rem;      /* 48px */
+  --space-9: 4rem;      /* 64px */
+  --space-10: 5rem;     /* 80px */
+  --space-11: 6rem;     /* 96px */
+  --space-12: 8rem;     /* 128px */
+
+  /* Semantic Spacing */
+  --space-section: var(--space-11);
+  --space-component: var(--space-6);
+  --space-element: var(--space-4);
+  --space-inline: var(--space-2);
+
+  /* ================================
+     LAYOUT
+     ================================ */
+
+  /* Container Widths */
+  --container-xs: 20rem;    /* 320px */
+  --container-sm: 36rem;    /* 576px */
+  --container-md: 48rem;    /* 768px */
+  --container-lg: 64rem;    /* 1024px */
+  --container-xl: 80rem;    /* 1280px */
+  --container-2xl: 96rem;   /* 1536px */
+
+  /* Content Width */
+  --content-width: 65ch;    /* Optimal reading width */
+  --content-width-wide: 80ch;
+
+  /* Margins */
+  --margin-page: clamp(1rem, 5vw, 3rem);
+
+  /* ================================
+     BORDERS & RADII
+     ================================ */
+
+  --border-width-thin: 1px;
+  --border-width-medium: 2px;
+  --border-width-thick: 4px;
+
+  --border-radius-sm: 0.25rem;
+  --border-radius-md: 0.5rem;
+  --border-radius-lg: 1rem;
+  --border-radius-xl: 1.5rem;
+  --border-radius-full: 9999px;
+
+  /* Organic border radius (asymmetric for natural feel) */
+  --border-radius-organic: 0.5rem 1rem 0.5rem 1rem;
+
+  /* ================================
+     SHADOWS
+     ================================ */
+
+  /* Soft, warm shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(45, 58, 46, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(45, 58, 46, 0.07),
+               0 2px 4px -1px rgba(45, 58, 46, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(45, 58, 46, 0.08),
+               0 4px 6px -2px rgba(45, 58, 46, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(45, 58, 46, 0.08),
+               0 10px 10px -5px rgba(45, 58, 46, 0.03);
+
+  /* Inner shadows for depth */
+  --shadow-inner: inset 0 2px 4px 0 rgba(45, 58, 46, 0.05);
+
+  /* ================================
+     TRANSITIONS
+     ================================ */
+
+  /* Organic, unhurried transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+  --transition-slower: 700ms ease;
+
+  /* Easing Functions */
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-organic: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ================================
+     Z-INDEX SCALE
+     ================================ */
+
+  --z-deep: -1;
+  --z-base: 0;
+  --z-raised: 10;
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-overlay: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+  --z-tooltip: 600;
+
+  /* ================================
+     COMPONENT TOKENS
+     ================================ */
+
+  /* Buttons */
+  --btn-padding-y: var(--space-3);
+  --btn-padding-x: var(--space-5);
+  --btn-border-radius: var(--border-radius-full);
+  --btn-font-weight: var(--font-weight-medium);
+  --btn-transition: var(--transition-base);
+
+  /* Cards */
+  --card-padding: var(--space-6);
+  --card-border-radius: var(--border-radius-lg);
+  --card-shadow: var(--shadow-md);
+  --card-bg: #FFFFFF;
+
+  /* Forms */
+  --input-padding-y: var(--space-3);
+  --input-padding-x: var(--space-4);
+  --input-border-radius: var(--border-radius-md);
+  --input-border-color: var(--color-sand-path);
+  --input-focus-ring: var(--color-living-green);
+
+  /* Navigation */
+  --nav-height: 4rem;
+  --nav-bg: var(--color-cream-canvas);
+
+  /* Footer */
+  --footer-bg: var(--color-forest-floor);
+  --footer-text: var(--color-cream-canvas);
+}
+
+/* ================================
+   DARK MODE ADJUSTMENTS
+   (For evening/retreat contexts)
+   ================================ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: var(--color-charcoal-root);
+    --color-text: var(--color-cream-canvas);
+    --color-text-muted: #B0B0B0;
+    --card-bg: #2A2A2A;
+    --nav-bg: var(--color-charcoal-root);
+  }
+}
+
+/* ================================
+   REDUCED MOTION
+   ================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+    --transition-slow: 0ms;
+    --transition-slower: 0ms;
+  }
+}

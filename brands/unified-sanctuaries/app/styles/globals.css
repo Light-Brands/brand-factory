@@ -1,0 +1,243 @@
+/**
+ * Unified Sanctuaries Global Styles
+ * Based on the "Nourishing Waters" brand identity from final-version.html
+ */
+
+/* CSS Custom Properties - Design Tokens */
+:root {
+  /* Mycelial Waters */
+  --color-river-deep: #15303F;
+  --color-river-blue: #2E5A6A;
+  --color-river-mist: #5E9AA2;
+  --color-spring: #8FBABF;
+  --color-forest-floor: #1E2B1F;
+  --color-sage-mist: #5A8A6A;
+
+  /* Clay Vessel */
+  --color-terracotta: #D47850;
+  --color-terracotta-deep: #B85A35;
+  --color-clay: #E0A568;
+  --color-clay-light: #F0DCC4;
+
+  /* Neutrals */
+  --color-cream: #FAF8F5;
+  --color-soft-white: #FFFFFF;
+  --color-charcoal: #1A1A18;
+
+  /* Platform colors */
+  --color-farm: #5A360E;
+  --color-farm-accent: #704214;
+  --color-retreat: #4A9199;
+  --color-retreat-accent: #3D7A82;
+  --color-venue: #D64527;
+  --color-venue-accent: #B03A1F;
+  --color-community: #C45A15;
+  --color-community-accent: #9A4510;
+
+  /* Typography */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Source Sans Pro', -apple-system, sans-serif;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 20px rgba(21, 48, 63, 0.06);
+  --shadow-md: 0 4px 25px rgba(21, 48, 63, 0.1);
+  --shadow-lg: 0 8px 35px rgba(21, 48, 63, 0.12);
+  --shadow-xl: 0 15px 40px rgba(21, 48, 63, 0.15);
+  --shadow-2xl: 0 20px 50px rgba(21, 48, 63, 0.18);
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 300ms ease;
+  --transition-slow: 500ms ease;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-3xl: 24px;
+  --radius-full: 50px;
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  overflow-x: hidden;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--color-river-deep);
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.15;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+}
+
+h3 {
+  font-size: clamp(1.6rem, 3.5vw, 2.25rem);
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  max-width: 60ch;
+}
+
+a {
+  color: var(--color-river-blue);
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+a:hover {
+  color: var(--color-terracotta);
+}
+
+/* Focus States */
+:focus-visible {
+  outline: 2px solid var(--color-river-mist);
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-river-mist);
+  color: var(--color-soft-white);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-river-mist);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-river-blue);
+}
+
+/* Animation Keyframes */
+@keyframes waterPour {
+  0%, 100% { opacity: 0.7; stroke-dashoffset: 0; }
+  50% { opacity: 1; stroke-dashoffset: -20; }
+}
+
+@keyframes networkFlow {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -15; }
+}
+
+@keyframes vesselPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+@keyframes nodeGlow {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes orbitRotate {
+  0% { stroke-dashoffset: 0; }
+  100% { stroke-dashoffset: -360; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Animation Classes */
+.water-pour {
+  animation: waterPour 2.5s ease-in-out infinite;
+}
+
+.network-flow {
+  stroke-dasharray: 10 5;
+  animation: networkFlow 2s linear infinite;
+}
+
+.vessel-pulse {
+  animation: vesselPulse 3s ease-in-out infinite;
+}
+
+.node-glow {
+  animation: nodeGlow 2.5s ease-in-out infinite;
+}
+
+.node-glow:nth-child(2) { animation-delay: 0.6s; }
+.node-glow:nth-child(3) { animation-delay: 1.2s; }
+.node-glow:nth-child(4) { animation-delay: 1.8s; }
+
+.orbit-ring {
+  stroke-dasharray: 8 4;
+  animation: orbitRotate 60s linear infinite;
+  transform-origin: center;
+}
+
+.fade-in {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.slide-up {
+  animation: slideUp 0.8s ease-out;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
