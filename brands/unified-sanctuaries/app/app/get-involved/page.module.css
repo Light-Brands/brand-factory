@@ -1,0 +1,265 @@
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-terracotta);
+  margin-bottom: 1.5rem;
+}
+
+.heroContent h1 {
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+}
+
+/* Membership Grid */
+.membershipGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.membershipCard {
+  padding: 2.5rem;
+  background: white;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.membershipCard.featured {
+  border: 2px solid var(--color-terracotta);
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+.featuredBadge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-terracotta);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.membershipCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  color: var(--color-river-deep);
+  margin-bottom: 0.75rem;
+}
+
+.tierDescription {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  flex: 1;
+}
+
+.benefits li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.benefits li svg {
+  color: var(--color-sage-mist);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Pathways Grid */
+.pathwaysGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pathwaysGrid h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+.pathwaysGrid p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Volunteer Section */
+.volunteerContent {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.volunteerText h2 {
+  margin-bottom: 1.5rem;
+}
+
+.volunteerText p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.volunteerText h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.volunteerText ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+}
+
+.volunteerText ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.volunteerText ul li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-terracotta);
+}
+
+.volunteerVisual {
+  display: flex;
+  justify-content: center;
+}
+
+.tokenCircle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-river-blue), var(--color-sage-mist));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 20px 60px rgba(46, 90, 106, 0.3);
+}
+
+.tokenCircle span {
+  font-family: var(--font-display);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.tokenCircle p {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Partner Grid */
+.partnerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.partnerCard {
+  padding: 2rem;
+  background: white;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+}
+
+.partnerCard h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.75rem;
+}
+
+.partnerCard p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.75;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .membershipGrid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+  }
+
+  .membershipCard.featured {
+    transform: none;
+  }
+
+  .pathwaysGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .volunteerContent {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .volunteerVisual {
+    order: -1;
+  }
+
+  .partnerGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .pathwaysGrid {
+    grid-template-columns: 1fr;
+  }
+}

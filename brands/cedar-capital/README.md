@@ -1,30 +1,64 @@
 # Cedar Capital
 
-AI-powered real estate platform connecting homeowners and investors through intelligent automation.
+> *Local heart + institutional confidence*
 
-## Overview
+---
 
-Cedar Capital is a dual-branded real estate platform where AI acts as the central facilitator—analyzing data streams, identifying high-potential deals, and automating connections between sellers and investors.
+## Brand Overview
 
-## Key Features
+Cedar Capital is a real estate investment company focused on helping distressed homeowners sell quickly while providing investors with quality deal flow. The brand embodies trust, warmth, and professionalism—feeling like a trusted local family with the confidence and capability of a financial institution.
 
-- **AI-Driven Deal Identification**: Automatically flag undervalued properties and investment opportunities
-- **Autonomous Lead Provisioning**: Generate all required materials (valuations, analyses, documents) the moment a lead enters the system
-- **Intelligent Matching**: Connect homeowners with qualified investors using multi-factor algorithms
-- **Dual-Branded Experience**: Tailored interfaces for both homeowners (warm, approachable) and investors (data-driven, professional)
+## Brand Essence
 
-## Platform Components
+**Trustworthy like a bank** — Capital, certainty, professionalism
+**Warm like a local family** — Human, relational, "we'll actually show up"
+**Modern + streamlined** — Tech behind the scenes, but never "cold AI"
 
-- **Front-Facing Web Platform**: Public site for property search, lead capture, and user engagement
-- **Backend Dashboard**: Internal management console for operations, analytics, and system configuration
+## Target Audiences
 
-## Documentation
+### Sellers (Distressed Homeowners)
+- Need fast, fair offers
+- Value transparency and clear communication
+- Want to work with real people who understand their situation
 
-- [Project Plan](./PROJECT-PLAN.md) - Comprehensive platform development plan
+### Investors
+- Looking for organized, credible deal flow
+- Value professionalism and clear ROI data
+- Need to trust the source of their investments
 
-## Target Users
+## Visual Identity Summary
 
-| User Type | Focus |
-|-----------|-------|
-| Homeowners (Sellers) | Quick property sales with AI-powered valuations and buyer matching |
-| Investors (Buyers) | Deal identification, opportunity scoring, and automated introductions |
+| Element | Value |
+|---------|-------|
+| **Primary Color** | Cedar Green #0B3D2E |
+| **Accent Color** | Capital Gold #C8A24A |
+| **Background** | Cream #F6F1E6 |
+| **Typography** | Plus Jakarta Sans (headlines) + Inter (body) |
+| **Style** | Earthy, premium, calm, grounded, warm |
+
+## Brand Documents
+
+- [Visual Identity Guidelines](./spec/brand/01-visual-identity.md)
+- [Brand Voice & Messaging](./spec/brand/02-brand-voice-messaging.md)
+
+## Platform Documents
+
+- [Project Plan](./PROJECT-PLAN.md) - AI-powered platform development plan
+- [Dashboard Foundation Plan](./spec/dashboard/00-dashboard-foundation-plan.md) - Dashboard architecture and implementation
+- [Investor Dashboard Spec](./spec/dashboard/01-investor-dashboard-spec.md) - Private investor portal
+- [Operations Dashboard Spec](./spec/dashboard/02-operations-dashboard-spec.md) - Internal management console
+- [Landing Pages Plan](./spec/frontend/01-landing-pages-plan.md) - Public lead capture and investor onboarding
+
+## Quick Design Reference
+
+```
+Background:     Cream #F6F1E6
+Navigation:     Cedar Green #0B3D2E
+Accents:        Capital Gold #C8A24A
+Footer:         Navy Ink #0F2233
+Cards:          Sand #E9DDC7 with Stone borders #D2C7B3
+```
+
+---
+
+*Cedar Capital: Real people. Fair offers. Local Austin buyers.*

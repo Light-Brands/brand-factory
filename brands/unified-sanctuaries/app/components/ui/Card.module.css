@@ -1,0 +1,58 @@
+.card {
+  background: white;
+  border-radius: var(--radius-2xl);
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.4s ease;
+}
+
+.hover:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Platform cards have a colored top border */
+.platform {
+  text-align: center;
+}
+
+.platform::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.farm::before {
+  background: linear-gradient(90deg, var(--color-farm), var(--color-sage-mist));
+}
+
+.retreat::before {
+  background: linear-gradient(90deg, var(--color-retreat), var(--color-river-mist));
+}
+
+.venue::before {
+  background: linear-gradient(90deg, var(--color-venue), var(--color-terracotta));
+}
+
+.community::before {
+  background: linear-gradient(90deg, var(--color-community), var(--color-clay));
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  color: var(--color-river-deep);
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: var(--color-charcoal);
+  opacity: 0.7;
+  line-height: 1.6;
+  margin: 0 auto;
+}

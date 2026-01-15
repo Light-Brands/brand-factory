@@ -1,0 +1,219 @@
+.heroContent {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--color-terracotta);
+  margin-bottom: 1.5rem;
+}
+
+.heroContent h1 {
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+}
+
+/* Story Section */
+.storyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.storyText h2 {
+  margin-bottom: 2rem;
+}
+
+.storyText p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  margin-bottom: 1.5rem;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+}
+
+.storyVisual {
+  display: flex;
+  justify-content: center;
+}
+
+.vesselShape {
+  width: 280px;
+  height: 350px;
+  background: linear-gradient(160deg,
+    var(--color-clay-light) 0%,
+    var(--color-terracotta) 40%,
+    var(--color-river-mist) 70%,
+    var(--color-river-blue) 100%);
+  border-radius: 40% 40% 30% 30%;
+  box-shadow: 0 30px 80px rgba(21, 48, 63, 0.15);
+}
+
+/* Team Grid */
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.teamMember {
+  text-align: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-river-blue), var(--color-sage-mist));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  margin: 0 auto 1rem;
+}
+
+.teamMember h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  font-size: 0.8rem;
+  color: var(--color-terracotta);
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.bio {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+/* Values Grid */
+.valuesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.valueCard {
+  padding: 2rem;
+  background: white;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.valueCard h3 {
+  font-size: 1.15rem;
+  color: var(--color-river-deep);
+  margin-bottom: 1rem;
+}
+
+.valueCard p {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.75;
+}
+
+/* Explore Links */
+.exploreLinks {
+  text-align: center;
+}
+
+.exploreLinks h2 {
+  margin-bottom: 3rem;
+}
+
+.linkCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.linkCard {
+  padding: 2.5rem 2rem;
+  background: white;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.linkCard:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.linkCard h3 {
+  font-size: 1.25rem;
+  color: var(--color-river-deep);
+  margin-bottom: 0.75rem;
+}
+
+.linkCard p {
+  font-size: 0.95rem;
+  color: var(--color-charcoal);
+  opacity: 0.7;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .storyGrid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .storyVisual {
+    order: -1;
+  }
+
+  .vesselShape {
+    width: 200px;
+    height: 250px;
+  }
+
+  .teamGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .valuesGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .linkCards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .teamGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .valuesGrid {
+    grid-template-columns: 1fr;
+  }
+}

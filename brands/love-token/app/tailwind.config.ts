@@ -1,0 +1,211 @@
+import type { Config } from 'tailwindcss';
+
+const config: Config = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        // Primary Palette
+        'heart-rose': {
+          DEFAULT: '#C06C84',
+          50: '#F5E8EC',
+          100: '#EDDADE',
+          200: '#DDB5C2',
+          300: '#CD90A3',
+          400: '#C06C84',
+          500: '#A84D68',
+          600: '#84394F',
+          700: '#602937',
+          800: '#3C1922',
+          900: '#1A0B0F',
+        },
+        'earth-clay': {
+          DEFAULT: '#8B5A3C',
+          50: '#F5EDE8',
+          100: '#EDDCCC',
+          200: '#D4B89A',
+          300: '#BC9468',
+          400: '#A37844',
+          500: '#8B5A3C',
+          600: '#6E4730',
+          700: '#503424',
+          800: '#332118',
+          900: '#160E0B',
+        },
+        'sunlit-gold': {
+          DEFAULT: '#D4A574',
+          50: '#FBF6F0',
+          100: '#F5E9DA',
+          200: '#ECD4B7',
+          300: '#E3BF94',
+          400: '#D4A574',
+          500: '#C28A50',
+          600: '#A06D3A',
+          700: '#78512B',
+          800: '#50361D',
+          900: '#281B0E',
+        },
+        'sacred-cream': {
+          DEFAULT: '#FAF7F2',
+          50: '#FFFFFF',
+          100: '#FAF7F2',
+          200: '#F0E9DD',
+          300: '#E6DBC8',
+          400: '#DCCDB3',
+          500: '#D2BF9E',
+        },
+        // Spiritual Palette
+        'meditation-dusk': {
+          DEFAULT: '#6B5B7A',
+          50: '#EBE8EE',
+          100: '#D7D0DD',
+          200: '#B0A1BB',
+          300: '#8A7299',
+          400: '#6B5B7A',
+          500: '#524662',
+          600: '#3F3549',
+          700: '#2B2531',
+          800: '#181418',
+          900: '#050405',
+        },
+        'om-sage': {
+          DEFAULT: '#7A8B6B',
+          50: '#EBF0E8',
+          100: '#D8E0D0',
+          200: '#B1C1A2',
+          300: '#8AA274',
+          400: '#7A8B6B',
+          500: '#5F6C54',
+          600: '#48533F',
+          700: '#323929',
+          800: '#1B1F16',
+          900: '#040504',
+        },
+        'lotus-soft': {
+          DEFAULT: '#E8D5E0',
+          50: '#FFFFFF',
+          100: '#F8F2F6',
+          200: '#E8D5E0',
+          300: '#D8B8CA',
+          400: '#C89BB4',
+          500: '#B87E9E',
+        },
+        // Functional
+        'deep-root': {
+          DEFAULT: '#2D2A26',
+          50: '#D6D4D0',
+          100: '#C3C0BA',
+          200: '#9D998F',
+          300: '#777264',
+          400: '#524E45',
+          500: '#2D2A26',
+        },
+        'stone-grey': {
+          DEFAULT: '#A69F96',
+        },
+        'border-mist': {
+          DEFAULT: '#D4CFC8',
+        },
+        'success-sage': {
+          DEFAULT: '#5A7A5A',
+        },
+        'warning-amber': {
+          DEFAULT: '#C4934A',
+        },
+        'error-soft': {
+          DEFAULT: '#A65A5A',
+        },
+      },
+      fontFamily: {
+        sans: ['Nunito', 'Inter', 'Work Sans', 'system-ui', 'sans-serif'],
+      },
+      fontSize: {
+        'h1-mobile': ['2rem', { lineHeight: '1.2', fontWeight: '600' }],
+        'h1-desktop': ['3.5rem', { lineHeight: '1.1', fontWeight: '600' }],
+        'h2-mobile': ['1.5rem', { lineHeight: '1.3', fontWeight: '500' }],
+        'h2-desktop': ['2rem', { lineHeight: '1.25', fontWeight: '500' }],
+        'h3-mobile': ['1.25rem', { lineHeight: '1.4', fontWeight: '500' }],
+        'h3-desktop': ['1.5rem', { lineHeight: '1.35', fontWeight: '500' }],
+        'body': ['1rem', { lineHeight: '1.6' }],
+        'body-lg': ['1.125rem', { lineHeight: '1.6' }],
+        'caption': ['0.875rem', { lineHeight: '1.5', fontWeight: '300' }],
+      },
+      borderRadius: {
+        'love': '16px',
+        'card': '20px',
+        'button': '16px',
+        'modal': '24px',
+        'input': '12px',
+        'pill': '9999px',
+      },
+      boxShadow: {
+        'gentle': '0 2px 12px rgba(45, 42, 38, 0.08)',
+        'warm-glow': '0 0 24px rgba(192, 108, 132, 0.15)',
+        'deep-ground': '0 8px 24px rgba(45, 42, 38, 0.12)',
+        'love-glow': '0 0 32px rgba(192, 108, 132, 0.25)',
+      },
+      spacing: {
+        'micro': '4px',
+        'tight': '8px',
+        'default': '16px',
+        'comfortable': '24px',
+        'breathing': '32px',
+        'meditation': '48px',
+        'page': '64px',
+      },
+      animation: {
+        'heartbeat': 'heartbeat 200ms ease-in-out',
+        'breath': 'breath 400ms ease-in-out',
+        'meditation': 'meditation 800ms ease-in-out',
+        'celebration': 'celebration 1200ms ease-in-out',
+        'pulse-soft': 'pulseSoft 3s ease-in-out infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'glow': 'glow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        heartbeat: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
+        },
+        breath: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.8' },
+        },
+        meditation: {
+          '0%': { transform: 'scale(0.95)', opacity: '0' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
+        celebration: {
+          '0%': { transform: 'scale(0.8)', opacity: '0' },
+          '50%': { transform: 'scale(1.1)', opacity: '1' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
+        pulseSoft: {
+          '0%, 100%': { opacity: '0.6', transform: 'scale(1)' },
+          '50%': { opacity: '1', transform: 'scale(1.05)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        glow: {
+          '0%, 100%': { boxShadow: '0 0 24px rgba(192, 108, 132, 0.15)' },
+          '50%': { boxShadow: '0 0 32px rgba(192, 108, 132, 0.35)' },
+        },
+      },
+      backgroundImage: {
+        'love-flow': 'linear-gradient(135deg, #C06C84 0%, #D4A574 100%)',
+        'grounded': 'linear-gradient(135deg, #8B5A3C 0%, #2D2A26 100%)',
+        'spirit': 'linear-gradient(135deg, #6B5B7A 0%, #E8D5E0 100%)',
+        'dawn': 'linear-gradient(135deg, #FAF7F2 0%, #D4A574 100%)',
+      },
+    },
+  },
+  plugins: [],
+};
+
+export default config;
