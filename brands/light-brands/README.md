@@ -138,6 +138,7 @@ The Light Brand Agency provides AI-powered capabilities:
 - [MASTER-PLAN.md](spec/MASTER-PLAN.md) - Complete strategic plan
 - [ECOSYSTEM-MAP.md](spec/ECOSYSTEM-MAP.md) - Visual ecosystem diagrams
 - [SERVICE-TIERS.md](spec/SERVICE-TIERS.md) - Detailed service offerings
+- [AI-LEVERAGE-OVERVIEW.md](spec/AI-LEVERAGE-OVERVIEW.md) - Exponential compounding through intentional AI
 
 ### Operational
 - [HANDOFF-PROTOCOL.md](spec/architecture/HANDOFF-PROTOCOL.md) - Work transfer process
