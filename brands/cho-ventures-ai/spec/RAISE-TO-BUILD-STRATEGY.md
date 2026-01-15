@@ -1,442 +1,487 @@
 # Cho Ventures: Raise-to-Build Partnership Strategy
 
-> *A strategic framework for aligning capital formation with full-stack development partnership*
+> *Aligned with the FoC QOF $7M Equity Raise and PHX JAX Monetization Roadmap*
 
 ---
 
 ## Executive Summary
 
-Tony Cho is raising **$11M** for the Cho Ventures ecosystem. This document outlines a strategic engagement model where Light Brands:
+Based on the **PHX JAX Offering Memorandum** and Cho Ventures Strategy Plan, we've identified a clear path to integrate Light Brands' development services into Cho Ventures' existing capital structure and operational roadmap.
 
-1. **Provides value** by introducing Cho Ventures to our network of qualified fundraisers
-2. **Secures commitment** as the exclusive digital development and app partner
-3. **Ensures alignment** by entering the engagement after capital is secured
-4. **Achieves wholeness** through a properly scoped full-development engagement
+### Key Alignment Points
 
-**The Core Proposition:** We help you raise → We build what you raise for.
+| Their Framework | Our Integration |
+|-----------------|-----------------|
+| **$7M Equity Raise** | Target closing March 31, 2026 |
+| **$670K Sponsor & Platform Costs** | Our build fits within allocated budget |
+| **Phase 2: Stabilization (2025-2026)** | Platform development supports stabilization |
+| **Phase 3: Monetization (2027-2030)** | Infrastructure enables scale and exits |
+| **Section 10 Recommendations** | Directly maps to our deliverables |
+
+**The Core Proposition:** We build the platform infrastructure they've already identified as critical to their success—within the budget they've already allocated.
 
 ---
 
-## Part 1: Understanding the $11M Raise
+## Part 1: Understanding the FoC QOF $7M Raise
 
-### Key Questions to Clarify
+### Capital Structure (Per Strategy Plan)
 
-Before proceeding, we need clarity on the capital structure:
-
-| Question | Why It Matters |
-|----------|----------------|
-| **What is the $11M for?** | Determines how much flows to digital infrastructure |
-| **Is this equity, debt, or mixed?** | Impacts investor expectations and use of funds |
-| **What's the timeline?** | Determines when development could begin |
-| **What's already committed vs. to raise?** | Validates readiness for partnership |
-| **Is there a designated tech/digital allocation?** | Confirms budget for development scope |
-
-### Likely Capital Allocation Framework
-
-Based on our discovery of the Cho Ventures ecosystem, here's how $11M might typically be allocated for a portfolio of this nature:
+The raise is fully defined with specific allocations:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                   HYPOTHETICAL $11M ALLOCATION                          │
+│                   FoC QOF CAPITAL STRUCTURE ($14.42M)                   │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│   REAL ESTATE / DEVELOPMENT         DIGITAL / TECHNOLOGY                │
-│   ──────────────────────────         ────────────────────                │
-│   • PHX-JAX Development: $4-6M      • Unified Hub/CRM: $150-250K        │
-│   • Climate HUB Build-out: $1-2M    • Community App: $200-350K          │
-│   • ChoZen Improvements: $500K-1M   • AI Layer: $100-200K               │
-│                                     • Authority Platform: $150-250K     │
-│   Real Estate Subtotal: $5.5-9M     Digital Subtotal: $600K-$1.05M     │
-│                                                                          │
-│   OPERATIONS / OVERHEAD             RESERVES / CONTINGENCY              │
-│   ─────────────────────             ──────────────────────              │
-│   • Team Expansion: $300-500K       • Operating Reserve: $500K-1M       │
-│   • Marketing/PR: $200-400K         • Contingency: $300-500K            │
-│   • Legal/Compliance: $100-200K                                         │
-│   Operations Subtotal: $600K-1.1M   Reserves Subtotal: $800K-1.5M      │
+│   SOURCES                              USES                              │
+│   ───────                              ────                              │
+│   Debt (Total): $7.42M                 Construction & Core CapEx: $2.73M │
+│   • Construction Loans: $3.19M         Tenant Improvements: $1.43M       │
+│   • Bridge Loans: $4.23M               Financing & Structure: $1.06M     │
+│                                        Debt Paydowns: $7.39M             │
+│   Equity: $7.00M ◄── THE RAISE         Operating Runway: $1.13M          │
+│                                        Sponsor & Platform: $0.67M ◄──┐   │
+│                                                                       │   │
+│                                           OUR OPPORTUNITY ────────────┘   │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Target Digital Allocation: $600K - $1.05M
+### Investment Vehicle Details
 
-This range aligns with our full ecosystem development scope:
-- **Minimum viable engagement:** $600K covers Phase 2 + core Phase 3
-- **Optimal engagement:** $1M+ enables complete transformation including training
+| Term | Detail |
+|------|--------|
+| **Vehicle** | FoC QOF, LLC |
+| **Type** | Qualified Opportunity Fund |
+| **Equity Raise** | $7 million |
+| **Target Closing** | March 31, 2026 |
+| **Target Net IRR** | 27% |
+| **Equity Multiple** | 1.6x |
+| **Capital Recovery** | 2-3 years |
+
+### Why This Matters for Our Engagement
+
+The **$670K Sponsor & Platform Costs** allocation creates a natural budget window for our services. This isn't hypothetical—it's already factored into their capital structure.
 
 ---
 
-## Part 2: The Raise-to-Build Partnership Model
+## Part 2: Section 10 Integration Map
 
-### Value Exchange Framework
+The Strategy Plan's **Section 10** explicitly defines six platform modules they need. Here's how our services map directly:
+
+### Platform Recommendations → Light Brands Deliverables
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                    RAISE-TO-BUILD VALUE EXCHANGE                        │
+│           SECTION 10 RECOMMENDATIONS → LIGHT BRANDS BUILD               │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│   LIGHT BRANDS CONTRIBUTES              CHO VENTURES COMMITS            │
-│   ─────────────────────────             ────────────────────            │
+│   A. INVESTMENT DASHBOARD MODULE                   LB DELIVERABLE       │
+│   ────────────────────────────────                 ──────────────       │
+│   • Real-time portfolio tracking                   Unified CRM Hub      │
+│   • NAV calculation & reporting                    Analytics Dashboard  │
+│   • Investor distribution waterfall                Financial Module     │
 │                                                                          │
-│   • Access to fundraiser network        • Full development scope        │
-│   • Warm introductions to investors     • No piecemeal engagement       │
-│   • Strategic positioning support       • Minimum $600K commitment      │
-│   • Investor-ready materials            • Exclusive digital partnership │
-│   • Due diligence support               • First right on future work    │
+│   B. MARKET INTELLIGENCE SYSTEM                    LB DELIVERABLE       │
+│   ───────────────────────────────                  ──────────────       │
+│   • Jacksonville market data feeds                 AI Data Layer        │
+│   • Competitive development tracking               Intelligence Engine  │
+│   • Path of Progress visualization                 Custom Dashboard     │
 │                                                                          │
-│   VALUE TO CHO: Accelerated capital     VALUE TO LB: Meaningful scope   │
-│   formation + credibility               + sustainable economics         │
+│   C. ASSET MANAGEMENT PLATFORM                     LB DELIVERABLE       │
+│   ──────────────────────────────                   ──────────────       │
+│   • Tenant management                              Property Module      │
+│   • Lease tracking and rent roll                   CRM Integration      │
+│   • NOI optimization recommendations               AI Analysis Layer    │
+│                                                                          │
+│   D. DEVELOPMENT PIPELINE TRACKER                  LB DELIVERABLE       │
+│   ─────────────────────────────────                ──────────────       │
+│   • Site-by-site progress monitoring               Project Dashboard    │
+│   • JV partner relationship management             Partner CRM          │
+│   • Entitlement/permitting tracking                Status Module        │
+│                                                                          │
+│   E. INVESTOR RELATIONS PORTAL                     LB DELIVERABLE       │
+│   ────────────────────────────────                 ──────────────       │
+│   • Quarterly reporting automation                 Report Generator     │
+│   • K-1 distribution management                    Document Portal      │
+│   • Capital call & distribution processing         Payment Integration  │
+│                                                                          │
+│   F. IMPACT REPORTING MODULE                       LB DELIVERABLE       │
+│   ──────────────────────────────                   ──────────────       │
+│   • Affordable housing compliance                  Compliance Tracker   │
+│   • QOZ benefit monitoring                         Tax Module           │
+│   • Community impact metrics                       Impact Dashboard     │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
-### Why This Model Works
+---
 
-**For Cho Ventures:**
-- Access to qualified investor relationships they wouldn't otherwise have
-- Development partner who is invested in fundraising success
-- Aligned incentives (we succeed when they succeed)
-- No upfront capital required until raise closes
+## Part 3: Aligned Three-Phase Build Strategy
 
-**For Light Brands:**
-- Guaranteed meaningful engagement (no $5K discovery that leads nowhere)
-- Development scope that justifies deep investment of attention
-- Client who has capital to execute properly
-- Reference project with significant portfolio visibility
+### Matching Our Phases to Their Playbook
+
+Their established **Assemble → Stabilize → Monetize** playbook creates natural integration points:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│                    PHX JAX PHASES × LIGHT BRANDS BUILD                  │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   PHASE 1: ASSEMBLAGE (2020-2024) ✅ COMPLETED                          │
+│   ─────────────────────────────────────────────                         │
+│   • 8.3 acres assembled                                                 │
+│   • 830 units entitled                                                  │
+│   • $5.5M incentives secured                                            │
+│   • 10x land appreciation achieved                                      │
+│                                                                          │
+│   ──────────────────── WE ENTER HERE ────────────────────               │
+│                                                                          │
+│   PHASE 2: STABILIZATION (2025-2026) 🔄 IN PROGRESS                     │
+│   ──────────────────────────────────────────────────                    │
+│   • ~116K SF adaptive reuse                     ┌──────────────────────┐│
+│   • ~$1.1M stabilized NOI target                │ LB BUILD: Q1-Q2 2026 ││
+│   • Activation underway                         │ • Core Platform      ││
+│   • $7M equity raise closing                    │ • CRM Foundation     ││
+│                                                 │ • Investor Portal    ││
+│                                                 │ • Asset Management   ││
+│                                                 └──────────────────────┘│
+│                                                                          │
+│   PHASE 3: MONETIZATION (2027-2030) 📋 PLANNED                          │
+│   ─────────────────────────────────────────────                         │
+│   • Vertical development JVs                    ┌──────────────────────┐│
+│   • Merchant build opportunities                │ LB BUILD: 2027+      ││
+│   • Parcel sales                                │ • Scale & Optimize   ││
+│   • $62.5M total proceeds target                │ • AI Enhancement     ││
+│                                                 │ • Community Platform ││
+│                                                 │ • Authority Engine   ││
+│                                                 └──────────────────────┘│
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Part 3: Engagement Structure Options
+## Part 4: Pricing Aligned to Capital Allocation
 
-### Option A: Success Fee + Development Contract (Recommended)
+### Tier 1: Core Platform Build (Fits within $670K Allocation)
 
-**Structure:**
-- Light Brands provides fundraising introductions and support
-- Upon successful close of raise (or portion thereof), Light Brands is engaged as development partner
-- Development contract is pre-negotiated and contingent on capital
+This tier delivers all Section 10 recommendations within their existing budget:
 
-**Terms:**
-| Component | Details |
-|-----------|---------|
-| Success Fee | 2-3% of capital raised through LB introductions |
-| Development Commitment | Minimum $600K, up to $1M+ based on allocation |
-| Exclusivity | LB is sole digital/app development partner |
-| Timeline Trigger | Development begins within 60 days of raise close |
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│              TIER 1: CORE PLATFORM BUILD — $450,000 - $650,000          │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   FOUNDATION (Supports all Section 10 modules)           $75,000        │
+│   ───────────────────────────────────────────                           │
+│   • Unified CRM setup & configuration                                   │
+│   • Database architecture & SSO                                         │
+│   • Core integrations framework                                         │
+│                                                                          │
+│   A. INVESTMENT DASHBOARD MODULE                         $85,000        │
+│   ────────────────────────────────                                      │
+│   • Portfolio tracking across 8 QOZBs                                   │
+│   • NAV calculation & reporting                                         │
+│   • Distribution waterfall modeling                                     │
+│                                                                          │
+│   B. MARKET INTELLIGENCE SYSTEM                          $60,000        │
+│   ───────────────────────────────                                       │
+│   • Jacksonville market data integration                                │
+│   • Competitive tracking dashboard                                      │
+│   • Path of Progress visualization                                      │
+│                                                                          │
+│   C. ASSET MANAGEMENT PLATFORM                           $90,000        │
+│   ──────────────────────────────                                        │
+│   • Tenant management for 6 buildings                                   │
+│   • Lease tracking & rent roll                                          │
+│   • NOI optimization recommendations                                    │
+│                                                                          │
+│   D. DEVELOPMENT PIPELINE TRACKER                        $75,000        │
+│   ─────────────────────────────────                                     │
+│   • Sites A-F progress monitoring                                       │
+│   • JV partner relationship management                                  │
+│   • Entitlement & permitting status                                     │
+│                                                                          │
+│   E. INVESTOR RELATIONS PORTAL                           $95,000        │
+│   ────────────────────────────────                                      │
+│   • Quarterly reporting automation                                      │
+│   • K-1 document management                                             │
+│   • Capital call & distribution processing                              │
+│                                                                          │
+│   F. IMPACT REPORTING MODULE                             $70,000        │
+│   ──────────────────────────────                                        │
+│   • Affordable housing compliance (20% target)                          │
+│   • QOZ benefit monitoring & reporting                                  │
+│   • Community impact metrics dashboard                                  │
+│                                                                          │
+│   ─────────────────────────────────────────────────────────────────     │
+│   TIER 1 TOTAL: $550,000 (midpoint)                                     │
+│   Fits within $670K Sponsor & Platform allocation                       │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
-**Example Scenario:**
-- LB introduces investors who commit $3M of the $11M raise
-- Success fee: $60K-$90K (2-3% of $3M)
-- Development contract: $750K (locked in upon close)
-- Total LB engagement value: $810K-$840K
+### Tier 2: Extended Ecosystem (Future Capital / Operating Cash Flow)
+
+For post-stabilization enhancement, funded from operating cash flow or future raises:
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│              TIER 2: EXTENDED ECOSYSTEM — $200,000 - $350,000           │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                          │
+│   COMMUNITY PLATFORM (ChoZen App)                        $150,000       │
+│   ─────────────────────────────────                                     │
+│   • Member portal & engagement                                          │
+│   • Event booking integration                                           │
+│   • Community forums & networking                                       │
+│                                                                          │
+│   AUTHORITY ENGINE                                       $125,000       │
+│   ────────────────                                                      │
+│   • Tony Cho content platform                                           │
+│   • Course infrastructure (Generation Regeneration)                     │
+│   • Speaking & media engine                                             │
+│                                                                          │
+│   AI ENHANCEMENT LAYER                                   $75,000        │
+│   ────────────────────                                                  │
+│   • Predictive analytics                                                │
+│   • Automated insights & recommendations                                │
+│   • Natural language querying                                           │
+│                                                                          │
+│   ─────────────────────────────────────────────────────────────────     │
+│   TIER 2 TOTAL: $250,000 - $350,000 (phased over 2027-2028)            │
+│   Funded from: Operating Cash Flow ($4.6M projected)                    │
+│   or JV Proceeds ($2.5M projected)                                      │
+│                                                                          │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-### Option B: Sweat Equity + Reduced Cash Development
+## Part 5: Value Alignment with Monetization Timeline
 
-**Structure:**
-- Light Brands provides strategic and fundraising support pre-raise
-- Receives equity stake in Cho Ventures or specific entity
-- Development fees are reduced in exchange for equity upside
+### How Our Build Supports Their Exit Strategy
 
-**Terms:**
-| Component | Details |
-|-----------|---------|
-| Equity Stake | 1-3% of Cho Ventures (or specific entity like ChoZen) |
-| Cash Development Fee | 50-70% of standard rates ($300K-$500K) |
-| Vesting | Equity vests over 2-3 years of partnership |
-| Anti-Dilution | Standard protection through next round |
+The Strategy Plan projects **$62.5M in total proceeds** from 2027-2030:
 
-**Example Scenario:**
-- LB receives 2% equity in ChoZen entity (valued at $200K-$500K at maturity)
-- Development contract: $450K (60% of $750K standard)
-- Total LB engagement value: $650K-$950K (with upside potential)
+| Proceeds Source | Amount | How Our Platform Helps |
+|-----------------|--------|------------------------|
+| **Land Monetization** | $30.4M (49%) | Pipeline Tracker shows JV-ready sites |
+| **Building Sales** | $22.6M (36%) | Asset Management proves NOI performance |
+| **Operating Cash Flow** | $4.6M (7%) | Tenant management optimizes collections |
+| **Joint Venture Proceeds** | $2.5M (4%) | Partner portal streamlines JV execution |
+| **Public Incentives** | $2.4M (4%) | Impact reporting ensures compliance |
 
----
+### Investor Cash Flow Enhancement
 
-### Option C: Deferred Development + Revenue Share
+Per $1M invested, their model shows:
 
-**Structure:**
-- Light Brands begins development immediately at reduced rates
-- Balance is paid through revenue share from developed platforms
-- Aligns long-term success with ongoing partnership
+| Year | Net Distributions | Platform Impact |
+|------|-------------------|-----------------|
+| 2026 | $0 | **Build year** - Platform development |
+| 2027 | $520K | Investor portal delivers automated reporting |
+| 2028 | $680K | Asset management supports building sales |
+| 2029 | $190K | Pipeline tracker enables parcel monetization |
+| 2030 | $260K | Full automation for tail distributions |
 
-**Terms:**
-| Component | Details |
-|-----------|---------|
-| Upfront Development Fee | $300K (40% of standard scope) |
-| Revenue Share | 5-10% of platform revenue for 3 years |
-| Platforms Covered | Community app, course platform, booking systems |
-| Cap on Revenue Share | 2x original development value ($600K cap) |
+**Total: $1.64M returned per $1M invested (1.6x multiple)**
 
-**Example Scenario:**
-- Upfront: $300K development fee
-- Year 1 Revenue Share: $50K (course + community + bookings)
-- Year 2 Revenue Share: $100K (scaled platforms)
-- Year 3 Revenue Share: $150K (mature ecosystem)
-- Total LB value: $600K over 3 years (with potential for cap at $600K)
+Our platform directly supports the operational infrastructure needed to execute this return profile.
 
 ---
 
-### Option D: Pure Development Partnership (Post-Raise)
+## Part 6: Engagement Structure Options
 
-**Structure:**
-- No fundraising involvement from Light Brands
-- Standard development engagement after capital is secured
-- Premium rates for full scope commitment
+### Option A: Capital-Aligned Build (Recommended)
 
-**Terms:**
+**Structure:** Development engagement aligned with their existing capital allocation
+
 | Component | Details |
 |-----------|---------|
-| Development Scope | Full Phase 2 + Phase 3 |
-| Investment | $650K-$850K (Authority Package pricing) |
-| Exclusivity | LB is sole digital/app development partner |
-| Timeline | 6-9 months from contract execution |
+| **Scope** | Tier 1: Core Platform Build (all Section 10 modules) |
+| **Investment** | $450,000 - $650,000 (within $670K allocation) |
+| **Timeline** | Q1-Q3 2026 (aligned with raise closing) |
+| **Trigger** | Engagement begins upon raise close (March 31, 2026) |
+| **Deliverables** | All six Section 10 platform modules operational |
 
 **Why This Works:**
-- Clear boundaries (we build, they raise)
-- No success fee complexity
-- Full-rate engagement with premium positioning
-- Simple contract structure
+- Budget already allocated in their capital structure
+- No additional fundraising required
+- Delivers exactly what they've identified as critical
+- Timeline aligns with Phase 2 stabilization
 
 ---
 
-## Part 4: Scope Commitment Requirements
+### Option B: Phased Build with Operating Cash Flow
 
-### Minimum Viable Engagement
+**Structure:** Core build now, enhancements funded from operations
 
-For Light Brands to enter this engagement feeling "whole," the minimum scope must include:
+| Phase | Scope | Investment | Funding Source |
+|-------|-------|------------|----------------|
+| **Phase A** | Core Platform (Modules A-F) | $550,000 | Equity raise allocation |
+| **Phase B** | Community Platform | $150,000 | 2027 operating cash flow |
+| **Phase C** | Authority Engine | $125,000 | 2028 operating cash flow |
+
+**Total Engagement:** $825,000 over 2026-2028
+
+**Why This Works:**
+- Initial build within existing allocation
+- Growth funded from project performance
+- Aligns platform expansion with monetization phases
+
+---
+
+### Option C: Success-Aligned Partnership
+
+**Structure:** Reduced upfront with performance participation
+
+| Component | Details |
+|-----------|---------|
+| **Upfront Development** | $350,000 (core modules only) |
+| **Platform Success Fee** | 0.5% of monetization proceeds enabled by platform |
+| **Cap** | 2x original development value ($700K cap) |
+
+**Example Scenario:**
+- Upfront: $350,000
+- Platform enables $40M in transactions (conservative)
+- Success fee: $200,000 (0.5% of $40M)
+- Total: $550,000 over project life
+
+**Why This Works:**
+- Lower upfront preserves capital for core operations
+- Aligns our success with their monetization success
+- Creates long-term partnership incentive
+
+---
+
+## Part 7: Implementation Timeline
+
+### Aligned with PHX JAX Milestones
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                  MINIMUM VIABLE SCOPE: $600,000                         │
+│                    ALIGNED IMPLEMENTATION TIMELINE                       │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                          │
-│   PHASE 1: DISCOVERY                           $15,000                  │
-│   ───────────────────                                                   │
-│   • Full 6-session discovery                                            │
-│   • All deliverables per master plan                                    │
+│   Q1 2026: FOUNDATION                                                   │
+│   ─────────────────────                                                 │
+│   • Equity raise closes (March 31)                                      │
+│   • Development contract executed                                       │
+│   • Discovery & architecture                                            │
+│   • CRM foundation setup                                                │
 │                                                                          │
-│   PHASE 2: IMPLEMENTATION                      $400,000                 │
-│   ──────────────────────                                                │
-│   • Foundation Layer (CRM, Database, SSO)      $75,000                  │
-│   • All Entity Integrations (6 entities)       $90,000                  │
-│   • Community Platform (ChoZen App MVP)        $150,000                 │
-│   • AI Layer (Full implementation)             $75,000                  │
-│   • Interface Layer (Dashboard, Websites)      $60,000                  │
-│   • Training & Documentation                   $30,000                  │
+│   Q2 2026: CORE MODULES                                                 │
+│   ───────────────────────                                               │
+│   • Investment Dashboard live                                           │
+│   • Asset Management operational                                        │
+│   • Investor Portal beta                                                │
+│   • Paint Building delivery (Q1) supported                              │
+│   • Liberty Building delivery (Q1) supported                            │
 │                                                                          │
-│   PHASE 3: AUTHORITY LAUNCH                    $185,000                 │
+│   Q3 2026: FULL PLATFORM                                                │
 │   ────────────────────────                                              │
-│   • Book Launch Campaign                       $50,000                  │
-│   • Course Platform (Core build)               $75,000                  │
-│   • Speaking & Media Engine                    $30,000                  │
-│   • Content Amplification                      $30,000                  │
+│   • All Section 10 modules operational                                  │
+│   • Market Intelligence active                                          │
+│   • Pipeline Tracker live                                               │
+│   • Impact Reporting compliant                                          │
+│   • Team training complete                                              │
 │                                                                          │
-│   TOTAL MINIMUM VIABLE SCOPE                   $600,000                 │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-### Optimal Full Engagement
-
-The ideal scenario for maximum impact and partnership value:
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                  OPTIMAL FULL SCOPE: $850,000 - $1,000,000              │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│   Everything in Minimum Viable Scope           $600,000                 │
-│                                                                          │
-│   ENHANCED COMMUNITY PLATFORM                  +$100,000                │
-│   ────────────────────────────                                          │
-│   • Full feature build-out (not just MVP)                               │
-│   • AI community features                                               │
-│   • Membership tiers and commerce                                       │
-│                                                                          │
-│   ENHANCED COURSE PLATFORM                     +$75,000                 │
-│   ─────────────────────────                                             │
-│   • Video production support                                            │
-│   • AI course companion                                                 │
-│   • Full ecosystem integration                                          │
-│                                                                          │
-│   TEAM AI TRAINING (Mastery Tier)              +$60,000                 │
-│   ──────────────────────────────                                        │
-│   • Full organizational transformation                                  │
-│   • All departments trained                                             │
-│   • AI champions program                                                │
-│                                                                          │
-│   EXTENDED SUPPORT & OPTIMIZATION              +$65,000-$165,000        │
-│   ──────────────────────────────                                        │
-│   • 12-month support retainer                                           │
-│   • Quarterly optimization sprints                                      │
-│   • Priority feature development                                        │
-│                                                                          │
-│   TOTAL OPTIMAL SCOPE                          $850,000 - $1,000,000    │
+│   Q4 2026 → 2027: MONETIZATION SUPPORT                                  │
+│   ─────────────────────────────────────                                 │
+│   • Site D groundbreaking (Blue Sky JV) - Q1 2027                       │
+│   • Sites A & B JV execution support                                    │
+│   • Site C JV discussions                                               │
+│   • First investor distributions ($520K/unit)                           │
 │                                                                          │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
-
----
-
-## Part 5: Our Fundraiser Network
-
-### Network Value Proposition
-
-Light Brands has relationships with fundraising professionals and investors across several categories relevant to Cho Ventures:
-
-| Category | Relevance to Cho Ventures |
-|----------|---------------------------|
-| **Impact/ESG Investors** | Future of Cities, Climate HUB, regenerative development |
-| **Real Estate Capital** | PHX-JAX, Metro 1, development projects |
-| **Wellness/Lifestyle Investors** | ChoZen Retreat, community platform |
-| **Tech/AI Investors** | Platform development, AI infrastructure |
-| **Family Offices** | Multi-entity portfolio investment |
-
-### Introduction Process
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                    FUNDRAISER INTRODUCTION PROCESS                      │
-├─────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
-│   1. QUALIFICATION                                                       │
-│   ────────────────                                                       │
-│   • Review Cho Ventures deck and materials                              │
-│   • Identify alignment with our network contacts                        │
-│   • Determine introduction priority order                               │
-│                                                                          │
-│   2. PREPARATION                                                         │
-│   ───────────────                                                        │
-│   • Customize intro messaging for each contact                          │
-│   • Brief Tony on each relationship context                             │
-│   • Prepare supporting materials as needed                              │
-│                                                                          │
-│   3. INTRODUCTION                                                        │
-│   ──────────────                                                         │
-│   • Warm email introduction with context                                │
-│   • Facilitate initial meeting scheduling                               │
-│   • Provide background briefing to both parties                         │
-│                                                                          │
-│   4. FOLLOW-THROUGH                                                      │
-│   ─────────────────                                                      │
-│   • Check in on meeting outcomes                                        │
-│   • Support follow-up conversations                                     │
-│   • Track attribution for success fee                                   │
-│                                                                          │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Part 6: Decision Framework
-
-### Questions for Tony Cho
-
-Before finalizing this partnership approach, we need answers to:
-
-1. **Capital Allocation:**
-   - What percentage of the $11M is designated for digital/technology infrastructure?
-   - Is this a hard allocation or flexible based on priorities?
-
-2. **Fundraising Status:**
-   - How much of the $11M is already committed vs. being raised?
-   - What's the target close timeline?
-   - Are there specific investor profiles you're seeking?
-
-3. **Development Priorities:**
-   - Which platforms are highest priority (CRM hub, community app, course platform)?
-   - Is there flexibility on sequencing based on capital timing?
-
-4. **Partnership Appetite:**
-   - Is the equity/sweat model appealing or strictly cash engagement?
-   - How do you view the success fee structure for fundraising support?
-
-5. **Exclusivity:**
-   - Are you currently working with other development partners?
-   - Would exclusivity be acceptable in exchange for fundraising support?
-
-### Decision Matrix
-
-| If Tony says... | Recommended Path |
-|-----------------|------------------|
-| "Digital allocation is $500K+" | **Option A or D** - Full development engagement |
-| "We need fundraising help first" | **Option A** - Success fee + development |
-| "We're open to equity arrangements" | **Option B** - Sweat equity model |
-| "Cash is tight but we want to start" | **Option C** - Deferred + revenue share |
-| "We just need a development quote" | **Option D** - Standard post-raise engagement |
-
----
-
-## Part 7: Next Steps
-
-### Immediate Actions
-
-1. **Schedule Strategic Call**
-   - 60-90 minute conversation with Tony
-   - Cover the questions in Part 6
-   - Determine which option path to pursue
-
-2. **Request Materials**
-   - Current investor deck
-   - Capital allocation breakdown (if available)
-   - Fundraising timeline and status
-
-3. **Identify Network Matches**
-   - Review our contacts against Cho Ventures profile
-   - Prepare initial introduction list
-   - Estimate potential capital from our network
-
-4. **Draft Term Sheet**
-   - Based on call outcomes, draft partnership terms
-   - Include development scope commitment
-   - Define success metrics and triggers
-
-### Timeline to Decision
-
-| Milestone | Target |
-|-----------|--------|
-| Strategic call scheduled | Within 1 week |
-| Call completed, path selected | Within 2 weeks |
-| Term sheet drafted | Within 3 weeks |
-| Terms agreed, engagement begins | Within 4-6 weeks |
 
 ---
 
 ## Part 8: Risk Mitigation
 
-### Protecting Light Brands
+### Protecting Both Parties
 
-| Risk | Mitigation |
-|------|------------|
-| Raise doesn't close | Development contract is contingent; no work begins without capital |
-| Scope creep | Fixed-scope contract with change order process |
-| Payment delays | Milestone-based payments with work-stop provisions |
-| Relationship attribution disputes | Clear tracking of introductions from day one |
+| Risk | Cho Ventures Protection | Light Brands Protection |
+|------|-------------------------|-------------------------|
+| **Raise doesn't close** | No obligation until close | Contract contingent on funding |
+| **Timeline delays** | Milestone-based payments | Work-stop provisions |
+| **Scope creep** | Fixed-scope modules | Change order process |
+| **Platform underperformance** | Performance guarantees | Clear acceptance criteria |
 
-### Protecting Cho Ventures
+### Aligned Incentives
 
-| Risk | Mitigation |
-|------|------------|
-| Development delays | Milestone-based delivery with accountability |
-| Quality concerns | Defined acceptance criteria and revision process |
-| Cost overruns | Fixed-price engagement (not hourly) |
-| Network access without results | Success fee only on closed capital |
+- **We succeed when they monetize** — Our platform directly supports their $62.5M proceeds target
+- **They succeed when we deliver** — Their investor reporting and compliance depends on our infrastructure
+- **Mutual timeline pressure** — Both parties aligned to March 2026 close and 2027 first distributions
+
+---
+
+## Part 9: Decision Framework
+
+### Recommended Path
+
+Based on the Strategy Plan alignment, **Option A (Capital-Aligned Build)** is recommended:
+
+1. **Budget is allocated** — $670K already in their capital structure
+2. **Scope is defined** — Section 10 explicitly states what they need
+3. **Timeline is clear** — Raise closes March 31, 2026
+4. **Value is immediate** — Platform supports Phase 2 stabilization and Phase 3 monetization
+
+### Questions Answered by Strategy Plan
+
+| Previous Question | Now Answered |
+|-------------------|--------------|
+| What is the raise for? | $7M equity for FoC QOF (PHX JAX) |
+| Is there a digital allocation? | Yes, $670K Sponsor & Platform Costs |
+| What's the timeline? | March 31, 2026 close |
+| What platforms are needed? | Section 10 defines 6 modules |
+| What's the priority? | Stabilization now → Monetization 2027+ |
+
+### Remaining Questions for Tony
+
+1. **Engagement timing** — Begin discovery before close or wait until capital secured?
+2. **Module prioritization** — Which Section 10 modules are highest priority?
+3. **Extended ecosystem** — Interest in Tier 2 (Community, Authority) for 2027+?
+
+---
+
+## Part 10: Next Steps
+
+### Immediate Actions
+
+1. **Review this alignment** — Confirm our understanding of capital structure
+2. **Prioritize modules** — Rank Section 10 recommendations by urgency
+3. **Select engagement option** — Option A, B, or C
+4. **Execute LOI** — Lock in partnership terms before raise closes
+
+### Proposed Timeline
+
+| Milestone | Target |
+|-----------|--------|
+| Alignment review call | Within 1 week |
+| Module prioritization confirmed | Within 2 weeks |
+| LOI executed | Before March 31, 2026 close |
+| Discovery begins | Upon raise close |
+| Core platform operational | Q3 2026 |
 
 ---
 
 ## Conclusion
 
-The Raise-to-Build model aligns both parties toward mutual success:
+The Strategy Plan has done the hard work of defining exactly what Cho Ventures needs:
 
-- **Cho Ventures** gets access to capital relationships and a committed development partner
-- **Light Brands** gets a properly scoped engagement that justifies deep commitment
+- **$670K allocated** for platform costs
+- **6 specific modules** identified (Section 10)
+- **Clear timeline** aligned with stabilization and monetization
+- **Measurable outcomes** tied to $62.5M proceeds target
 
-**The key principle:** We don't do piecemeal. If we're helping raise capital for this ecosystem, we're building this ecosystem.
+Our Raise-to-Build approach is no longer hypothetical—it's a direct response to their documented requirements, within their existing budget, on their established timeline.
 
-This ensures both parties feel "whole" - Cho Ventures gets the full infrastructure they need, and Light Brands gets the meaningful engagement that makes the partnership worthwhile.
+**The proposition is simple:** They've defined what they need. They've allocated the budget. We build it.
 
 ---
 
-*Light Brands | Raise to Build Partnership Strategy*
-*January 2026*
+*Light Brands | Aligned Raise-to-Build Partnership*
+*January 2026 — Updated based on CHO-VENTURES-STRATEGY-PLAN.md*
