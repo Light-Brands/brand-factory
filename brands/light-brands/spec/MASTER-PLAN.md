@@ -703,6 +703,6 @@ We grow through service.
 
 *This document serves as the foundational strategy for Light Brands. It should be treated as a living document, updated as the organization evolves and learns.*
 
-**Document Version:** 1.0
-**Last Updated:** January 2026
+**Document Version:** 1.1
+**Last Updated:** January 15, 2026
 **Owner:** Light Brands Leadership

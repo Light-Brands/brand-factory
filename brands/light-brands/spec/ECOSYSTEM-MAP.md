@@ -703,5 +703,5 @@ The portfolio of brands demonstrates the methodology in action, while the financ
 
 ---
 
-*Ecosystem Map Version: 1.0*
-*Last Updated: January 2026*
+*Ecosystem Map Version: 1.1*
+*Last Updated: January 15, 2026*

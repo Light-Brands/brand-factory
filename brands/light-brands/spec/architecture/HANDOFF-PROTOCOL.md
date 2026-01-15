@@ -755,5 +755,5 @@ When scaling to multiple people:
 
 ---
 
-*Handoff Protocol Version: 1.0*
-*Last Updated: January 2026*
+*Handoff Protocol Version: 1.1*
+*Last Updated: January 15, 2026*
