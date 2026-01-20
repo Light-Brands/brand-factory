@@ -1,0 +1,10 @@
+{
+  "brandName": "Vibeup",
+  "createdAt": "2026-01-20T13:49:26.061Z",
+  "updatedAt": "2026-01-20T13:49:26.061Z",
+  "createdBy": "standardization",
+  "hasPlan": true,
+  "hasIdentity": false,
+  "originalPlanFile": "brands/vibeup/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}
