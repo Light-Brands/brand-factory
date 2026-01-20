@@ -8,7 +8,7 @@
 
 **Subject: Quick Questions on NDA - Cho Ventures Partnership**
 
-Hi [Name],
+Hi Darlene,
 
 Thank you for sending over the NDA - excited to get things formalized so we can move forward together.
 
@@ -22,12 +22,12 @@ As I reviewed it, a few items caught my eye that I wanted to clarify to make sur
 
 4. **Non-solicitation scope** - The 2-year client and vendor restrictions are quite broad. Is there flexibility here, or is this standard across all FOC vendor relationships?
 
-I want to be respectful of your process while making sure we're set up for a smooth partnership. Would it be easier to hop on a quick call to discuss, or would you prefer I send over some suggested language?
+I want to be respectful of your process while making sure we're all in alignment. Let me know if there is anything I can do on my end to support this.  
 
 Looking forward to getting started.
 
 Warmly,
-[Your Name]
+Dan Lawless
 
 ---
 
