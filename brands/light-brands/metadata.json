@@ -1,0 +1,10 @@
+{
+  "brandName": "Light Brands",
+  "createdAt": "2026-01-20T13:49:08.738Z",
+  "updatedAt": "2026-01-20T13:49:08.738Z",
+  "createdBy": "standardization",
+  "hasPlan": true,
+  "hasIdentity": false,
+  "originalPlanFile": "brands/light-brands/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}
