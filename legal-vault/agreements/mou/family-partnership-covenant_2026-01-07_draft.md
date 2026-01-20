@@ -35,13 +35,30 @@ We believe that businesses built on genuine trust, transparent communication, an
 
 ## Article I: Foundation of Equality
 
-### Equal Ownership
-Each family shall hold an equal **one-third (1/3) ownership interest** in the entity formed under this covenant.
+### Ownership Structure
+Each founding family shall hold **thirty percent (30%) ownership interest** in the entity formed under this covenant, with **ten percent (10%)** of total equity reserved for future strategic partnerships.
 
-This equal division reflects our belief that each family brings irreplaceable value to our partnership. We do not measure contribution by hours logged or dollars invested alone, but by the full presence, wisdom, and commitment each family brings to our shared table.
+| Owner | Ownership Interest |
+|-------|-------------------|
+| The Lawless Family | 30% |
+| The Courchesne Family | 30% |
+| The Demou Brothers | 30% |
+| Reserved for Future Partners | 10% |
+
+This structure reflects our belief that each family brings irreplaceable value to our partnership, while also recognizing the importance of reserving capacity for future strategic relationships that align with our mission.
+
+### Reserved Partnership Equity
+The ten percent (10%) equity reserved for future business partnerships shall be held by the collective until allocated. Any allocation of reserved equity to new partners shall require:
+- Unanimous consent of all three founding families
+- A formal partnership agreement with the new partner(s)
+- Alignment with Light Brands values and mission
+
+Until allocated, the reserved equity shall not carry voting rights or profit distribution entitlements.
 
 ### Equal Voice
-Each family shall have **one vote** in all matters requiring family consensus. No family's voice carries more weight than another's. We are equals in every sense.
+Each founding family shall have **one vote** in all matters requiring family consensus. No family's voice carries more weight than another's. We are equals in every sense.
+
+Reserved equity holders, when added, shall have voting rights as specified in their individual partnership agreements.
 
 ---
 
@@ -128,7 +145,46 @@ This autonomy reflects our trust in each other's judgment and our recognition th
 
 ---
 
-## Article IV: Term & Annual Re-Agreement
+## Article IV: Startup Loans
+
+### Purpose
+To enable the rapid launch and early operations of Light Brands, Nicholas Courchesne has agreed to provide startup capital in the form of interest-free loans to the collective.
+
+### Loan Details
+
+#### Operational Startup Loan
+| Term | Details |
+|------|---------|
+| Lender | Nicholas Courchesne |
+| Amount | $10,000 USD |
+| Purpose | Operational costs and initial development expenses |
+| Interest Rate | 0% (zero percent) |
+| Repayment Due | December 31, 2026 |
+
+#### Advertising Startup Loan
+| Term | Details |
+|------|---------|
+| Lender | Nicholas Courchesne |
+| Amount | $5,000 USD |
+| Purpose | Marketing and advertising expenses |
+| Interest Rate | 0% (zero percent) |
+| Repayment Due | December 31, 2026 |
+
+### Total Startup Loan Commitment
+**Combined Total:** $15,000 USD at 0% interest
+
+### Repayment Terms
+- Both loans shall be repaid in full by December 31, 2026
+- Repayment shall be made from collective revenue before profit distributions
+- Early repayment is permitted without penalty
+- The collective may propose an alternative repayment schedule with Nicholas's consent
+
+### Acknowledgment of Generosity
+The founding families recognize and appreciate Nicholas's willingness to provide these interest-free loans, enabling Light Brands to begin operations without external financing or debt burden. This contribution reflects the spirit of mutual support that defines our partnership.
+
+---
+
+## Article V: Term & Annual Re-Agreement
 
 ### Initial Term
 
@@ -167,7 +223,7 @@ Should the annual re-agreement process extend beyond the term expiration, the ex
 
 ---
 
-## Article V: Decision Making
+## Article VI: Decision Making
 
 ### The Principle of Supermajority
 Major decisions affecting our shared venture shall be made by a **supermajority vote of two-thirds (2/3)**, meaning at least two of the three families must agree to move forward.
@@ -197,7 +253,7 @@ Before any vote, we commit to:
 
 ---
 
-## Article VI: Our Commitments to One Another
+## Article VII: Our Commitments to One Another
 
 ### Transparency
 We will share information openly and proactively. There shall be no hidden agendas, no withheld concerns, no surprises that could have been shared. When in doubt, we communicate.
@@ -216,13 +272,37 @@ We build for generations, not quarters. We will resist short-term pressures that
 
 ---
 
-## Article VII: Communication
+## Article VIII: Communication & Quarterly Reviews
 
 ### Regular Connection
 We commit to maintaining regular communication, including:
 - Scheduled family partnership meetings (frequency to be determined together)
 - Informal check-ins as relationships naturally allow
 - Prompt communication when time-sensitive matters arise
+
+### Quarterly Financial & Business Reviews
+The founding families commit to conducting **quarterly reviews** of the business, occurring once every three months. These reviews shall include:
+
+#### Review Content
+- **Financial Overview:** Revenue, expenses, profit/loss, and cash flow analysis
+- **Business Performance:** Progress across all three pillars (Consulting, Implementation, SaaS)
+- **Strategic Assessment:** Evaluation of current initiatives and market opportunities
+- **Loan Status:** Progress toward repayment of startup loans
+- **Partnership Health:** Open discussion of how the partnership is functioning
+
+#### Review Format
+- Initially conducted via video conference or in-person meeting
+- All three founding families (or their designated representatives) shall participate
+- Meeting notes and financial summaries shall be documented and shared
+
+#### Evolution to Partner Retreats
+As the business grows and becomes financially sustainable, these quarterly reviews shall evolve into **quarterly partner retreats**:
+- **Company-Funded:** All retreat expenses (travel, lodging, meals, venue) shall be paid by Light Brands as a legitimate business expense
+- **In-Person Gatherings:** Partners shall gather in person for deeper connection and strategic planning
+- **Team Inclusion:** As the team grows, key team members may be invited to participate
+- **Location Rotation:** Retreats may rotate locations to share the experience of each family's region
+
+The transition from virtual reviews to funded retreats shall occur when the collective determines it is financially prudent, subject to supermajority approval.
 
 ### Addressing Concerns
 When concerns arise, we agree to:
@@ -240,7 +320,7 @@ Should disagreements arise that we cannot resolve among ourselves, we commit to:
 
 ---
 
-## Article VIII: This Covenant's Relationship to Future Agreements
+## Article IX: This Covenant's Relationship to Future Agreements
 
 ### A Foundation, Not a Ceiling
 This covenant establishes the spirit and principles that shall guide our partnership. Future legal documents—operating agreements, bylaws, contracts—shall be built upon this foundation and shall not contradict its essential principles.
@@ -253,7 +333,7 @@ This covenant may be amended by unanimous consent of all three families. We ackn
 
 ---
 
-## Article IX: Acknowledgment
+## Article X: Acknowledgment
 
 By signing below, each family affirms:
 
