@@ -1,0 +1,10 @@
+{
+  "brandName": "Love Token",
+  "createdAt": "2026-01-20T13:49:11.566Z",
+  "updatedAt": "2026-01-20T13:49:11.566Z",
+  "createdBy": "standardization",
+  "hasPlan": true,
+  "hasIdentity": true,
+  "originalPlanFile": "brands/love-token/spec/MASTER-PLAN.md",
+  "originalIdentityFile": "brands/love-token/spec/brand/visual-identity.md"
+}
