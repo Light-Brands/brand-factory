@@ -1,0 +1,10 @@
+{
+  "brandName": "Buildtrack",
+  "createdAt": "2026-01-20T13:48:56.397Z",
+  "updatedAt": "2026-01-20T13:48:56.397Z",
+  "createdBy": "standardization",
+  "hasPlan": true,
+  "hasIdentity": true,
+  "originalPlanFile": "brands/buildtrack/SPEC_OVERVIEW.md",
+  "originalIdentityFile": "brands/buildtrack/BRAND_IDENTITY_GUIDE.md"
+}
