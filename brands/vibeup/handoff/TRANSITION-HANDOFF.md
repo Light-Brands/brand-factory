@@ -15,6 +15,32 @@ This document consolidates all transition requirements for the VIBEUP project ha
 
 ---
 
+## ITEMS REQUIRING DAN'S INPUT
+
+> **Instructions:** Complete the items below, then delete this section when done.
+
+### Access & Security
+- [ ] **Domain Registrar** - Which registrar holds vibeup.io? _______________
+- [ ] **2FA Recovery Codes** - Confirm all are stored in Keeper
+- [ ] **Missing Services** - Are there any credentials in Keeper not listed below?
+
+### Software Tools
+- [ ] **Additional Tools** - List any tools/subscriptions not included below
+- [ ] **Cursor Decision** - Keep or Cancel?
+- [ ] **Billing Transfers** - Which subscriptions need billing transferred?
+
+### Codebase
+- [ ] **Critical Issues** - Any of the 54 GitHub issues that are blockers?
+- [ ] **Do NOT Continue** - Any features/directions the team should abandon?
+- [ ] **In-Progress Work** - Anything partially implemented needing context?
+
+### Contact Info
+- [ ] **Dan's Email** - Email for async transition questions: _______________
+- [ ] **Dan's Vibeup Email** - Address to be closed: _______________
+- [ ] **Slack Workspace** - Name of workspace to remove access: _______________
+
+---
+
 ## Table of Contents
 
 1. [Access & Security](#1-access--security)
@@ -55,7 +81,7 @@ All credentials listed below are stored in Keeper.
 |---------|---------|----------------|--------|
 | **Supabase** | supabase.com | Owner | In Keeper |
 | **Cloudflare** | cloudflare.com | Admin | In Keeper |
-| **Domain Registrar** | (varies) | Owner | In Keeper |
+| **Domain Registrar** | `DAN: ADD REGISTRAR` | Owner | In Keeper |
 
 #### AI / API Services
 
@@ -85,11 +111,19 @@ All credentials listed below are stored in Keeper.
 |---------|---------|----------------|--------|
 | **Sentry** | sentry.io | Owner | In Keeper |
 
+#### Additional Services (DAN TO ADD)
+
+| Service | Website | Account/Access | Status |
+|---------|---------|----------------|--------|
+| | | | |
+| | | | |
+
 ### Single-Point-of-Failure Confirmation
 
 - [x] All credentials stored in shared Keeper account
 - [x] Luke's vibeup email has access to Keeper
 - [ ] Confirm all 2FA recovery codes are in Keeper
+- [ ] Confirm no credentials exist only in Dan's personal accounts
 
 ---
 
@@ -97,20 +131,27 @@ All credentials listed below are stored in Keeper.
 
 ### Active Tools Inventory
 
-| Name | Website | Purpose | Recommendation |
-|------|---------|---------|----------------|
-| **Supabase** | supabase.com | Database, Auth, Storage, Realtime | Keep |
-| **Vercel** | vercel.com | Hosting, Deployments, Preview Environments | Keep |
-| **Cloudflare** | cloudflare.com | CDN, DNS, DDoS Protection | Keep |
-| **GitHub** | github.com | Source Control, CI/CD | Keep |
-| **OpenAI** | openai.com | AI/Chat (GPT-4) | Keep |
-| **Sentry** | sentry.io | Error Tracking, Monitoring | Keep |
-| **Stripe** | stripe.com | Payments | Keep |
-| **Twilio** | twilio.com | SMS/Voice | Keep |
-| **Mapbox** | mapbox.com | Maps, Location Services | Keep |
-| **Apple Developer** | developer.apple.com | iOS App, Apple Sign In | Keep ($99/yr) |
-| **Google Cloud** | console.cloud.google.com | OAuth, Google Docs Integration | Keep |
-| **Cursor** | cursor.com | AI Code Editor | Review |
+| Name | Website | Purpose | Monthly Cost | Recommendation |
+|------|---------|---------|--------------|----------------|
+| **Supabase** | supabase.com | Database, Auth, Storage, Realtime | `DAN: ADD` | Keep |
+| **Vercel** | vercel.com | Hosting, Deployments, Preview Environments | `DAN: ADD` | Keep |
+| **Cloudflare** | cloudflare.com | CDN, DNS, DDoS Protection | `DAN: ADD` | Keep |
+| **GitHub** | github.com | Source Control, CI/CD | `DAN: ADD` | Keep |
+| **OpenAI** | openai.com | AI/Chat (GPT-4) | `DAN: ADD` | Keep |
+| **Sentry** | sentry.io | Error Tracking, Monitoring | `DAN: ADD` | Keep |
+| **Stripe** | stripe.com | Payments | 2.9% + $0.30/txn | Keep |
+| **Twilio** | twilio.com | SMS/Voice | `DAN: ADD` | Keep |
+| **Mapbox** | mapbox.com | Maps, Location Services | `DAN: ADD` | Keep |
+| **Apple Developer** | developer.apple.com | iOS App, Apple Sign In | $99/year | Keep |
+| **Google Cloud** | console.cloud.google.com | OAuth, Google Docs Integration | `DAN: ADD` | Keep |
+| **Cursor** | cursor.com | AI Code Editor | `DAN: ADD` | `DAN: DECIDE` |
+
+### Additional Tools (DAN TO ADD)
+
+| Name | Website | Purpose | Monthly Cost | Recommendation |
+|------|---------|---------|--------------|----------------|
+| | | | | |
+| | | | | |
 
 ### Action Items
 
@@ -195,11 +236,30 @@ The main app-prod repository includes these submodules:
 - [x] Supabase authentication with row-level security
 - [x] iOS app via Capacitor
 
-### Known Technical Debt
+### Known Technical Debt & Blockers
 
 | Issue | Priority | Notes |
 |-------|----------|-------|
-| 54 open issues | Various | See GitHub Issues |
+| 54 open GitHub issues | Various | See GitHub Issues |
+| `DAN: ADD CRITICAL ISSUES` | | |
+
+### What NOT to Continue (DAN TO ADD)
+
+> List any features, directions, or approaches the team should abandon:
+
+| Item | Reason |
+|------|--------|
+| | |
+| | |
+
+### In-Progress Work Needing Context (DAN TO ADD)
+
+> List anything partially implemented that needs explanation:
+
+| Feature | Status | Notes |
+|---------|--------|-------|
+| | | |
+| | | |
 
 ### Key Design Decisions
 
@@ -331,9 +391,13 @@ npm run dev
 | Team Lead | Andreas | (via Luke) |
 | Development | George | (via Luke) |
 
-### Async Support
+### Async Support from Dan
 
-Dan will remain available via email for transition questions.
+| Item | Details |
+|------|---------|
+| **Email** | `DAN: ADD EMAIL` |
+| **Response Time** | `DAN: ADD COMMITMENT (e.g., within 24-48 hours)` |
+| **Available Until** | `DAN: ADD END DATE` |
 
 ---
 
@@ -348,14 +412,14 @@ Dan will remain available via email for transition questions.
 
 ### Dan's Access to Close (Post-Transition)
 
-| System | Status |
-|--------|--------|
-| Team Email | To be closed |
-| Slack / Chats | To be closed |
-| GitHub (vibeup-org) | To be removed |
-| Vercel | To be removed |
-| Supabase | To be removed |
-| All other platforms | To be removed |
+| System | Account/Details | Status |
+|--------|-----------------|--------|
+| Team Email | `DAN: ADD EMAIL ADDRESS` | To be closed |
+| Slack | `DAN: ADD WORKSPACE NAME` | To be closed |
+| GitHub (vibeup-org) | `DAN: ADD USERNAME` | To be removed |
+| Vercel | | To be removed |
+| Supabase | | To be removed |
+| All other platforms | | To be removed |
 
 ### Exit Documentation
 
@@ -391,5 +455,5 @@ The transition will be considered **complete** when:
 
 ---
 
-**Document Version:** 2.0
+**Document Version:** 2.1
 **Last Updated:** January 2025
