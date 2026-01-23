@@ -16,10 +16,10 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | Phase | Description | Fixed Investment |
 |-------|-------------|------------------|
 | **Phase 0** | Ecosystem Map & Master Plan | $3,000 |
-| **Phase 1** | Discovery & Strategy | $15,000 |
+| **Phase 1** | System Architecture & Specification | $25,000 |
 | **Phase 2** | Implementation & Build | $195,000 |
 | **Phase 3** | Authority Platform Launch | $197,000 |
-| **Phase 4** | Team AI Training (Professional) | $40,000 |
+| **Phase 4** | Team AI Training (Professional) | $30,000 |
 | **TOTAL** | Complete Transformation | **$450,000** |
 
 **Timeline:** 5-7 months
@@ -42,21 +42,24 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 ---
 
-## Phase 1: Discovery & Strategy — $15,000
+## Phase 1: System Architecture & Specification — $25,000
 
-**Purpose:** Deep-dive strategic sessions and detailed planning for the AI-powered ecosystem transformation
+**Purpose:** Deep dive into all systems defined in Phase 0 to architect and define every aspect of what needs to be built before implementation begins
 
 | Component | Deliverables | Fixed Price |
 |-----------|--------------|-------------|
-| 6 Structured Sessions | 9-12 hours of strategic discovery | Included |
-| Unified Architecture Design | Target state system blueprint | Included |
-| Community Platform Specification | ChoZen app requirements & design | Included |
-| Authority Platform Plan | Book, course, and speaking strategy | Included |
-| Investment Framework | Financial projections & ROI analysis | Included |
-| Final Presentation | Executive presentation with recommendations | Included |
+| System Deep Dives | Comprehensive analysis of each system identified in Phase 0 | Included |
+| Technical Architecture Documents | Detailed technical specifications for all components | Included |
+| Data Model & Schema Design | Complete database architecture and entity relationships | Included |
+| API & Integration Specifications | Full API contracts and integration requirements | Included |
+| Community Platform Architecture | ChoZen app technical blueprint with all features defined | Included |
+| Authority Platform Architecture | Book, course, and speaking systems fully specified | Included |
+| UI/UX Wireframes | Interface designs and user flows for all systems | Included |
+| Implementation Sequencing | Detailed build order with dependencies mapped | Included |
+| Final Architecture Presentation | Executive presentation with complete build specifications | Included |
 
 **Duration:** 15-30 days
-**Phase 1 Total: $15,000**
+**Phase 1 Total: $25,000**
 
 ---
 
@@ -190,7 +193,7 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 ---
 
-## Phase 4: Team AI Training (Professional Tier) — $40,000
+## Phase 4: Team AI Training (Professional Tier) — $30,000
 
 **Purpose:** Transform the Cho Ventures team into AI-powered operators who leverage cutting-edge tools to become more effective
 
@@ -198,20 +201,20 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 | Component | Description | Fixed Price |
 |-----------|-------------|-------------|
-| Full-Day Immersive Workshop | Hands-on training with live exercises | $8,000 |
-| Department-Specific Sessions | 2-hour deep-dives per department (up to 4 departments) | $10,000 |
-| Custom Workflow Design | AI-enhanced workflows for 5-8 core processes | $7,000 |
-| Advanced Prompt Engineering | Team trained on creating & optimizing prompts | $4,000 |
-| AI Tool Stack Setup | Configure optimal tools for each role | $3,000 |
-| Individual Coaching Sessions | 30-min 1:1 with key team members (up to 8) | $4,000 |
+| Full-Day Immersive Workshop | Hands-on training with live exercises | $6,000 |
+| Department-Specific Sessions | 2-hour deep-dives per department (up to 4 departments) | $8,000 |
+| Custom Workflow Design | AI-enhanced workflows for 5-8 core processes | $5,000 |
+| Advanced Prompt Engineering | Team trained on creating & optimizing prompts | $3,000 |
+| AI Tool Stack Setup | Configure optimal tools for each role | $2,000 |
+| Individual Coaching Sessions | 30-min 1:1 with key team members (up to 6) | $3,000 |
 | 60-Day Slack/Teams Support | Dedicated channel for ongoing questions | Included |
 | Progress Check-in Call | 30-day follow-up to optimize adoption | Included |
-| Prompt Library | 75+ proven prompts tailored to Cho Ventures | $2,000 |
-| Role-Specific Quick Guides | Written guides for key positions | $2,000 |
-| **Team AI Training Total** | Up to 25 team members | **$40,000** |
+| Prompt Library | 75+ proven prompts tailored to Cho Ventures | $1,500 |
+| Role-Specific Quick Guides | Written guides for key positions | $1,500 |
+| **Team AI Training Total** | Up to 20 team members | **$30,000** |
 
 **Duration:** 2-3 weeks delivery + 60 days support
-**Phase 4 Total: $40,000**
+**Phase 4 Total: $30,000**
 
 ---
 
@@ -220,8 +223,8 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | Phase | Components | Fixed Investment |
 |-------|------------|------------------|
 | **Phase 0** | Ecosystem Map & Master Plan | $3,000 |
-| **Phase 1** | Discovery & Strategy | $15,000 |
-| **Phase 0+1 Subtotal** | | **$18,000** |
+| **Phase 1** | System Architecture & Specification | $25,000 |
+| **Phase 0+1 Subtotal** | | **$28,000** |
 | **Phase 2A** | Foundation Layer | $28,000 |
 | **Phase 2B** | Entity Integrations (6) | $35,000 |
 | **Phase 2C** | Community Platform | $60,000 |
@@ -235,7 +238,7 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | **Phase 3D** | Speaking & Media Engine | $25,000 |
 | **Phase 3E** | Content Amplification | $30,000 |
 | **Phase 3 Subtotal** | | **$197,000** |
-| **Phase 4** | Team AI Training (Professional) | $40,000 |
+| **Phase 4** | Team AI Training (Professional) | $30,000 |
 | | | |
 | **GRAND TOTAL** | **Complete Transformation** | **$450,000** |
 
@@ -246,14 +249,14 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | Milestone | Amount | Timing |
 |-----------|--------|--------|
 | Phase 0 Kickoff | $3,000 (100%) | Upon signing |
-| Phase 1 Start | $15,000 (100%) | Week 1 |
+| Phase 1 Start | $25,000 (100%) | Week 1 |
 | Phase 2 Kickoff | $78,000 (40%) | Week 2 |
 | Phase 2 Midpoint | $58,500 (30%) | Month 2 |
 | Phase 2 Completion | $58,500 (30%) | Month 3 |
 | Phase 3 Kickoff | $78,800 (40%) | Month 3 |
 | Phase 3 Midpoint | $59,100 (30%) | Month 4 |
 | Phase 3 Completion | $59,100 (30%) | Month 5 |
-| Phase 4 Training | $40,000 (100%) | Month 5-6 |
+| Phase 4 Training | $30,000 (100%) | Month 5-6 |
 | **Total** | **$450,000** | |
 
 ---
