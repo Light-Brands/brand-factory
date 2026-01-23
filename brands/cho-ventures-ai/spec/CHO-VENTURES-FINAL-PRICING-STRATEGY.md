@@ -37,7 +37,7 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | AI Opportunity Matrix | Prioritized AI integration opportunities | Included |
 | Implementation Roadmap | Detailed project plan with milestones | Included |
 
-**Duration:** 3-5 days
+**Duration:** 7-10 days
 **Phase 0 Total: $3,000**
 
 ---
@@ -55,7 +55,7 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 | Investment Framework | Financial projections & ROI analysis | Included |
 | Final Presentation | Executive presentation with recommendations | Included |
 
-**Duration:** 1 week
+**Duration:** 15-30 days
 **Phase 1 Total: $15,000**
 
 ---
