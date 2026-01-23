@@ -15,7 +15,8 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 | Phase | Description | Fixed Investment |
 |-------|-------------|------------------|
-| **Phase 1** | Discovery & Strategy | $18,000 |
+| **Phase 0** | Ecosystem Map & Master Plan | $3,000 |
+| **Phase 1** | Discovery & Strategy | $15,000 |
 | **Phase 2** | Implementation & Build | $195,000 |
 | **Phase 3** | Authority Platform Launch | $197,000 |
 | **Phase 4** | Team AI Training (Professional) | $40,000 |
@@ -25,25 +26,37 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 ---
 
-## Phase 1: Discovery & Strategy — $18,000
+## Phase 0: Ecosystem Map & Master Plan — $3,000
 
-**Purpose:** Deep-dive analysis and master plan creation for the entire Cho Ventures ecosystem
+**Purpose:** Initial assessment and roadmap creation to understand the full Cho Ventures ecosystem and identify transformation opportunities
 
 | Component | Deliverables | Fixed Price |
 |-----------|--------------|-------------|
 | Pre-Discovery Questionnaires | Comprehensive intake across all 8 entities | Included |
-| 6 Structured Sessions | 9-12 hours of strategic discovery | Included |
 | Ecosystem Audit Report | Current state documentation across all entities | Included |
-| Unified Architecture Design | Target state system blueprint | Included |
 | AI Opportunity Matrix | Prioritized AI integration opportunities | Included |
+| Implementation Roadmap | Detailed project plan with milestones | Included |
+
+**Duration:** 3-5 days
+**Phase 0 Total: $3,000**
+
+---
+
+## Phase 1: Discovery & Strategy — $15,000
+
+**Purpose:** Deep-dive strategic sessions and detailed planning for the AI-powered ecosystem transformation
+
+| Component | Deliverables | Fixed Price |
+|-----------|--------------|-------------|
+| 6 Structured Sessions | 9-12 hours of strategic discovery | Included |
+| Unified Architecture Design | Target state system blueprint | Included |
 | Community Platform Specification | ChoZen app requirements & design | Included |
 | Authority Platform Plan | Book, course, and speaking strategy | Included |
-| Implementation Roadmap | Detailed project plan with milestones | Included |
 | Investment Framework | Financial projections & ROI analysis | Included |
 | Final Presentation | Executive presentation with recommendations | Included |
 
-**Duration:** 1.5 weeks
-**Phase 1 Total: $18,000**
+**Duration:** 1 week
+**Phase 1 Total: $15,000**
 
 ---
 
@@ -206,7 +219,9 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 | Phase | Components | Fixed Investment |
 |-------|------------|------------------|
-| **Phase 1** | Discovery & Strategy | $18,000 |
+| **Phase 0** | Ecosystem Map & Master Plan | $3,000 |
+| **Phase 1** | Discovery & Strategy | $15,000 |
+| **Phase 0+1 Subtotal** | | **$18,000** |
 | **Phase 2A** | Foundation Layer | $28,000 |
 | **Phase 2B** | Entity Integrations (6) | $35,000 |
 | **Phase 2C** | Community Platform | $60,000 |
@@ -230,12 +245,15 @@ This document presents the final, fixed pricing for the complete Cho Ventures AI
 
 | Milestone | Amount | Timing |
 |-----------|--------|--------|
-| Project Kickoff | $90,000 (20%) | Upon signing |
-| Phase 1 Completion | $45,000 (10%) | Week 2 |
-| Phase 2 Midpoint | $90,000 (20%) | Month 2 |
-| Phase 2 Completion | $67,500 (15%) | Month 3 |
-| Phase 3 Midpoint | $67,500 (15%) | Month 4 |
-| Phase 3 Completion + Training | $90,000 (20%) | Month 5-7 |
+| Phase 0 Kickoff | $3,000 (100%) | Upon signing |
+| Phase 1 Start | $15,000 (100%) | Week 1 |
+| Phase 2 Kickoff | $78,000 (40%) | Week 2 |
+| Phase 2 Midpoint | $58,500 (30%) | Month 2 |
+| Phase 2 Completion | $58,500 (30%) | Month 3 |
+| Phase 3 Kickoff | $78,800 (40%) | Month 3 |
+| Phase 3 Midpoint | $59,100 (30%) | Month 4 |
+| Phase 3 Completion | $59,100 (30%) | Month 5 |
+| Phase 4 Training | $40,000 (100%) | Month 5-6 |
 | **Total** | **$450,000** | |
 
 ---
