@@ -12,36 +12,37 @@ The Legal Vault is the central, authoritative repository for all legal documents
 
 ```
 legal-vault/
-├── contracts/              # Active contracts
-│   ├── vendor/            # Vendor and supplier agreements
-│   ├── client/            # Client and customer agreements
-│   ├── partner/           # Partnership and JV agreements
-│   └── employment/        # Employment contracts
-│
-├── agreements/            # Non-contract agreements
-│   ├── nda/              # Non-disclosure agreements
+├── agreements/             # Executed/signed agreements ONLY
+│   ├── ndas/              # Non-disclosure agreements
+│   │   └── {entity}/     # Organized by counterparty
 │   ├── mou/              # Memoranda of understanding
-│   ├── loi/              # Letters of intent
-│   └── settlements/      # Settlement agreements
+│   ├── contracts/         # Client and vendor contracts
+│   └── partnerships/      # Partnership and JV agreements
+│
+├── negotiations/           # Active deals in progress
+│   └── {entity}/          # Grouped by counterparty
+│       ├── reviews/       # NDA reviews, analysis
+│       ├── drafts/        # Response drafts, proposals
+│       └── correspondence/
 │
 ├── compliance/            # Regulatory and compliance
 │   ├── policies/         # Internal policies
 │   ├── audits/           # Audit reports and findings
-│   ├── certifications/   # Compliance certifications
 │   └── filings/          # Regulatory filings
 │
 ├── intellectual-property/ # IP assets
 │   ├── trademarks/       # Trademark registrations
-│   ├── copyrights/       # Copyright registrations
-│   ├── patents/          # Patent filings and grants
 │   └── licenses/         # IP license agreements
 │
-├── risk-assessments/      # Risk documentation
-│
-├── templates/             # Reusable templates
+├── templates/             # Reusable document templates
 │
 └── archive/               # Expired/terminated documents
 ```
+
+### Key Principle
+
+**`agreements/`** contains only executed, signed, or binding documents.
+Everything else — drafts, reviews, analyses, proposals — belongs in **`negotiations/`** grouped by counterparty.
 
 ## Document Naming Convention
 
