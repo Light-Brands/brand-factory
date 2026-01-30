@@ -1,8 +1,8 @@
 # Permatours
 
-> *Permaculture Action & Mutual Aid Network*
+> *Permaculture Action & Mutual Aid Network -- Northeast (bioregional)*
 
-Permatours is a bioregional network connecting permaculture practitioners, projects, and communities across the Northeast and beyond through mutual aid, skill-sharing, and collective action. It functions as the connective tissue of Sydney's project ecosystem -- linking people, labor, and knowledge across a distributed network of NE Hubs while channeling energy toward the Unified Sanctuaries land project.
+Permatours is a bioregional network connecting permaculture practitioners, projects, and communities across the Northeast through mutual aid, skill-sharing, and collective action. It flows resources **outward** to community members and ecosystems -- it's not designed to funnel energy inward toward Syd's other projects. Currently Northeast-based, the model could be replicated elsewhere through chapters or aligned groups, but right now it is a localized expression within a much larger planetary context.
 
 ## What It Is
 
@@ -16,13 +16,13 @@ A permaculture action and mutual aid network focused on:
 
 Permatours is not a single place. It's a living network that moves, connects, and builds capacity across the bioregion.
 
-## Role in the Ecosystem
+## Role in the Wider Movement
 
-- Brings **volunteers and skilled labor** to Unified Sanctuaries, reducing costs and increasing capacity
-- Generates **marketing power** through its distributed network -- more reach for event ticket sales and community recruitment
-- Creates **aligned partnerships** that bring donors, practitioners, and institutional support
+- Flows resources **outward to community members and ecosystems** across the NE bioregion
+- Builds **capacity for local projects** through mutual aid, skilled practitioners, and partnership
+- Creates **aligned partnerships** that bring donors, practitioners, and institutional support to many communities
 - Produces **media and IP** (docuseries, educational content) that generates visibility and revenue
-- Serves as the **regional scaling mechanism** -- if the model works at Unified Sanctuaries, Permatours helps replicate it through NE Hubs
+- Serves as a **replicable model** -- the hub-based network approach could be adapted by other bioregions; Unified Sanctuaries is one hub among many, not the center
 
 ## What Makes It Unique
 
@@ -80,11 +80,12 @@ Permatours is not a single place. It's a living network that moves, connects, an
 
 ## Connection Points
 
-- **-> Unified Sanctuaries**: Flagship hub; volunteers and labor flow from network to land project
-- **-> Planetary Party**: Network gatherings are hosted through Planetary Party events
-- **-> Kinship Earth**: Potential fiscal sponsorship; grant funding for network operations
-- **<- NE Hubs**: Distributed nodes feeding into and drawing from the central network
+- **<-> Unified Sanctuaries**: One hub among many in the NE network; Permatours could run projects or trainings there, but US is not the center of the network
+- **<-> Planetary Party**: Network practitioners may participate in PP gatherings; PP provides cultural infrastructure
+- **<-> Kinship Earth**: KE has deployed flow funds to Permatours so it could flow resources **outward** to community members and ecosystems -- not to fund Permatours' internal operations
+- **<-> NE Hubs**: Distributed nodes coordinating through shared values, not centralized control
+- **-> Communities & ecosystems**: Permatours' primary purpose is flowing resources outward to the communities it serves
 
 ---
 
-*Part of [Sydney's project ecosystem](../README.md).*
+*Part of [Sydney's initiatives](../README.md). Permatours serves the NE bioregion's communities -- Syd's other projects are not its primary beneficiaries.*

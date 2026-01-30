@@ -1,36 +1,32 @@
 # Ecosystem Map
 
-> *How the four projects flow into and reinforce each other -- and how Live with Syd weaves them into one living system.*
+> *How four initiatives at different scales relate to each other and to a wider movement -- with explicit boundaries around funding, scope, and centralization.*
 
-This document maps the relationships, resource flows, community infrastructure, and interdependencies across the ecosystem stewarded by Syd Harvey Griffith. It draws from the full body of Live with Syd documentation to present a comprehensive view of how culture, network, land, capital, and connective programming operate as a single regenerative engine.
+This document maps the relationships, scale differences, ethical boundaries, and community infrastructure across the initiatives stewarded by Syd Harvey Griffith. These projects are **participants in a wider ecosystem**, not the ecosystem itself. They operate at different scales (local, bioregional, global), maintain important boundaries (especially around funding), and are designed to make room for many other communities, organizations, and initiatives beyond Syd's direct orbit.
 
 ---
 
 ## The Architect
 
-At the center of this ecosystem is Syd -- a community organizer, movement builder, and regenerative finance leader who designed these four projects to function as one living system. She isn't just managing a portfolio; she's orchestrating a regenerative engine where culture funds the land, the land hosts the network, the network feeds the movement, and the movement attracts the capital.
+Syd Harvey Griffith is a community organizer, movement builder, and regenerative finance leader who stewards four initiatives that are deeply related but operate at different scales and serve different purposes. She isn't designing a closed system where everything feeds everything else -- she's contributing to a wider regenerative movement through multiple expressions, each with its own integrity.
 
-Syd holds Executive Director roles, co-founder titles, and lead design seats across all four projects -- but more than titles, she holds the connective vision that makes the whole thing work. She's supported 40+ land-based projects, pioneered trust-based flow funding, and built a federated ecosystem that turns festivals into funding pipelines and mutual aid into systemic transformation.
+Syd holds Executive Director roles, co-founder titles, and lead design seats across all four projects -- but more than titles, she holds a connective vision that recognizes these projects as **participants in something larger**. She's supported 40+ land-based projects, pioneered trust-based flow funding, and built networks that span from a single site in Vermont to global coordination.
 
-Through Live with Syd, she also serves as the ecosystem's primary facilitator, educator, and public interface -- hosting weekly sessions that make the invisible connective tissue between projects visible and participatory.
+Through Live with Syd, she also serves as a primary facilitator, educator, and public interface -- hosting weekly sessions that make the relationships and boundaries between these initiatives visible and participatory.
 
 ```mermaid
 graph TD
     SYD(("Syd Harvey Griffith\nArchitect & Steward"))
 
-    SYD --- PP["PLANETARY PARTY\nCultural Engine"]
-    SYD --- PT["PERMATOURS\nAction Network"]
-    SYD --- US["UNIFIED SANCTUARIES\nPhysical Anchor"]
-    SYD --- KE["KINSHIP EARTH\nFunding Channel"]
+    SYD --- PP["PLANETARY PARTY\nCoordination Protocol\n🌍 Global"]
+    SYD --- KE["KINSHIP EARTH\nRegenerative Capital\n🌍 Global"]
+    SYD --- PT["PERMATOURS\nAction Network\n🌿 Northeast"]
+    SYD --- US["UNIFIED SANCTUARIES\nPhysical Site\n📍 Local (VT)"]
 
-    LWS{{"LIVE WITH SYD\nThe Nervous System"}}
+    LWS{{"LIVE WITH SYD\nConnective Tissue"}}
     LWS -.-> PP & PT & US & KE
 
-    PP --- US
-    PP --- KE
-    PT --- US
-    PT --- PP
-    KE --- US
+    SYD -.-|"participates in"| WIDER(("WIDER MOVEMENT\nOther communities,\norgs, & initiatives"))
 
     style SYD fill:#00796B,stroke:#004D40,color:#fff
     style PP fill:#F9A825,stroke:#F57F17,color:#000
@@ -38,44 +34,58 @@ graph TD
     style US fill:#8D6E63,stroke:#5D4037,color:#fff
     style KE fill:#42A5F5,stroke:#1565C0,color:#fff
     style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style WIDER fill:#E0E0E0,stroke:#9E9E9E,color:#000
 ```
 
 ---
 
-## The Four Pillars
+## The Four Initiatives (at Different Scales)
+
+These are not four equal pillars that symmetrically feed each other. They operate at different scales, have different scopes, and maintain ethical boundaries around how they relate -- especially financially.
 
 ```mermaid
-flowchart LR
-    PP["PLANETARY PARTY\nCultural Engine\n---\nFestivals & Events\nCommunity Building\nMedia Production"]
+flowchart TD
+    subgraph GLOBAL["🌍 GLOBAL"]
+        PP["PLANETARY PARTY\nCoordination Protocol\n---\nGatherings & Governance\nCultural Infrastructure\nServes many ecosystems"]
 
-    PT["PERMATOURS\nAction Network\n---\nNE Hubs & Mutual Aid\nPermaculture Tours\nDocuseries"]
+        KE["KINSHIP EARTH\nRegenerative Capital\n---\nFlow Funding (international)\nFiscal Infrastructure\nServes many communities"]
+    end
 
-    US["UNIFIED SANCTUARIES\nPhysical Anchor\n---\nFarm & Retreat Center\nEvent Venue\nCommunity Living"]
+    subgraph BIOREGIONAL["🌿 NORTHEAST BIOREGION"]
+        PT["PERMATOURS\nAction Network\n---\nNE Hubs & Mutual Aid\nPermaculture Tours\nDocuseries"]
+    end
 
-    KE["KINSHIP EARTH\nFunding Channel\n---\nGrants & Flow Funding\nFiscal Sponsorship\nImpact Investment"]
+    subgraph LOCAL_SCALE["📍 LOCAL (Southern Vermont)"]
+        US["UNIFIED SANCTUARIES\nOne Physical Site\n---\nFarm & Retreat Center\nEvent Venue\nOpen-Source Blueprint"]
+    end
 
-    PP <-->|"Culture feeds Place\nPlace hosts Culture"| US
-    PP <-->|"Engagement drives Funding\nFunding enables Events"| KE
-    PT <-->|"Network builds Land\nLand anchors Network"| US
-    KE -->|"Capital flows to\nLand & Operations"| US
-    PT <-->|"Network joins Events\nEvents amplify Network"| PP
+    PP -.-|"can host gatherings at"| US
+    PT -.-|"can run projects at"| US
+    KE -.-|"may reference as\ncase study"| US
 
+    PP -.-|"serves many\necosystems"| EXT(("OTHER ORGS\n& COMMUNITIES"))
+    KE -.-|"deploys capital\nacross bioregions"| EXT
+
+    style GLOBAL fill:#E3F2FD,stroke:#90CAF9,color:#000
+    style BIOREGIONAL fill:#E8F5E9,stroke:#81C784,color:#000
+    style LOCAL_SCALE fill:#EFEBE9,stroke:#BCAAA4,color:#000
     style PP fill:#F9A825,stroke:#F57F17,color:#000
     style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
     style US fill:#8D6E63,stroke:#5D4037,color:#fff
     style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style EXT fill:#E0E0E0,stroke:#9E9E9E,color:#000
 ```
 
-### 1. Planetary Party -- The Cultural Engine
-**Role**: Ecosystem, Community Engagement & Festivals
+### 1. Planetary Party -- Coordination Protocol
+**Role**: Cultural & Coordination Infrastructure | **Scale**: Global
 
-The outward-facing cultural layer -- festivals, events, and community gatherings that bring people into the ecosystem, generate visibility, and build the relational fabric that holds everything together.
+A cultural and coordination protocol meant to serve many ecosystems, not just Syd's own projects. Planetary Party is a scaffold that many groups can plug into -- a coordination layer, not an ownership layer. It supports emergence beyond any single person's immediate orbit.
 
 **What It Activates:**
-- Regenerative festivals (e.g., Leave a Positive Trace) as entry points into the ecosystem
+- Regenerative festivals (e.g., Leave a Positive Trace) as entry points for diverse communities
 - Cultural gatherings: singing circles, theater, immersive arts, ritual
 - Educational events: governance, permaculture, community-building workshops
-- Ecosystem events that bring together Permatours network, Kinship Earth donors, and Unified Sanctuaries community
+- Gatherings that bring together many different networks, organizations, and communities -- including but not limited to Syd's other initiatives
 - Built-in media production for storytelling, documentary, and online distribution
 
 **Weekly Programming (Live with Syd -- Wednesdays):**
@@ -96,9 +106,9 @@ The outward-facing cultural layer -- festivals, events, and community gatherings
 ---
 
 ### 2. Permatours -- The Action Network
-**Role**: Permaculture Action & Mutual Aid Network
+**Role**: Permaculture Action & Mutual Aid Network | **Scale**: Northeast (bioregional)
 
-The connective tissue across the NE bioregion. Permatours links permaculture practitioners, projects, and hubs into a mutual aid network. It brings volunteers, skills, and aligned partnerships into the ecosystem while extending reach outward through regional NE Hubs.
+Currently a Northeast-based network linking permaculture practitioners, projects, and hubs through mutual aid. Permatours flows resources **outward** to community members and ecosystems -- it's not designed to funnel energy inward toward Syd's other projects. The model could be replicated through chapters or aligned groups elsewhere, but right now it is a localized expression within a much larger planetary context.
 
 **What It Activates:**
 - NE Hubs: self-organizing distributed nodes across the Northeast bioregion
@@ -113,10 +123,10 @@ The connective tissue across the NE bioregion. Permatours links permaculture pra
 
 ---
 
-### 3. Unified Sanctuaries -- The Physical Anchor
-**Role**: Land-Based Project & Community
+### 3. Unified Sanctuaries -- One Physical Expression
+**Role**: Land-Based Project & Community | **Scale**: Local (one site, Southern Vermont)
 
-The ground truth. A regenerative village in Southern Vermont integrating farm, retreat center, event venue, and community living. This is where the vision becomes physical -- food is grown, people live, retreats happen, and the circular economy operates.
+A regenerative village in Southern Vermont integrating farm, retreat center, event venue, and community living. Unified Sanctuaries is a place where multiple streams can intersect -- it could host Planetary Party gatherings, serve as a site for Permatours projects or trainings, and be a living example that Kinship Earth or others might point to as a case study. But it is **a node, not the trunk** -- one expression among many, not the central thing that everything flows into or out of. It is being designed as an open-source blueprint that other communities around the world could adapt.
 
 **Four Sub-Pillars:**
 
@@ -200,18 +210,23 @@ flowchart TD
 
 ---
 
-### 4. Kinship Earth -- The Funding Channel
-**Role**: Flow Funding & Grants
+### 4. Kinship Earth -- Regenerative Capital
+**Role**: Flow Funding & Regenerative Capital | **Scale**: Global
 
-The nonprofit vehicle that channels grants, flow funding, and philanthropic capital into the ecosystem. Kinship Earth provides the fiscal infrastructure and legitimacy to attract institutional and foundation support.
+A nonprofit deploying flow funds across multiple bioregions and communities internationally. Kinship Earth's goal is to unlock capacity for **many communities**, not just reinforce a small internal network. It provides fiscal infrastructure and institutional credibility, but maintains important ethical boundaries around how it relates to Syd's other projects.
+
+**Ethical Boundaries (In Development):**
+- Whether Kinship Earth should fund Unified Sanctuaries directly is an open question -- it may represent a conflict of interest
+- Kinship Earth has deployed flow funds to Permatours in the past, but specifically so Permatours could flow resources **outward to community members and ecosystems**, not to fund its own internal operations
+- Kinship Earth's capital flows are meant to serve many communities internationally, not primarily resource Syd's own projects
 
 **What It Activates:**
 - Grant acquisition from foundations, government, and climate programs
-- Flow funding: capital moves where needed, not locked in rigid budgets
-- Fiscal sponsorship for ecosystem projects
+- Flow funding: capital moves where needed across bioregions, not locked in rigid budgets
+- Fiscal sponsorship for aligned projects
 - Donor engagement and stewardship
 - Impact reporting and storytelling-driven fundraising
-- Event-integrated fundraising (Planetary Party events as donor cultivation)
+- Deployment of resources to grassroots leaders and communities internationally
 
 **Weekly Programming (Live with Syd -- Mondays):**
 - Bioregional flow funding and participatory grantmaking
@@ -300,32 +315,35 @@ A distinct offering that serves the whole ecosystem. Non-recorded, sacred contai
 
 ---
 
-## Resource Flows
+## Relationships & Boundaries
+
+The relationships between these initiatives are real, but they are **not meant to be financially or structurally circular in a closed way**. Important boundaries exist, especially around funding.
 
 ```mermaid
 flowchart LR
-    PP["PLANETARY PARTY\nCultural Engine"]
-    PT["PERMATOURS\nAction Network"]
-    US["UNIFIED SANCTUARIES\nPhysical Anchor"]
-    KE["KINSHIP EARTH\nFunding Channel"]
+    PP["PLANETARY PARTY\n🌍 Global Protocol"]
+    PT["PERMATOURS\n🌿 NE Network"]
+    US["UNIFIED SANCTUARIES\n📍 Local Site (VT)"]
+    KE["KINSHIP EARTH\n🌍 Global Capital"]
     NE["NE HUBS\nDistributed Nodes"]
+    EXT(("OTHER ORGS\n& COMMUNITIES\n(many)"))
     LWS(("LIVE WITH\nSYD"))
 
-    PP -->|"People, energy,\nrevenue, pipeline"| US
-    US -->|"Venue, infrastructure,\nlodging, food"| PP
+    PP -.-|"can host\ngatherings at"| US
+    US -.-|"could provide\nvenue for"| PP
 
-    PP -->|"Donor engagement,\nstorytelling, awareness"| KE
-    KE -->|"Grants, fiscal\nsponsorship"| PP
+    PT -.-|"can run projects\nor trainings at"| US
 
-    KE -->|"Grants, flow funding,\nimpact capital"| US
+    KE -.-|"may reference as\ncase study"| US
+    KE ===|"⚠️ direct funding\nis an open question"| US
 
-    PT -->|"Volunteers, skills,\npartnerships"| US
-    US -->|"Flagship hub,\ndemo site"| PT
+    KE -->|"flow funds to\ncommunities (outward)"| PT
+    PT -->|"flows resources\noutward to"| EXT
 
-    NE <-->|"Distributed nodes\nShared coordination"| PT
+    PP -->|"coordination layer\nfor many groups"| EXT
+    KE -->|"deploys capital\nacross bioregions"| EXT
 
-    PT -->|"Attendees,\nfacilitators"| PP
-    PP -->|"Production,\ncultural framework"| PT
+    NE <-->|"distributed nodes\nshared coordination"| PT
 
     LWS -.->|"Mon: Capital\neducation"| KE
     LWS -.->|"Wed: Guild\nbuilding"| PP
@@ -338,49 +356,37 @@ flowchart LR
     style KE fill:#42A5F5,stroke:#1565C0,color:#fff
     style NE fill:#81C784,stroke:#4CAF50,color:#000
     style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style EXT fill:#E0E0E0,stroke:#9E9E9E,color:#000
 ```
 
-### Planetary Party <-> Unified Sanctuaries
-**Culture and Place (Gold Arrows)**
+### Ethical Boundaries Around Funding
 
-- **PP -> US**: Events bring people, energy, and revenue to the land. Festivals generate ticket sales, visibility, and pipeline for future residents/stewards.
-- **US -> PP**: The land provides physical venue, infrastructure, lodging, and food systems. The land is the stage.
+These initiatives are not designed so that all four equally resource or funnel into one another. Key boundaries:
 
-### Planetary Party <-> Kinship Earth
-**Engagement and Funding (Blue Arrows)**
+- **Kinship Earth -> Unified Sanctuaries**: Whether KE should fund US directly is an open question -- it may represent a conflict of interest given that Syd stewards both
+- **Kinship Earth -> Permatours**: KE has deployed flow funds to Permatours in the past, but specifically so Permatours could flow resources **outward** to community members and ecosystems, not to fund its own internal operations
+- **Planetary Party**: Meant to support many initiatives and ecosystems, not function primarily as an amplifier for Syd's own projects
+- **Kinship Earth's capital flows guild**: The goal is to unlock capacity for many communities, not just reinforce a small internal network
 
-- **PP -> KE**: Events generate donor engagement, storytelling content, and awareness that fuels fundraising. Attendees become donors and advocates.
-- **KE -> PP**: Kinship Earth provides grant funding and fiscal sponsorship for event production and community programming.
+### Where Intersections Can Happen
 
-### Kinship Earth -> Unified Sanctuaries
-**Capital Flow (Blue Arrow)**
+While maintaining ethical boundaries, these initiatives do relate to each other in specific ways:
 
-- Kinship Earth channels grants, flow funding, and impact capital into Unified Sanctuaries for land acquisition, infrastructure, and operations. This is the primary financial pipeline from the philanthropic world into the land project.
+**Planetary Party & Unified Sanctuaries**: PP could host gatherings at US when the site exists. US could provide venue. But PP's primary purpose is serving many ecosystems globally, not generating revenue for US.
 
-### Permatours <-> Unified Sanctuaries
-**Network and Labor (Dashed Arrows)**
+**Permatours & Unified Sanctuaries**: Permatours could run projects or trainings at US. US could serve as one hub among many in the NE network. But US is not the center of Permatours -- the network's purpose is flowing resources outward.
 
-- **PT -> US**: Permatours brings volunteers, skilled practitioners, and partnerships that reduce costs and increase capacity.
-- **US -> PT**: Unified Sanctuaries serves as flagship hub and demonstration site. A home base and replicable model.
+**Kinship Earth & Unified Sanctuaries**: KE might point to US as a case study or example. The question of direct funding is being carefully considered given potential conflicts of interest.
 
-### NE Hubs <-> Permatours
-**Regional Network (Dashed Arrows)**
+**NE Hubs & Permatours**: Distributed nodes across the Northeast bioregion. They coordinate through shared values, not centralized control.
 
-- NE Hubs are distributed nodes across the Northeast bioregion. They feed into the central network and benefit from shared coordination and resources.
+### Live with Syd -> Connective Tissue
 
-### Permatours <-> Planetary Party
-**Events and Network (Implied)**
-
-- Permatours gatherings are hosted through Planetary Party events. The network provides attendees and facilitators; the event platform provides production and cultural framework.
-
-### Live with Syd -> All Four Pillars
-**Programming, Recruitment, and Coherence (New)**
-
-- **LWS -> Kinship Earth**: Monday sessions educate around regenerative capital, cultivate donor relationships, and surface funding opportunities.
+- **LWS -> Kinship Earth**: Monday sessions educate around regenerative capital, cultivate donor relationships, and surface funding opportunities for many communities.
 - **LWS -> Planetary Party**: Wednesday sessions build guild membership, test governance models, and recruit systems thinkers into active co-creation.
-- **LWS -> Unified Sanctuaries**: Friday sessions advance land project design in public, attract aligned experts (legal, permaculture, finance), and build the future resident/steward pipeline.
+- **LWS -> Unified Sanctuaries**: Friday sessions advance land project design in public, attract aligned experts, and build the future resident/steward pipeline.
 - **LWS -> Permatours**: Sessions surface volunteer energy, bioregional partnerships, and mutual aid connections that flow into the network.
-- **LWS -> All**: Heart sharing circles sustain the emotional health of people across every pillar. Content pipeline feeds storytelling across all projects.
+- **LWS -> All**: Heart sharing circles sustain the emotional health of people across every initiative. Content pipeline feeds storytelling across all projects.
 
 ---
 
@@ -638,7 +644,7 @@ flowchart LR
 
 ## Economic Design
 
-### Revenue Streams by Pillar
+### Revenue Streams by Initiative
 
 ```mermaid
 flowchart TD
@@ -670,7 +676,7 @@ flowchart TD
         KE4["Donor Cultivation"]
     end
 
-    PP_REV --> ECO["ECOSYSTEM\nSUSTAINABILITY"]
+    PP_REV --> ECO["INDEPENDENT\nSUSTAINABILITY\n(not pooled)"]
     PT_REV --> ECO
     US_REV --> ECO
     KE_REV --> ECO
@@ -705,23 +711,26 @@ Offered in a spirit of generosity and reciprocity. No one turned away for lack o
 
 ## Value Circulation Summary
 
+The following shows how value moves through and beyond Syd's initiatives. Notably, value does **not** all converge on a single project. Each initiative has its own purpose, its own communities, and its own outward flow.
+
 ```mermaid
 flowchart TD
-    LWS(("LIVE WITH SYD\nThe Nervous System\n---\nSessions | Content | Community"))
+    LWS(("LIVE WITH SYD\nConnective Tissue\n---\nSessions | Content | Community"))
 
-    LWS --> VIS["VISIBILITY & CULTURE\nPlanetary Party generates\nawareness, storytelling, community"]
-    LWS --> VOL["VOLUNTEERS & NETWORK\nPermatours brings people,\nskills, mutual aid"]
-    LWS --> DON["DONORS & GRANTS\nKinship Earth channels\nfunding and fiscal support"]
+    LWS --> VIS["CULTURE & COORDINATION\nPlanetary Party creates\ngathering infrastructure\nfor many ecosystems"]
+    LWS --> VOL["NETWORK & MUTUAL AID\nPermatours flows resources\noutward to communities\nacross the NE bioregion"]
+    LWS --> DON["REGENERATIVE CAPITAL\nKinship Earth deploys\nflow funds across\nmultiple bioregions"]
     LWS --> EMO["EMOTIONAL RESILIENCE\nHeart Sharing Circles\nsustain the people doing the work"]
 
-    VIS --> US["UNIFIED SANCTUARIES\nThe land where it all comes together\n---\nFood | Shelter | Healing\nEducation | Governance | Community Living"]
-    VOL --> US
-    DON --> US
-    EMO --> US
+    VIS --> MANY["MANY COMMUNITIES\n& ECOSYSTEMS\n(not just Syd's projects)"]
+    VOL --> MANY
+    DON --> MANY
 
-    US --> BLUE["OPEN-SOURCE BLUEPRINT\nReplicated across bioregions\nthrough NE Hubs and beyond"]
+    US["UNIFIED SANCTUARIES\nOne physical node (VT)\n---\nOpen-source blueprint\nfor adaptation elsewhere"] -.- MANY
 
-    BLUE -->|"New nodes feed\nback into the system"| LWS
+    EMO --> PEOPLE["PEOPLE ACROSS\nALL INITIATIVES"]
+
+    MANY --> EMERGE["EMERGENCE\nNew nodes, new projects,\nnew communities beyond\nSyd's direct orbit"]
 
     style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
     style VIS fill:#F9A825,stroke:#F57F17,color:#000
@@ -729,49 +738,51 @@ flowchart TD
     style DON fill:#42A5F5,stroke:#1565C0,color:#fff
     style EMO fill:#F48FB1,stroke:#EC407A,color:#000
     style US fill:#8D6E63,stroke:#5D4037,color:#fff
-    style BLUE fill:#00796B,stroke:#004D40,color:#fff
+    style MANY fill:#E0E0E0,stroke:#9E9E9E,color:#000
+    style PEOPLE fill:#FFF3E0,stroke:#FFCC80,color:#000
+    style EMERGE fill:#00796B,stroke:#004D40,color:#fff
 ```
 
 ---
 
 ## Key Insight
 
-No single project works in isolation. The ecosystem's strength is its interdependence:
+These initiatives are deeply related, but they are **not a closed or self-feeding loop**. The design principles that matter most:
 
-- Without **Planetary Party**, there's no cultural engine to attract people and tell the story
-- Without **Permatours**, there's no regional network feeding skills, labor, and partnerships
-- Without **Unified Sanctuaries**, there's no physical anchor where the vision is lived
-- Without **Kinship Earth**, there's no institutional funding pipeline to sustain the work
-- Without **Live with Syd**, there's no nervous system weaving it all into coherent, participatory, living practice
+1. **Scale is explicit** -- local (Unified Sanctuaries), bioregional (Permatours), global (Planetary Party, Kinship Earth)
+2. **Ethical boundaries are visible** -- especially around funding flows between Syd's own projects
+3. **Hubs exist, but no single project is over-centralized** -- Unified Sanctuaries is a node, not the trunk
+4. **Syd's projects are participants in a wider ecosystem**, not the ecosystem itself
+5. **Room exists for emergence** -- other organizations, communities, and initiatives that are not affiliated with Syd are essential to the picture
 
-Each project solves a piece of the puzzle that the others cannot. Live with Syd makes the connections between them visible, cultivates the relationships that power them, generates the content that tells their story, and holds the emotional container that sustains the people doing the work.
+Planetary Party is a scaffold many groups can plug into. Kinship Earth unlocks capacity for many communities. Permatours flows resources outward. Unified Sanctuaries is one blueprint among many possible expressions.
 
-And it's Syd who sees the whole picture -- the rare builder who moves fluently between soil and spreadsheets, singing circles and capital campaigns, governance design and festival production, grief circles and grant applications. That cross-domain fluency is the ecosystem's secret weapon.
+Live with Syd makes the connections between these initiatives visible, cultivates the relationships that power them, and holds the emotional container that sustains the people doing the work.
 
 ```mermaid
 flowchart TD
-    PP["PLANETARY PARTY\nWithout it: no cultural engine\nto attract people and tell the story"]
-    PT["PERMATOURS\nWithout it: no regional network\nfeeding skills, labor, partnerships"]
-    US["UNIFIED SANCTUARIES\nWithout it: no physical anchor\nwhere the vision is lived"]
-    KE["KINSHIP EARTH\nWithout it: no funding pipeline\nto sustain the work"]
-    LWS["LIVE WITH SYD\nWithout it: no nervous system\nweaving it into living practice"]
+    subgraph DESIGN["DESIGN PRINCIPLES"]
+        S["SCALE IS EXPLICIT\nLocal ↔ Bioregional ↔ Global"]
+        B["ETHICAL BOUNDARIES\nEspecially around funding"]
+        N["NO OVER-CENTRALIZATION\nHubs exist, no single trunk"]
+        P["PARTICIPANTS, NOT THE WHOLE\nSyd's projects ⊂ wider movement"]
+        E["ROOM FOR EMERGENCE\nOther orgs & communities\nare essential"]
+    end
 
-    PP <--> PT
-    PP <--> KE
-    PT <--> US
-    KE <--> US
-    PP <--> US
+    S --- SYSTEM["SYSTEM DESIGN\nThat honors all five"]
 
-    LWS --- PP
-    LWS --- PT
-    LWS --- US
-    LWS --- KE
+    B --- SYSTEM
+    N --- SYSTEM
+    P --- SYSTEM
+    E --- SYSTEM
 
-    style PP fill:#F9A825,stroke:#F57F17,color:#000
-    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
-    style US fill:#8D6E63,stroke:#5D4037,color:#fff
-    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
-    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style DESIGN fill:#F3E5F5,stroke:#CE93D8,color:#000
+    style SYSTEM fill:#00796B,stroke:#004D40,color:#fff
+    style S fill:#E3F2FD,stroke:#90CAF9,color:#000
+    style B fill:#FCE4EC,stroke:#F48FB1,color:#000
+    style N fill:#FFF8E1,stroke:#FFE082,color:#000
+    style P fill:#E8F5E9,stroke:#A5D6A7,color:#000
+    style E fill:#FFF3E0,stroke:#FFCC80,color:#000
 ```
 
 ---

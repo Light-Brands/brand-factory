@@ -1,35 +1,40 @@
 # Kinship Earth
 
-> *Flow Funding & Grants*
+> *Flow Funding & Regenerative Capital -- Global*
 
-Kinship Earth is the nonprofit funding vehicle of the project ecosystem. It channels grants, flow funding, and philanthropic capital into the regenerative projects -- primarily Unified Sanctuaries -- while providing the fiscal infrastructure and institutional legitimacy needed to attract foundation support, government grants, and impact investment. Syd Harvey Griffith serves as Executive Director -- leading the charge to fundamentally reshape how capital flows in the regenerative space.
+Kinship Earth is a nonprofit deploying flow funds across multiple bioregions and communities internationally. Its goal is to unlock capacity for **many communities**, not just reinforce a small internal network. Syd Harvey Griffith serves as Executive Director -- leading the charge to fundamentally reshape how capital flows in the regenerative space. Kinship Earth maintains important ethical boundaries around how it relates to Syd's other projects.
 
 ## What It Is
 
 A nonprofit organization focused on:
 
 - **Grant acquisition** -- researching, applying for, and managing grants from foundations, government programs, and impact funds
-- **Flow funding** -- facilitating the movement of philanthropic capital to where it's needed across the ecosystem
-- **Fiscal sponsorship** -- potentially providing fiscal infrastructure for Permatours and Planetary Party before they have their own entities
+- **Flow funding** -- facilitating the movement of philanthropic capital to where it's needed across bioregions and communities internationally
+- **Fiscal sponsorship** -- potentially providing fiscal infrastructure for aligned projects
 - **Donor engagement** -- cultivating relationships with individual donors, family foundations, and institutional funders
 - **Impact reporting** -- documenting and communicating the social, ecological, and community impact of the ecosystem
 
 Kinship Earth is the bridge between the philanthropic world and the on-the-ground regenerative work.
 
-## Role in the Ecosystem
+## Role in the Wider Movement
 
-- Provides the **primary financial pipeline** from the institutional/philanthropic world into Unified Sanctuaries
-- Channels **flow funding grants** for land acquisition, infrastructure, and community development
-- Offers potential **fiscal sponsorship** for other projects that don't yet have their own entities
-- Converts **event engagement into donor relationships** through Planetary Party touchpoints
+- Deploys **flow funds across multiple bioregions and communities internationally** -- not just to Syd's other projects
+- Channels **flow funding grants** for land acquisition, infrastructure, and community development across many communities
+- Offers potential **fiscal sponsorship** for aligned projects
 - Manages **impact measurement and reporting** that satisfies funders and attracts new capital
-- Brings **institutional credibility** that opens doors the other projects can't access alone
+- Brings **institutional credibility** that opens doors for grassroots leaders and communities
+
+### Ethical Boundaries (In Development)
+
+- **Kinship Earth -> Unified Sanctuaries**: Whether KE should fund US directly is an open question -- it may represent a conflict of interest given that Syd stewards both
+- **Kinship Earth -> Permatours**: KE has deployed flow funds to Permatours in the past, but specifically so Permatours could flow resources **outward** to community members and ecosystems, not to fund its own internal operations
+- **General principle**: KE's capital flows are meant to serve many communities internationally, not primarily resource Syd's own projects
 
 ## What Makes It Unique
 
 - **Flow funding model** -- capital moves to where it's most needed, not locked into rigid program budgets
-- **Ecosystem approach** -- funds a system of interconnected projects, not isolated programs
-- **Event-integrated fundraising** -- Planetary Party events double as donor cultivation
+- **Many-communities approach** -- deploys capital across bioregions and communities internationally, not just to a small internal network
+- **Storytelling-integrated fundraising** -- content from across the movement supports donor cultivation
 - **Aligned values** -- funding supports non-speculative, community-governed, land-based projects
 - **Storytelling-driven** -- the media and content produced by the ecosystem becomes the case for support
 
@@ -48,10 +53,12 @@ Kinship Earth is the bridge between the philanthropic world and the on-the-groun
 - [ ] Capital campaign planning for Unified Sanctuaries land acquisition?
 - [ ] What's the earned revenue model, if any? (Consulting, training, publications?)
 
-### Fiscal Relationships
+### Fiscal Relationships & Ethical Boundaries
 - [ ] Does Kinship Earth fiscally sponsor any of the other three projects currently?
 - [ ] What's the planned entity structure? Should Planetary Party and Permatours be programs of KE, or separate entities?
-- [ ] How does money flow from KE to Unified Sanctuaries? Direct grants? Program funding? Through the trust?
+- [ ] Is it a conflict of interest for KE to fund Unified Sanctuaries directly? (Open question -- needs careful consideration)
+- [ ] How should flow funds to Permatours be structured to ensure resources flow outward to communities, not inward to internal operations?
+- [ ] What ethical boundaries should govern how KE relates financially to Syd's other projects?
 
 ### Impact & Reporting
 - [ ] What metrics and impact data are currently being tracked?
@@ -66,11 +73,11 @@ Kinship Earth is the bridge between the philanthropic world and the on-the-groun
 ## Initial Planning Steps
 
 1. **Audit current status** -- document Kinship Earth's legal status, board, budget, and active grants
-2. **Map the funding landscape** -- identify target grant programs, foundations, and flow funding networks aligned with the ecosystem's work
-3. **Define the fiscal architecture** -- how money flows between KE and the other three projects (entity structure, agreements, reporting)
-4. **Build the case for support** -- a compelling narrative document that positions the four-project ecosystem as a fundable whole
-5. **Plan a capital campaign** -- scope and timeline for Unified Sanctuaries land acquisition fundraising
-6. **Set up donor engagement pipeline** -- integrate with Planetary Party events for cultivation and stewardship
+2. **Map the funding landscape** -- identify target grant programs, foundations, and flow funding networks aligned with KE's mission
+3. **Define ethical boundaries** -- clarify how KE relates financially to Syd's other projects, including potential conflicts of interest
+4. **Define the fiscal architecture** -- how money flows between KE and aligned projects, with clear boundaries and transparency
+5. **Build the case for support** -- a compelling narrative document that positions KE's global flow funding mission
+6. **Set up donor engagement pipeline** -- cultivate relationships that support many communities, not just a small internal network
 
 ## Key People
 
@@ -90,11 +97,12 @@ Kinship Earth is the bridge between the philanthropic world and the on-the-groun
 
 ## Connection Points
 
-- **-> Unified Sanctuaries**: Primary recipient of grants, flow funding, and capital campaign proceeds
-- **<- Planetary Party**: Events generate donor engagement and storytelling content
-- **<-> Permatours**: Potential fiscal sponsor; network strengthens grant narratives
-- **-> Ecosystem**: Provides the institutional credibility and financial infrastructure for the whole system
+- **<-> Unified Sanctuaries**: May reference as case study; direct funding is an open question (potential conflict of interest)
+- **<-> Planetary Party**: Storytelling content supports broader fundraising; relationship is collaborative, not financially circular
+- **<-> Permatours**: Has deployed flow funds so Permatours could flow resources outward to communities -- not to fund internal operations
+- **-> Many communities**: KE's primary purpose is deploying capital across bioregions and communities internationally
+- **-> Wider movement**: Provides institutional credibility and financial infrastructure for grassroots leaders and communities beyond Syd's projects
 
 ---
 
-*Part of [Sydney's project ecosystem](../README.md).*
+*Part of [Sydney's initiatives](../README.md). Kinship Earth serves many communities internationally -- Syd's other projects are not its primary beneficiaries.*

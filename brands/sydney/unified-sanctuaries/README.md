@@ -1,8 +1,8 @@
 # Unified Sanctuaries
 
-> *Land-Based Project & Community*
+> *Land-Based Project & Community -- Local (one site, Southern Vermont)*
 
-Unified Sanctuaries is the physical anchor of Sydney's project ecosystem -- a regenerative, community-owned village integrating permaculture farming, a retreat and healing arts center, an event venue, and community living. It is where the vision becomes tangible: food is grown, people live, healing happens, and a circular economy operates. Located in Southern Vermont, it serves as the flagship demonstration site for the entire ecosystem.
+Unified Sanctuaries is one physical expression of regenerative community -- a village integrating permaculture farming, a retreat and healing arts center, an event venue, and community living. It is a place where multiple streams can intersect: a site that could host Planetary Party gatherings, Permatours projects or trainings, and serve as a living example that Kinship Earth or others might point to as a case study. But it is **a node, not the trunk** -- one expression among many, not the central thing that everything flows into or out of. It is being designed as an open-source blueprint that other communities around the world could adapt.
 
 ## What It Is
 
@@ -13,13 +13,14 @@ A land-based regenerative community organized around four pillars:
 3. **Event Venue + Innovation Hall** -- Festivals, concerts, weddings, markets, conferences, and AV production
 4. **Community Living / Regenerative Neighborhood** -- Eco-homes, tiny dwellings, shared stewardship, and cooperative living (20+ homes)
 
-## Role in the Ecosystem
+## Role in the Wider Movement
 
-- Provides the **physical venue and infrastructure** for Planetary Party events
-- Serves as the **flagship hub** for the Permatours network and a model for replication
-- Receives **flow funding and grants** channeled through Kinship Earth
-- Generates **multi-stream revenue** (farm, retreat, venue, lodging, products) that sustains the ecosystem
+- **One possible venue** for Planetary Party gatherings -- PP serves many ecosystems, and US is one site among many
+- **One hub among many** in the Permatours NE network -- not the center of the network
+- Whether it **receives direct funding from Kinship Earth** is an open question (potential conflict of interest given shared stewardship)
+- Generates **multi-stream revenue** (farm, retreat, venue, lodging, products) to sustain its own operations
 - Operates a **circular economy** with community tokens that keep value local
+- Designed as an **open-source blueprint** -- the real value is that other communities could adapt this model
 
 ## What Makes It Unique
 
@@ -98,11 +99,13 @@ A land-based regenerative community organized around four pillars:
 
 ## Connection Points
 
-- **<- Planetary Party**: Events bring people, energy, and revenue to the land
-- **<- Permatours**: Network brings volunteers, labor, and partnerships
-- **<- Kinship Earth**: Flow funding and grants support acquisition and operations
-- **-> All**: Physical infrastructure, venue, food systems, and community that enable everything else
+- **<-> Planetary Party**: Could host PP gatherings; PP serves many ecosystems, US is one possible venue
+- **<-> Permatours**: One hub among many in the NE network; could host projects and trainings
+- **<-> Kinship Earth**: KE may point to US as a case study; direct funding is an open question due to potential conflict of interest
+- **-> Wider movement**: Designed as an open-source blueprint -- the model is meant to be adapted by other communities, not to be the center of everything
+
+> **Important framing**: Unified Sanctuaries is a node, not the trunk. It's one expression among many -- a place where multiple streams can intersect, but not the central thing that everything flows into or out of.
 
 ---
 
-*Part of [Sydney's project ecosystem](../README.md). Full documentation at [`brands/unified-sanctuaries/`](../../unified-sanctuaries/).*
+*Part of [Sydney's initiatives](../README.md). Full documentation at [`brands/unified-sanctuaries/`](../../unified-sanctuaries/).*
