@@ -29,24 +29,37 @@ Syd is the rare leader who can hold a singing circle and a cap table in the same
 
 The four projects form a circular, self-reinforcing ecosystem:
 
-```
-                    Planetary Party
-                  (Events & Culture)
-                   /        \
-                  /          \
-         Permatours          Kinship Earth
-        (Network &           (Funding &
-         Mutual Aid)          Grants)
-                  \          /
-                   \        /
-               Unified Sanctuaries
-               (Land & Community)
+```mermaid
+flowchart TD
+    PP["PLANETARY PARTY\nEvents & Culture"]
+    PT["PERMATOURS\nNetwork & Mutual Aid"]
+    US["UNIFIED SANCTUARIES\nLand & Community"]
+    KE["KINSHIP EARTH\nFunding & Grants"]
+    LWS{{"LIVE WITH SYD\nThe Nervous System"}}
+
+    PP <-->|"Culture & Revenue"| US
+    PP <-->|"Engagement & Funding"| KE
+    PT <-->|"Network & Labor"| US
+    KE -->|"Capital Flow"| US
+    PT <-->|"Events & Network"| PP
+
+    LWS -.->|"Mon"| KE
+    LWS -.->|"Wed"| PP
+    LWS -.->|"Fri"| US
+    LWS -.-> PT
+
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
 ```
 
 - **Planetary Party** generates community engagement, visibility, and culture that feeds all three other projects
 - **Permatours** brings volunteers, partnerships, and a regional network that strengthens the land project and events
 - **Unified Sanctuaries** provides the physical home base where gatherings happen, the network converges, and the vision is lived
 - **Kinship Earth** channels grants and flow funding to support the land project and sustain the broader ecosystem
+- **Live with Syd** weaves all four pillars together through weekly sessions, content generation, and community cultivation
 
 See [ecosystem-map.md](./ecosystem-map.md) for detailed relationship mapping.
 
