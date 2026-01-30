@@ -2,7 +2,7 @@
 
 > *Permaculture Action & Mutual Aid Network*
 
-Permatours is a bioregional network connecting permaculture practitioners, projects, and communities across the Northeast and beyond through mutual aid, skill-sharing, and collective action. It functions as the connective tissue of the Sydney ecosystem -- linking people, labor, and knowledge across a distributed network of NE Hubs while channeling energy toward the Unified Sanctuaries land project.
+Permatours is a bioregional network connecting permaculture practitioners, projects, and communities across the Northeast and beyond through mutual aid, skill-sharing, and collective action. It functions as the connective tissue of Sydney's project ecosystem -- linking people, labor, and knowledge across a distributed network of NE Hubs while channeling energy toward the Unified Sanctuaries land project.
 
 ## What It Is
 
@@ -87,4 +87,4 @@ Permatours is not a single place. It's a living network that moves, connects, an
 
 ---
 
-*Part of the [Sydney ecosystem](../README.md).*
+*Part of [Sydney's project ecosystem](../README.md).*

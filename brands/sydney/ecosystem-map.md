@@ -1,8 +1,8 @@
-# Sydney Ecosystem Map
+# Ecosystem Map
 
 > *How the four projects flow into and reinforce each other.*
 
-This document maps the relationships, resource flows, and interdependencies between the four Sydney projects, based on the ecosystem diagram.
+This document maps the relationships, resource flows, and interdependencies between the four projects stewarded by Sydney, based on the ecosystem diagram.
 
 ## Project Roles
 

@@ -1,8 +1,8 @@
-# Sydney
+# Sydney's Projects
 
 > *An interconnected ecosystem of four regenerative projects building a new paradigm for community, land stewardship, and collective action.*
 
-Sydney is an umbrella brand housing four distinct but deeply interconnected projects. Each serves a unique role in a larger regenerative ecosystem -- from land-based community building to permaculture action networks, festival culture, and flow funding. Together they form a self-reinforcing system where community engagement feeds the land project, the land project hosts the network, the network activates hubs, and funding flows where it's needed most.
+Sydney Griffith is the steward leading the development of four distinct but deeply interconnected projects. Each serves a unique role in a larger regenerative ecosystem -- from land-based community building to permaculture action networks, festival culture, and flow funding. Together they form a self-reinforcing system where community engagement feeds the land project, the land project hosts the network, the network activates hubs, and funding flows where it's needed most.
 
 ## The Four Projects
 
@@ -65,4 +65,4 @@ sydney/
 
 ---
 
-*This brand is part of the Light-Brands portfolio.*
+*These projects are stewarded by Sydney Griffith as part of the Light-Brands portfolio.*
