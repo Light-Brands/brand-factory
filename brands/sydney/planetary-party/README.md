@@ -2,7 +2,7 @@
 
 > *Ecosystem, Community Engagement & Festivals*
 
-Planetary Party is the cultural engine of the Sydney ecosystem. It produces festivals, gatherings, and community events that build the relational fabric connecting people to regenerative living, to each other, and to the land. It is the outward-facing layer that generates visibility, storytelling, and community entry points for the broader ecosystem.
+Planetary Party is the cultural engine of Sydney's project ecosystem. It produces festivals, gatherings, and community events that build the relational fabric connecting people to regenerative living, to each other, and to the land. It is the outward-facing layer that generates visibility, storytelling, and community entry points for the broader ecosystem.
 
 ## What It Is
 
@@ -58,7 +58,7 @@ Planetary Party is not just a party. It's the connective ritual space where the 
 - [ ] How does revenue flow back to Unified Sanctuaries and the broader ecosystem?
 
 ### Digital Presence
-- [ ] Website scope -- standalone site, or a section within a broader Sydney presence?
+- [ ] Website scope -- standalone site, or a section within a broader ecosystem presence?
 - [ ] Social media strategy and channels
 - [ ] Email list and community building pre-launch
 
@@ -84,4 +84,4 @@ Planetary Party is not just a party. It's the connective ritual space where the 
 
 ---
 
-*Part of the [Sydney ecosystem](../README.md).*
+*Part of [Sydney's project ecosystem](../README.md).*

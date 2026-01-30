@@ -2,7 +2,7 @@
 
 > *Flow Funding & Grants*
 
-Kinship Earth is the nonprofit funding vehicle of the Sydney ecosystem. It channels grants, flow funding, and philanthropic capital into the regenerative projects -- primarily Unified Sanctuaries -- while providing the fiscal infrastructure and institutional legitimacy needed to attract foundation support, government grants, and impact investment. Sydney serves as Executive Director.
+Kinship Earth is the nonprofit funding vehicle of the project ecosystem. It channels grants, flow funding, and philanthropic capital into the regenerative projects -- primarily Unified Sanctuaries -- while providing the fiscal infrastructure and institutional legitimacy needed to attract foundation support, government grants, and impact investment. Sydney serves as Executive Director.
 
 ## What It Is
 
@@ -97,4 +97,4 @@ Kinship Earth is the bridge between the philanthropic world and the on-the-groun
 
 ---
 
-*Part of the [Sydney ecosystem](../README.md).*
+*Part of [Sydney's project ecosystem](../README.md).*

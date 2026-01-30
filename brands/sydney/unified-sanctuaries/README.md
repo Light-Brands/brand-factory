@@ -2,7 +2,7 @@
 
 > *Land-Based Project & Community*
 
-Unified Sanctuaries is the physical anchor of the Sydney ecosystem -- a regenerative, community-owned village integrating permaculture farming, a retreat and healing arts center, an event venue, and community living. It is where the vision becomes tangible: food is grown, people live, healing happens, and a circular economy operates. Located in Southern Vermont, it serves as the flagship demonstration site for the entire ecosystem.
+Unified Sanctuaries is the physical anchor of Sydney's project ecosystem -- a regenerative, community-owned village integrating permaculture farming, a retreat and healing arts center, an event venue, and community living. It is where the vision becomes tangible: food is grown, people live, healing happens, and a circular economy operates. Located in Southern Vermont, it serves as the flagship demonstration site for the entire ecosystem.
 
 ## What It Is
 
@@ -41,10 +41,10 @@ A land-based regenerative community organized around four pillars:
 - Website plan and brand identity system
 - Full Next.js application
 
-## Scoping Questions to Resolve (Within Sydney Context)
+## Scoping Questions to Resolve
 
 ### Ecosystem Integration
-- [ ] How does Unified Sanctuaries relate to the Sydney umbrella structurally? Is the existing `brands/unified-sanctuaries/` the canonical source, or does this folder become the home?
+- [ ] How does Unified Sanctuaries relate to the broader project ecosystem structurally? Is the existing `brands/unified-sanctuaries/` the canonical source, or does this folder become the home?
 - [ ] How are event venue bookings coordinated with Planetary Party?
 - [ ] What's the Permatours volunteer integration workflow on the ground?
 - [ ] How does Kinship Earth funding flow into US operations? Through the trust? Directly to LLCs?
@@ -105,4 +105,4 @@ A land-based regenerative community organized around four pillars:
 
 ---
 
-*Part of the [Sydney ecosystem](../README.md). Full documentation at [`brands/unified-sanctuaries/`](../../unified-sanctuaries/).*
+*Part of [Sydney's project ecosystem](../README.md). Full documentation at [`brands/unified-sanctuaries/`](../../unified-sanctuaries/).*
