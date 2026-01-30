@@ -1,0 +1,16 @@
+{
+  "brandName": "Sydney",
+  "createdAt": "2026-01-30T00:00:00.000Z",
+  "createdBy": "standardization",
+  "hasPlan": true,
+  "hasIdentity": false,
+  "originalPlanFile": null,
+  "originalIdentityFile": null,
+  "description": "Umbrella brand encompassing four interconnected regenerative ecosystem projects",
+  "projects": [
+    "planetary-party",
+    "permatours",
+    "unified-sanctuaries",
+    "kinship-earth"
+  ]
+}
