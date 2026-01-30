@@ -52,7 +52,7 @@ Permaculture's design principles map directly onto digital infrastructure. This 
 
 ### 8. Integrate Rather Than Segregate
 **Earth:** Polyculture, not monoculture. The Three Sisters (corn, beans, squash) grow together because each one gives what the others need.
-**Digital:** Interoperable tools, not walled gardens. Sydney's four projects already model this: Permatours feeds volunteers to Unified Sanctuaries, Planetary Party generates visibility for Kinship Earth, Kinship Earth funds the whole system. The digital infrastructure must mirror this integration — shared identity systems, cross-platform content flows, unified community membership that works across all four projects.
+**Digital:** Interoperable tools, not walled gardens. Sydney's four initiatives operate at different scales but share values and infrastructure. The digital layer connects them — through shared identity systems, cross-platform content flows, and membership that works across projects — while respecting ethical boundaries and the fact that these initiatives also serve many communities beyond Syd's own orbit.
 
 ### 9. Use Small and Slow Solutions
 **Earth:** A food forest takes seven years. You don't rush perennials. The most resilient systems grow at the pace of trust.
@@ -160,33 +160,36 @@ Unified Sanctuaries operates on a commons model — shared resources, collective
 
 > *The architecture of a living internet.*
 
-Sydney's four projects don't operate in silos. They form a living ecosystem where each element strengthens the others:
+Sydney's four initiatives operate at different scales and serve different purposes — they are participants in a wider ecosystem, not the ecosystem itself. They are not designed as a closed loop where everything feeds everything else:
 
 ```
-                    Planetary Party
-                  (Culture & Entry Points)
-                   /              \
-                  /                \
-         Permatours               Kinship Earth
-        (Network &                (Funding &
-         Mutual Aid)               Grants)
-                  \                /
-                   \              /
-               Unified Sanctuaries
-               (Land & Community)
+        🌍 GLOBAL                          🌿 BIOREGIONAL              📍 LOCAL
+  ┌───────────────────┐              ┌──────────────────┐      ┌──────────────────┐
+  │  Planetary Party  │              │    Permatours     │      │    Unified       │
+  │  (Coordination    │              │    (NE Action     │      │    Sanctuaries   │
+  │   Protocol —      │              │     Network)      │      │    (One Site,    │
+  │   serves many     │              └──────────────────┘      │     VT — open    │
+  │   ecosystems)     │                                         │     blueprint)   │
+  │                   │                                         └──────────────────┘
+  │  Kinship Earth    │
+  │  (Regenerative    │         ── ── ── ── ── ── ── ── ── ── ── ──
+  │   Capital —       │         Other communities, organizations,
+  │   deploys across  │         and initiatives beyond Syd's orbit
+  │   bioregions)     │         ── ── ── ── ── ── ── ── ── ── ── ──
+  └───────────────────┘
 ```
 
-The digital layer doesn't replace this. It *mirrors* it — and in doing so, amplifies it.
+The digital layer doesn't replace this. It *mirrors* it — and in doing so, amplifies it. But the digital architecture should reflect the same principles: explicit scale, ethical boundaries around funding, no over-centralization, and room for many communities beyond Syd's own projects.
 
 ### The Digital Ecosystem Map
 
-**Digital Planetary Party** — The cultural front door of the digital ecosystem. Livestreams, recorded events, immersive media experiences, digital festival spaces. This is where new people discover the world Sydney is building. Content generated here flows across the entire ecosystem.
+**Digital Planetary Party** — A coordination layer that many ecosystems can plug into. Livestreams, recorded events, immersive media experiences, digital festival spaces. This is where diverse communities discover and participate in regenerative coordination — not just Syd's projects.
 
-**Digital Permatours** — The connective network. Community directories, skill-sharing platforms, mutual aid coordination tools, documentary content. This is how communities find each other, support each other, and build together across distance.
+**Digital Permatours** — The connective network for the NE bioregion. Community directories, skill-sharing platforms, mutual aid coordination tools, documentary content. This is how communities find each other, support each other, and build together across distance — with resources flowing outward, not inward.
 
-**Digital Kinship Earth** — The regenerative funding layer. Transparent grant tracking, trust-based capital flow dashboards, community investment portals, impact documentation. This is how capital moves through the ecosystem with integrity and visibility.
+**Digital Kinship Earth** — The regenerative funding layer operating globally. Transparent grant tracking, trust-based capital flow dashboards, community investment portals, impact documentation. This is how capital moves with integrity and visibility to many communities across bioregions.
 
-**Digital Unified Sanctuaries** — The home base. Community governance platforms, shared resource management, digital commons, sacred gathering spaces. This is where the community lives, governs itself, and makes decisions together.
+**Digital Unified Sanctuaries** — One node's digital presence. Community governance platforms, shared resource management, digital commons, sacred gathering spaces. An open-source example that other communities can adapt — not the central hub of the whole system.
 
 ### Decentralized Architecture
 
@@ -208,7 +211,7 @@ The digital ecosystem operates the same way:
 - **Shared analytics** (privacy-respecting) show where energy is flowing and where support is needed
 - **Cross-project content syndication** means a Planetary Party livestream automatically appears in the Permatours resource library and the Kinship Earth donor portal
 - **Community members move fluidly** between projects — their identity, their contributions, their reputation travels with them
-- **Revenue and resources flow** to where they're needed most, tracked transparently on shared dashboards
+- **Resources flow outward** to many communities and ecosystems, tracked transparently — with ethical boundaries governing flows between Syd's own projects
 
 ---
 
@@ -309,7 +312,7 @@ The vision:
 
 **A Kinship Earth for the digital commons** — trust-based funding that supports communities building ethical digital infrastructure, the same way it supports communities building on physical land. Because the digital commons *is* land. It's just land we haven't learned to see yet.
 
-**And at the center of all of it: the recognition that there is no separate digital world.** There is one world. One earth. One set of communities. One web of relationships. The internet is something we built *from* the earth, and everything we do inside it ripples back to the earth that sustains us.
+**And woven through all of it: the recognition that there is no separate digital world.** There is one world. One earth. Many communities. Many webs of relationship. The internet is something we built *from* the earth, and everything we do inside it ripples back to the earth that sustains us.
 
 Sydney's work has always been about this integration — holding the sacred and the strategic, the soil and the spreadsheet, the ceremony and the cap table. Digital Permaculture is simply the next layer of that integration. The same principles. The same ethics. The same commitment to leaving the soil healthier than we found it.
 

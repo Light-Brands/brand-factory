@@ -1,8 +1,8 @@
 # Planetary Party
 
-> *Ecosystem, Community Engagement & Festivals*
+> *Cultural & Coordination Protocol -- Global*
 
-Planetary Party is the cultural engine of Sydney's project ecosystem. It produces festivals, gatherings, and community events that build the relational fabric connecting people to regenerative living, to each other, and to the land. It is the outward-facing layer that generates visibility, storytelling, and community entry points for the broader ecosystem.
+Planetary Party is a cultural and coordination protocol designed to serve **many ecosystems**, not just Syd's own projects. It produces festivals, gatherings, and community events that build the relational fabric connecting people to regenerative living, to each other, and to the land. It is inherently global -- a scaffold that many groups can plug into, a coordination layer rather than an ownership layer.
 
 ## What It Is
 
@@ -11,22 +11,22 @@ A community engagement and event production platform focused on:
 - **Regenerative festivals** (e.g., Leave a Positive Trace)
 - **Cultural gatherings** -- singing circles, theater, immersive arts, concerts
 - **Educational events** -- governance workshops, permaculture education, community-building courses
-- **Ecosystem events** -- gatherings that bring together the Permatours network, Kinship Earth donors, and Unified Sanctuaries community
+- **Cross-ecosystem gatherings** -- events that bring together many different networks, organizations, and communities, including but not limited to Syd's other initiatives
 
-Planetary Party is not just a party. It's the connective ritual space where the ecosystem meets itself and invites the world in.
+Planetary Party is not just a party. It's a connective ritual space designed to support emergence beyond any single person's immediate orbit.
 
-## Role in the Ecosystem
+## Role in the Wider Movement
 
-- Generates **visibility and storytelling** content that fuels Kinship Earth's fundraising
-- Brings **people and energy** to the Unified Sanctuaries land project
-- Creates **donor touchpoints** that convert attendees into supporters
-- Hosts **Permatours network gatherings** that strengthen the regional mutual aid fabric
+- Provides **gathering infrastructure** that many ecosystems and communities can use -- not just Syd's projects
+- Generates **visibility and storytelling** content that can support diverse fundraising efforts
+- Creates spaces where **many networks intersect** -- including but not limited to Permatours, Kinship Earth, and Unified Sanctuaries
+- Creates **donor touchpoints** that convert attendees into supporters of regenerative work broadly
 - Produces **media and IP** (footage, performances, recordings) that become ongoing revenue streams
 
 ## What Makes It Unique
 
 - Events are designed as **entry points** into a regenerative lifestyle, not one-off entertainment
-- Festival revenue directly supports the land project and community infrastructure
+- A **coordination layer, not an ownership layer** -- designed so many groups can participate and benefit
 - Built-in **media production** captures every event for storytelling, documentary content, and online distribution
 - Programming blends **celebration with education** -- every gathering teaches something
 - Rooted in **consent culture, inclusion, and ecological ethics**
@@ -55,7 +55,7 @@ Planetary Party is not just a party. It's the connective ritual space where the 
 - [ ] Vendor fees and marketplace revenue
 - [ ] Sponsorship and partnership opportunities
 - [ ] Media/content licensing and distribution revenue
-- [ ] How does revenue flow back to Unified Sanctuaries and the broader ecosystem?
+- [ ] How does revenue sustain PP's own operations and broader movement goals? (Note: PP is not designed primarily as a revenue source for Syd's other projects)
 
 ### Digital Presence
 - [ ] Website scope -- standalone site, or a section within a broader ecosystem presence?
@@ -78,10 +78,11 @@ Planetary Party is not just a party. It's the connective ritual space where the 
 
 ## Connection Points
 
-- **-> Unified Sanctuaries**: Primary venue partner; events fund the land project
-- **-> Permatours**: Network gatherings and volunteer activation at events
-- **-> Kinship Earth**: Donor engagement through events; fiscal support for production
+- **<-> Unified Sanctuaries**: Could host gatherings at the site when it exists; US is one venue among many, not the primary beneficiary
+- **<-> Permatours**: Network gatherings and practitioner involvement at events
+- **<-> Kinship Earth**: Storytelling content supports broader fundraising; relationship is collaborative, not financially circular
+- **<-> Other orgs & communities**: PP is designed as a scaffold that many groups can plug into -- supporting emergence beyond Syd's immediate orbit
 
 ---
 
-*Part of [Sydney's project ecosystem](../README.md).*
+*Part of [Sydney's initiatives](../README.md). Planetary Party serves many ecosystems -- Syd's projects are participants, not the primary beneficiaries.*
