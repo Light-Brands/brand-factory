@@ -14,9 +14,63 @@ Syd holds Executive Director roles, co-founder titles, and lead design seats acr
 
 Through Live with Syd, she also serves as the ecosystem's primary facilitator, educator, and public interface -- hosting weekly sessions that make the invisible connective tissue between projects visible and participatory.
 
+```mermaid
+flowchart TD
+    SYD(("Syd Harvey Griffith\nArchitect & Steward"))
+
+    SYD -->|"Designs & Leads"| PP["PLANETARY PARTY\nCultural Engine"]
+    SYD -->|"Co-Founded"| PT["PERMATOURS\nAction Network"]
+    SYD -->|"Lead Visionary"| US["UNIFIED SANCTUARIES\nPhysical Anchor"]
+    SYD -->|"Executive Director"| KE["KINSHIP EARTH\nFunding Channel"]
+
+    LWS{{"LIVE WITH SYD\nThe Nervous System"}}
+
+    SYD -->|"Hosts & Facilitates"| LWS
+
+    LWS -.->|"Wed Sessions"| PP
+    LWS -.->|"Network Weaving"| PT
+    LWS -.->|"Fri Sessions"| US
+    LWS -.->|"Mon Sessions"| KE
+
+    PP <-->|"Culture & Revenue"| US
+    PP <-->|"Engagement & Funding"| KE
+    PT <-->|"Network & Labor"| US
+    KE -->|"Capital Flow"| US
+    PT <-->|"Events & Network"| PP
+
+    style SYD fill:#00796B,stroke:#004D40,color:#fff
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+```
+
 ---
 
 ## The Four Pillars
+
+```mermaid
+flowchart LR
+    PP["PLANETARY PARTY\nCultural Engine\n---\nFestivals & Events\nCommunity Building\nMedia Production"]
+
+    PT["PERMATOURS\nAction Network\n---\nNE Hubs & Mutual Aid\nPermaculture Tours\nDocuseries"]
+
+    US["UNIFIED SANCTUARIES\nPhysical Anchor\n---\nFarm & Retreat Center\nEvent Venue\nCommunity Living"]
+
+    KE["KINSHIP EARTH\nFunding Channel\n---\nGrants & Flow Funding\nFiscal Sponsorship\nImpact Investment"]
+
+    PP <-->|"Culture feeds Place\nPlace hosts Culture"| US
+    PP <-->|"Engagement drives Funding\nFunding enables Events"| KE
+    PT <-->|"Network builds Land\nLand anchors Network"| US
+    KE -->|"Capital flows to\nLand & Operations"| US
+    PT <-->|"Network joins Events\nEvents amplify Network"| PP
+
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+```
 
 ### 1. Planetary Party -- The Cultural Engine
 **Role**: Ecosystem, Community Engagement & Festivals
@@ -80,6 +134,28 @@ The ground truth. A regenerative village in Southern Vermont integrating farm, r
 | Community Living / Regenerative Neighborhood | 20+ homes, cooperative housing | $195k -- $580k |
 | **Total Ecosystem Revenue Potential** | | **$1.4M -- $4.5M+** |
 
+```mermaid
+flowchart TD
+    US["UNIFIED SANCTUARIES\nRegenerative Village -- Southern Vermont"]
+
+    US --> F["Permaculture Farm &\nEducation Center\n$315k -- $1M+"]
+    US --> R["Retreat & Healing Arts\nCenter + Bathhouse\n$570k -- $1.75M"]
+    US --> E["Event Venue +\nInnovation Hall\n$310k -- $1.16M"]
+    US --> C["Community Living /\nRegenerative Neighborhood\n$195k -- $580k"]
+
+    F --> TOTAL["TOTAL ECOSYSTEM\nREVENUE POTENTIAL\n$1.4M -- $4.5M+"]
+    R --> TOTAL
+    E --> TOTAL
+    C --> TOTAL
+
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style F fill:#A5D6A7,stroke:#66BB6A,color:#000
+    style R fill:#CE93D8,stroke:#AB47BC,color:#000
+    style E fill:#FFE082,stroke:#FFD54F,color:#000
+    style C fill:#90CAF9,stroke:#64B5F6,color:#000
+    style TOTAL fill:#EF5350,stroke:#C62828,color:#fff
+```
+
 **Weekly Programming (Live with Syd -- Fridays):**
 - Land acquisition and stewardship models
 - Community land trusts and nested trust structures
@@ -97,6 +173,30 @@ The ground truth. A regenerative village in Southern Vermont integrating farm, r
 - Anchor Circle governance (consent-based, rotating leadership)
 - Circular economy with Sol Token (utility) and Voice Token (governance)
 - Open-source blueprint shared for replication
+
+```mermaid
+flowchart TD
+    TRUST["Community Land Trust\nNon-Speculative Stewardship"]
+
+    TRUST --> GOV["Anchor Circle\nConsent-Based Governance\nRotating Leadership"]
+
+    GOV --> SOL["Sol Token\nUtility Token\nCircular Economy"]
+    GOV --> VOICE["Voice Token\nGovernance Token\nDecision-Making"]
+
+    SOL --> ECON["Internal Circular Economy\nLocal Exchange & Reciprocity"]
+    VOICE --> DEC["Collective Decisions\nEarned Equity\nStewardship Over Capital"]
+
+    ECON --> BLUE["Open-Source Blueprint\nReplicable Across Bioregions"]
+    DEC --> BLUE
+
+    style TRUST fill:#8D6E63,stroke:#5D4037,color:#fff
+    style GOV fill:#A1887F,stroke:#795548,color:#fff
+    style SOL fill:#FFD54F,stroke:#FFC107,color:#000
+    style VOICE fill:#90CAF9,stroke:#42A5F5,color:#000
+    style ECON fill:#FFF9C4,stroke:#FFF176,color:#000
+    style DEC fill:#BBDEFB,stroke:#90CAF9,color:#000
+    style BLUE fill:#00796B,stroke:#004D40,color:#fff
+```
 
 **Who It Draws In:** Land stewards, permaculture designers, regenerative farmers, architects, natural builders, legal/financial innovators, healers, facilitators, cooperative housing advocates
 
@@ -151,6 +251,30 @@ The nonprofit vehicle that channels grants, flow funding, and philanthropic capi
 
 Live with Syd is not a fifth project -- it is the connective tissue that makes the four pillars one living system. These recurring, co-creative live sessions are where the ecosystem meets itself, processes together, builds coherence, and invites others in.
 
+```mermaid
+flowchart TD
+    LWS(("LIVE WITH SYD\nThe Nervous System"))
+
+    LWS -->|"Monday Sessions"| KE["KINSHIP EARTH\nRegenerative Capital Flows"]
+    LWS -->|"Wednesday Sessions"| PP["PLANETARY PARTY\nGovernance & Culture"]
+    LWS -->|"Friday Sessions"| US["UNIFIED SANCTUARIES\nLand Development"]
+    LWS -->|"Monthly Circles"| HS["HEART SHARING\nEmotional Infrastructure"]
+
+    KE -->|"Donor relationships\nFunding opportunities"| ECO["WHOLE ECOSYSTEM\nCoherence & Growth"]
+    PP -->|"Guild members\nGovernance tools"| ECO
+    US -->|"Aligned experts\nFuture residents"| ECO
+    HS -->|"Sustained people\nRenewed energy"| ECO
+
+    ECO -->|"Stories, content\nrelationships feed back"| LWS
+
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style HS fill:#F48FB1,stroke:#EC407A,color:#000
+    style ECO fill:#00796B,stroke:#004D40,color:#fff
+```
+
 ### Weekly Rhythm
 
 | Day | Theme | Pillar Served |
@@ -183,6 +307,44 @@ A distinct offering that serves the whole ecosystem. Non-recorded, sacred contai
 ---
 
 ## Resource Flows
+
+```mermaid
+flowchart LR
+    PP["PLANETARY PARTY\nCultural Engine"]
+    PT["PERMATOURS\nAction Network"]
+    US["UNIFIED SANCTUARIES\nPhysical Anchor"]
+    KE["KINSHIP EARTH\nFunding Channel"]
+    NE["NE HUBS\nDistributed Nodes"]
+    LWS(("LIVE WITH\nSYD"))
+
+    PP -->|"People, energy,\nrevenue, pipeline"| US
+    US -->|"Venue, infrastructure,\nlodging, food"| PP
+
+    PP -->|"Donor engagement,\nstorytelling, awareness"| KE
+    KE -->|"Grants, fiscal\nsponsorship"| PP
+
+    KE -->|"Grants, flow funding,\nimpact capital"| US
+
+    PT -->|"Volunteers, skills,\npartnerships"| US
+    US -->|"Flagship hub,\ndemo site"| PT
+
+    NE <-->|"Distributed nodes\nShared coordination"| PT
+
+    PT -->|"Attendees,\nfacilitators"| PP
+    PP -->|"Production,\ncultural framework"| PT
+
+    LWS -.->|"Mon: Capital\neducation"| KE
+    LWS -.->|"Wed: Guild\nbuilding"| PP
+    LWS -.->|"Fri: Land\ndesign"| US
+    LWS -.->|"Network\nconnections"| PT
+
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style NE fill:#81C784,stroke:#4CAF50,color:#000
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+```
 
 ### Planetary Party <-> Unified Sanctuaries
 **Culture and Place (Gold Arrows)**
@@ -243,12 +405,72 @@ Each server maps to a core pillar, creating dedicated spaces for the communities
 
 **Cross-Server Patterns:** Each server includes welcome/orientation, general community space, topic-specific channels, collaboration zones, archives (replays + resources), and private mod/strategy channels. Unified Sanctuaries adds detailed channels for land, governance, design/build, funding, and programming. Planetary Party adds guild channels and bioregional hub channels.
 
+```mermaid
+flowchart TD
+    LWS(("LIVE WITH SYD\nWeekly Sessions"))
+
+    subgraph D1["Regenerative Capital Flows Server\n100 -- 500+ members"]
+        D1A["Learning Hub"]
+        D1B["Capital Strategies"]
+        D1C["Funder Network"]
+    end
+
+    subgraph D2["Planetary Party Server\n100 -- 1,000+ members"]
+        D2A["Governance Lab"]
+        D2B["Guild Channels"]
+        D2C["Bioregional Hubs"]
+    end
+
+    subgraph D3["Unified Sanctuaries Server\n50 -- 300 members"]
+        D3A["Land & Governance"]
+        D3B["Design & Build"]
+        D3C["Funding & Programs"]
+    end
+
+    subgraph D4["Grief & Transmutation Server\n20 -- 150 members"]
+        D4A["Sacred Container"]
+        D4B["Circle Archives"]
+    end
+
+    LWS -->|"Monday"| D1
+    LWS -->|"Wednesday"| D2
+    LWS -->|"Friday"| D3
+    LWS -->|"Monthly"| D4
+
+    style D1 fill:#E3F2FD,stroke:#42A5F5,color:#000
+    style D2 fill:#FFF8E1,stroke:#F9A825,color:#000
+    style D3 fill:#EFEBE9,stroke:#8D6E63,color:#000
+    style D4 fill:#FCE4EC,stroke:#F48FB1,color:#000
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+```
+
 ### Participation Design
 
 **Tiered Roles (fluid, not hierarchical):**
 - **Listeners** -- Mic muted, camera optional, participate via chat
 - **Contributors** -- Share reflections/questions when invited by moderators
 - **Presenters/Guests** -- Offer talks, practices, case studies (confirmed in advance)
+
+```mermaid
+flowchart LR
+    DISCOVER["DISCOVER\nSocial media, events,\nword of mouth"]
+    REG["REGISTER\nTally form with\nscreening questions"]
+    JOIN["JOIN SESSION\nListener role\nChat participation"]
+    ENGAGE["CONTRIBUTE\nShare reflections\nWhen invited"]
+    DEEPEN["DEEPEN\nGuild membership\nStewardship roles"]
+    LEAD["PRESENT & LEAD\nFacilitator, Speaker\nCore team"]
+
+    DISCOVER --> REG --> JOIN --> ENGAGE --> DEEPEN --> LEAD
+
+    LEAD -->|"Attract new\nparticipants"| DISCOVER
+
+    style DISCOVER fill:#E3F2FD,stroke:#90CAF9,color:#000
+    style REG fill:#BBDEFB,stroke:#64B5F6,color:#000
+    style JOIN fill:#90CAF9,stroke:#42A5F5,color:#000
+    style ENGAGE fill:#64B5F6,stroke:#1E88E5,color:#fff
+    style DEEPEN fill:#42A5F5,stroke:#1565C0,color:#fff
+    style LEAD fill:#1E88E5,stroke:#0D47A1,color:#fff
+```
 
 **Who It's For:** Curious, collaborative, values-aligned people oriented toward regeneration -- willing to listen, reflect, and co-create. Comfortable with ambiguity and emergence. Committed to care, consent, and respect.
 
@@ -278,28 +500,32 @@ Each server maps to a core pillar, creating dedicated spaces for the communities
 
 Storytelling is not an afterthought -- it is infrastructure. Every session, event, and gathering generates content that serves fundraising, community growth, and movement building.
 
-```
-LIVE SESSIONS (3x weekly + monthly)
-        |
-        v
-RECORDINGS & REPLAYS
-(Full session archives, published to hub + YouTube)
-        |
-        v
-CLIPS & HIGHLIGHTS
-(Short-form content for social, newsletters, outreach)
-        |
-        v
-NEWSLETTERS & UPDATES
-(Session summaries, upcoming sessions, ecosystem news)
-        |
-        v
-STORYTELLING FOR FUNDRAISING
-(Case studies, impact narratives, donor engagement)
-        |
-        v
-DOCUMENTARY & MEDIA
-(Permatours docuseries, event films, ecosystem storytelling)
+```mermaid
+flowchart TD
+    LIVE["LIVE SESSIONS\n3x weekly + monthly"]
+    REC["RECORDINGS & REPLAYS\nFull session archives\nPublished to hub + YouTube"]
+    CLIPS["CLIPS & HIGHLIGHTS\nShort-form content for\nsocial, newsletters, outreach"]
+    NEWS["NEWSLETTERS & UPDATES\nSession summaries\nUpcoming sessions, ecosystem news"]
+    STORY["STORYTELLING FOR FUNDRAISING\nCase studies, impact narratives\nDonor engagement"]
+    DOC["DOCUMENTARY & MEDIA\nPermatours docuseries\nEvent films, ecosystem storytelling"]
+
+    LIVE --> REC --> CLIPS --> NEWS --> STORY --> DOC
+
+    STORY -.->|"Impact narratives\nCase for support"| KE["Kinship Earth"]
+    CLIPS -.->|"Event media\nCultural reach"| PP["Planetary Party"]
+    DOC -.->|"Tour documentation\nNetwork storytelling"| PT["Permatours"]
+    NEWS -.->|"Development updates\nResident pipeline"| US["Unified Sanctuaries"]
+
+    style LIVE fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style REC fill:#CE93D8,stroke:#AB47BC,color:#000
+    style CLIPS fill:#E1BEE7,stroke:#CE93D8,color:#000
+    style NEWS fill:#F3E5F5,stroke:#E1BEE7,color:#000
+    style STORY fill:#FCE4EC,stroke:#F8BBD0,color:#000
+    style DOC fill:#FFF3E0,stroke:#FFCC80,color:#000
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
 ```
 
 **Content serves every pillar:**
@@ -316,30 +542,44 @@ DOCUMENTARY & MEDIA
 
 The Live with Syd documentation defines the operational team needed to run the ecosystem's connective programming:
 
-**Tech Infrastructure & Systems**
-- Tech Architect / Systems Integrator
-- Automation Engineer
-- Studio / On-Site Tech Setup Specialist
+```mermaid
+flowchart TD
+    TEAM["LIVE WITH SYD\nOPERATIONAL TEAM\n12 Roles across 6 Categories"]
 
-**Live Session Operations**
-- Live Session Moderator
-- Backup Moderator Pool
+    TEAM --> TECH["TECH INFRASTRUCTURE\n& SYSTEMS"]
+    TEAM --> OPS["LIVE SESSION\nOPERATIONS"]
+    TEAM --> CONTENT["CONTENT &\nPUBLISHING"]
+    TEAM --> COMMUNITY["COMMUNITY &\nRELATIONSHIPS"]
+    TEAM --> PROGRAM["PROGRAM DESIGN\n& FACILITATION"]
+    TEAM --> ADMIN["ADMINISTRATION\n& FUNDING"]
 
-**Content & Publishing**
-- Content Producer / Editor
-- Streaming Producer
+    TECH --> T1["Tech Architect /\nSystems Integrator"]
+    TECH --> T2["Automation\nEngineer"]
+    TECH --> T3["Studio / On-Site\nTech Specialist"]
 
-**Community & Relationships**
-- Community Manager
-- Guest Liaison / Speaker Coordinator
+    OPS --> O1["Live Session\nModerator"]
+    OPS --> O2["Backup\nModerator Pool"]
 
-**Program Design & Facilitation**
-- Heart Sharing Circle Facilitators (trauma-informed)
-- Program Curator
+    CONTENT --> C1["Content Producer\n/ Editor"]
+    CONTENT --> C2["Streaming\nProducer"]
 
-**Administration & Funding**
-- Administrator / Ops Manager
-- Fundraising / Resource Mobilization Lead
+    COMMUNITY --> CM1["Community\nManager"]
+    COMMUNITY --> CM2["Guest Liaison /\nSpeaker Coordinator"]
+
+    PROGRAM --> P1["Heart Sharing\nCircle Facilitators"]
+    PROGRAM --> P2["Program\nCurator"]
+
+    ADMIN --> A1["Administrator /\nOps Manager"]
+    ADMIN --> A2["Fundraising /\nResource Mobilization"]
+
+    style TEAM fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style TECH fill:#42A5F5,stroke:#1565C0,color:#fff
+    style OPS fill:#66BB6A,stroke:#43A047,color:#fff
+    style CONTENT fill:#FFA726,stroke:#FB8C00,color:#000
+    style COMMUNITY fill:#EC407A,stroke:#C62828,color:#fff
+    style PROGRAM fill:#7E57C2,stroke:#512DA8,color:#fff
+    style ADMIN fill:#78909C,stroke:#546E7A,color:#fff
+```
 
 **Minimum Viable Team:** 4-6 people covering: tech + automation, moderation + community, content + streaming, guest coordination + curation, heart sharing facilitation, administration.
 
@@ -354,6 +594,41 @@ The Live with Syd documentation defines the operational team needed to run the e
 | Streaming & Recording | OBS Studio | Open-source, scene management, local recording |
 | Automation | Tally -> Airtable -> Email -> Notion | Registration confirmations, reminders, replay links |
 | Community | Discord (4 servers) | Pillar-aligned, role-gated, moderated |
+
+```mermaid
+flowchart LR
+    subgraph registration ["Registration Flow"]
+        REG["Tally Forms\nRegistration"]
+        DB["Airtable\nDatabase"]
+        AUTO["Automation\nEmail Pipeline"]
+    end
+
+    subgraph production ["Live Production"]
+        LIVE["Jitsi / BBB\nLive Rooms"]
+        REC["OBS Studio\nRecording"]
+    end
+
+    subgraph publishing ["Publishing & Community"]
+        HUB["Notion / WordPress\nPublic Hub"]
+        DISC["Discord x4\nCommunity Servers"]
+    end
+
+    REG --> DB --> AUTO
+    AUTO -->|"Confirmations\n& Reminders"| PART["Participants"]
+    LIVE --> REC --> HUB
+    HUB -->|"Replays &\nResources"| PART
+    DISC -->|"Ongoing\nEngagement"| PART
+    PART -->|"Register for\nSessions"| REG
+
+    style REG fill:#E3F2FD,stroke:#90CAF9,color:#000
+    style DB fill:#FFF9C4,stroke:#FFF176,color:#000
+    style AUTO fill:#C8E6C9,stroke:#81C784,color:#000
+    style LIVE fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style REC fill:#FFCCBC,stroke:#FF8A65,color:#000
+    style HUB fill:#F3E5F5,stroke:#CE93D8,color:#000
+    style DISC fill:#B3E5FC,stroke:#4FC3F7,color:#000
+    style PART fill:#00796B,stroke:#004D40,color:#fff
+```
 
 **Non-Negotiable Guardrails:**
 - No Zoom or Meta platforms
@@ -371,30 +646,46 @@ The Live with Syd documentation defines the operational team needed to run the e
 
 ### Revenue Streams by Pillar
 
-```
-PLANETARY PARTY (Cultural Engine)
-  - Event ticket sales
-  - Festival revenue
-  - Sponsorships
-  - Media licensing
+```mermaid
+flowchart TD
+    subgraph PP_REV["PLANETARY PARTY\nCultural Engine"]
+        PP1["Event Ticket Sales"]
+        PP2["Festival Revenue"]
+        PP3["Sponsorships"]
+        PP4["Media Licensing"]
+    end
 
-PERMATOURS (Action Network)
-  - Tour fees
-  - Workshop revenue
-  - Partnership contributions
-  - Docuseries distribution
+    subgraph PT_REV["PERMATOURS\nAction Network"]
+        PT1["Tour Fees"]
+        PT2["Workshop Revenue"]
+        PT3["Partnership Contributions"]
+        PT4["Docuseries Distribution"]
+    end
 
-UNIFIED SANCTUARIES (Physical Anchor)        TOTAL: $1.4M -- $4.5M+
-  - Farm / agri-tourism / education           $315k -- $1M+
-  - Retreat / healing arts / bathhouse         $570k -- $1.75M
-  - Event venue / innovation hall              $310k -- $1.16M
-  - Community living / memberships             $195k -- $580k
+    subgraph US_REV["UNIFIED SANCTUARIES\nPhysical Anchor -- $1.4M - $4.5M+"]
+        US1["Farm / Agri-tourism\n$315k -- $1M+"]
+        US2["Retreat / Healing Arts\n$570k -- $1.75M"]
+        US3["Event Venue / Hall\n$310k -- $1.16M"]
+        US4["Community Living\n$195k -- $580k"]
+    end
 
-KINSHIP EARTH (Funding Channel)
-  - Grants (USDA, state, foundation)
-  - Flow funding (RSF, Thousand Currents)
-  - Impact investment
-  - Donor cultivation via events
+    subgraph KE_REV["KINSHIP EARTH\nFunding Channel"]
+        KE1["USDA & State Grants"]
+        KE2["Flow Funding Networks"]
+        KE3["Impact Investment"]
+        KE4["Donor Cultivation"]
+    end
+
+    PP_REV --> ECO["ECOSYSTEM\nSUSTAINABILITY"]
+    PT_REV --> ECO
+    US_REV --> ECO
+    KE_REV --> ECO
+
+    style PP_REV fill:#FFF8E1,stroke:#F9A825,color:#000
+    style PT_REV fill:#E8F5E9,stroke:#4CAF50,color:#000
+    style US_REV fill:#EFEBE9,stroke:#8D6E63,color:#000
+    style KE_REV fill:#E3F2FD,stroke:#42A5F5,color:#000
+    style ECO fill:#00796B,stroke:#004D40,color:#fff
 ```
 
 ### Participation Economy (Live with Syd)
@@ -420,35 +711,31 @@ Offered in a spirit of generosity and reciprocity. No one turned away for lack o
 
 ## Value Circulation Summary
 
-```
-                    LIVE WITH SYD
-              (The Nervous System)
-         Sessions / Content / Community
-        /         |         |         \
-       v          v         v          v
+```mermaid
+flowchart TD
+    LWS(("LIVE WITH SYD\nThe Nervous System\n---\nSessions | Content | Community"))
 
-VISIBILITY     VOLUNTEERS    DONORS       EMOTIONAL
-& CULTURE      & NETWORK     & GRANTS     RESILIENCE
-Planetary      Permatours    Kinship      Heart Sharing
-Party          brings        Earth        Circles sustain
-generates      people,       channels     the people
-awareness,     skills,       funding      doing the work
-storytelling,  mutual aid    and fiscal
-community                   support
-       \          |         |          /
-        v         v         v         v
+    LWS --> VIS["VISIBILITY & CULTURE\nPlanetary Party generates\nawareness, storytelling, community"]
+    LWS --> VOL["VOLUNTEERS & NETWORK\nPermatours brings people,\nskills, mutual aid"]
+    LWS --> DON["DONORS & GRANTS\nKinship Earth channels\nfunding and fiscal support"]
+    LWS --> EMO["EMOTIONAL RESILIENCE\nHeart Sharing Circles\nsustain the people doing the work"]
 
-              UNIFIED SANCTUARIES
-          The land where it all comes
-        together -- food, shelter, healing,
-       education, governance, community living
+    VIS --> US["UNIFIED SANCTUARIES\nThe land where it all comes together\n---\nFood | Shelter | Healing\nEducation | Governance | Community Living"]
+    VOL --> US
+    DON --> US
+    EMO --> US
 
-                    |
-                    v
+    US --> BLUE["OPEN-SOURCE BLUEPRINT\nReplicated across bioregions\nthrough NE Hubs and beyond"]
 
-           OPEN-SOURCE BLUEPRINT
-         Replicated across bioregions
-          through NE Hubs and beyond
+    BLUE -->|"New nodes feed\nback into the system"| LWS
+
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+    style VIS fill:#F9A825,stroke:#F57F17,color:#000
+    style VOL fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style DON fill:#42A5F5,stroke:#1565C0,color:#fff
+    style EMO fill:#F48FB1,stroke:#EC407A,color:#000
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style BLUE fill:#00796B,stroke:#004D40,color:#fff
 ```
 
 ---
@@ -466,6 +753,32 @@ No single project works in isolation. The ecosystem's strength is its interdepen
 Each project solves a piece of the puzzle that the others cannot. Live with Syd makes the connections between them visible, cultivates the relationships that power them, generates the content that tells their story, and holds the emotional container that sustains the people doing the work.
 
 And it's Syd who sees the whole picture -- the rare builder who moves fluently between soil and spreadsheets, singing circles and capital campaigns, governance design and festival production, grief circles and grant applications. That cross-domain fluency is the ecosystem's secret weapon.
+
+```mermaid
+flowchart TD
+    PP["PLANETARY PARTY\nWithout it: no cultural engine\nto attract people and tell the story"]
+    PT["PERMATOURS\nWithout it: no regional network\nfeeding skills, labor, partnerships"]
+    US["UNIFIED SANCTUARIES\nWithout it: no physical anchor\nwhere the vision is lived"]
+    KE["KINSHIP EARTH\nWithout it: no funding pipeline\nto sustain the work"]
+    LWS["LIVE WITH SYD\nWithout it: no nervous system\nweaving it into living practice"]
+
+    PP <--> PT
+    PP <--> KE
+    PT <--> US
+    KE <--> US
+    PP <--> US
+
+    LWS --- PP
+    LWS --- PT
+    LWS --- US
+    LWS --- KE
+
+    style PP fill:#F9A825,stroke:#F57F17,color:#000
+    style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
+    style US fill:#8D6E63,stroke:#5D4037,color:#fff
+    style KE fill:#42A5F5,stroke:#1565C0,color:#fff
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
+```
 
 ---
 
