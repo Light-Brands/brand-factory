@@ -15,28 +15,22 @@ Syd holds Executive Director roles, co-founder titles, and lead design seats acr
 Through Live with Syd, she also serves as the ecosystem's primary facilitator, educator, and public interface -- hosting weekly sessions that make the invisible connective tissue between projects visible and participatory.
 
 ```mermaid
-flowchart TD
+graph TD
     SYD(("Syd Harvey Griffith\nArchitect & Steward"))
 
-    SYD -->|"Designs & Leads"| PP["PLANETARY PARTY\nCultural Engine"]
-    SYD -->|"Co-Founded"| PT["PERMATOURS\nAction Network"]
-    SYD -->|"Lead Visionary"| US["UNIFIED SANCTUARIES\nPhysical Anchor"]
-    SYD -->|"Executive Director"| KE["KINSHIP EARTH\nFunding Channel"]
+    SYD --- PP["PLANETARY PARTY\nCultural Engine"]
+    SYD --- PT["PERMATOURS\nAction Network"]
+    SYD --- US["UNIFIED SANCTUARIES\nPhysical Anchor"]
+    SYD --- KE["KINSHIP EARTH\nFunding Channel"]
 
     LWS{{"LIVE WITH SYD\nThe Nervous System"}}
+    LWS -.-> PP & PT & US & KE
 
-    SYD -->|"Hosts & Facilitates"| LWS
-
-    LWS -.->|"Wed Sessions"| PP
-    LWS -.->|"Network Weaving"| PT
-    LWS -.->|"Fri Sessions"| US
-    LWS -.->|"Mon Sessions"| KE
-
-    PP <-->|"Culture & Revenue"| US
-    PP <-->|"Engagement & Funding"| KE
-    PT <-->|"Network & Labor"| US
-    KE -->|"Capital Flow"| US
-    PT <-->|"Events & Network"| PP
+    PP --- US
+    PP --- KE
+    PT --- US
+    PT --- PP
+    KE --- US
 
     style SYD fill:#00796B,stroke:#004D40,color:#fff
     style PP fill:#F9A825,stroke:#F57F17,color:#000

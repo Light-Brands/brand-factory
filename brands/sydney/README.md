@@ -30,29 +30,25 @@ Syd is the rare leader who can hold a singing circle and a cap table in the same
 The four projects form a circular, self-reinforcing ecosystem:
 
 ```mermaid
-flowchart TD
-    PP["PLANETARY PARTY\nEvents & Culture"]
-    PT["PERMATOURS\nNetwork & Mutual Aid"]
-    US["UNIFIED SANCTUARIES\nLand & Community"]
-    KE["KINSHIP EARTH\nFunding & Grants"]
-    LWS{{"LIVE WITH SYD\nThe Nervous System"}}
+graph TD
+    LWS(("LIVE WITH SYD\nThe Nervous System"))
 
-    PP <-->|"Culture & Revenue"| US
-    PP <-->|"Engagement & Funding"| KE
-    PT <-->|"Network & Labor"| US
-    KE -->|"Capital Flow"| US
-    PT <-->|"Events & Network"| PP
+    LWS --- PP["PLANETARY PARTY\nCultural Engine"]
+    LWS --- KE["KINSHIP EARTH\nFunding Channel"]
+    LWS --- PT["PERMATOURS\nAction Network"]
+    LWS --- US["UNIFIED SANCTUARIES\nPhysical Anchor"]
 
-    LWS -.->|"Mon"| KE
-    LWS -.->|"Wed"| PP
-    LWS -.->|"Fri"| US
-    LWS -.-> PT
+    PP --- US
+    PP --- KE
+    KE --- US
+    PT --- US
+    PT --- PP
 
+    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
     style PP fill:#F9A825,stroke:#F57F17,color:#000
     style PT fill:#4CAF50,stroke:#2E7D32,color:#fff
     style US fill:#8D6E63,stroke:#5D4037,color:#fff
     style KE fill:#42A5F5,stroke:#1565C0,color:#fff
-    style LWS fill:#AB47BC,stroke:#7B1FA2,color:#fff
 ```
 
 - **Planetary Party** generates community engagement, visibility, and culture that feeds all three other projects
