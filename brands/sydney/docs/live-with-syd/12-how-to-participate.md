@@ -60,4 +60,13 @@ Non-recorded sacred space for emotional processing, regulation, and collective c
 
 ---
 
-[< Back to Index](README.md) | [Prev: Moderator Scripts](11-moderator-scripts.md)
+## Ready to Join?
+
+- Register for a session
+- Propose a topic
+- Explore past recordings
+- Support the work
+
+---
+
+[< Back to Index](README.md) | [Prev: Moderator Scripts](11-moderator-scripts.md) | [Next: Expanded Theme Descriptions >](13-expanded-theme-descriptions.md)
