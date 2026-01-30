@@ -75,7 +75,7 @@ A land-based regenerative community organized around four pillars:
 
 ## Key People
 
-- **Sydney** -- Executive Director of Kinship Earth, regenerative organizer, systems designer
+- **Syd Harvey Griffith** -- The visionary behind Unified Sanctuaries and the connective force holding the entire four-project ecosystem together. As Executive Director of Kinship Earth, co-founder of Permatours, and lead designer of Planetary Party, Syd brings every thread of her work into this land project -- the physical anchor where regenerative finance meets regenerative living. A community organizer and movement builder who has supported 40+ land-based projects and pioneered trust-based flow funding, Syd is designing Unified Sanctuaries as more than a community -- it's an open-source blueprint for how we build, govern, and sustain regenerative villages. She's the systems designer, the capital strategist, the community weaver, and the person who will make sure the compost is right.
 - **Lynney** -- Farm, cafe, herbalism, forest school, performing arts
 - **Nina** -- Storytelling, herbal goods, farm operations, fundraising
 - **Josie** -- Earth law, governance, chocolate, theater

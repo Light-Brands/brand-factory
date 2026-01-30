@@ -72,7 +72,7 @@ Planetary Party is not just a party. It's the connective ritual space where the 
 
 ## Key People
 
-- **Sydney** -- Lead producer, regenerative organizer, community-builder
+- **Syd Harvey Griffith** -- Lead designer and driving force behind Planetary Party. Syd conceived this as the convergence point for all her worlds -- where regenerative finance meets festival culture, where grassroots organizing becomes immersive experience, and where community engagement catalyzes systemic transformation. A movement builder who has supported 40+ land-based projects and pioneered trust-based flow funding, Syd brings an unmatched ability to turn a gathering into a launchpad for real change. She doesn't just throw events -- she engineers entry points into a regenerative future.
 - **Eslerh** -- Film production, multimedia, ritual theater
 - **Michael (Fuego)** -- Festival production, financial operations
 

@@ -74,7 +74,7 @@ Permatours is not a single place. It's a living network that moves, connects, an
 
 ## Key People
 
-- **Sydney** -- Co-founder, network weaver, Executive Director of Kinship Earth
+- **Syd Harvey Griffith** -- Co-founder and the connective force behind the entire Permatours network. Syd built this from the ground up into a permaculture-action engine that has supported **40+ land-based projects** throughout the Northeast of Turtle Island. Through educational festivals and mutual aid, she's strengthened communities' capacity to provide affordable housing, healthy food, and grassroots infrastructure -- proving that action-first organizing creates more impact than any grant proposal. As Executive Director of Kinship Earth and lead designer of Planetary Party, Syd weaves Permatours into a larger regenerative ecosystem where every connection multiplies.
 - **Pato** -- Permaculture installations, global hub partnerships, nonprofit management
 - **Scotty** -- Soil science, compost co-op, natural building -- core practitioner and educator
 

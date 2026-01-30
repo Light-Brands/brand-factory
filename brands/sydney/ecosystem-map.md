@@ -2,7 +2,11 @@
 
 > *How the four projects flow into and reinforce each other.*
 
-This document maps the relationships, resource flows, and interdependencies between the four projects stewarded by Sydney, based on the ecosystem diagram.
+This document maps the relationships, resource flows, and interdependencies between the four projects stewarded by Syd Harvey Griffith, based on the ecosystem diagram.
+
+## The Architect
+
+At the center of this ecosystem is Syd -- a community organizer, movement builder, and regenerative finance leader who designed these four projects to function as one living system. She isn't just managing a portfolio; she's orchestrating a regenerative engine where culture funds the land, the land hosts the network, the network feeds the movement, and the movement attracts the capital. Syd holds Executive Director roles, co-founder titles, and lead design seats across all four projects -- but more than titles, she holds the connective vision that makes the whole thing work. She's supported 40+ land-based projects, pioneered trust-based flow funding, and built a federated ecosystem that turns festivals into funding pipelines and mutual aid into systemic transformation.
 
 ## Project Roles
 
@@ -97,4 +101,4 @@ No single project works in isolation. The ecosystem's strength is its interdepen
 - Without **Unified Sanctuaries**, there's no physical anchor where the vision is lived
 - Without **Kinship Earth**, there's no institutional funding pipeline to sustain the work
 
-Each project solves a piece of the puzzle that the others cannot.
+Each project solves a piece of the puzzle that the others cannot. And it's Syd who sees the whole picture -- the rare builder who moves fluently between soil and spreadsheets, singing circles and capital campaigns, governance design and festival production. That cross-domain fluency is the ecosystem's secret weapon.

@@ -2,7 +2,19 @@
 
 > *An interconnected ecosystem of four regenerative projects building a new paradigm for community, land stewardship, and collective action.*
 
-Sydney Griffith is the steward leading the development of four distinct but deeply interconnected projects. Each serves a unique role in a larger regenerative ecosystem -- from land-based community building to permaculture action networks, festival culture, and flow funding. Together they form a self-reinforcing system where community engagement feeds the land project, the land project hosts the network, the network activates hubs, and funding flows where it's needed most.
+## The Force Behind It All
+
+Syd Harvey Griffith is a community organizer, movement builder, and regenerative powerhouse operating at the intersection of grassroots action and regenerative finance. She doesn't just talk about a better world -- she architects it, funds it, and builds it with her own hands and an ever-growing network of co-conspirators.
+
+As **Executive Director of Kinship Earth**, Syd is reshaping how capital moves -- pioneering Bioregional Flow Funding that shifts financial decision-making away from institutional gatekeepers and into the hands of grassroots leaders embedded in their communities. No grant applications. No burdensome reporting. Just trust-based resources flowing directly to the change-makers healing the places they call home.
+
+As **Co-founder of Permatours**, she's built a permaculture-action network that has supported **40+ land-based projects** throughout the Northeast of Turtle Island -- rallying communities through educational festivals and mutual aid to strengthen local capacity for affordable housing, healthy food, and grassroots infrastructure.
+
+Her latest and most ambitious creation is the **Planetary Party** -- a federated ecosystem designing a community engagement process to weave regenerative networks and catalyze systemic transformation at a local level. Its gatherings serve as peak opportunities for communities to confront pressing challenges, showcase solutions both local and global, and unlock capital in service of people and planet.
+
+All four of her projects converge in **Unified Sanctuaries** -- the physical anchor where the vision becomes land, the land becomes community, and the community becomes a living blueprint for what's possible when you let an eco boss lead.
+
+Syd is the rare leader who can hold a singing circle and a cap table in the same breath -- moving between festival stages and funding pipelines, soil science and systems design, ritual theater and real estate. Every project she touches is interconnected by design, because she understands that the only way to build a regenerative future is to build it as a whole system, not in silos.
 
 ## The Four Projects
 
@@ -65,4 +77,4 @@ sydney/
 
 ---
 
-*These projects are stewarded by Sydney Griffith as part of the Light-Brands portfolio.*
+*These projects are stewarded by Syd Harvey Griffith -- community organizer, movement builder, and the driving force behind a regenerative ecosystem that is rewriting the rules of how communities fund, build, and sustain themselves.*
