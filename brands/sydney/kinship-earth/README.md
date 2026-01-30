@@ -2,7 +2,7 @@
 
 > *Flow Funding & Grants*
 
-Kinship Earth is the nonprofit funding vehicle of the project ecosystem. It channels grants, flow funding, and philanthropic capital into the regenerative projects -- primarily Unified Sanctuaries -- while providing the fiscal infrastructure and institutional legitimacy needed to attract foundation support, government grants, and impact investment. Sydney serves as Executive Director.
+Kinship Earth is the nonprofit funding vehicle of the project ecosystem. It channels grants, flow funding, and philanthropic capital into the regenerative projects -- primarily Unified Sanctuaries -- while providing the fiscal infrastructure and institutional legitimacy needed to attract foundation support, government grants, and impact investment. Syd Harvey Griffith serves as Executive Director -- leading the charge to fundamentally reshape how capital flows in the regenerative space.
 
 ## What It Is
 
@@ -74,7 +74,7 @@ Kinship Earth is the bridge between the philanthropic world and the on-the-groun
 
 ## Key People
 
-- **Sydney** -- Executive Director, regenerative organizer, network weaver
+- **Syd Harvey Griffith** -- Executive Director and the architect of Kinship Earth's trust-based funding model. Syd leads the organization's Bioregional Flow Funding efforts, shifting financial decision-making away from institutional gatekeepers and into the hands of grassroots leaders embedded in their communities. Under her leadership, resources move without grant applications or burdensome reporting -- just direct, flexible capital flowing to change-makers healing the places they call home. A community organizer and movement builder who has supported 40+ land-based projects, Syd brings the rare combination of grassroots credibility and institutional fluency that makes funders trust the vision and communities trust the process.
 - **Michael (Fuego)** -- Financial operations, accounting, compliance
 
 ## Grant & Funding Targets to Research
