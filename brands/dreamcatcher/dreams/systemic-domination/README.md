@@ -18,85 +18,92 @@ This dream maps the architecture. Not to despair. To see.
 
 ## The Systems
 
-### Political Capture
+Each system has its own space for independent research, evidence gathering, and expansion. Click into any section to go deep.
 
-<!-- How elections, legislation, and governance have been restructured to serve donors and corporate interests over constituents. The revolving door. Lobbying as the real legislative process. Gerrymandering. Voter suppression as strategy. -->
-
----
-
-### Economic Extraction
-
-<!-- Wage stagnation vs. productivity. The financialization of everything. How wealth flows upward by design — not accident. Housing as speculation. Debt as control. The death of the middle class as a feature, not a bug. -->
-
----
-
-### Media & Information Control
-
-<!-- Consolidation of media ownership. Algorithmic manipulation. The manufacturing of consent and division simultaneously. News as entertainment. The destruction of local journalism. How narratives are shaped before people even begin to form opinions. -->
-
----
-
-### Healthcare as a Profit Engine
-
-<!-- The commodification of being alive. Insurance as gatekeeping. Pharmaceutical pricing. Medical debt as the leading cause of bankruptcy. A system designed to extract maximum revenue from human suffering. -->
+| # | System | Description |
+|---|--------|-------------|
+| 01 | [Political Capture](sections/01-political-capture/) | How governance serves donors over constituents |
+| 02 | [Economic Extraction](sections/02-economic-extraction/) | How wealth flows upward by design |
+| 03 | [Media & Information Control](sections/03-media-information-control/) | How narratives are shaped before opinions form |
+| 04 | [Healthcare as a Profit Engine](sections/04-healthcare-profit-engine/) | The commodification of being alive |
+| 05 | [Education — Defunded by Design](sections/05-education-defunded-by-design/) | The deliberate erosion of public knowledge |
+| 06 | [Criminal Justice & Mass Incarceration](sections/06-criminal-justice-mass-incarceration/) | Warehousing people for profit |
+| 07 | [Corporate Sovereignty](sections/07-corporate-sovereignty/) | When corporations outrank governments |
+| 08 | [Labor & the War on Workers](sections/08-labor-war-on-workers/) | The campaign to destroy collective power |
+| 09 | [Technology & Surveillance](sections/09-technology-surveillance/) | Convenience traded for autonomy |
+| 10 | [The Culture Machine](sections/10-the-culture-machine/) | Manufacturing compliance from the inside out |
 
 ---
 
-### Education — Defunded by Design
+## The Architecture
 
-<!-- The deliberate underfunding of public education. Student debt as an economic leash. The pipeline from school to workforce compliance. Critical thinking as a threat to the system. The privatization agenda. -->
+These sections map the higher-order structure — how the systems interlock, where they break, and the raw material feeding the thesis.
 
----
-
-### Criminal Justice & Mass Incarceration
-
-<!-- Policing as revenue generation. Private prisons and their lobbying arms. The school-to-prison pipeline. Criminalization of poverty. A system that warehouses people rather than rehabilitates — because warehousing is profitable. -->
-
----
-
-### Corporate Sovereignty
-
-<!-- When corporations hold more power than governments. Regulatory capture. Tax avoidance at scale. Corporate personhood. The quiet rewriting of laws to serve capital over citizens. -->
+| Section | Purpose |
+|---------|---------|
+| [How They Connect](sections/11-how-they-connect/) | The reinforcing loop — how every system feeds the others |
+| [What Breaks the Loop](sections/12-what-breaks-the-loop/) | Resistance, pressure points, and earned hope |
+| [Seeds](sections/13-seeds/) | Raw thoughts, links, data, quotes — the compost pile |
 
 ---
 
-### Labor & the War on Workers
+## The Reinforcing Loop (Summary)
 
-<!-- Union busting. The gig economy as exploitation rebranded. At-will employment. The erosion of benefits, pensions, and stability. How "hustle culture" masks systemic failure. -->
+```
+Political Capture
+       │
+       ▼
+Corporate Sovereignty ──► Economic Extraction
+       │                         │
+       │                         ▼
+       │                  Media & Information Control
+       │                         │
+       │                         ▼
+       │                  The Culture Machine
+       │                         │
+       │                         ▼
+       │                  Cultural Compliance
+       │                         │
+       └─────────────────────────┘
+                (loop repeats)
+
+    Support Systems:
+    ├── Healthcare ─── keeps people financially fragile
+    ├── Education ──── limits ability to see the loop
+    ├── Criminal Justice ── warehouses the discarded
+    ├── Labor ───────── suppresses organized resistance
+    └── Technology ──── monitors and controls
+```
 
 ---
 
-### Technology & Surveillance
+## How to Use This
 
-<!-- Data harvesting as the new oil. Surveillance capitalism. AI and algorithmic bias. The tech monopoly stranglehold. How convenience became the currency we traded for privacy and autonomy. -->
-
----
-
-### The Culture Machine
-
-<!-- Individualism as ideology. The American Dream as sedative. Meritocracy myth. How culture is manufactured to keep people blaming themselves instead of the systems. Distraction as governance. -->
+- **Go deep on any system** — each section is self-contained and ready for independent expansion
+- **Add evidence** — every section has space for data, sources, and examples
+- **Map connections** — the "Connections" section in each system links it to the others
+- **Drop seeds** — raw thoughts and fragments go in [Seeds](sections/13-seeds/) until they find a home
+- **See the whole** — come back here to see how everything fits together
 
 ---
 
-## How They Connect
+## Status
 
-<!-- This is where the dream gets real — mapping the interplay between these systems. How they reinforce each other. How political capture enables economic extraction, which funds media control, which shapes culture, which prevents collective action, which preserves political capture. The loop. -->
-
----
-
-## What Breaks the Loop
-
-<!-- If this dream grows legs — what does resistance look like? What are people already doing? What would it take? This section is for hope that's earned, not performed. -->
-
----
-
-## Seeds
-
-_Raw thoughts, links, data points, quotes, observations — drop them here as they come._
-
--
--
--
+| Section | Status |
+|---------|--------|
+| Political Capture | Planted — awaiting expansion |
+| Economic Extraction | Planted — awaiting expansion |
+| Media & Information Control | Planted — awaiting expansion |
+| Healthcare as a Profit Engine | Planted — awaiting expansion |
+| Education — Defunded by Design | Planted — awaiting expansion |
+| Criminal Justice & Mass Incarceration | Planted — awaiting expansion |
+| Corporate Sovereignty | Planted — awaiting expansion |
+| Labor & the War on Workers | Planted — awaiting expansion |
+| Technology & Surveillance | Planted — awaiting expansion |
+| The Culture Machine | Planted — awaiting expansion |
+| How They Connect | Planted — awaiting expansion |
+| What Breaks the Loop | Planted — awaiting expansion |
+| Seeds | Planted — awaiting expansion |
 
 ---
 
