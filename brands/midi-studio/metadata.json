@@ -1,0 +1,27 @@
+{
+  "name": "MIDI Studio",
+  "slug": "midi-studio",
+  "tagline": "One person. Eight instruments. Full organic music.",
+  "category": "music-technology",
+  "status": "concept",
+  "description": "A physical MIDI control surface that lets a single person perform live music with 8 major instruments simultaneously using knobs, sliders, and spinners mapped to each instrument's essential expressive dimensions.",
+  "instruments": [
+    "guitar",
+    "bass",
+    "drums",
+    "piano",
+    "strings",
+    "synth",
+    "brass",
+    "vocals"
+  ],
+  "controls_per_instrument": 4,
+  "total_instrument_controls": 32,
+  "control_types": [
+    "knob-range",
+    "knob-depth",
+    "slider-expression",
+    "spinner-mode"
+  ],
+  "created": "2026-01-31"
+}
