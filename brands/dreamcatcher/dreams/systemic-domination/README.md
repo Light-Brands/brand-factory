@@ -16,6 +16,78 @@ This dream maps the architecture. Not to despair. To see.
 
 ---
 
+## Architecture Overview
+
+This thesis documents 60 interlocking systems organized across 8 Parts — but these are not 60 separate problems. They are one architecture viewed from 60 angles. The systems of medical dependency feed the debt system which feeds the labor extraction engine which feeds the financial architecture which funds the media apparatus which shapes the education system which produces compliant workers who enter the medical system again. Every section in this document is a node in a single self-reinforcing machine.
+
+The interconnection map confirms the density: 676 cross-references link these 60 sections together, forming 139 bidirectional pairs and 446 triangular feedback loops. The hub sections — Media (15), Education (14), Financial System (23), Colonialism (43), and Government (38) — function as gravitational centers, each referenced by 30-50 other sections. Remove any one hub and the surrounding systems compensate through redundant pathways. This is what makes the architecture so durable: it has no single point of failure.
+
+The thesis arc moves deliberately. Part 1 teaches the reader how to see the architecture. Parts 2-3 document what it does to bodies and minds. Part 4 shows how it extracts wealth and labor. Part 5 maps its impact on the planet and infrastructure. Part 6 reveals who holds the levers. Part 7 traces how it suppresses the sacred and fractures identity. Part 8 — the Liberation sections (57-60) — maps the exit architecture: what has worked, what can be built, and how to reclaim what was taken. The journey is from seeing to understanding to action.
+
+```mermaid
+graph TD
+    P1["Part 1: Foundations<br/><i>How to see the architecture</i>"]
+    P2["Part 2: Body & Health<br/><i>9 sections</i>"]
+    P3["Part 3: Mind & Perception<br/><i>9 sections</i>"]
+    P4["Part 4: Economy & Labor<br/><i>9 sections</i>"]
+    P5["Part 5: Earth & Infrastructure<br/><i>6 sections</i>"]
+    P6["Part 6: Power & Governance<br/><i>8 sections</i>"]
+    P7["Part 7: Spirit & Culture<br/><i>11 sections</i>"]
+    P8["Part 8: Liberation<br/><i>4 sections</i>"]
+
+    P1 -->|"framework"| P2
+    P1 -->|"framework"| P3
+    P2 -->|"bodies feed"| P4
+    P3 -->|"minds serve"| P4
+    P4 -->|"wealth extracts"| P5
+    P5 -->|"resources power"| P6
+    P6 -->|"force maintains"| P7
+    P7 -->|"culture sustains"| P3
+    P7 -->|"liberation"| P8
+    P8 -.->|"reclaims"| P1
+```
+
+```mermaid
+graph TD
+    M["Media (15)<br/>50 refs"]
+    E["Education (14)<br/>46 refs"]
+    F["Financial System (23)<br/>46 refs"]
+    C["Colonialism (43)<br/>39 refs"]
+    G["Government (38)<br/>32 refs"]
+    S["Sacred Science (49)<br/>28 refs"]
+    I["I vs We (54)<br/>27 refs"]
+    EC["Ecocide (32)<br/>21 refs"]
+
+    M <--> E
+    M <--> F
+    M <--> G
+    E <--> F
+    E <--> S
+    F <--> C
+    F <--> G
+    C <--> G
+    C <--> S
+    S <--> I
+    I <--> E
+    EC <--> C
+    EC <--> F
+```
+
+```mermaid
+graph LR
+    subgraph "The Compliance Engine"
+        E14[Education] --> D24[Debt] --> L26[Labor] --> E14
+    end
+    subgraph "The Narrative Cage"
+        M15[Media] --> F20[Fear] --> G38[Gov't] --> M15
+    end
+    subgraph "The Health Extraction Loop"
+        MP5[Medical] --> INS6[Insurance] --> DB24[Debt] --> MP5
+    end
+```
+
+---
+
 ## The 8-Part Structure
 
 The thesis is organized as a narrative arc — a journey from seeing the architecture, through the domains it captures, to the power that maintains it, and finally to the paths of liberation.
@@ -164,19 +236,33 @@ The thesis is organized as a narrative arc — a journey from seeing the archite
 
 ---
 
+## Reading Pathways
+
+The thesis can be read front-to-back, but these curated routes trace specific threads through the architecture:
+
+- **Follow the money** (23 - 24 - 25 - 26 - 27 - 28 - 29 - 30 - 31 - 58): Trace how wealth is created as debt, extracted through labor, concentrated through property, fenced through intellectual property, laundered through charity, degraded through cheap production, and finally how parallel economies offer a way out.
+- **Follow the narrative** (15 - 17 - 18 - 19 - 20 - 21 - 16 - 14 - 57): See how media manufactures consent, social platforms harvest attention, language shapes thought, programming fragments the psyche, fear enforces compliance, children are captured early, AI scales the operation, education cements it all, and counter-movements break through.
+- **Follow the body** (05 - 06 - 07 - 08 - 09 - 10 - 11 - 12 - 13 - 58): Witness how the medical system manufactures dependency, insurance gates access, plant medicines are criminalized, food is engineered for addiction, farming industrializes suffering, biotech patents life itself, addiction is designed in, mental health is weaponized, beauty standards enforce unworthiness, and liberation rebuilds wholeness.
+- **Follow the spirit** (49 - 46 - 47 - 48 - 50 - 51 - 52 - 53 - 54 - 59): Discover how sacred science was suppressed, masculine and feminine were distorted, feminine technologies were silenced, religion was captured, indigenous wisdom was destroyed, Jewish culture was persecuted, Christ's message was inverted, competition replaced cooperation, individualism atomized community, and sacred laws chart the return.
+- **Follow the power** (38 - 39 - 40 - 41 - 42 - 43 - 44 - 45 - 57): Map how government creates the illusion of democracy, church and state entwine, prisons warehouse dissent, the military-industrial complex monetizes war, intelligence agencies operate beyond oversight, colonialism extracts globally, nuclear threats enforce ultimate compliance, architects of control preserve bloodline power, and resistance movements challenge it all.
+- **The full arc** (01 - 02 - 03 - 04 - ... - 59 - 60): Read every section in sequence for the complete journey from seeing the architecture, through all the domains it captures, to the paths of liberation and the view from the Global South.
+
+---
+
 ## Status
 
-| Category | Count | Details |
-|----------|-------|---------|
-| Existing sections (moved) | 17 | Full content from original thesis, relocated into 8-Part structure |
-| Merged sections | 4 | Overlapping content combined into stronger single treatments |
-| New from gap analysis (Part I) | 8 | Major missing systems — fully written |
-| New from gap analysis (Part II) | 10 | Secondary systems — fully written |
-| New from gap analysis (Part III) | 7 | Tertiary systems — scaffolded from bullet descriptions |
-| New structural framework | 6 | Foundations + Liberation sections — scaffolded |
-| New from queued sections | 4 | Previously queued items — scaffolded |
-| Meta/reference docs | 3 | Gap analysis (moved), glossary, interconnection map |
-| **Total sections** | **60** | Plus seeds + 3 meta docs |
+| Category | Count | Status |
+|----------|-------|--------|
+| Total sections | 60 | All expanded |
+| Sections with 2500+ word prose | 60 | Complete |
+| Sections with populated Evidence (10+) | 60 | Complete |
+| Sections with populated Connections (10+) | 60 | Complete |
+| Sections with Open Questions (4+) | 60 | Complete |
+| Sacred Laws Glossary entries | 18 | Complete |
+| Total cross-references | 676 | Mapped |
+| Bidirectional pairs | 139 | Mapped |
+| Feedback loops identified | 15 | Documented |
+| Interconnection Map | 1 | Complete |
 
 ---
 
