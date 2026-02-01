@@ -123,6 +123,6 @@ The **Law of Presence** -- the principle that consciousness flourishes when grou
 
 ---
 
-_See also: [The Distributed Intelligence Blueprint](./DISTRIBUTED-INTELLIGENCE-BLUEPRINT.md) -- the technical companion to this section, specifying how intelligence can be distributed as a commons to make its capture architecturally impossible._
+_See also: [The Distributed Intelligence Blueprint](../../../DISTRIBUTED-INTELLIGENCE-BLUEPRINT.md) -- the technical companion to this section, specifying how intelligence can be distributed as a commons to make its capture architecturally impossible._
 
 _This section is soil. Plant what you find._

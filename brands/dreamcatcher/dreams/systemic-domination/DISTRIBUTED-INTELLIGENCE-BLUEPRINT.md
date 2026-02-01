@@ -1,6 +1,6 @@
 # The Distributed Intelligence Blueprint -- Making the Capture of Cognition Architecturally Impossible
 
-_Companion document to [Digital Dominion & AI Surveillance](./README.md). Part of the [Systemic Domination](../../../README.md) thesis._
+_Companion document to [Digital Dominion & AI Surveillance](./sections/part-03-mind-perception-narrative/16-digital-dominion-ai/README.md). Part of the [Systemic Domination](./README.md) thesis._
 
 ---
 
