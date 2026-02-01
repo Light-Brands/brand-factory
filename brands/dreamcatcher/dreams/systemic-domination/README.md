@@ -100,6 +100,14 @@ Each system has its own space for independent research, evidence gathering, and 
 
 ---
 
+## Gap Analysis
+
+| Document | Purpose |
+|----------|---------|
+| [The Shadows Not Yet Named](sections/00-gap-analysis/) | Comprehensive gap analysis — 25 missing systems, structural gaps, redundancies, and the complete shadow map |
+
+---
+
 ## The Compost Pile
 
 | Section | Purpose |
