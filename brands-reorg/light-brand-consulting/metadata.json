@@ -1,0 +1,18 @@
+{
+  "brandName": "Light Brand Consulting",
+  "slug": "light-brand-consulting",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:06.637Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "AI transformation consulting and brand development platform",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["consulting", "branding", "ai"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/light-brand-consulting/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

@@ -1,0 +1,18 @@
+{
+  "brandName": "Love Token",
+  "slug": "love-token",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:11.566Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Love economy platform connecting meditation with community value",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": true,
+  "hasSpec": true,
+  "tags": ["love-economy", "meditation", "community"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/love-token/spec/MASTER-PLAN.md",
+  "originalIdentityFile": "brands/love-token/spec/brand/visual-identity.md"
+}

@@ -1,0 +1,248 @@
+================================================================================
+                         FORM W-8BEN-E (Rev. October 2021)
+              Certificate of Status of Beneficial Owner for
+           United States Tax Withholding and Reporting (Entities)
+================================================================================
+
+COMPLETED FOR: 15801851 Canada Inc.
+DATE PREPARED: January 28, 2026
+
+================================================================================
+                    PART I - IDENTIFICATION OF BENEFICIAL OWNER
+================================================================================
+
+Line 1 - Name of organization that is the beneficial owner:
+         15801851 Canada Inc.
+
+Line 2 - Country of incorporation or organization:
+         Canada
+
+Line 3 - Name of disregarded entity receiving the payment:
+         [LEAVE BLANK - Not applicable]
+
+Line 4 - Chapter 3 Status (entity type):
+         [X] Corporation
+         [ ] Partnership
+         [ ] Simple trust
+         [ ] Tax-exempt organization
+         [ ] Complex trust
+         [ ] Foreign Government - Controlled Entity
+         [ ] Central Bank of Issue
+         [ ] Private foundation
+         [ ] Estate
+         [ ] Foreign Government - Integral Part
+         [ ] Grantor trust
+         [ ] Disregarded entity
+         [ ] International organization
+
+         Hybrid entity making treaty claim? [ ] Yes [X] No
+
+Line 5 - Chapter 4 Status (FATCA status):
+         [X] Active NFFE (Complete Part XXV)
+
+         Other common options (DO NOT check - for reference only):
+         [ ] Passive NFFE (if >50% passive income/assets)
+         [ ] Nonreporting IGA FFI (if registered with CRA for FATCA)
+
+Line 6 - Permanent residence address:
+         Street:     200-440 Laurier Ave W
+         City:       Ottawa
+         Province:   Ontario
+         Postal:     K1R 7X6
+         Country:    Canada
+
+Line 7 - Mailing address (if different from above):
+         [LEAVE BLANK - Same as above]
+
+================================================================================
+               PART I (continued) - PAGE 2
+================================================================================
+
+Line 8 - U.S. taxpayer identification number (TIN), if required:
+         [LEAVE BLANK - Not required for Canadian corporation claiming
+         treaty benefits with no U.S. trade or business]
+
+Line 9a - GIIN:
+          [LEAVE BLANK - Not applicable for Active NFFE]
+
+Line 9b - Foreign TIN:
+          1580185-1
+
+          NOTE: If you have a CRA Business Number (BN), use that instead.
+          Format would be: 123456789RC0001
+
+Line 9c - Check if FTIN not legally required:
+          [ ] Check this box ONLY if the corporation does not have a
+              Business Number yet and is not legally required to obtain one
+
+Line 10 - Reference number(s):
+          [LEAVE BLANK - Optional, for your internal tracking]
+
+================================================================================
+                    PART II - DISREGARDED ENTITY OR BRANCH
+================================================================================
+
+[SKIP ENTIRELY - Not applicable]
+
+================================================================================
+              PART III - CLAIM OF TAX TREATY BENEFITS (if applicable)
+================================================================================
+
+NOTE: Complete this part ONLY if you want to claim reduced withholding rates
+under the US-Canada tax treaty. If you're just certifying FATCA status,
+you can skip to Part XXV.
+
+Line 14a - [X] The beneficial owner is a resident of:
+               Canada
+           within the meaning of the income tax treaty between the
+           United States and that country.
+
+Line 14b - [X] The beneficial owner derives the item(s) of income for which
+               treaty benefits are claimed...
+
+           Limitation on Benefits (check ONE):
+           [ ] Government
+           [ ] Tax-exempt pension trust or pension fund
+           [ ] Other tax-exempt organization
+           [ ] Publicly traded corporation
+           [ ] Subsidiary of a publicly traded corporation
+           [X] Company that meets the ownership and base erosion test
+           [ ] Company that meets the derivative benefits test
+           [ ] Company with an item of income that meets active trade or
+               business test
+           [ ] Favorable discretionary determination by U.S. competent
+               authority received
+           [ ] No LOB article in treaty
+           [ ] Other (specify):
+
+           NOTE: "Ownership and base erosion test" applies if:
+           - More than 50% owned by Canadian residents, AND
+           - Less than 50% of gross income paid to non-treaty residents
+
+Line 14c - [ ] Qualified resident status
+           [LEAVE UNCHECKED - Usually not applicable]
+
+Line 15 - Special rates and conditions:
+
+          FOR BUSINESS PROFITS (services, consulting fees):
+          Article: VII     Paragraph: 1
+          Rate: 0%
+          Type of income: Business Profits
+          Additional conditions: The corporation does not have a permanent
+          establishment in the United States
+
+          FOR ROYALTIES (if applicable):
+          Article: XII     Paragraph: 2
+          Rate: 0% (copyright royalties) or 10% (other royalties)
+          Type of income: Royalties
+
+          FOR DIVIDENDS (if applicable):
+          Article: X       Paragraph: 2
+          Rate: 5% (if owns 10%+ of voting stock) or 15% (otherwise)
+          Type of income: Dividends
+
+================================================================================
+                    PARTS IV - XXIV
+================================================================================
+
+[SKIP ALL - Not applicable for Active NFFE]
+
+================================================================================
+                    PART XXV - ACTIVE NFFE
+================================================================================
+
+Line 39 - [X] I certify that:
+
+              * The entity identified in Part I is a foreign entity that is
+                not a financial institution;
+
+              * Less than 50% of such entity's gross income for the preceding
+                calendar year is passive income; and
+
+              * Less than 50% of the assets held by such entity are assets
+                that produce or are held for the production of passive income
+                (calculated as a weighted average of the percentage of passive
+                assets measured quarterly).
+
+          NOTE: "Passive income" includes dividends, interest, rents, royalties,
+          annuities, and gains from sale of property producing such income.
+          Active business income (consulting fees, service revenue, product
+          sales) is NOT passive.
+
+================================================================================
+                    PARTS XXVI - XXIX
+================================================================================
+
+[SKIP - Not applicable if certifying as Active NFFE with no substantial
+U.S. owners]
+
+If the company HAS substantial U.S. owners (U.S. persons owning 10% or more),
+you would need to complete Part XXVI (Passive NFFE) instead and list the
+U.S. owners in Part XXIX.
+
+================================================================================
+                    PART XXX - CERTIFICATION
+================================================================================
+
+Under penalties of perjury, I declare that I have examined the information
+on this form and to the best of my knowledge and belief it is true, correct,
+and complete...
+
+[X] I certify that I have the capacity to sign for the entity identified
+    on line 1 of this form.
+
+SIGNATURE:    ________________________________
+              (Bryan Robinson signs here)
+
+PRINT NAME:   Bryan Robinson
+
+DATE:         01-28-2026
+              (Use MM-DD-YYYY format)
+
+================================================================================
+                         SUMMARY OF WHAT TO FILL IN
+================================================================================
+
+PAGE 1:
+  Line 1:  15801851 Canada Inc.
+  Line 2:  Canada
+  Line 4:  Check "Corporation"
+  Line 5:  Check "Active NFFE"
+  Line 6:  200-440 Laurier Ave W, Ottawa, Ontario K1R 7X6, Canada
+
+PAGE 2:
+  Line 9b: 1580185-1 (or CRA Business Number if available)
+  Line 14a: Check box, write "Canada"
+  Line 14b: Check "Company that meets the ownership and base erosion test"
+  Line 15:  Article VII, Paragraph 1, 0%, Business Profits
+            (adjust based on type of income you're receiving)
+
+PAGE 7:
+  Line 39: Check the box for Active NFFE certification
+
+PAGE 8:
+  Sign, print "Bryan Robinson", date "01-28-2026"
+
+================================================================================
+                              IMPORTANT NOTES
+================================================================================
+
+1. FOREIGN TIN: If 15801851 Canada Inc. has been assigned a CRA Business
+   Number (BN), use that on Line 9b instead of the corporation number.
+
+2. TREATY BENEFITS: Part III is optional. Complete it only if you want
+   reduced withholding on U.S.-source income. For most service payments
+   from U.S. clients, the 0% rate under Article VII applies.
+
+3. ACTIVE VS PASSIVE: This form assumes the company earns primarily active
+   business income (services, consulting). If the company primarily holds
+   investments or earns passive income (interest, dividends, rent), use
+   "Passive NFFE" (Part XXVI) instead.
+
+4. VALIDITY: This form is generally valid for 3 years from the date signed,
+   or until circumstances change.
+
+5. WHO GETS THIS FORM: Give to U.S. clients/payers who request it. Do NOT
+   send to the IRS.
+
+================================================================================

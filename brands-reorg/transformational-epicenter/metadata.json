@@ -1,0 +1,18 @@
+{
+  "brandName": "Transformational Epicenter",
+  "slug": "transformational-epicenter",
+  "type": "platform",
+  "status": "planning",
+  "createdAt": "2026-01-20T13:49:23.022Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Transformational retreat and wellness center platform",
+  "hasPlan": true,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["wellness", "retreat", "transformation"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/transformational-epicenter/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

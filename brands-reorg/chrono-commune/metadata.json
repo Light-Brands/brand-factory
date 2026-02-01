@@ -1,0 +1,18 @@
+{
+  "brandName": "Chrono Commune",
+  "slug": "chrono-commune",
+  "type": "platform",
+  "status": "planning",
+  "createdAt": "2026-01-20T13:49:01.569Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Community-driven time management and collaboration platform",
+  "hasPlan": false,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["time-management", "community", "saas"],
+  "councilStatus": "pending",
+  "originalPlanFile": null,
+  "originalIdentityFile": null
+}

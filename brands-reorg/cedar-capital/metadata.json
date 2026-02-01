@@ -1,0 +1,18 @@
+{
+  "brandName": "Cedar Capital",
+  "slug": "cedar-capital",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:48:58.270Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Real estate investment platform connecting sellers with investors",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": true,
+  "hasSpec": true,
+  "tags": ["real-estate", "investment", "ai"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/cedar-capital/PROJECT-PLAN.md",
+  "originalIdentityFile": null
+}

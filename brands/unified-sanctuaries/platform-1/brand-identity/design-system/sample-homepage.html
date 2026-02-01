@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unified Sanctuaries | A Living Blueprint for Regenerative Community</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,400&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Brand Styles -->
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="components.css">
+
+  <style>
+    /* Page-specific styles */
+    .platforms-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: var(--space-6);
+      margin-top: var(--space-8);
+    }
+
+    .platform-card {
+      text-align: center;
+      padding: var(--space-8) var(--space-6);
+    }
+
+    .platform-icon {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto var(--space-5);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+    .platform-card--farm .platform-icon {
+      background-color: rgba(112, 66, 20, 0.15);
+      color: var(--color-farm-soil-umber);
+    }
+
+    .platform-card--retreat .platform-icon {
+      background-color: rgba(123, 163, 168, 0.15);
+      color: var(--color-retreat-mineral-spring);
+    }
+
+    .platform-card--venue .platform-icon {
+      background-color: rgba(198, 93, 59, 0.15);
+      color: var(--color-venue-ember-glow);
+    }
+
+    .platform-card--community .platform-icon {
+      background-color: rgba(181, 101, 29, 0.15);
+      color: var(--color-community-hearth-clay);
+    }
+
+    .values-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: var(--space-4);
+      list-style: none;
+      padding: 0;
+      margin: var(--space-6) 0;
+    }
+
+    .values-list li {
+      padding: var(--space-4);
+      background: rgba(92, 124, 94, 0.08);
+      border-radius: var(--border-radius-md);
+      font-weight: var(--font-weight-medium);
+      color: var(--color-primary);
+    }
+
+    .cta-section {
+      text-align: center;
+      padding: var(--space-10) var(--margin-page);
+      background: linear-gradient(
+        135deg,
+        var(--color-forest-floor) 0%,
+        var(--color-deep-moss) 100%
+      );
+      color: var(--color-cream-canvas);
+    }
+
+    .cta-section h2 {
+      color: var(--color-cream-canvas);
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: var(--space-4);
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: var(--space-6);
+    }
+
+    .btn-light {
+      background-color: var(--color-cream-canvas);
+      color: var(--color-forest-floor);
+      border-color: var(--color-cream-canvas);
+    }
+
+    .btn-light:hover {
+      background-color: transparent;
+      color: var(--color-cream-canvas);
+    }
+
+    .newsletter-form {
+      display: flex;
+      gap: var(--space-3);
+      max-width: 500px;
+      margin: var(--space-6) auto 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .newsletter-form input {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .status-badge {
+      display: inline-block;
+      padding: var(--space-2) var(--space-4);
+      background-color: var(--color-sage-mist);
+      color: white;
+      border-radius: var(--border-radius-full);
+      font-size: var(--font-size-caption);
+      font-weight: var(--font-weight-medium);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="/" class="nav-logo">
+      <!-- Logo placeholder -->
+      <svg class="nav-logo-mark" viewBox="0 0 40 40" fill="none">
+        <circle cx="20" cy="20" r="18" stroke="#2D3A2E" stroke-width="1.5" fill="none"/>
+        <circle cx="20" cy="20" r="3" fill="#2D3A2E"/>
+        <circle cx="20" cy="8" r="4" fill="#704214"/>
+        <circle cx="8" cy="20" r="4" fill="#7BA3A8"/>
+        <circle cx="32" cy="20" r="4" fill="#C65D3B"/>
+        <circle cx="20" cy="32" r="4" fill="#B5651D"/>
+        <path d="M20 12 L20 17 M12 20 L17 20 M20 28 L20 23 M28 20 L23 20" stroke="#2D3A2E" stroke-width="1"/>
+      </svg>
+      <span class="nav-logo-text">Unified Sanctuaries</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/about" class="nav-link">About</a></li>
+      <li><a href="/vision" class="nav-link">Vision</a></li>
+      <li><a href="/governance" class="nav-link">Governance</a></li>
+      <li><a href="/get-involved" class="nav-link">Get Involved</a></li>
+      <li><a href="/support" class="nav-link">Support Us</a></li>
+      <li><a href="/contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="/images/hero-vermont-landscape.jpg" alt="" class="hero-background">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">A Living Blueprint for Regenerative Living & Community Resilience</h1>
+      <p class="hero-subtitle">Growing community from the ground up in Southern Vermont</p>
+      <div class="cta-buttons">
+        <a href="/vision" class="btn btn-primary btn-lg">Explore Our Vision</a>
+        <a href="/get-involved" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Get Involved</a>
+      </div>
+      <div style="margin-top: var(--space-8);">
+        <span class="status-badge">Currently: Land Search Phase</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mission Section -->
+  <section class="section">
+    <div class="container-narrow text-center">
+      <h2>Where Land and People Heal Together</h2>
+      <p class="lead">
+        Unified Sanctuaries is a regenerative, land-based community committed to solving for each other's basic needs of food, housing, and community within a supportive, earth-friendly environment.
+      </p>
+      <p>
+        Like mycelium beneath a forest floor, we're weaving together four interconnected platforms — each distinct yet fundamentally inseparable, sharing resources, wisdom, and life force through invisible threads of mutual support.
+      </p>
+    </div>
+  </section>
+
+  <!-- Four Platforms Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <header class="section-header">
+        <h2>The Four Platforms</h2>
+        <p>Four interconnected pillars, one living ecosystem</p>
+      </header>
+
+      <div class="platforms-grid">
+
+        <!-- Farm Platform -->
+        <div class="card platform-card platform-card--farm card--farm">
+          <div class="platform-icon">🌱</div>
+          <h3>Permaculture Farm & Education</h3>
+          <p>Regenerative agriculture, food sovereignty, and hands-on learning. From soil to table to community.</p>
+          <a href="/vision#farm" class="btn btn-ghost">Learn More</a>
+        </div>
+
+        <!-- Retreat Platform -->
+        <div class="card platform-card platform-card--retreat card--retreat">
+          <div class="platform-icon">💧</div>
+          <h3>Retreat & Healing Arts</h3>
+          <p>Immersive wellness, somatic healing, bathhouse sanctuary. A place to return to wholeness.</p>
+          <a href="/vision#retreat" class="btn btn-ghost">Learn More</a>
+        </div>
+
+        <!-- Venue Platform -->
+        <div class="card platform-card platform-card--venue card--venue">
+          <div class="platform-icon">🔥</div>
+          <h3>Event Venue</h3>
+          <p>Festivals, gatherings, markets, and celebrations. Where community comes alive.</p>
+          <a href="/vision#venue" class="btn btn-ghost">Learn More</a>
+        </div>
+
+        <!-- Community Platform -->
+        <div class="card platform-card platform-card--community card--community">
+          <div class="platform-icon">🏠</div>
+          <h3>Community Living</h3>
+          <p>20+ homes woven together. Shared resources, earned equity, and a place to call home in the web.</p>
+          <a href="/vision#community" class="btn btn-ghost">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="section">
+    <div class="container-narrow">
+      <header class="section-header">
+        <h2>Rooted in Values</h2>
+        <p>The principles that guide everything we grow</p>
+      </header>
+
+      <ul class="values-list">
+        <li>Regeneration over extraction</li>
+        <li>Non-speculative land stewardship</li>
+        <li>Equity through contribution</li>
+        <li>Participatory governance</li>
+        <li>Open-source sharing</li>
+        <li>Indigenous wisdom honored</li>
+      </ul>
+
+      <blockquote>
+        "Land heals people. People heal land. This is the spiral we're tending."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container-narrow">
+      <h2>Join the Growing</h2>
+      <p>Whether you're ready to dig in or just curious, there's a place for you in this network.</p>
+      <div class="cta-buttons">
+        <a href="/get-involved" class="btn btn-light btn-lg">Get Involved</a>
+        <a href="/support" class="btn btn-secondary btn-lg" style="border-color: white; color: white;">Support the Vision</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="section">
+    <div class="container-narrow text-center">
+      <h2>Stay Connected</h2>
+      <p>Receive updates on our land search, community gatherings, and the journey ahead.</p>
+      <form class="newsletter-form" action="#" method="post">
+        <input type="email" class="form-input" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="caption" style="margin-top: var(--space-3);">Monthly updates. No spam. Unsubscribe anytime.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div>
+          <h4 class="footer-heading">Unified Sanctuaries</h4>
+          <p>A living blueprint for regenerative living & community resilience in Southern Vermont.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/vision">Our Vision</a></li>
+            <li><a href="/governance">Governance</a></li>
+            <li><a href="/news">News & Updates</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Get Involved</h4>
+          <ul class="footer-links">
+            <li><a href="/get-involved#memberships">Memberships</a></li>
+            <li><a href="/get-involved#volunteer">Volunteer</a></li>
+            <li><a href="/get-involved#partner">Partner With Us</a></li>
+            <li><a href="/support">Support Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:unifiedsanctuaries@gmail.com">Email Us</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>Unified Sanctuaries &copy; 2026. Growing community from the ground up.</p>
+        <p style="margin-top: var(--space-2);">Southern Vermont (Brattleboro / Guilford / Putney region)</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

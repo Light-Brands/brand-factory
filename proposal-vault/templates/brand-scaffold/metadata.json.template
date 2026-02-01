@@ -1,0 +1,18 @@
+{
+  "brandName": "{{BRAND_NAME}}",
+  "slug": "{{BRAND_SLUG}}",
+  "type": "platform",
+  "status": "planning",
+  "createdAt": "{{CREATED_AT}}",
+  "updatedAt": "{{CREATED_AT}}",
+  "createdBy": "{{CREATOR}}",
+  "description": "{{DESCRIPTION}}",
+  "hasPlan": true,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": [],
+  "councilStatus": "pending",
+  "originalPlanFile": null,
+  "originalIdentityFile": null
+}

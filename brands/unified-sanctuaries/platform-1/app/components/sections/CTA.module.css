@@ -1,0 +1,23 @@
+.section {
+  text-align: center;
+  background: var(--color-soft-white);
+}
+
+.section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.section p {
+  font-size: 1.15rem;
+  color: var(--color-charcoal);
+  opacity: 0.7;
+  margin: 0 auto 3rem;
+  max-width: 480px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,18 @@
+{
+  "brandName": "VibeUp",
+  "slug": "vibeup",
+  "type": "platform",
+  "status": "handed-off",
+  "createdAt": "2026-01-20T13:49:26.061Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Conscious social platform for wellness seekers and practitioners",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": true,
+  "hasSpec": true,
+  "tags": ["wellness", "social", "community", "ai"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/vibeup/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

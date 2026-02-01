@@ -1,0 +1,18 @@
+{
+  "brandName": "Cho Ventures AI",
+  "slug": "cho-ventures-ai",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:00.413Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "AI-powered venture consulting and ecosystem platform",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["venture", "consulting", "ai"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/cho-ventures-ai/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

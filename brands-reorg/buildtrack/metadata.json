@@ -1,0 +1,18 @@
+{
+  "brandName": "Buildtrack",
+  "slug": "buildtrack",
+  "type": "platform",
+  "status": "planning",
+  "createdAt": "2026-01-20T13:48:56.397Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Construction project management platform",
+  "hasPlan": true,
+  "hasApp": false,
+  "hasIdentity": true,
+  "hasSpec": true,
+  "tags": ["construction", "project-management"],
+  "councilStatus": "pending",
+  "originalPlanFile": "brands/buildtrack/SPEC_OVERVIEW.md",
+  "originalIdentityFile": "brands/buildtrack/BRAND_IDENTITY_GUIDE.md"
+}

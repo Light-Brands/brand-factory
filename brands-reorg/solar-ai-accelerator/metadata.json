@@ -1,0 +1,18 @@
+{
+  "brandName": "Solar AI Accelerator",
+  "slug": "solar-ai-accelerator",
+  "type": "spec-only",
+  "status": "planning",
+  "createdAt": "2026-01-20T13:49:16.953Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Solar energy AI accelerator program",
+  "hasPlan": true,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["solar", "energy", "ai", "accelerator"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/solar-ai-accelerator/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

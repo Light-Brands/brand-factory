@@ -1,0 +1,24 @@
+Unified Sanctuaries’ website is intended to serve as a clear, inspiring “front door” to the project - communicating the vision of a collectively stewarded land sanctuary while making it easy for people to understand where we are now, where we’re headed, and how they can participate at each stage of emergence.
+
+The site should speak to several distinct audiences with clear calls to action, including land connectors / scouts, donors / funders, future residents and stewards, collaborators (builders, practitioners, educators, facilitators, business operators), and aligned customers and supporters / volunteers. It should transparently communicate our current stage and status: we are actively searching for land, forming the legal and governance structures to hold and protect it, and designing how the different realms or “pillars” of the sanctuary will be stewarded over time.
+
+Scope & Level of Detail
+While there is substantial documentation outlining potential entity structures, governance models, and economic or token-based mechanisms, the website is not intended to go deep into those details at this stage. Instead, it should focus on overarching themes, principles, and intentions - providing clarity without overwhelming visitors or prematurely locking in structures that are still being refined. More details will be shared overtime as they crystallize. 
+
+Land & Entity Structure
+The land itself will be held by a trust, ensuring that no individual owns it and that it is instead collectively stewarded for long-term regenerative, community-serving purposes. We currently imagine that each of the core pillars - the farm, event venue, wellness/healing arts center, living center, and anchor circle (supporting the interconnectivity and cohesion across pillars and the land trust) will also be managed through trust-based, mission-aligned entities. These structures are being developed with care, and the website should reflect that we are in an active process of refining governance, legal entities, and operational agreements to responsibly hold each facet of the project as it comes online.
+
+Current Phase & Fundraising Approach
+The website should be upfront that Unified Sanctuaries is in a pre-land, pre-operations phase. During this stage, we will be fundraising early through membership sales and the offering of goods, services, pop-ups, pre-sales, credits, and other aligned offerings - before the sanctuary is fully live and operational. The site should preview the kinds of experiences and offerings that will exist once the sanctuary is active, such as retreats, events, education, land-based work, healing arts, and farm goods, while clearly distinguishing between what is available now to support fundraising and community building versus what is being built toward.
+
+Governance (High-Level Framing)
+On governance, the website should frame our approach as co-creative and evolving. We are intentionally moving beyond a “one person or one family runs everything” model and toward a structure of holons / circles, where leadership is held by trusted individuals with the capacity, desire, and expertise to move specific areas forward, with others supporting. Strong feedback loops, transparency, and role rotation over time or by project are core principles. There are variations in how governance is described across these materials - version one of the website does not need to define everything explicitly.
+
+Economics & Tokenomics (Intentional Simplicity)
+On economics / tokenomics, the website should keep the message simple and accessible. The long-term intention is to acknowledge and track non-cash contributions and to offer clear, safe exit or liquidity pathways so contributors feel secure while the project remains stable. (Tokenomics, trust units, accounts, and / or other means will support liquidy upon exit). The site should emphasize that holding the land in trust is a foundational strategy to reduce speculation and long-term instability. The detailed mechanisms will continue to be refined as the project builds and learns and are not the focus of the initial website.
+
+Timeline & Geographic Focus
+Our current goal is to find and settle on land in southern Vermont by early spring of this year, and the website should reflect this focus and momentum without over-promising or locking in specifics prematurely. Note we're also networked with other groups doing similar projects - and some are already grounded and operating and others are looking for land and refining their processes / strategy etc. We're learning from one another.  
+
+
+Overall, the site should feel transparent, invitational, and grounded - signaling that Unified Sanctuaries is thoughtfully in motion, guided by clear, earth-aligned principles and long-term intentions, with multiple pathways for people to engage, support, and co-create as the project comes into form. 

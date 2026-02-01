@@ -1,0 +1,18 @@
+{
+  "brandName": "Nothing Artificial",
+  "slug": "nothing-artificial",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:14.928Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Authentic AI brand and community platform",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["ai", "community", "authenticity"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/nothing-artificial/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

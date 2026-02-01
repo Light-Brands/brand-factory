@@ -1,0 +1,18 @@
+{
+  "brandName": "Transcend Documentary",
+  "slug": "transcend-documentary",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:20.919Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Documentary project website and platform",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["documentary", "film", "website"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/transcend-documentary/spec/MASTER-PLAN.md",
+  "originalIdentityFile": null
+}

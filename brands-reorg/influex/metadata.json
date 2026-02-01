@@ -1,0 +1,18 @@
+{
+  "brandName": "Influex",
+  "slug": "influex",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:00.000Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Elite influencer ecosystem and partnership platform",
+  "hasPlan": true,
+  "hasApp": true,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["influencer", "marketing", "ecosystem"],
+  "councilStatus": "pending",
+  "originalPlanFile": null,
+  "originalIdentityFile": null
+}

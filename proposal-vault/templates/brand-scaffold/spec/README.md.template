@@ -1,0 +1,17 @@
+# {{BRAND_NAME}} Specification
+
+Navigation hub for {{BRAND_SLUG}} specification documents.
+
+---
+
+## Documents
+
+- [Master Plan](./master-plan.md) — Comprehensive specification
+
+## Subdirectories
+
+*Add links to subdirectories as they are created:*
+
+- `brand/` — Brand identity, voice, visual design
+- `architecture/` — Technical design, data models, APIs
+- `phases/` — Phased rollout plans

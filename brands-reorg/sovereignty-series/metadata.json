@@ -1,0 +1,18 @@
+{
+  "brandName": "Sovereignty Series",
+  "slug": "sovereignty-series",
+  "type": "content",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:18.029Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Multi-volume book series on personal sovereignty and transformation",
+  "hasPlan": false,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": false,
+  "tags": ["publishing", "books", "sovereignty"],
+  "councilStatus": "approved",
+  "originalPlanFile": null,
+  "originalIdentityFile": null
+}

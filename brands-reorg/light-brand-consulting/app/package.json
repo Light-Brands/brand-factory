@@ -1,0 +1,27 @@
+{
+  "name": "light-brand-consulting-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate-docs": "tsx scripts/generate-planning-docs.ts",
+    "dev": "npm run generate-docs && vite",
+    "build": "npm run generate-docs && vite build",
+    "preview": "vite preview",
+    "vercel-build": "npm run generate-docs && vite build"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

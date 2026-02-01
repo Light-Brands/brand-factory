@@ -1,0 +1,382 @@
+/**
+ * Theme CSS Variables
+ * Gold/Orange, Off-Black, Off-White Design System
+ *
+ * Color Distribution:
+ * - 85-90% neutral tones (off-black/off-white)
+ * - 5-10% gold/orange accents
+ * - 3-5% slate blue accents
+ * - 1-2% gold tints
+ */
+
+/* =============================================================================
+   ROOT VARIABLES - Light Mode (Default)
+   ============================================================================= */
+
+:root {
+  /* Color mode */
+  color-scheme: light;
+
+  /* Slate Blue/Grey - Primary Brand Color (replaces gold/orange) */
+  --color-slate-primary-50: #f8fafc;
+  --color-slate-primary-100: #f1f5f9;
+  --color-slate-primary-200: #e2e8f0;
+  --color-slate-primary-300: #cbd5e1;
+  --color-slate-primary-400: #94a3b8;
+  --color-slate-primary-500: #64748b;
+  --color-slate-primary-600: #475569;
+  --color-slate-primary-700: #334155;
+  --color-slate-primary-800: #1e293b;
+  --color-slate-primary-900: #0f172a;
+
+  /* Off-Black to Off-White - Neutral Scale */
+  --color-neutral-0: #fafaf9;
+  --color-neutral-50: #f5f5f4;
+  --color-neutral-100: #e7e5e4;
+  --color-neutral-200: #d6d3d1;
+  --color-neutral-300: #a8a29e;
+  --color-neutral-400: #78716c;
+  --color-neutral-500: #57534e;
+  --color-neutral-600: #44403c;
+  --color-neutral-700: #292524;
+  --color-neutral-800: #1c1917;
+  --color-neutral-900: #0f0e0d;
+
+  /* Slate Blue - Secondary Accent */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  /* Semantic Colors - Light Mode */
+  --color-background: var(--color-neutral-0);
+  --color-background-subtle: var(--color-neutral-50);
+  --color-background-muted: var(--color-neutral-100);
+  --color-background-elevated: var(--color-neutral-0);
+  --color-background-overlay: rgba(15, 14, 13, 0.5);
+
+  --color-foreground: var(--color-neutral-900);
+  --color-foreground-subtle: var(--color-neutral-600);
+  --color-foreground-muted: var(--color-neutral-400);
+  --color-foreground-faint: var(--color-neutral-300);
+
+  --color-border: var(--color-neutral-200);
+  --color-border-subtle: var(--color-neutral-100);
+  --color-border-strong: var(--color-neutral-300);
+
+  /* Primary - Slate Blue/Grey */
+  --color-primary: var(--color-slate-600);
+  --color-primary-hover: var(--color-slate-700);
+  --color-primary-foreground: var(--color-neutral-0);
+  --color-primary-subtle: var(--color-slate-50);
+
+  /* Secondary - Slate Blue */
+  --color-secondary: var(--color-slate-500);
+  --color-secondary-hover: var(--color-slate-600);
+  --color-secondary-foreground: var(--color-neutral-0);
+  --color-secondary-subtle: var(--color-slate-50);
+
+  /* Accent - Light Slate Tint */
+  --color-accent: var(--color-slate-100);
+  --color-accent-foreground: var(--color-neutral-900);
+  --color-accent-hover: var(--color-slate-200);
+
+  /* Card */
+  --color-card: var(--color-neutral-50);
+  --color-card-hover: var(--color-neutral-100);
+  --color-card-foreground: var(--color-neutral-900);
+
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-success-subtle: #ecfdf5;
+  --color-warning: #f59e0b;
+  --color-warning-subtle: #fffbeb;
+  --color-error: #ef4444;
+  --color-error-subtle: #fef2f2;
+  --color-info: var(--color-slate-500);
+  --color-info-subtle: var(--color-slate-50);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --gradient-secondary: linear-gradient(135deg, #8b5cf6 0%, #d946ef 100%);
+  --gradient-subtle: linear-gradient(135deg, #f0f4ff 0%, #fdf4ff 100%);
+  --gradient-mesh: radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                   radial-gradient(at 80% 0%, rgba(139, 92, 246, 0.1) 0px, transparent 50%),
+                   radial-gradient(at 0% 50%, rgba(217, 70, 239, 0.08) 0px, transparent 50%);
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgb(15 14 13 / 0.05);
+  --shadow-sm: 0 1px 3px 0 rgb(15 14 13 / 0.1), 0 1px 2px -1px rgb(15 14 13 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(15 14 13 / 0.1), 0 2px 4px -2px rgb(15 14 13 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(15 14 13 / 0.1), 0 4px 6px -4px rgb(15 14 13 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(15 14 13 / 0.1), 0 8px 10px -6px rgb(15 14 13 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(15 14 13 / 0.25);
+  --shadow-primary: 0 4px 14px 0 rgb(245 158 11 / 0.25);
+  --shadow-primary-lg: 0 10px 40px 0 rgb(245 158 11 / 0.35);
+  --shadow-glass: 0 8px 32px 0 rgb(15 14 13 / 0.08);
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  --font-display: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+  /* Border Radius */
+  --radius-xs: 0.125rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-DEFAULT: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.25rem;
+  --radius-3xl: 1.5rem;
+  --radius-4xl: 2rem;
+  --radius-full: 9999px;
+
+  /* Animation */
+  --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --ease-smooth-out: cubic-bezier(0, 0, 0.25, 1);
+  --ease-smooth-in: cubic-bezier(0.25, 0, 1, 1);
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-apple: cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  --duration-instant: 0ms;
+  --duration-faster: 100ms;
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-relaxed: 300ms;
+  --duration-slow: 400ms;
+  --duration-slower: 500ms;
+
+  /* Z-Index */
+  --z-base: 0;
+  --z-raised: 1;
+  --z-dropdown: 1000;
+  --z-sticky: 1100;
+  --z-fixed: 1200;
+  --z-overlay: 1300;
+  --z-modal: 1400;
+  --z-popover: 1500;
+  --z-toast: 1600;
+  --z-tooltip: 1700;
+
+  /* Blur */
+  --blur-sm: 4px;
+  --blur-md: 8px;
+  --blur-lg: 12px;
+  --blur-xl: 16px;
+  --blur-2xl: 24px;
+
+  /* Glass Effect */
+  --glass-background: rgba(250, 250, 249, 0.8);
+  --glass-border: rgba(250, 250, 249, 0.2);
+  --glass-shadow: 0 8px 32px 0 rgba(15, 14, 13, 0.08);
+}
+
+/* =============================================================================
+   DARK MODE
+   ============================================================================= */
+
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Semantic Colors - Dark Mode */
+  --color-background: var(--color-neutral-900);
+  --color-background-subtle: var(--color-neutral-800);
+  --color-background-muted: var(--color-neutral-700);
+  --color-background-elevated: var(--color-neutral-800);
+  --color-background-overlay: rgba(15, 14, 13, 0.7);
+
+  --color-foreground: var(--color-neutral-0);
+  --color-foreground-subtle: var(--color-neutral-300);
+  --color-foreground-muted: var(--color-neutral-500);
+  --color-foreground-faint: var(--color-neutral-600);
+
+  --color-border: var(--color-neutral-700);
+  --color-border-subtle: var(--color-neutral-800);
+  --color-border-strong: var(--color-neutral-600);
+
+  /* Primary - Lighter Slate for Dark Mode */
+  --color-primary: var(--color-slate-400);
+  --color-primary-hover: var(--color-slate-300);
+  --color-primary-foreground: var(--color-neutral-900);
+  --color-primary-subtle: rgba(100, 116, 139, 0.15);
+
+  /* Secondary - Lighter Slate for Dark Mode */
+  --color-secondary: var(--color-slate-300);
+  --color-secondary-hover: var(--color-slate-200);
+  --color-secondary-foreground: var(--color-neutral-900);
+  --color-secondary-subtle: rgba(100, 116, 139, 0.15);
+
+  /* Accent - Dark Slate Tint */
+  --color-accent: var(--color-slate-800);
+  --color-accent-foreground: var(--color-neutral-0);
+  --color-accent-hover: var(--color-slate-700);
+
+  /* Card */
+  --color-card: var(--color-neutral-800);
+  --color-card-hover: var(--color-neutral-700);
+  --color-card-foreground: var(--color-neutral-0);
+
+  /* Status Colors - Dark Mode */
+  --color-success-subtle: rgba(16, 185, 129, 0.15);
+  --color-warning-subtle: rgba(245, 158, 11, 0.15);
+  --color-error-subtle: rgba(239, 68, 68, 0.15);
+  --color-info-subtle: rgba(100, 116, 139, 0.15);
+
+  /* Gradients - Dark Mode */
+  --gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
+  --gradient-mesh: radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.2) 0px, transparent 50%),
+                   radial-gradient(at 80% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+                   radial-gradient(at 0% 50%, rgba(217, 70, 239, 0.1) 0px, transparent 50%);
+
+  /* Shadows - Dark Mode (more subtle) */
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 0.3);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.4);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.6);
+  --shadow-primary: 0 4px 14px 0 rgb(251 191 36 / 0.3);
+  --shadow-primary-lg: 0 10px 40px 0 rgb(251 191 36 / 0.4);
+  --shadow-glass: 0 8px 32px 0 rgb(0 0 0 / 0.3);
+
+  /* Glass Effect - Dark Mode */
+  --glass-background: rgba(28, 25, 23, 0.8);
+  --glass-border: rgba(250, 250, 249, 0.1);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* =============================================================================
+   UTILITY CLASSES
+   ============================================================================= */
+
+/* Background utilities */
+.bg-gradient-primary { background: var(--gradient-primary); }
+.bg-gradient-secondary { background: var(--gradient-secondary); }
+.bg-gradient-subtle { background: var(--gradient-subtle); }
+.bg-gradient-mesh { background: var(--gradient-mesh); }
+
+/* Glass morphism effect */
+.glass {
+  background: var(--glass-background);
+  backdrop-filter: blur(var(--blur-lg));
+  -webkit-backdrop-filter: blur(var(--blur-lg));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+.glass-strong {
+  background: var(--glass-background);
+  backdrop-filter: blur(var(--blur-2xl));
+  -webkit-backdrop-filter: blur(var(--blur-2xl));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Text gradient */
+.text-gradient {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Premium button glow */
+.glow-primary {
+  box-shadow: var(--shadow-primary);
+}
+
+.glow-primary:hover {
+  box-shadow: var(--shadow-primary-lg);
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition-property: all;
+  transition-timing-function: var(--ease-smooth);
+  transition-duration: var(--duration-normal);
+}
+
+.transition-fast {
+  transition-property: all;
+  transition-timing-function: var(--ease-smooth);
+  transition-duration: var(--duration-fast);
+}
+
+.transition-slow {
+  transition-property: all;
+  transition-timing-function: var(--ease-smooth);
+  transition-duration: var(--duration-slow);
+}
+
+/* Focus ring */
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* =============================================================================
+   BASE STYLES
+   ============================================================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  line-height: 1.6;
+}
+
+/* Selection styling - Gold accent */
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-primary-foreground);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-background-subtle);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-400);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neutral-500);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-neutral-600);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neutral-500);
+}

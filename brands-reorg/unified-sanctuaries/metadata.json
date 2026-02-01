@@ -1,0 +1,18 @@
+{
+  "brandName": "Unified Sanctuaries",
+  "slug": "unified-sanctuaries",
+  "type": "platform",
+  "status": "active",
+  "createdAt": "2026-01-20T13:49:24.002Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Community land project and intentional living platform",
+  "hasPlan": false,
+  "hasApp": true,
+  "hasIdentity": true,
+  "hasSpec": true,
+  "tags": ["community", "land", "intentional-living"],
+  "councilStatus": "approved",
+  "originalPlanFile": null,
+  "originalIdentityFile": null
+}

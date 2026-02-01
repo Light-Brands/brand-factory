@@ -1,0 +1,22 @@
+# {{BRAND_NAME}}: Project Plan
+
+## Overview
+
+*Describe the project's vision and objectives here.*
+
+## Current Status
+
+Planning phase.
+
+## Key Milestones
+
+1. Complete specification
+2. Council review and approval
+3. Architecture design
+4. Development kickoff
+5. MVP launch
+
+## Related Documents
+
+- [Master Plan](./spec/master-plan.md)
+- [Specification Index](./spec/README.md)

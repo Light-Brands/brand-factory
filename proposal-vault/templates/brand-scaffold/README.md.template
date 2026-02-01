@@ -1,0 +1,15 @@
+# {{BRAND_NAME}}
+
+> {{DESCRIPTION}}
+
+---
+
+## Brand Overview
+
+*Describe the brand's purpose, target audience, and core value proposition here.*
+
+## Key Documents
+
+- [Project Plan](./project-plan.md)
+- [Master Plan](./spec/master-plan.md)
+- [Specification Index](./spec/README.md)

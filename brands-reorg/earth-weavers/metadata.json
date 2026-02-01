@@ -1,0 +1,18 @@
+{
+  "brandName": "Earth Weavers",
+  "slug": "earth-weavers",
+  "type": "spec-only",
+  "status": "planning",
+  "createdAt": "2026-01-20T13:49:03.437Z",
+  "updatedAt": "2026-01-28T00:00:00.000Z",
+  "createdBy": "standardization",
+  "description": "Cultural and ecological partnership initiative",
+  "hasPlan": true,
+  "hasApp": false,
+  "hasIdentity": false,
+  "hasSpec": true,
+  "tags": ["ecology", "culture", "governance"],
+  "councilStatus": "approved",
+  "originalPlanFile": "brands/earth-weavers/01-implementation-roadmap.md",
+  "originalIdentityFile": null
+}

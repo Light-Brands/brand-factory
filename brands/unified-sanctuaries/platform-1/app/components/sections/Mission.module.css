@@ -1,0 +1,78 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  max-width: 1150px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.visual {
+  position: relative;
+}
+
+.vessel {
+  width: 100%;
+  aspect-ratio: 4/5;
+  background: linear-gradient(160deg,
+    var(--color-clay-light) 0%,
+    var(--color-terracotta) 40%,
+    var(--color-river-mist) 70%,
+    var(--color-river-blue) 100%);
+  border-radius: 40% 40% 30% 30%;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 30px 80px rgba(21, 48, 63, 0.15);
+}
+
+.vessel::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  width: 25%;
+  height: 40%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  filter: blur(20px);
+}
+
+.vessel::after {
+  content: 'The vessel holds. The water nourishes.';
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  width: 80%;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text h2 {
+  margin-bottom: 2rem;
+}
+
+.text p {
+  font-size: 1.1rem;
+  color: var(--color-charcoal);
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+  line-height: 1.9;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .visual {
+    order: -1;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

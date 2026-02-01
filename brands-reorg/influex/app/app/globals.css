@@ -1,0 +1,190 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --hub-color: #10B981;
+  --platform-color: #3B82F6;
+  --brand-color: #06B6D4;
+  --sales-color: #EF4444;
+  --marketing-color: #F43F5E;
+  --promo-color: #F59E0B;
+  --authority-color: #8B5CF6;
+  --operations-color: #64748B;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-white antialiased;
+    background-image:
+      radial-gradient(ellipse at 20% 30%, rgba(16, 185, 129, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 70%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse at 50% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 60%);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  /* Glassmorphism */
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  .glass-dark {
+    @apply bg-slate-900/80 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+
+  .glass-panel {
+    @apply bg-slate-900/90 backdrop-blur-2xl border border-white/10;
+  }
+
+  /* Node styles */
+  .node-hub {
+    @apply bg-gradient-to-br from-hub/20 to-hub/5 border-2 border-hub/50;
+    box-shadow: 0 0 60px rgba(16, 185, 129, 0.4), inset 0 0 30px rgba(16, 185, 129, 0.1);
+  }
+
+  .node-engine {
+    @apply bg-white/5 backdrop-blur-xl border border-white/20;
+  }
+
+  .node-satellite {
+    @apply bg-white/5 backdrop-blur-lg border border-white/10;
+  }
+
+  /* Glow effects per engine */
+  .glow-hub { box-shadow: 0 0 60px rgba(16, 185, 129, 0.5); }
+  .glow-platform { box-shadow: 0 0 40px rgba(59, 130, 246, 0.4); }
+  .glow-brand { box-shadow: 0 0 40px rgba(6, 182, 212, 0.4); }
+  .glow-sales { box-shadow: 0 0 40px rgba(239, 68, 68, 0.4); }
+  .glow-marketing { box-shadow: 0 0 40px rgba(244, 63, 94, 0.4); }
+  .glow-promo { box-shadow: 0 0 40px rgba(245, 158, 11, 0.4); }
+  .glow-authority { box-shadow: 0 0 40px rgba(139, 92, 246, 0.4); }
+  .glow-operations { box-shadow: 0 0 40px rgba(100, 116, 139, 0.4); }
+
+  /* Background orbs */
+  .bg-orb {
+    @apply absolute rounded-full blur-3xl opacity-30;
+    animation: float 20s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    25% { transform: translate(10px, -10px) scale(1.05); }
+    50% { transform: translate(-5px, 5px) scale(0.95); }
+    75% { transform: translate(-10px, -5px) scale(1.02); }
+  }
+}
+
+/* ReactFlow overrides */
+.react-flow__node {
+  cursor: pointer;
+}
+
+.react-flow__edge-path {
+  stroke-linecap: round;
+}
+
+.react-flow__edge.animated path {
+  stroke-dasharray: 5;
+  animation: dashdraw 0.5s linear infinite;
+}
+
+@keyframes dashdraw {
+  from {
+    stroke-dashoffset: 10;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.react-flow__background {
+  background-color: transparent !important;
+}
+
+.react-flow__controls {
+  @apply glass border-white/10;
+}
+
+.react-flow__controls-button {
+  @apply bg-white/5 border-white/10 text-white hover:bg-white/10;
+}
+
+.react-flow__controls-button svg {
+  fill: currentColor;
+}
+
+.react-flow__minimap {
+  @apply glass;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-900/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/20 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-white/30;
+}
+
+/* Selection styles */
+::selection {
+  @apply bg-hub/30;
+}
+
+/* Hub pulse animation */
+.hub-pulse {
+  animation: hubPulse 2s ease-in-out infinite;
+}
+
+@keyframes hubPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 60px rgba(16, 185, 129, 0.4),
+      0 0 120px rgba(16, 185, 129, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 80px rgba(16, 185, 129, 0.6),
+      0 0 150px rgba(16, 185, 129, 0.3);
+  }
+}
+
+/* Rotating gradient border for hub */
+.hub-gradient-border {
+  position: relative;
+}
+
+.hub-gradient-border::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  padding: 2px;
+  background: conic-gradient(
+    from 0deg,
+    var(--hub-color),
+    var(--authority-color),
+    var(--brand-color),
+    var(--sales-color),
+    var(--marketing-color),
+    var(--promo-color),
+    var(--platform-color),
+    var(--operations-color),
+    var(--hub-color)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: spin 8s linear infinite;
+}
