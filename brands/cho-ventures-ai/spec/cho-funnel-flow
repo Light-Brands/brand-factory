@@ -1,0 +1,113 @@
+# Tony Cho Personal Brand - Funnel Flow Chart
+
+**Multi-Channel Data Flow & Integration Map**
+
+## Overview
+
+This document describes the multi-channel funnel flow for Tony Cho Personal Brand, showing how different touchpoints integrate and feed into the marketing automation system.
+
+---
+
+## Flow Structure
+
+### Top Level
+**Tony Cho Personal Brand** (Central Hub)
+
+---
+
+## Primary Channels
+
+The personal brand funnel splits into four main channels:
+
+1. **Cho.Ventures Website**
+2. **Tony-Cho.com Website**
+3. **Instagram**
+4. **LinkedIn**
+5. **In Person**
+
+---
+
+## Channel Details & Data Flow
+
+### 1. Cho.Ventures Website
+**Entry Point:** Inquiry Form
+- **Action:** Submit
+- **Destination:** Tony Pipeline Monday Board
+
+### 2. Tony-Cho.com Website
+Multiple entry points and flows:
+
+#### Flow A: Inquiry Form
+- **Action:** Submit
+- **Destination:** Tony Pipeline Monday Board
+
+#### Flow B: Substack Subscriptions
+- **Action:** Subscribe
+- **Destination:** Substack
+
+#### Flow C: Generation Regeneration Summit
+- **Action:** Register
+- **Destination:** Google Sheets
+
+#### Flow D: Book Pre-Orders
+- **Action:** Pre-Order
+- **Destination:** Shopify
+
+### 3. Instagram
+**Entry Point:** IG Inquiries
+- **Destination:** Tony or ManyChat? TBD (To Be Determined)
+
+### 4. LinkedIn
+**Entry Point:** Tony or Darlene - sync with Monday pipeline?
+- **Status:** TBD / Question
+
+### 5. In Person
+**Entry Point:** Contact Collection
+- **Status:** Confirmed Destination
+
+---
+
+## Legend
+
+The flow chart uses color coding to distinguish different types of elements:
+
+- **Personal Brand** - Dark teal
+- **Website/Channels** - Teal
+- **Instagram** - Orange/Red
+- **LinkedIn** - Blue
+- **Forms** - Light green
+- **Confirmed Dest.** - Dark teal
+- **TBD / Question** - Light gray
+- **Cho Ventures** - Gray
+
+---
+
+## Integration Points
+
+### Marketing Automation Tools
+1. **Tony Pipeline Monday Board** - Central CRM/project management
+2. **Substack** - Newsletter and content subscriptions
+3. **Google Sheets** - Event registration data
+4. **Shopify** - E-commerce and pre-orders
+5. **ManyChat** - Potential Instagram automation (TBD)
+
+---
+
+## Notes
+
+- The funnel consolidates multiple touchpoints into centralized systems
+- Some integration points are still being determined (marked as TBD)
+- The Monday Board appears to be the central hub for inquiry management
+- Different channels use different tools based on their specific needs
+
+---
+
+## Questions to Resolve
+
+1. Instagram inquiries - Should they go to Tony directly or through ManyChat automation?
+2. LinkedIn contacts - How to sync with Monday pipeline? Should both Tony and Darlene have access?
+
+---
+
+*Created from: Funnel Flow Chart visualization*
+*Last Updated: [Add date when finalizing]*
