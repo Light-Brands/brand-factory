@@ -1,0 +1,276 @@
+# Future of Cities Lead Funnels Summary
+
+## Overview
+
+**Total Stats:**
+- 4 Total Brands
+- 35 Lead Channels
+- 14 Active/Automated
+- 21 Need Attention
+
+---
+
+## Lead Funnel Flow Map
+
+### Status Categories
+- **Active & Automated** - Fully operational with automated workflows
+- **Manual Processing** - Requires human intervention
+- **TBD - Needs Setup** - Requires configuration and DRI assignment
+
+---
+
+## Future of Cities
+
+**Platform:** WordPress
+
+### Forms & Channels
+
+#### Invest Form
+- **Destination:** Monday Board (Invest)
+- **Status:** ACTIVE
+- **DRI:** Michael
+
+#### Partner Form
+- **Destination:** Monday Board (Partner)
+- **Status:** ACTIVE
+- **DRI:** Amy
+
+#### Advocate Form
+- **Destination:** Monday Board (Advocate)
+- **Status:** ACTIVE
+- **DRI:** Amy
+
+#### Hub Office Inquiries
+- **Destination:** Monday Board (Hub)
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### Newsletter Subscriptions
+- **Destination:** Google Sheets
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### Email Marketing Database
+- **Destination:** Klaviyo
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### General Inbound Email
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### Klaviyo Warm Outreach
+- **Destination:** Monday Board (TBD)
+- **Status:** ACTIVE
+- **DRI:** Michael & Luka
+
+#### Apollo.io Cold Outreach
+- **Destination:** Monday Board (TBD)
+- **Status:** ACTIVE
+- **DRI:** Luka
+
+#### LinkedIn
+- **Destination:** Manual Processing
+- **Status:** MANUAL
+- **DRI:** TBD
+
+#### Strategic Partnerships & Ecosystem Manager(s)
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** TBD - multi
+
+#### Product Manager(s) - Physical and Digital
+- **Products:** Book, Course, Certification, Summit and Membership Platform
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** TBD - multi
+
+#### Investor Relationships Manager
+- **Destination:** Manual Processing
+- **Status:** MANUAL
+- **DRI:** Dave & Felicita
+
+#### Phone System
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+---
+
+## PHXJAX
+
+**Platform:** Squarespace
+
+### Forms & Channels
+
+#### PHXJAX Inquiry Form
+- **Destination:** PHXJAX Monday Board
+- **Status:** ACTIVE
+- **DRI:** Emily
+
+#### Instagram
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** Emily & Brittany
+
+#### LinkedIn
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** Emily & Brittany
+
+#### Loopnet
+- **Destination:** Andres → Emily → PHXJAX Monday Board
+- **Status:** MANUAL
+- **DRI:** Andres → Emily
+
+#### Phone System
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+---
+
+## Friends of PHXJAX
+
+**Platform:** Squarespace
+
+### Forms & Channels
+
+#### Website Forms
+- **Destination:** PHXJAX Monday Board
+- **Status:** ACTIVE
+- **DRI:** Emily
+
+#### BloomLabs Landing Page
+- **Destination:** Google Form → Google Sheet
+- **Status:** ACTIVE
+- **DRI:** Emily
+
+---
+
+## ChoZen Center for Regenerative Living
+
+**Platform:** Squarespace → WordPress (migrating)
+
+### Forms & Channels
+
+#### Contact Forms
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** Dave & Felicita
+
+#### Newsletter Subscriptions
+- **Destination:** Google Sheets
+- **Status:** ACTIVE
+- **DRI:** Bruno, Luka, Rich
+
+#### Volunteer Form
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### Vendor Form
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+#### Eventbrite
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** Dave & Felicita
+
+#### Instagram DMs
+- **Destination:** ManyChat → TBD
+- **Status:** ACTIVE
+- **DRI:** Dave & Felicita
+
+#### LinkedIn DMs
+- **Destination:** Manual Processing
+- **Status:** ACTIVE
+- **DRI:** Dave & Felicita
+
+#### Facebook
+- **Destination:** Manual Processing
+- **Status:** ACTIVE
+- **DRI:** Dave & Felicita
+
+#### Community Management
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** TBD
+
+#### Influencers, Partnerships & Relationship Management
+- **Destination:** TBD
+- **Status:** TBD
+- **DRI:** TBD
+
+#### Phone System
+- **Destination:** TBD
+- **Status:** ACTIVE
+- **DRI:** TBD
+
+---
+
+## Priority Action Items
+
+1. Assign DRI for Future of Cities Hub Office Inquiries
+2. Assign DRI for Future of Cities LinkedIn manual processing
+3. Define Monday Board destination for Klaviyo warm outreach responses (DRI: Michael & Luka)
+4. Define Monday Board destination for Apollo.io cold outreach and set up notifications (DRI: Luka)
+5. Determine destination for Future of Cities general inbound emails
+6. Set up automation and destination for PHXJAX Instagram & LinkedIn (DRI: Emily & Brittany)
+7. Assign DRIs for ChoZen Center Volunteer and Vendor forms (currently TBD)
+8. Set up routing destinations for ChoZen Center: Contact Forms, Volunteer Form, Vendor Form, and Eventbrite (DRI: Dave & Felicita)
+9. Assign DRIs and set up destinations for all 3 Phone Systems (Future of Cities, PHXJAX, ChoZen Center)
+
+---
+
+## Implementation Plan
+
+**Progress:** 0/4 Steps Ready
+- 3 High Priority Items
+- 21 Info Items Needed
+- 8 Active Blockers
+
+### How to Use This Plan
+
+Click on each step below to expand and see detailed information requirements, technical needs, and current blockers. Use this as a checklist to gather the necessary information from your team before implementation begins.
+
+---
+
+### 0. Finalize DRI Assignments
+
+**Priority:** HIGH | **Effort:** Small | **Progress:** 0/7 Info Complete
+
+Assign Designated Responsible Individuals (DRIs) for all channels currently marked as TBD to ensure clear ownership and accountability.
+
+#### Required Information
+
+- **Future of Cities - Hub Office Inquiries**
+  - Currently TBD - Need to assign DRI for Hub Office inquiry management and monitoring
+
+- **Future of Cities - LinkedIn**
+  - Currently TBD - Need to assign DRI for LinkedIn manual processing and engagement
+
+- **Future of Cities - Phone System**
+  - Currently TBD - Need to assign DRI for phone system management and call routing
+
+- **PHXJAX - Phone System**
+  - Currently TBD - Need to assign DRI for PHXJAX phone system and inquiry handling
+
+- **ChoZen Center - Volunteer Form**
+  - Currently TBD - Need to assign DRI for volunteer form processing and follow-up
+
+- **ChoZen Center - Vendor Form**
+  - Currently TBD - Need to assign DRI for vendor form submissions and vendor relationships
+
+- **ChoZen Center - Phone System**
+  - Currently TBD - Need to assign DRI for ChoZen Center phone system management
+
+#### Technical Requirements
+
+- Update lead funnel flow map with finalized DRI assignments
+- Document DRI responsibilities and response time expectations for each channel
+- Create onboarding materials for each DRI role with platform access and workflow documentation
+- Set up notification systems (email, Slack, etc.) for each
