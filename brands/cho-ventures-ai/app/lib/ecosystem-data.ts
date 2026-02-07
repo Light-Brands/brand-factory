@@ -1,5 +1,9 @@
-export type EntityCategory = 'hub' | 'real-estate' | 'regenerative' | 'authority' | 'philanthropy';
+export type EntityCategory = 'hub' | 'real-estate' | 'regenerative' | 'authority' | 'philanthropy' | 'ip' | 'personal-brand' | 'donor-advised-fund' | 'demonstration' | 'development';
 export type EntityStatus = 'active' | 'planned' | 'foundation';
+export type EntityZone = 'cv' | 'foc' | 'shared' | 'bridge';
+export type EntityTier = 'conglomerate' | 'sub-entity' | 'bridge';
+export type RelationshipRole = 'investor' | 'developer' | 'donor' | 'in-kind-donor'
+  | 'donor-advised-fund' | 'demonstration' | 'ai-integration' | 'content-flow';
 
 export interface Entity {
   id: string;
@@ -10,6 +14,9 @@ export interface Entity {
   tagline: string;
   description: string;
   location?: string;
+  zone: EntityZone;
+  tier: EntityTier;
+  parentConglomerates?: string[];
   metrics?: {
     label: string;
     value: string;
@@ -23,23 +30,27 @@ export interface Connection {
   id: string;
   source: string;
   target: string;
-  type: 'primary' | 'secondary' | 'data-flow';
+  type: 'conglomerate-link' | 'sub-entity' | 'cross-entity' | 'ai-bridge' | 'data-flow';
+  role: RelationshipRole;
   label?: string;
   bidirectional: boolean;
 }
 
 export const entities: Entity[] = [
+  // === CONGLOMERATES + BRIDGE (3) ===
   {
     id: 'cho-ventures',
     name: 'Cho Ventures',
     shortName: 'CHO',
     category: 'hub',
     status: 'active',
-    tagline: 'AI-Powered Command Center',
-    description: 'The central nervous system connecting all Cho Ventures entities. A unified CRM, AI orchestration, content engine, and analytics dashboard that enables seamless cross-entity experiences and operational efficiency.',
+    tagline: 'Family Office & Investment Platform',
+    description: 'The Cho Ventures family office orchestrates a portfolio of investments, brands, and philanthropic vehicles spanning real estate, regenerative living, thought leadership, and community development.',
     location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'conglomerate',
     metrics: [
-      { label: 'Entities Connected', value: '10+' },
+      { label: 'Entities Managed', value: '15+' },
       { label: 'Cross-Entity Intelligence', value: 'Real-time' },
       { label: 'Community Members', value: '10,000+' },
       { label: 'AI Automations', value: '50+' },
@@ -51,18 +62,77 @@ export const entities: Entity[] = [
       'Real-time analytics dashboard',
       'Cross-entity referral engine',
     ],
-    connections: ['metro-1', 'future-of-cities', 'phx-jax', 'climate-hub', 'chozen-retreat', 'chozen-community', 'book-platform', 'course-platform', 'speaking-media', 'cho-foundation', 'm1-fund'],
+    connections: ['ai-system', 'future-of-cities', 'metro-1', 'chozen-ip', 'tony-cho-brand', 'ximena-cho-fund', 'cho-foundation', 'chozen-retreat', 'chozen-community', 'book-platform', 'course-platform', 'speaking-media', 'm1-fund', 'climate-hub', 'phx-jax', 'ccrl', 'friends-of-phx'],
     icon: 'hub',
   },
+  {
+    id: 'ai-system',
+    name: 'AI Super Intelligent System',
+    shortName: 'AI',
+    category: 'hub',
+    status: 'active',
+    tagline: 'Communication & Intelligence Layer',
+    description: 'The AI Super Intelligent System serves as the bridge between Cho Ventures and Future of Cities, providing unified intelligence, automated workflows, content generation, and cross-conglomerate analytics.',
+    location: 'Cloud',
+    zone: 'bridge',
+    tier: 'bridge',
+    metrics: [
+      { label: 'Integrations', value: '19 Entities' },
+      { label: 'Data Flows', value: 'Real-time' },
+      { label: 'Automations', value: '100+' },
+      { label: 'Intelligence', value: 'Cross-Entity' },
+    ],
+    aiApplications: [
+      'Cross-conglomerate data orchestration',
+      'Unified CRM and lead intelligence',
+      'Automated content pipeline',
+      'Predictive analytics across all entities',
+      'AI-powered decision support',
+    ],
+    connections: ['cho-ventures', 'future-of-cities'],
+    icon: 'brain',
+  },
+  {
+    id: 'future-of-cities',
+    name: 'Future of Cities',
+    shortName: 'FoC',
+    category: 'real-estate',
+    status: 'active',
+    tagline: 'Regenerative Real Estate Developer',
+    description: 'Future of Cities is a regenerative real estate development consortium creating ESG-compliant developments that demonstrate how real estate can serve people, planet, and profit across multiple cities.',
+    location: 'Multi-City',
+    zone: 'foc',
+    tier: 'conglomerate',
+    metrics: [
+      { label: 'Projects', value: '12+' },
+      { label: 'Focus', value: 'ESG Development' },
+      { label: 'Impact', value: 'Regenerative' },
+      { label: 'Expansion', value: 'International' },
+    ],
+    aiApplications: [
+      'ESG trend analysis and monitoring',
+      'Stakeholder communication automation',
+      'Sustainability impact reporting',
+      'Investor relations personalization',
+      'Policy monitoring and alerts',
+    ],
+    connections: ['ai-system', 'cho-ventures', 'chozen-sebastian', 'foc-portugal', 'climate-hub', 'phx-jax', 'ccrl', 'friends-of-phx'],
+    icon: 'city',
+  },
+
+  // === CV-EXCLUSIVE SUB-ENTITIES (11) ===
   {
     id: 'metro-1',
     name: 'Metro 1 Commercial',
     shortName: 'M1',
     category: 'real-estate',
     status: 'active',
-    tagline: 'Miami\'s Premier Commercial Brokerage',
-    description: 'A leading commercial real estate brokerage pioneering regenerative development in Miami\'s urban core. Known for transformative work in Wynwood and beyond.',
+    tagline: "Miami's Premier Commercial Brokerage",
+    description: "A leading commercial real estate brokerage pioneering regenerative development in Miami's urban core. Known for transformative work in Wynwood and beyond.",
     location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Transactions', value: '$4B+' },
       { label: 'Experience', value: '25+ Years' },
@@ -76,83 +146,99 @@ export const entities: Entity[] = [
       'Automated follow-up sequences',
       'Cross-entity client referrals',
     ],
-    connections: ['cho-ventures', 'future-of-cities', 'climate-hub'],
+    connections: ['cho-ventures', 'climate-hub'],
     icon: 'building',
   },
   {
-    id: 'future-of-cities',
-    name: 'Future of Cities',
-    shortName: 'FoC',
-    category: 'real-estate',
+    id: 'chozen-ip',
+    name: 'ChoZen IP',
+    shortName: 'ZIP',
+    category: 'ip',
     status: 'active',
-    tagline: 'ESG Development Consortium',
-    description: 'A development consortium focused on creating regenerative, ESG-compliant developments that demonstrate how real estate can serve people, planet, and profit.',
-    location: 'Multi-City',
+    tagline: 'Intellectual Property Portfolio',
+    description: 'The centralized intellectual property holding entity for the ChoZen brand family, managing trademarks, licensing, and brand protection across all ventures.',
+    location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
-      { label: 'Projects', value: '12+' },
-      { label: 'Focus', value: 'ESG Development' },
-      { label: 'Impact', value: 'Regenerative' },
-      { label: 'Expansion', value: 'National' },
+      { label: 'Trademarks', value: 'Multiple' },
+      { label: 'Brands', value: 'ChoZen Family' },
+      { label: 'Protection', value: 'Global' },
+      { label: 'Licensing', value: 'Active' },
     ],
-    aiApplications: [
-      'ESG trend analysis and monitoring',
-      'Stakeholder communication automation',
-      'Sustainability impact reporting',
-      'Investor relations personalization',
-      'Policy monitoring and alerts',
-    ],
-    connections: ['cho-ventures', 'metro-1', 'phx-jax', 'climate-hub'],
-    icon: 'city',
+    connections: ['cho-ventures'],
+    icon: 'shield',
   },
   {
-    id: 'phx-jax',
-    name: 'PHX-JAX District',
-    shortName: 'PHX',
-    category: 'real-estate',
+    id: 'tony-cho-brand',
+    name: 'Tony Cho Personal Brand',
+    shortName: 'TC',
+    category: 'personal-brand',
     status: 'active',
-    tagline: 'Arts & Innovation Campus',
-    description: 'An 8.5-acre mixed-use development in Jacksonville creating a vibrant arts, innovation, and creative workspace campus that brings community together.',
-    location: 'Jacksonville, FL',
+    tagline: 'Thought Leader & Visionary',
+    description: "Tony Cho's personal brand as a regenerative development visionary, speaker, author, and community builder driving the mission across all ventures.",
+    location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
-      { label: 'Campus Size', value: '8.5 Acres' },
-      { label: 'Focus', value: 'Arts & Innovation' },
-      { label: 'Type', value: 'Mixed-Use' },
-      { label: 'Community', value: 'Growing' },
+      { label: 'Followers', value: 'Growing' },
+      { label: 'Speaking', value: '24+/Year' },
+      { label: 'Media', value: 'Global' },
+      { label: 'Influence', value: 'Expanding' },
     ],
-    aiApplications: [
-      'Tenant prospecting and matching',
-      'Event marketing automation',
-      'Community building facilitation',
-      'Space optimization analytics',
-      'Predictive maintenance',
-    ],
-    connections: ['cho-ventures', 'future-of-cities'],
-    icon: 'warehouse',
+    connections: ['cho-ventures', 'speaking-media', 'book-platform'],
+    icon: 'user',
   },
   {
-    id: 'climate-hub',
-    name: 'Climate + Innovation HUB',
-    shortName: 'HUB',
-    category: 'real-estate',
+    id: 'ximena-cho-fund',
+    name: 'Ximena Cho Legacy Fund',
+    shortName: 'XCF',
+    category: 'donor-advised-fund',
     status: 'active',
-    tagline: 'Miami Climate Tech Incubator',
-    description: 'An innovation center in Little Haiti focused on climate tech incubation, startup acceleration, and programming that addresses environmental challenges.',
-    location: 'Miami (Little Haiti)',
+    tagline: 'Next-Generation Philanthropy',
+    description: 'A donor-advised fund honoring the Cho family legacy, focused on environmental conservation, education, and community development for future generations.',
+    location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
-      { label: 'Focus', value: 'Climate Tech' },
-      { label: 'Startups', value: '50+' },
-      { label: 'Programs', value: 'Incubation' },
-      { label: 'Impact', value: 'Global' },
+      { label: 'Type', value: 'DAF' },
+      { label: 'Focus', value: 'Legacy' },
+      { label: 'Impact', value: 'Growing' },
+      { label: 'Generation', value: 'Next-Gen' },
+    ],
+    connections: ['cho-ventures', 'cho-foundation'],
+    icon: 'wallet',
+  },
+  {
+    id: 'cho-foundation',
+    name: 'Cho Family Foundation',
+    shortName: 'CFF',
+    category: 'donor-advised-fund',
+    status: 'active',
+    tagline: 'Environmental & Cultural Impact',
+    description: 'A 501(c)(3) foundation supporting environmental conservation, wildlife protection, and indigenous culture preservation.',
+    location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
+    metrics: [
+      { label: 'Type', value: '501(c)(3)' },
+      { label: 'Focus', value: 'Environment & Culture' },
+      { label: 'Programs', value: 'Multiple' },
+      { label: 'Impact', value: 'Growing' },
     ],
     aiApplications: [
-      'Startup screening and evaluation',
-      'Mentor-startup matching',
-      'Investor matching algorithms',
-      'Program personalization',
-      'Impact measurement tracking',
+      'Donor scoring and cultivation',
+      'Grant application screening',
+      'Impact story generation',
+      'Donor communication personalization',
+      'Program-donor matching',
     ],
-    connections: ['cho-ventures', 'metro-1', 'future-of-cities', 'cho-foundation'],
-    icon: 'leaf',
+    connections: ['cho-ventures', 'ximena-cho-fund', 'm1-fund'],
+    icon: 'heart',
   },
   {
     id: 'chozen-retreat',
@@ -163,6 +249,9 @@ export const entities: Entity[] = [
     tagline: 'Regenerative Wellness Sanctuary',
     description: 'A 40-acre wellness retreat and eco-tourism destination in Sebastian, FL. A living laboratory for regenerative living and Blue Zone principles.',
     location: 'Sebastian, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Property', value: '40 Acres' },
       { label: 'Experience', value: 'Wellness' },
@@ -188,6 +277,9 @@ export const entities: Entity[] = [
     tagline: 'Member Engagement Platform',
     description: 'A dedicated community app connecting ChoZen members, retreat guests, and regenerative living practitioners in a vibrant digital ecosystem.',
     location: 'Digital',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Target', value: '10,000+ Members' },
       { label: 'Features', value: 'Full Platform' },
@@ -206,13 +298,16 @@ export const entities: Entity[] = [
   },
   {
     id: 'book-platform',
-    name: 'Tony\'s Book',
+    name: "Tony's Book",
     shortName: 'BOOK',
     category: 'authority',
     status: 'planned',
     tagline: 'Regenerative Living Philosophy',
-    description: 'Tony Cho\'s upcoming book codifying his philosophy of regenerative living, placemaking, and building communities that thrive.',
+    description: "Tony Cho's upcoming book codifying his philosophy of regenerative living, placemaking, and building communities that thrive.",
     location: 'Publishing',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Topic', value: 'Regenerative Living' },
       { label: 'Audience', value: 'Global' },
@@ -226,7 +321,7 @@ export const entities: Entity[] = [
       'Reader-to-student conversion',
       'Review generation and monitoring',
     ],
-    connections: ['cho-ventures', 'course-platform', 'speaking-media', 'chozen-retreat'],
+    connections: ['cho-ventures', 'course-platform', 'speaking-media', 'chozen-retreat', 'tony-cho-brand'],
     icon: 'book',
   },
   {
@@ -238,6 +333,9 @@ export const entities: Entity[] = [
     tagline: 'Learn Regenerative Principles',
     description: 'An online learning platform teaching regenerative development principles, with certification paths and direct connections to the ChoZen ecosystem.',
     location: 'Digital',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Format', value: 'Online Learning' },
       { label: 'Goal', value: '1,000+ Students' },
@@ -261,8 +359,11 @@ export const entities: Entity[] = [
     category: 'authority',
     status: 'active',
     tagline: 'Thought Leadership Engine',
-    description: 'Tony\'s speaking engagements, podcast appearances, and media presence amplifying the regenerative development message globally.',
+    description: "Tony's speaking engagements, podcast appearances, and media presence amplifying the regenerative development message globally.",
     location: 'Global',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Engagements', value: '24+/Year' },
       { label: 'Podcasts', value: '50+/Year' },
@@ -276,33 +377,8 @@ export const entities: Entity[] = [
       'Content repurposing',
       'Opportunity identification',
     ],
-    connections: ['cho-ventures', 'book-platform'],
+    connections: ['cho-ventures', 'book-platform', 'tony-cho-brand'],
     icon: 'mic',
-  },
-  {
-    id: 'cho-foundation',
-    name: 'Cho Family Foundation',
-    shortName: 'CFF',
-    category: 'philanthropy',
-    status: 'active',
-    tagline: 'Environmental & Cultural Impact',
-    description: 'A 501(c)(3) foundation supporting environmental conservation, wildlife protection, and indigenous culture preservation.',
-    location: 'Miami, FL',
-    metrics: [
-      { label: 'Type', value: '501(c)(3)' },
-      { label: 'Focus', value: 'Environment & Culture' },
-      { label: 'Programs', value: 'Multiple' },
-      { label: 'Impact', value: 'Growing' },
-    ],
-    aiApplications: [
-      'Donor scoring and cultivation',
-      'Grant application screening',
-      'Impact story generation',
-      'Donor communication personalization',
-      'Program-donor matching',
-    ],
-    connections: ['cho-ventures', 'm1-fund', 'climate-hub'],
-    icon: 'heart',
   },
   {
     id: 'm1-fund',
@@ -313,6 +389,9 @@ export const entities: Entity[] = [
     tagline: 'Community Relief & Support',
     description: 'A donor-advised fund providing community relief, small business support, and local impact in underserved Miami neighborhoods.',
     location: 'Miami, FL',
+    zone: 'cv',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures'],
     metrics: [
       { label: 'Type', value: 'Donor-Advised Fund' },
       { label: 'Focus', value: 'Community Relief' },
@@ -329,43 +408,198 @@ export const entities: Entity[] = [
     connections: ['cho-ventures', 'cho-foundation'],
     icon: 'handshake',
   },
+
+  // === FOC-EXCLUSIVE SUB-ENTITIES (2) ===
+  {
+    id: 'chozen-sebastian',
+    name: 'ChoZen Sebastian',
+    shortName: 'CZS',
+    category: 'demonstration',
+    status: 'planned',
+    tagline: 'Demonstration Community',
+    description: 'A demonstration regenerative community project in Sebastian, FL showcasing how Future of Cities principles can be applied to create sustainable, thriving neighborhoods.',
+    location: 'Sebastian, FL',
+    zone: 'foc',
+    tier: 'sub-entity',
+    parentConglomerates: ['future-of-cities'],
+    metrics: [
+      { label: 'Type', value: 'Demonstration' },
+      { label: 'Focus', value: 'Regenerative' },
+      { label: 'Location', value: 'Sebastian, FL' },
+      { label: 'Status', value: 'Planning' },
+    ],
+    connections: ['future-of-cities'],
+    icon: 'flask',
+  },
+  {
+    id: 'foc-portugal',
+    name: 'Future of Cities Portugal',
+    shortName: 'FoC-PT',
+    category: 'development',
+    status: 'planned',
+    tagline: 'European Expansion',
+    description: 'The international expansion of Future of Cities into Portugal, bringing regenerative development principles to European markets with culturally-adapted approaches.',
+    location: 'Portugal',
+    zone: 'foc',
+    tier: 'sub-entity',
+    parentConglomerates: ['future-of-cities'],
+    metrics: [
+      { label: 'Market', value: 'Portugal' },
+      { label: 'Focus', value: 'Expansion' },
+      { label: 'Type', value: 'Development' },
+      { label: 'Status', value: 'Planning' },
+    ],
+    connections: ['future-of-cities'],
+    icon: 'globe',
+  },
+
+  // === SHARED ENTITIES (4) ===
+  {
+    id: 'climate-hub',
+    name: 'Climate + Innovation HUB',
+    shortName: 'HUB',
+    category: 'hub',
+    status: 'active',
+    tagline: 'Miami Climate Tech Incubator',
+    description: 'An innovation center in Little Haiti focused on climate tech incubation, startup acceleration, and programming that addresses environmental challenges.',
+    location: 'Miami (Little Haiti)',
+    zone: 'shared',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures', 'future-of-cities'],
+    metrics: [
+      { label: 'Focus', value: 'Climate Tech' },
+      { label: 'Startups', value: '50+' },
+      { label: 'Programs', value: 'Incubation' },
+      { label: 'Impact', value: 'Global' },
+    ],
+    aiApplications: [
+      'Startup screening and evaluation',
+      'Mentor-startup matching',
+      'Investor matching algorithms',
+      'Program personalization',
+      'Impact measurement tracking',
+    ],
+    connections: ['cho-ventures', 'future-of-cities', 'metro-1'],
+    icon: 'leaf',
+  },
+  {
+    id: 'phx-jax',
+    name: 'PHX-JAX District',
+    shortName: 'PHX',
+    category: 'real-estate',
+    status: 'active',
+    tagline: 'Arts & Innovation Campus',
+    description: 'An 8.5-acre mixed-use development in Jacksonville creating a vibrant arts, innovation, and creative workspace campus that brings community together.',
+    location: 'Jacksonville, FL',
+    zone: 'shared',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures', 'future-of-cities'],
+    metrics: [
+      { label: 'Campus Size', value: '8.5 Acres' },
+      { label: 'Focus', value: 'Arts & Innovation' },
+      { label: 'Type', value: 'Mixed-Use' },
+      { label: 'Community', value: 'Growing' },
+    ],
+    aiApplications: [
+      'Tenant prospecting and matching',
+      'Event marketing automation',
+      'Community building facilitation',
+      'Space optimization analytics',
+      'Predictive maintenance',
+    ],
+    connections: ['cho-ventures', 'future-of-cities'],
+    icon: 'warehouse',
+  },
+  {
+    id: 'ccrl',
+    name: 'CCRL',
+    shortName: 'CCRL',
+    category: 'philanthropy',
+    status: 'active',
+    tagline: 'Community Reinvestment',
+    description: 'Community reinvestment organization working at the intersection of real estate development and community benefit, receiving support from both Cho Ventures and Future of Cities.',
+    location: 'Miami, FL',
+    zone: 'shared',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures', 'future-of-cities'],
+    metrics: [
+      { label: 'Focus', value: 'Reinvestment' },
+      { label: 'Impact', value: 'Community' },
+      { label: 'Support', value: 'Dual' },
+      { label: 'Area', value: 'Miami' },
+    ],
+    connections: ['cho-ventures', 'future-of-cities'],
+    icon: 'landmark',
+  },
+  {
+    id: 'friends-of-phx',
+    name: 'Friends of PHX',
+    shortName: 'FoPHX',
+    category: 'philanthropy',
+    status: 'active',
+    tagline: 'Community Advocacy',
+    description: 'A community advocacy and support organization aligned with the PHX-JAX District, connecting neighbors, artists, and innovators with development opportunities.',
+    location: 'Jacksonville, FL',
+    zone: 'shared',
+    tier: 'sub-entity',
+    parentConglomerates: ['cho-ventures', 'future-of-cities'],
+    metrics: [
+      { label: 'Focus', value: 'Advocacy' },
+      { label: 'Community', value: 'PHX-JAX' },
+      { label: 'Support', value: 'Dual' },
+      { label: 'Engagement', value: 'Active' },
+    ],
+    connections: ['cho-ventures', 'future-of-cities', 'phx-jax'],
+    icon: 'map-pin',
+  },
 ];
 
 export const connections: Connection[] = [
-  // Hub connections (primary)
-  { id: 'hub-m1', source: 'cho-ventures', target: 'metro-1', type: 'primary', bidirectional: true },
-  { id: 'hub-foc', source: 'cho-ventures', target: 'future-of-cities', type: 'primary', bidirectional: true },
-  { id: 'hub-phx', source: 'cho-ventures', target: 'phx-jax', type: 'primary', bidirectional: true },
-  { id: 'hub-climate', source: 'cho-ventures', target: 'climate-hub', type: 'primary', bidirectional: true },
-  { id: 'hub-retreat', source: 'cho-ventures', target: 'chozen-retreat', type: 'primary', bidirectional: true },
-  { id: 'hub-community', source: 'cho-ventures', target: 'chozen-community', type: 'primary', bidirectional: true },
-  { id: 'hub-book', source: 'cho-ventures', target: 'book-platform', type: 'primary', bidirectional: true },
-  { id: 'hub-course', source: 'cho-ventures', target: 'course-platform', type: 'primary', bidirectional: true },
-  { id: 'hub-speaking', source: 'cho-ventures', target: 'speaking-media', type: 'primary', bidirectional: true },
-  { id: 'hub-foundation', source: 'cho-ventures', target: 'cho-foundation', type: 'primary', bidirectional: true },
-  { id: 'hub-m1fund', source: 'cho-ventures', target: 'm1-fund', type: 'primary', bidirectional: true },
+  // === AI BRIDGE CONNECTIONS (2) ===
+  { id: 'ai-cv', source: 'ai-system', target: 'cho-ventures', type: 'ai-bridge', role: 'ai-integration', label: 'AI Intelligence', bidirectional: true },
+  { id: 'ai-foc', source: 'ai-system', target: 'future-of-cities', type: 'ai-bridge', role: 'ai-integration', label: 'AI Intelligence', bidirectional: true },
 
-  // Real estate cluster
-  { id: 'm1-foc', source: 'metro-1', target: 'future-of-cities', type: 'secondary', bidirectional: true },
-  { id: 'm1-climate', source: 'metro-1', target: 'climate-hub', type: 'secondary', bidirectional: true },
-  { id: 'foc-phx', source: 'future-of-cities', target: 'phx-jax', type: 'secondary', bidirectional: true },
-  { id: 'foc-climate', source: 'future-of-cities', target: 'climate-hub', type: 'secondary', bidirectional: true },
+  // === CONGLOMERATE LINK (1) ===
+  { id: 'cv-foc', source: 'cho-ventures', target: 'future-of-cities', type: 'conglomerate-link', role: 'investor', label: 'Investor', bidirectional: false },
 
-  // Regenerative cluster
-  { id: 'retreat-community', source: 'chozen-retreat', target: 'chozen-community', type: 'secondary', bidirectional: true },
-  { id: 'retreat-course', source: 'chozen-retreat', target: 'course-platform', type: 'secondary', bidirectional: true },
+  // === CV SUB-ENTITY CONNECTIONS (11) ===
+  { id: 'cv-m1', source: 'cho-ventures', target: 'metro-1', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-ip', source: 'cho-ventures', target: 'chozen-ip', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-tony', source: 'cho-ventures', target: 'tony-cho-brand', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-ximena', source: 'cho-ventures', target: 'ximena-cho-fund', type: 'sub-entity', role: 'donor-advised-fund', bidirectional: false },
+  { id: 'cv-foundation', source: 'cho-ventures', target: 'cho-foundation', type: 'sub-entity', role: 'donor', bidirectional: false },
+  { id: 'cv-retreat', source: 'cho-ventures', target: 'chozen-retreat', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-community', source: 'cho-ventures', target: 'chozen-community', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-book', source: 'cho-ventures', target: 'book-platform', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-course', source: 'cho-ventures', target: 'course-platform', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-speaking', source: 'cho-ventures', target: 'speaking-media', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'cv-m1fund', source: 'cho-ventures', target: 'm1-fund', type: 'sub-entity', role: 'donor', bidirectional: false },
 
-  // Authority cluster
-  { id: 'book-course', source: 'book-platform', target: 'course-platform', type: 'secondary', bidirectional: true },
-  { id: 'book-speaking', source: 'book-platform', target: 'speaking-media', type: 'secondary', bidirectional: true },
-  { id: 'course-community', source: 'course-platform', target: 'chozen-community', type: 'secondary', bidirectional: true },
+  // === FOC SUB-ENTITY CONNECTIONS (2) ===
+  { id: 'foc-sebastian', source: 'future-of-cities', target: 'chozen-sebastian', type: 'sub-entity', role: 'demonstration', bidirectional: false },
+  { id: 'foc-pt', source: 'future-of-cities', target: 'foc-portugal', type: 'sub-entity', role: 'developer', bidirectional: false },
 
-  // Philanthropy cluster
-  { id: 'foundation-m1fund', source: 'cho-foundation', target: 'm1-fund', type: 'secondary', bidirectional: true },
-  { id: 'foundation-climate', source: 'cho-foundation', target: 'climate-hub', type: 'secondary', bidirectional: true },
+  // === SHARED ENTITY CONNECTIONS (8) ===
+  { id: 'cv-hub', source: 'cho-ventures', target: 'climate-hub', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'foc-hub', source: 'future-of-cities', target: 'climate-hub', type: 'sub-entity', role: 'developer', bidirectional: false },
+  { id: 'cv-phx', source: 'cho-ventures', target: 'phx-jax', type: 'sub-entity', role: 'investor', bidirectional: false },
+  { id: 'foc-phx', source: 'future-of-cities', target: 'phx-jax', type: 'sub-entity', role: 'developer', bidirectional: false },
+  { id: 'cv-ccrl', source: 'cho-ventures', target: 'ccrl', type: 'sub-entity', role: 'donor', bidirectional: false },
+  { id: 'foc-ccrl', source: 'future-of-cities', target: 'ccrl', type: 'sub-entity', role: 'in-kind-donor', bidirectional: false },
+  { id: 'cv-fophx', source: 'cho-ventures', target: 'friends-of-phx', type: 'sub-entity', role: 'donor', bidirectional: false },
+  { id: 'foc-fophx', source: 'future-of-cities', target: 'friends-of-phx', type: 'sub-entity', role: 'in-kind-donor', bidirectional: false },
 
-  // Cross-cluster data flows
-  { id: 'retreat-book', source: 'chozen-retreat', target: 'book-platform', type: 'data-flow', label: 'Content', bidirectional: false },
+  // === CROSS-ENTITY CONNECTIONS (6) ===
+  { id: 'retreat-community', source: 'chozen-retreat', target: 'chozen-community', type: 'cross-entity', role: 'content-flow', label: 'Members', bidirectional: true },
+  { id: 'retreat-course', source: 'chozen-retreat', target: 'course-platform', type: 'cross-entity', role: 'content-flow', label: 'Content', bidirectional: true },
+  { id: 'book-course', source: 'book-platform', target: 'course-platform', type: 'cross-entity', role: 'content-flow', label: 'Curriculum', bidirectional: true },
+  { id: 'book-speaking', source: 'book-platform', target: 'speaking-media', type: 'cross-entity', role: 'content-flow', label: 'Content', bidirectional: true },
+  { id: 'tony-speaking', source: 'tony-cho-brand', target: 'speaking-media', type: 'cross-entity', role: 'content-flow', label: 'Brand', bidirectional: true },
+  { id: 'tony-book', source: 'tony-cho-brand', target: 'book-platform', type: 'cross-entity', role: 'content-flow', label: 'Author', bidirectional: true },
+  { id: 'ximena-foundation', source: 'ximena-cho-fund', target: 'cho-foundation', type: 'cross-entity', role: 'donor-advised-fund', label: 'DAF', bidirectional: true },
+  { id: 'foundation-m1fund', source: 'cho-foundation', target: 'm1-fund', type: 'cross-entity', role: 'donor', label: 'Grants', bidirectional: true },
+  { id: 'm1-hub', source: 'metro-1', target: 'climate-hub', type: 'cross-entity', role: 'investor', label: 'Referrals', bidirectional: true },
+  { id: 'fophx-phx', source: 'friends-of-phx', target: 'phx-jax', type: 'cross-entity', role: 'in-kind-donor', label: 'Advocacy', bidirectional: true },
 ];
 
 export const categoryLabels: Record<EntityCategory, string> = {
@@ -374,6 +608,11 @@ export const categoryLabels: Record<EntityCategory, string> = {
   'regenerative': 'Regenerative Living',
   'authority': 'Authority Platform',
   'philanthropy': 'Impact & Philanthropy',
+  'ip': 'Intellectual Property',
+  'personal-brand': 'Personal Brand',
+  'donor-advised-fund': 'Donor-Advised Fund',
+  'demonstration': 'Demonstration Project',
+  'development': 'Development',
 };
 
 export const categoryColors: Record<EntityCategory, { bg: string; text: string; border: string; glow: string }> = {
@@ -382,4 +621,45 @@ export const categoryColors: Record<EntityCategory, { bg: string; text: string; 
   'regenerative': { bg: 'bg-regenerative', text: 'text-regenerative-light', border: 'border-regenerative', glow: 'shadow-regenerative/50' },
   'authority': { bg: 'bg-authority', text: 'text-authority-light', border: 'border-authority', glow: 'shadow-authority/50' },
   'philanthropy': { bg: 'bg-philanthropy', text: 'text-philanthropy-light', border: 'border-philanthropy', glow: 'shadow-philanthropy/50' },
+  'ip': { bg: 'bg-cv-zone', text: 'text-cv-zone-light', border: 'border-cv-zone', glow: 'shadow-cv-zone/50' },
+  'personal-brand': { bg: 'bg-cv-zone', text: 'text-cv-zone-light', border: 'border-cv-zone', glow: 'shadow-cv-zone/50' },
+  'donor-advised-fund': { bg: 'bg-philanthropy', text: 'text-philanthropy-light', border: 'border-philanthropy', glow: 'shadow-philanthropy/50' },
+  'demonstration': { bg: 'bg-foc-zone', text: 'text-foc-zone-light', border: 'border-foc-zone', glow: 'shadow-foc-zone/50' },
+  'development': { bg: 'bg-foc-zone', text: 'text-foc-zone-light', border: 'border-foc-zone', glow: 'shadow-foc-zone/50' },
+};
+
+export const zoneLabels: Record<EntityZone, string> = {
+  'cv': 'Cho Ventures',
+  'foc': 'Future of Cities',
+  'shared': 'Shared Entity',
+  'bridge': 'AI Bridge',
+};
+
+export const zoneColors: Record<EntityZone, string> = {
+  'cv': '#EC4899',
+  'foc': '#10B981',
+  'shared': '#F59E0B',
+  'bridge': '#06B6D4',
+};
+
+export const roleLabels: Record<RelationshipRole, string> = {
+  'investor': 'Investor',
+  'developer': 'Developer',
+  'donor': 'Donor',
+  'in-kind-donor': 'In-Kind Donor',
+  'donor-advised-fund': 'DAF',
+  'demonstration': 'Demonstration',
+  'ai-integration': 'AI Integration',
+  'content-flow': 'Content Flow',
+};
+
+export const roleColors: Record<RelationshipRole, string> = {
+  'investor': '#3B82F6',
+  'developer': '#10B981',
+  'donor': '#8B5CF6',
+  'in-kind-donor': '#A78BFA',
+  'donor-advised-fund': '#EC4899',
+  'demonstration': '#F59E0B',
+  'ai-integration': '#06B6D4',
+  'content-flow': '#94A3B8',
 };

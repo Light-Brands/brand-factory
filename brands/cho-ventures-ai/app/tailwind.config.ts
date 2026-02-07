@@ -47,6 +47,31 @@ const config: Config = {
           dark: '#DB2777',
           glow: 'rgba(236, 72, 153, 0.5)',
         },
+        // Zone colors (dual-conglomerate architecture)
+        'cv-zone': {
+          DEFAULT: '#EC4899',
+          light: '#F472B6',
+          dark: '#DB2777',
+          glow: 'rgba(236, 72, 153, 0.4)',
+        },
+        'foc-zone': {
+          DEFAULT: '#10B981',
+          light: '#34D399',
+          dark: '#059669',
+          glow: 'rgba(16, 185, 129, 0.4)',
+        },
+        'bridge-zone': {
+          DEFAULT: '#06B6D4',
+          light: '#22D3EE',
+          dark: '#0891B2',
+          glow: 'rgba(6, 182, 212, 0.4)',
+        },
+        'shared-zone': {
+          DEFAULT: '#F59E0B',
+          light: '#FBBF24',
+          dark: '#D97706',
+          glow: 'rgba(245, 158, 11, 0.4)',
+        },
         // Accent colors
         'accent': {
           'cyan': '#06B6D4',

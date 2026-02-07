@@ -1,7 +1,15 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Entity, EntityCategory, categoryLabels, entities } from '@/lib/ecosystem-data';
+import {
+  Entity,
+  EntityZone,
+  entities,
+  connections,
+  zoneLabels,
+  roleLabels,
+  roleColors,
+} from '@/lib/ecosystem-data';
 import {
   X,
   MapPin,
@@ -20,6 +28,15 @@ import {
   Handshake,
   Cpu,
   Link,
+  Brain,
+  Globe,
+  User,
+  Wallet,
+  Landmark,
+  MapPinned,
+  FlaskConical,
+  Shield,
+  GitFork,
 } from 'lucide-react';
 
 interface EntityDetailPanelProps {
@@ -27,7 +44,7 @@ interface EntityDetailPanelProps {
   onClose: () => void;
 }
 
-const categoryStyles: Record<EntityCategory, {
+const zoneStyles: Record<EntityZone, {
   bg: string;
   border: string;
   text: string;
@@ -35,50 +52,43 @@ const categoryStyles: Record<EntityCategory, {
   gradientFrom: string;
   gradientTo: string;
 }> = {
-  hub: {
-    bg: 'bg-hub/10',
-    border: 'border-hub/30',
-    text: 'text-hub-light',
-    accent: 'text-hub',
-    gradientFrom: 'from-hub/20',
-    gradientTo: 'to-hub/5',
+  cv: {
+    bg: 'bg-cv-zone/10',
+    border: 'border-cv-zone/30',
+    text: 'text-cv-zone-light',
+    accent: 'text-cv-zone',
+    gradientFrom: 'from-cv-zone/20',
+    gradientTo: 'to-cv-zone/5',
   },
-  'real-estate': {
-    bg: 'bg-real-estate/10',
-    border: 'border-real-estate/30',
-    text: 'text-real-estate-light',
-    accent: 'text-real-estate',
-    gradientFrom: 'from-real-estate/20',
-    gradientTo: 'to-real-estate/5',
+  foc: {
+    bg: 'bg-foc-zone/10',
+    border: 'border-foc-zone/30',
+    text: 'text-foc-zone-light',
+    accent: 'text-foc-zone',
+    gradientFrom: 'from-foc-zone/20',
+    gradientTo: 'to-foc-zone/5',
   },
-  regenerative: {
-    bg: 'bg-regenerative/10',
-    border: 'border-regenerative/30',
-    text: 'text-regenerative-light',
-    accent: 'text-regenerative',
-    gradientFrom: 'from-regenerative/20',
-    gradientTo: 'to-regenerative/5',
+  bridge: {
+    bg: 'bg-bridge-zone/10',
+    border: 'border-bridge-zone/30',
+    text: 'text-bridge-zone-light',
+    accent: 'text-bridge-zone',
+    gradientFrom: 'from-bridge-zone/20',
+    gradientTo: 'to-bridge-zone/5',
   },
-  authority: {
-    bg: 'bg-authority/10',
-    border: 'border-authority/30',
-    text: 'text-authority-light',
-    accent: 'text-authority',
-    gradientFrom: 'from-authority/20',
-    gradientTo: 'to-authority/5',
-  },
-  philanthropy: {
-    bg: 'bg-philanthropy/10',
-    border: 'border-philanthropy/30',
-    text: 'text-philanthropy-light',
-    accent: 'text-philanthropy',
-    gradientFrom: 'from-philanthropy/20',
-    gradientTo: 'to-philanthropy/5',
+  shared: {
+    bg: 'bg-shared-zone/10',
+    border: 'border-shared-zone/30',
+    text: 'text-shared-zone-light',
+    accent: 'text-shared-zone',
+    gradientFrom: 'from-shared-zone/20',
+    gradientTo: 'to-shared-zone/5',
   },
 };
 
 const iconMap: Record<string, React.ElementType> = {
   hub: Sparkles,
+  brain: Brain,
   building: Building2,
   city: Building,
   warehouse: Warehouse,
@@ -90,15 +100,41 @@ const iconMap: Record<string, React.ElementType> = {
   mic: Mic,
   heart: Heart,
   handshake: Handshake,
+  globe: Globe,
+  user: User,
+  wallet: Wallet,
+  landmark: Landmark,
+  'map-pin': MapPinned,
+  flask: FlaskConical,
+  shield: Shield,
 };
 
 export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanelProps) {
-  const styles = categoryStyles[entity.category];
+  const styles = zoneStyles[entity.zone];
   const IconComponent = iconMap[entity.icon] || Sparkles;
 
   const connectedEntities = entity.connections
     .map(id => entities.find(e => e.id === id))
     .filter(Boolean) as Entity[];
+
+  // Get relationship roles for this entity
+  const entityConnections = connections.filter(
+    conn => conn.source === entity.id || conn.target === entity.id
+  );
+
+  // Get conglomerate membership info
+  const parentConglomerates = entity.parentConglomerates
+    ?.map(id => entities.find(e => e.id === id))
+    .filter(Boolean) as Entity[] | undefined;
+
+  // Footer text based on zone
+  const footerText = entity.zone === 'cv'
+    ? 'Part of the Cho Ventures portfolio'
+    : entity.zone === 'foc'
+      ? 'Part of Future of Cities'
+      : entity.zone === 'shared'
+        ? 'Shared between CV & FoC'
+        : 'AI Communication Bridge';
 
   return (
     <motion.div
@@ -130,7 +166,7 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
             <X className="w-5 h-5 text-white/60" />
           </button>
 
-          {/* Category badge */}
+          {/* Zone badge */}
           <div className={`
             inline-flex items-center gap-1.5
             text-xs font-medium uppercase tracking-wider
@@ -138,7 +174,7 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
             mb-4
           `}>
             <div className={`w-2 h-2 rounded-full ${styles.bg} ${styles.border} border`} />
-            {categoryLabels[entity.category]}
+            {zoneLabels[entity.zone]}
           </div>
 
           {/* Icon and title */}
@@ -195,6 +231,84 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
               {entity.description}
             </p>
           </div>
+
+          {/* Conglomerate Membership */}
+          {parentConglomerates && parentConglomerates.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-3 flex items-center gap-2">
+                <GitFork className="w-4 h-4" />
+                Conglomerate Membership
+              </h3>
+              <div className="space-y-2">
+                {parentConglomerates.map((parent) => {
+                  const parentZoneStyles = zoneStyles[parent.zone];
+                  const ParentIcon = iconMap[parent.icon] || Sparkles;
+                  return (
+                    <div
+                      key={parent.id}
+                      className={`
+                        flex items-center gap-3
+                        p-2 rounded-lg
+                        ${parentZoneStyles.bg}
+                        border ${parentZoneStyles.border}
+                      `}
+                    >
+                      <div className={`
+                        w-8 h-8 rounded-lg
+                        ${parentZoneStyles.bg}
+                        border ${parentZoneStyles.border}
+                        flex items-center justify-center
+                      `}>
+                        <ParentIcon className={`w-4 h-4 ${parentZoneStyles.text}`} />
+                      </div>
+                      <div>
+                        <div className="text-sm font-medium text-white">{parent.name}</div>
+                        <div className={`text-xs ${parentZoneStyles.text}`}>{zoneLabels[parent.zone]}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* Relationship Roles */}
+          {entityConnections.length > 0 && (
+            <div>
+              <h3 className="text-xs font-semibold text-white/40 uppercase tracking-wider mb-3 flex items-center gap-2">
+                <Link className="w-4 h-4" />
+                Relationship Roles
+              </h3>
+              <div className="space-y-2">
+                {entityConnections.slice(0, 8).map((conn) => {
+                  const otherId = conn.source === entity.id ? conn.target : conn.source;
+                  const otherEntity = entities.find(e => e.id === otherId);
+                  if (!otherEntity) return null;
+                  const direction = conn.source === entity.id ? 'to' : 'from';
+                  return (
+                    <div
+                      key={conn.id}
+                      className="flex items-center gap-2 p-2 rounded-lg bg-white/5 border border-white/5"
+                    >
+                      <span
+                        className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium text-white"
+                        style={{ backgroundColor: `${roleColors[conn.role]}30`, borderColor: `${roleColors[conn.role]}50`, borderWidth: 1 }}
+                      >
+                        {roleLabels[conn.role]}
+                      </span>
+                      <span className="text-xs text-white/40">{direction}</span>
+                      <span className="text-xs text-white/70 font-medium">{otherEntity.shortName}</span>
+                    </div>
+                  );
+                })}
+                {entityConnections.length > 8 && (
+                  <div className="text-xs text-white/40 text-center pt-1">
+                    +{entityConnections.length - 8} more roles
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
 
           {/* Metrics */}
           {entity.metrics && entity.metrics.length > 0 && (
@@ -254,7 +368,7 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
               </h3>
               <div className="space-y-2">
                 {connectedEntities.slice(0, 6).map((connected) => {
-                  const connectedStyles = categoryStyles[connected.category];
+                  const connectedZoneStyles = zoneStyles[connected.zone];
                   const ConnectedIcon = iconMap[connected.icon] || Sparkles;
                   return (
                     <div
@@ -270,18 +384,18 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
                     >
                       <div className={`
                         w-8 h-8 rounded-lg
-                        ${connectedStyles.bg}
-                        border ${connectedStyles.border}
+                        ${connectedZoneStyles.bg}
+                        border ${connectedZoneStyles.border}
                         flex items-center justify-center
                       `}>
-                        <ConnectedIcon className={`w-4 h-4 ${connectedStyles.text}`} />
+                        <ConnectedIcon className={`w-4 h-4 ${connectedZoneStyles.text}`} />
                       </div>
                       <div>
                         <div className="text-sm font-medium text-white">
                           {connected.name}
                         </div>
-                        <div className="text-xs text-white/40">
-                          {categoryLabels[connected.category]}
+                        <div className={`text-xs ${connectedZoneStyles.text}`}>
+                          {zoneLabels[connected.zone]}
                         </div>
                       </div>
                     </div>
@@ -305,7 +419,7 @@ export default function EntityDetailPanel({ entity, onClose }: EntityDetailPanel
         `}>
           <div className="flex items-center justify-between">
             <div className="text-xs text-white/30">
-              Part of the Cho Ventures ecosystem
+              {footerText}
             </div>
             <div className={`
               flex items-center gap-1

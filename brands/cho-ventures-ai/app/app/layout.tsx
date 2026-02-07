@@ -5,13 +5,13 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Cho Ventures Ecosystem | AI-Powered Regenerative Empire',
-  description: 'An interactive visualization of the Cho Ventures ecosystem - unifying real estate, regenerative living, thought leadership, and philanthropy through AI-powered intelligence.',
-  keywords: ['Cho Ventures', 'Tony Cho', 'regenerative development', 'Metro 1', 'ChoZen', 'ecosystem'],
+  title: 'Cho Ventures & Future of Cities | AI Super Intelligent Communication Layer',
+  description: 'Interactive dual-conglomerate ecosystem visualization — Cho Ventures (Family Office) and Future of Cities (RE Developer) connected through an AI Super Intelligent System.',
+  keywords: ['Cho Ventures', 'Future of Cities', 'Tony Cho', 'regenerative development', 'Metro 1', 'ChoZen', 'ecosystem', 'AI'],
   authors: [{ name: 'Light Brand Consulting' }],
   openGraph: {
-    title: 'Cho Ventures Ecosystem',
-    description: 'Visualizing the AI-powered regenerative empire',
+    title: 'Cho Ventures & Future of Cities Ecosystem',
+    description: 'Dual-conglomerate ecosystem powered by AI super intelligence',
     type: 'website',
     locale: 'en_US',
   },

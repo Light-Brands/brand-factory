@@ -14,7 +14,15 @@ import ReactFlow, {
 } from 'reactflow';
 import 'reactflow/dist/style.css';
 import { motion, AnimatePresence } from 'framer-motion';
-import { entities, connections, Entity, EntityCategory } from '@/lib/ecosystem-data';
+import {
+  entities,
+  connections,
+  Entity,
+  EntityZone,
+  zoneColors,
+  roleColors,
+  RelationshipRole,
+} from '@/lib/ecosystem-data';
 import EntityNode from './EntityNode';
 import EntityDetailPanel from './EntityDetailPanel';
 
@@ -22,67 +30,67 @@ const nodeTypes = {
   entity: EntityNode,
 };
 
-// Category colors for edges and nodes
-const categoryColorMap: Record<EntityCategory, string> = {
-  hub: '#EC4899',
-  'real-estate': '#3B82F6',
-  regenerative: '#10B981',
-  authority: '#F59E0B',
-  philanthropy: '#8B5CF6',
-};
-
-// Calculate node positions in a circular layout around the hub
-function calculateNodePositions(): Record<string, { x: number; y: number }> {
+// Three-column layout with arcs
+function calculateDualConglomerateLayout(): Record<string, { x: number; y: number }> {
   const positions: Record<string, { x: number; y: number }> = {};
+
+  // Three columns
+  const leftX = 200;
   const centerX = 600;
-  const centerY = 400;
+  const rightX = 1000;
+  const topY = 100;
 
-  // Hub at center
-  positions['cho-ventures'] = { x: centerX - 100, y: centerY - 50 };
+  // Conglomerate positions at top
+  positions['cho-ventures'] = { x: leftX - 100, y: topY };
+  positions['ai-system'] = { x: centerX - 120, y: topY - 20 };
+  positions['future-of-cities'] = { x: rightX - 100, y: topY };
 
-  // Group entities by category
-  const realEstate = ['metro-1', 'future-of-cities', 'phx-jax', 'climate-hub'];
-  const regenerative = ['chozen-retreat', 'chozen-community'];
-  const authority = ['book-platform', 'course-platform', 'speaking-media'];
-  const philanthropy = ['cho-foundation', 'm1-fund'];
-
-  // Position real estate entities (top-left quadrant)
-  const reRadius = 350;
-  realEstate.forEach((id, index) => {
-    const angle = (Math.PI * 1.25) + (index * Math.PI * 0.15);
+  // CV sub-entities: semicircular arc below CV node
+  const cvEntities = ['metro-1', 'chozen-ip', 'tony-cho-brand', 'ximena-cho-fund', 'cho-foundation', 'chozen-retreat', 'chozen-community', 'book-platform', 'course-platform', 'speaking-media', 'm1-fund'];
+  const cvRadius = 300;
+  const cvCenterX = leftX;
+  const cvCenterY = topY + 180;
+  cvEntities.forEach((id, index) => {
+    const totalEntities = cvEntities.length;
+    // Spread across semicircle below (from ~150deg to ~30deg, i.e., left to right below)
+    const startAngle = Math.PI * 0.15;
+    const endAngle = Math.PI * 0.85;
+    const angle = startAngle + (index / (totalEntities - 1)) * (endAngle - startAngle);
     positions[id] = {
-      x: centerX + Math.cos(angle) * reRadius - 80,
-      y: centerY + Math.sin(angle) * reRadius - 40,
+      x: cvCenterX + Math.cos(angle) * cvRadius - 80,
+      y: cvCenterY + Math.sin(angle) * cvRadius - 40,
     };
   });
 
-  // Position regenerative entities (top-right quadrant)
-  const regRadius = 320;
-  regenerative.forEach((id, index) => {
-    const angle = (Math.PI * 1.75) + (index * Math.PI * 0.2);
+  // FoC sub-entities: semicircular arc below FoC node
+  const focEntities = ['chozen-sebastian', 'foc-portugal'];
+  const focRadius = 220;
+  const focCenterX = rightX;
+  const focCenterY = topY + 180;
+  focEntities.forEach((id, index) => {
+    const totalEntities = focEntities.length;
+    const startAngle = Math.PI * 0.25;
+    const endAngle = Math.PI * 0.75;
+    const angle = totalEntities === 1
+      ? Math.PI * 0.5
+      : startAngle + (index / (totalEntities - 1)) * (endAngle - startAngle);
     positions[id] = {
-      x: centerX + Math.cos(angle) * regRadius - 80,
-      y: centerY + Math.sin(angle) * regRadius - 40,
+      x: focCenterX + Math.cos(angle) * focRadius - 80,
+      y: focCenterY + Math.sin(angle) * focRadius - 40,
     };
   });
 
-  // Position authority entities (bottom-right quadrant)
-  const authRadius = 350;
-  authority.forEach((id, index) => {
-    const angle = (Math.PI * 0.1) + (index * Math.PI * 0.15);
+  // Shared entities: 2x2 staggered grid below AI bridge
+  const sharedEntities = ['climate-hub', 'phx-jax', 'ccrl', 'friends-of-phx'];
+  const sharedStartY = topY + 250;
+  const sharedSpacingX = 200;
+  const sharedSpacingY = 160;
+  sharedEntities.forEach((id, index) => {
+    const col = index % 2;
+    const row = Math.floor(index / 2);
     positions[id] = {
-      x: centerX + Math.cos(angle) * authRadius - 80,
-      y: centerY + Math.sin(angle) * authRadius - 40,
-    };
-  });
-
-  // Position philanthropy entities (bottom-left quadrant)
-  const philRadius = 320;
-  philanthropy.forEach((id, index) => {
-    const angle = (Math.PI * 0.6) + (index * Math.PI * 0.2);
-    positions[id] = {
-      x: centerX + Math.cos(angle) * philRadius - 80,
-      y: centerY + Math.sin(angle) * philRadius - 40,
+      x: centerX - sharedSpacingX / 2 + col * sharedSpacingX - 80,
+      y: sharedStartY + row * sharedSpacingY,
     };
   });
 
@@ -93,7 +101,7 @@ export default function EcosystemMap() {
   const [selectedEntity, setSelectedEntity] = useState<Entity | null>(null);
   const [hoveredEntity, setHoveredEntity] = useState<string | null>(null);
 
-  const positions = useMemo(() => calculateNodePositions(), []);
+  const positions = useMemo(() => calculateDualConglomerateLayout(), []);
 
   const initialNodes: Node[] = useMemo(() => {
     return entities.map((entity) => ({
@@ -112,9 +120,7 @@ export default function EcosystemMap() {
 
   const initialEdges: Edge[] = useMemo(() => {
     return connections.map((conn) => {
-      const sourceEntity = entities.find(e => e.id === conn.source);
-      const targetEntity = entities.find(e => e.id === conn.target);
-      const sourceColor = sourceEntity ? categoryColorMap[sourceEntity.category] : '#666';
+      const edgeColor = roleColors[conn.role];
 
       const isHighlighted = selectedEntity
         ? (conn.source === selectedEntity.id || conn.target === selectedEntity.id)
@@ -126,21 +132,38 @@ export default function EcosystemMap() {
         ? (selectedEntity.connections.includes(conn.source) || selectedEntity.connections.includes(conn.target))
         : true;
 
+      const isConglomerateLevel = conn.type === 'conglomerate-link' || conn.type === 'ai-bridge';
+      const isDashedRole = conn.role === 'in-kind-donor';
+      const isAnimated = conn.type === 'ai-bridge' && isHighlighted;
+
       return {
         id: conn.id,
         source: conn.source,
         target: conn.target,
         type: 'default',
-        animated: conn.type === 'primary' && isHighlighted,
+        animated: isAnimated,
+        label: isHighlighted && conn.label ? conn.label : undefined,
+        labelStyle: {
+          fill: 'rgba(255,255,255,0.7)',
+          fontSize: 10,
+          fontWeight: 500,
+        },
+        labelBgStyle: {
+          fill: 'rgba(10, 15, 28, 0.8)',
+          fillOpacity: 0.8,
+        },
+        labelBgPadding: [4, 2] as [number, number],
+        labelBgBorderRadius: 4,
         style: {
-          stroke: isHighlighted ? sourceColor : isConnectedToSelected ? `${sourceColor}40` : `${sourceColor}15`,
-          strokeWidth: conn.type === 'primary' ? (isHighlighted ? 3 : 2) : (isHighlighted ? 2 : 1),
+          stroke: isHighlighted ? edgeColor : isConnectedToSelected ? `${edgeColor}40` : `${edgeColor}15`,
+          strokeWidth: isConglomerateLevel ? (isHighlighted ? 4 : 3) : (isHighlighted ? 2 : 1),
+          strokeDasharray: isDashedRole ? '6 3' : undefined,
           opacity: selectedEntity ? (isHighlighted ? 1 : 0.2) : 1,
           transition: 'all 0.3s ease',
         },
         markerEnd: conn.bidirectional ? undefined : {
           type: MarkerType.ArrowClosed,
-          color: sourceColor,
+          color: edgeColor,
           width: 15,
           height: 15,
         },
@@ -174,11 +197,12 @@ export default function EcosystemMap() {
 
   return (
     <div className="relative w-full h-full">
-      {/* Background gradient orbs */}
+      {/* Background gradient orbs - three-zone */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-hub/10 rounded-full blur-3xl animate-pulse-slow" />
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-real-estate/10 rounded-full blur-3xl animate-pulse-slow delay-1000" />
-        <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-regenerative/10 rounded-full blur-3xl animate-pulse-slow delay-2000" />
+        <div className="absolute top-1/4 left-[15%] w-96 h-96 bg-cv-zone/10 rounded-full blur-3xl animate-pulse-slow" />
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-80 h-80 bg-bridge-zone/10 rounded-full blur-3xl animate-pulse-slow delay-1000" />
+        <div className="absolute top-1/4 right-[15%] w-96 h-96 bg-foc-zone/10 rounded-full blur-3xl animate-pulse-slow delay-2000" />
+        <div className="absolute bottom-1/4 left-1/2 -translate-x-1/2 w-72 h-72 bg-shared-zone/8 rounded-full blur-3xl animate-pulse-slow delay-500" />
       </div>
 
       <ReactFlow
@@ -209,7 +233,7 @@ export default function EcosystemMap() {
         <MiniMap
           nodeColor={(node) => {
             const entity = entities.find(e => e.id === node.id);
-            return entity ? categoryColorMap[entity.category] : '#666';
+            return entity ? zoneColors[entity.zone] : '#666';
           }}
           maskColor="rgba(10, 15, 28, 0.9)"
           style={{ backgroundColor: 'rgba(30, 41, 59, 0.8)' }}
@@ -226,23 +250,47 @@ export default function EcosystemMap() {
         )}
       </AnimatePresence>
 
-      {/* Legend */}
+      {/* Legend - Two sections */}
       <motion.div
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
-        className="absolute bottom-6 left-6 glass rounded-xl p-4"
+        className="absolute bottom-6 left-6 glass rounded-xl p-4 max-w-[260px]"
       >
-        <h3 className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-3">Ecosystem</h3>
-        <div className="space-y-2">
-          {[
-            { label: 'Central Hub', color: 'bg-hub' },
-            { label: 'Real Estate', color: 'bg-real-estate' },
-            { label: 'Regenerative', color: 'bg-regenerative' },
-            { label: 'Authority', color: 'bg-authority' },
-            { label: 'Philanthropy', color: 'bg-philanthropy' },
-          ].map((item) => (
+        {/* Zone colors */}
+        <h3 className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2">Zones</h3>
+        <div className="space-y-1.5 mb-4">
+          {([
+            { label: 'Cho Ventures', color: 'bg-cv-zone', zone: 'cv' as EntityZone },
+            { label: 'AI Bridge', color: 'bg-bridge-zone', zone: 'bridge' as EntityZone },
+            { label: 'Future of Cities', color: 'bg-foc-zone', zone: 'foc' as EntityZone },
+            { label: 'Shared Entities', color: 'bg-shared-zone', zone: 'shared' as EntityZone },
+          ]).map((item) => (
             <div key={item.label} className="flex items-center gap-2">
               <div className={`w-3 h-3 rounded-full ${item.color}`} />
+              <span className="text-xs text-white/70">{item.label}</span>
+            </div>
+          ))}
+        </div>
+
+        {/* Role types */}
+        <h3 className="text-xs font-semibold text-white/60 uppercase tracking-wider mb-2">Roles</h3>
+        <div className="space-y-1.5">
+          {([
+            { label: 'Investor', role: 'investor' as RelationshipRole },
+            { label: 'Developer', role: 'developer' as RelationshipRole },
+            { label: 'Donor', role: 'donor' as RelationshipRole },
+            { label: 'In-Kind Donor', role: 'in-kind-donor' as RelationshipRole },
+            { label: 'AI Integration', role: 'ai-integration' as RelationshipRole },
+            { label: 'Content Flow', role: 'content-flow' as RelationshipRole },
+          ]).map((item) => (
+            <div key={item.label} className="flex items-center gap-2">
+              <div
+                className="w-6 h-0.5 rounded-full"
+                style={{
+                  backgroundColor: roleColors[item.role],
+                  ...(item.role === 'in-kind-donor' ? { backgroundImage: `repeating-linear-gradient(90deg, ${roleColors[item.role]} 0px, ${roleColors[item.role]} 4px, transparent 4px, transparent 7px)`, backgroundColor: 'transparent' } : {}),
+                }}
+              />
               <span className="text-xs text-white/70">{item.label}</span>
             </div>
           ))}
