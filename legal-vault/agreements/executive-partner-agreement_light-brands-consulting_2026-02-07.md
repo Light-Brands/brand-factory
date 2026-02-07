@@ -14,9 +14,9 @@
 
 This Executive Partner Agreement ("Agreement") is entered into by and between the following individuals, each acting in their personal capacity:
 
-1. **Daniel Lawless** ("Lawless")
+1. **Daniel Lawless** ("Lawless"), of 58 Holden Rd, Shirley, MA 01464, United States
 2. **Andreas Demou** ("Demou")
-3. **Nicholas Courchesne** ("Courchesne")
+3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
 4. **Jason Sparks** ("Sparks")
 
 (individually, a "Partner" and collectively, the "Partners")
@@ -436,6 +436,8 @@ Signature: _________________________________________
 
 Print Name: Daniel Lawless
 
+Address: 58 Holden Rd, Shirley, MA 01464, United States
+
 Date: ______________________________________________
 
 ---
@@ -455,6 +457,8 @@ Date: ______________________________________________
 Signature: _________________________________________
 
 Print Name: Nicholas Courchesne
+
+Address: 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
 
 Date: ______________________________________________
 
