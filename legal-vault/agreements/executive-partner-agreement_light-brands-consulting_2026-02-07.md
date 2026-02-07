@@ -14,7 +14,7 @@
 
 This Executive Partner Agreement ("Agreement") is entered into by and between the following individuals, each acting in their personal capacity:
 
-1. **Danielle Lawless** ("Lawless")
+1. **Daniel Lawless** ("Lawless")
 2. **Andreas Demou** ("Demou")
 3. **Nicholas Courchesne** ("Courchesne")
 4. **Jason Sparks** ("Sparks")
@@ -49,7 +49,7 @@ Founding Shares are allocated as follows and are **fully vested** upon execution
 
 | Partner | Ownership Percentage |
 |---------|---------------------|
-| Danielle Lawless | 30% |
+| Daniel Lawless | 30% |
 | Andreas Demou | 30% |
 | Nicholas Courchesne | 30% |
 | Jason Sparks | 10% |
@@ -91,7 +91,7 @@ The capital contribution shall be treated as **operating and growth capital** of
 
 ### 2.4 Other Partners
 
-The non-cash contributions of Danielle Lawless, Andreas Demou, and Nicholas Courchesne — including but not limited to intellectual capital, operational infrastructure, business relationships, client pipeline, and sweat equity — are acknowledged as the consideration supporting their respective 30% Founding Share allocations.
+The non-cash contributions of Daniel Lawless, Andreas Demou, and Nicholas Courchesne — including but not limited to intellectual capital, operational infrastructure, business relationships, client pipeline, and sweat equity — are acknowledged as the consideration supporting their respective 30% Founding Share allocations.
 
 ---
 
@@ -132,7 +132,7 @@ A United States bank account has been established for the Business. Stripe payme
 
 ### 4.2 Account Access
 
-**Nicholas Courchesne** and **Danielle Lawless** shall maintain direct access to all business bank accounts, including online banking, transaction history, and administrative controls.
+**Nicholas Courchesne** and **Daniel Lawless** shall maintain direct access to all business bank accounts, including online banking, transaction history, and administrative controls.
 
 ### 4.3 Financial Records
 
@@ -430,11 +430,11 @@ Each Partner agrees to execute and deliver such additional documents and take su
 
 ---
 
-### Danielle Lawless
+### Daniel Lawless
 
 Signature: _________________________________________
 
-Print Name: Danielle Lawless
+Print Name: Daniel Lawless
 
 Date: ______________________________________________
 
@@ -474,7 +474,7 @@ Date: ______________________________________________
 
 | Partner | Contribution Type | Amount | Status |
 |---------|------------------|--------|--------|
-| Danielle Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
+| Daniel Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Andreas Demou | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Nicholas Courchesne | Non-cash (IP, sweat equity, relationships) + interim entity | Acknowledged | Ongoing |
 | Jason Sparks | Cash | USD $100,000 | Due within 60 days of Effective Date |
