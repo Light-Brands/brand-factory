@@ -15,7 +15,7 @@
 This Executive Partner Agreement ("Agreement") is entered into by and between the following individuals, each acting in their personal capacity:
 
 1. **Daniel Lawless** ("Lawless"), of 58 Holden Rd, Shirley, MA 01464, United States
-2. **Andreas Demou** ("Demou")
+2. **Andreas Demou** ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
 3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
 4. **Jason Sparks** ("Sparks")
 
@@ -447,6 +447,8 @@ Date: ______________________________________________
 Signature: _________________________________________
 
 Print Name: Andreas Demou
+
+Address: 14 Andrea Ioannou, Paphos 8047, Cyprus
 
 Date: ______________________________________________
 
