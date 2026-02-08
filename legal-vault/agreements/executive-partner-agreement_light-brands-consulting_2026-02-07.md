@@ -12,12 +12,12 @@
 
 ## PARTIES
 
-This Executive Partner Agreement ("Agreement") is entered into by and between the following individuals, each acting in their personal capacity:
+This Executive Partner Agreement ("Agreement") is entered into by and between:
 
-1. **Daniel Lawless** ("Lawless"), of 58 Holden Rd, Shirley, MA 01464, United States
-2. **Andreas Demou** ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
+1. **Daniel Lawless** ("Lawless"), of To be determined
+2. **Oracle Studios**, represented by Andreas Demou ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
 3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
-4. **Jason Sparks** ("Sparks")
+4. **Adams LLC** ("Adams"), a Cook Islands limited liability company, represented by Jason Sparks ("Sparks")
 
 (individually, a "Partner" and collectively, the "Partners")
 
@@ -29,7 +29,9 @@ This Executive Partner Agreement ("Agreement") is entered into by and between th
 
 **WHEREAS**, the Partners intend this Agreement to be legally binding and fully enforceable upon execution, serving as the governing partnership agreement until a final legal, tax, and intellectual property protection structure is implemented;
 
-**WHEREAS**, the Partners are entering into this Agreement in their personal capacities, with the intention of assigning their respective interests to legal vehicles of their choosing once the final structure is established;
+**WHEREAS**, Oracle Studios and Adams LLC are entering into this Agreement through their respective legal entities, and Nicholas Courchesne is entering in his personal capacity;
+
+**WHEREAS**, Daniel Lawless is entering into this Agreement in his personal capacity while he is in the process of formalizing the legal vehicle through which his ownership interest will be held, and the Partners acknowledge that this Agreement shall be amended to reflect such legal vehicle once established, without altering the rights, obligations, or ownership percentage set forth herein;
 
 **WHEREAS**, GVG AC Enterprises, an Ontario, Canada corporation owned and controlled by Nicholas Courchesne, shall serve as the interim operating and shell entity for the Business;
 
@@ -50,9 +52,9 @@ Founding Shares are allocated as follows and are **fully vested** upon execution
 | Partner | Ownership Percentage |
 |---------|---------------------|
 | Daniel Lawless | 30% |
-| Andreas Demou | 30% |
+| Oracle Studios (Andreas Demou) | 30% |
 | Nicholas Courchesne | 30% |
-| Jason Sparks | 10% |
+| Adams LLC (Jason Sparks) | 10% |
 | **Total** | **100%** |
 
 ### 1.3 Fixed Percentages
@@ -432,21 +434,25 @@ Each Partner agrees to execute and deliver such additional documents and take su
 
 ### Daniel Lawless
 
+*Signing in personal capacity. Legal vehicle for ownership interest is being formalized and will be amended to this Agreement upon establishment.*
+
 Signature: _________________________________________
 
 Print Name: Daniel Lawless
 
-Address: 58 Holden Rd, Shirley, MA 01464, United States
+Address: To be determined
 
 Date: ______________________________________________
 
 ---
 
-### Andreas Demou
+### Oracle Studios
 
 Signature: _________________________________________
 
 Print Name: Andreas Demou
+
+Title: Authorized Representative, Oracle Studios
 
 Address: 14 Andrea Ioannou, Paphos 8047, Cyprus
 
@@ -466,11 +472,15 @@ Date: ______________________________________________
 
 ---
 
-### Jason Sparks
+### Adams LLC
 
 Signature: _________________________________________
 
 Print Name: Jason Sparks
+
+Title: Authorized Representative, Adams LLC
+
+Place of Establishment: Cook Islands
 
 Date: ______________________________________________
 
@@ -481,9 +491,9 @@ Date: ______________________________________________
 | Partner | Contribution Type | Amount | Status |
 |---------|------------------|--------|--------|
 | Daniel Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
-| Andreas Demou | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
+| Oracle Studios (Andreas Demou) | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Nicholas Courchesne | Non-cash (IP, sweat equity, relationships) + interim entity | Acknowledged | Ongoing |
-| Jason Sparks | Cash | USD $100,000 | Due within 60 days of Effective Date |
+| Adams LLC (Jason Sparks) | Cash | USD $100,000 | Due within 60 days of Effective Date |
 
 ---
 
