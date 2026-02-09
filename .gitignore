@@ -30,6 +30,10 @@ build/
 .project
 .settings/
 
+# SignNow local state
+tooling/signnow/.token
+tooling/signnow/.tracker.json
+
 # Temporary files
 *.temp
 *.tmp

@@ -4,6 +4,13 @@
 
 ---
 
+> **FINAL VERSION** — Sent for signing on February 9, 2026
+> **SignNow Document:** https://app.signnow.com/webapp/document/e93b0bef3c17459c9e7b819c33f37695e9db8a1d
+> **SignNow Document ID:** `e93b0bef3c17459c9e7b819c33f37695e9db8a1d`
+> **Document Name:** Light Brands - Executive Partner Agreement
+
+---
+
 **Effective Date:** _________________, 2026
 
 **Agreement Reference:** LBC-EPA-2026-001
@@ -14,10 +21,10 @@
 
 This Executive Partner Agreement ("Agreement") is entered into by and between:
 
-1. **Daniel Lawless** ("Lawless"), of To be determined
+1. **Daniel Lawless** ("Lawless"), of 58 Holden Rd, Shirley, MA 01464, United States
 2. **Manoracle Studio**, represented by Andreas Demou ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
 3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
-4. **Adams LLC** ("Adams"), a Cook Islands limited liability company, represented by Jason Sparks ("Sparks")
+4. **Adams LLC** ("Adams"), a Cook Islands limited liability company, of 1 Global House, Avarua, Rarotonga, Cook Islands, represented by Jason Sparks ("Sparks")
 
 (individually, a "Partner" and collectively, the "Partners")
 
@@ -91,9 +98,29 @@ The capital contribution shall be wired to the designated company bank account w
 
 The capital contribution shall be treated as **operating and growth capital** of the Business. It shall not be treated as a loan, shall not accrue interest, and shall not carry any repayment obligation to Jason Sparks, except as may arise through pro rata distributions, dissolution proceeds, or as otherwise unanimously agreed in writing.
 
-### 2.4 Other Partners
+### 2.4 Nicholas Courchesne Loan
 
-The non-cash contributions of Daniel Lawless, Andreas Demou, and Nicholas Courchesne — including but not limited to intellectual capital, operational infrastructure, business relationships, client pipeline, and sweat equity — are acknowledged as the consideration supporting their respective 30% Founding Share allocations.
+Nicholas Courchesne advanced **Fifteen Thousand United States Dollars (USD $15,000)** to the Business for initial operating expenses and advertising budget. This advance was made prior to the Effective Date and is hereby acknowledged and documented.
+
+### 2.5 Treatment of Courchesne Advance
+
+The advance set forth in Section 2.4 shall be treated as a **loan** to the Business. The loan shall:
+
+**(a)** Bear **zero percent (0%) interest**;
+
+**(b)** Be repaid in full to Nicholas Courchesne within **twelve (12) months** of the commencement of Business operations;
+
+**(c)** Be repaid from Business revenues prior to any distributions to Partners under Section 1.5;
+
+**(d)** Not be convertible to equity or alter the ownership percentages set forth in Section 1.2.
+
+### 2.6 Securing of Adams LLC Investment
+
+The Partners acknowledge that Nicholas Courchesne played a material role in securing the USD $100,000 capital commitment from Adams LLC (Jason Sparks) as set forth in Section 2.1. Without his efforts, introduction, and facilitation, the Adams LLC investment would not have been obtained on the timeline or terms achieved.
+
+### 2.7 Other Partners
+
+The non-cash contributions of Daniel Lawless and Andreas Demou — including but not limited to intellectual capital, operational infrastructure, business relationships, client pipeline, and sweat equity — are acknowledged as the consideration supporting their respective 30% Founding Share allocations.
 
 ---
 
@@ -440,7 +467,7 @@ Signature: _________________________________________
 
 Print Name: Daniel Lawless
 
-Address: To be determined
+Address: 58 Holden Rd, Shirley, MA 01464, United States
 
 Date: ______________________________________________
 
@@ -480,7 +507,7 @@ Print Name: Jason Sparks
 
 Title: Authorized Representative, Adams LLC
 
-Place of Establishment: Cook Islands
+Address: 1 Global House, Avarua, Rarotonga, Cook Islands
 
 Date: ______________________________________________
 
@@ -492,7 +519,7 @@ Date: ______________________________________________
 |---------|------------------|--------|--------|
 | Daniel Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Manoracle Studio (Andreas Demou) | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
-| Nicholas Courchesne | Non-cash (IP, sweat equity, relationships) + interim entity | Acknowledged | Ongoing |
+| Nicholas Courchesne | Loan (USD $15,000 for operating/ads, 0% interest, 12-month repayment) + Non-cash (IP, sweat equity, relationships) + interim entity + secured Adams LLC investment | USD $15,000 (loan) + Acknowledged | Loan advanced; repayment due within 12 months of operations |
 | Adams LLC (Jason Sparks) | Cash | USD $100,000 | Due within 60 days of Effective Date |
 
 ---
