@@ -15,7 +15,7 @@
 This Executive Partner Agreement ("Agreement") is entered into by and between:
 
 1. **Daniel Lawless** ("Lawless"), of To be determined
-2. **Oracle Studios**, represented by Andreas Demou ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
+2. **Manoracle Studio**, represented by Andreas Demou ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
 3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
 4. **Adams LLC** ("Adams"), a Cook Islands limited liability company, represented by Jason Sparks ("Sparks")
 
@@ -29,7 +29,7 @@ This Executive Partner Agreement ("Agreement") is entered into by and between:
 
 **WHEREAS**, the Partners intend this Agreement to be legally binding and fully enforceable upon execution, serving as the governing partnership agreement until a final legal, tax, and intellectual property protection structure is implemented;
 
-**WHEREAS**, Oracle Studios and Adams LLC are entering into this Agreement through their respective legal entities, and Nicholas Courchesne is entering in his personal capacity;
+**WHEREAS**, Manoracle Studio and Adams LLC are entering into this Agreement through their respective legal entities, and Nicholas Courchesne is entering in his personal capacity;
 
 **WHEREAS**, Daniel Lawless is entering into this Agreement in his personal capacity while he is in the process of formalizing the legal vehicle through which his ownership interest will be held, and the Partners acknowledge that this Agreement shall be amended to reflect such legal vehicle once established, without altering the rights, obligations, or ownership percentage set forth herein;
 
@@ -52,7 +52,7 @@ Founding Shares are allocated as follows and are **fully vested** upon execution
 | Partner | Ownership Percentage |
 |---------|---------------------|
 | Daniel Lawless | 30% |
-| Oracle Studios (Andreas Demou) | 30% |
+| Manoracle Studio (Andreas Demou) | 30% |
 | Nicholas Courchesne | 30% |
 | Adams LLC (Jason Sparks) | 10% |
 | **Total** | **100%** |
@@ -446,13 +446,13 @@ Date: ______________________________________________
 
 ---
 
-### Oracle Studios
+### Manoracle Studio
 
 Signature: _________________________________________
 
 Print Name: Andreas Demou
 
-Title: Authorized Representative, Oracle Studios
+Title: Authorized Representative, Manoracle Studio
 
 Address: 14 Andrea Ioannou, Paphos 8047, Cyprus
 
@@ -491,7 +491,7 @@ Date: ______________________________________________
 | Partner | Contribution Type | Amount | Status |
 |---------|------------------|--------|--------|
 | Daniel Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
-| Oracle Studios (Andreas Demou) | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
+| Manoracle Studio (Andreas Demou) | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Nicholas Courchesne | Non-cash (IP, sweat equity, relationships) + interim entity | Acknowledged | Ongoing |
 | Adams LLC (Jason Sparks) | Cash | USD $100,000 | Due within 60 days of Effective Date |
 
