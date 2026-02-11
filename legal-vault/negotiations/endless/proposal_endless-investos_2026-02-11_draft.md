@@ -313,59 +313,61 @@ Deferred portion due upon final delivery. Includes 8.75% premium on deferred amo
 
 #### Option 3: Founder's Bet (Zero Down — Deferred Payment)
 
-Zero upfront cost to Client. Consultant delivers the complete Full Arsenal engagement with 50% of the fee deferred as cash and 50% converted to equity in Endless. This option reflects Consultant's confidence in the Endless team and commitment to a true partnership.
+Zero upfront cost to Client. Consultant delivers the complete Full Arsenal engagement at a discounted rate, split evenly between deferred cash and equity. This option reflects Consultant's confidence in the Endless team and commitment to a true partnership.
 
 | Component | Amount | Form |
 |-----------|--------|------|
 | Kickoff Deposit | $0 | — |
-| Deferred Cash Fee | $750,000 | Cash — due within 360 days of final delivery |
-| Equity Component | $750,000 | Equity in Endless — issued upon execution |
-| **Total Engagement Value** | **$1,500,000** | |
+| Deferred Cash Fee | $500,000 | Cash — due within 360 days of final delivery |
+| Equity Component | $500,000 | Equity in Endless — issued upon execution |
+| **Total Engagement Value** | **$1,000,000** | |
 
 **Pricing Basis:**
 
 | | Amount |
 |---|---|
 | Founder's Bet Standard Fee | $1,500,000.00 |
-| Paid via Equity (50%) | $750,000.00 |
-| Paid via Deferred Cash (50%) | $750,000.00 |
+| Endless Partnership Discount | -$500,000.00 |
+| **Discounted Fee** | **$1,000,000.00** |
+| Paid via Equity (50%) | $500,000.00 |
+| Paid via Deferred Cash (50%) | $500,000.00 |
 
-*Consultant accepts $750,000 in equity in lieu of cash discount, aligning long-term interests between both parties.*
+*Client saves $500,000 off the standard Founder's Bet fee. Remaining $1,000,000 split evenly between equity and deferred cash, aligning long-term interests between both parties.*
 
 **Equity Terms:**
-- Consultant shall receive $750,000 in equity in Endless, valued at the **pre-money valuation** with no discount applied
+- Consultant shall receive $500,000 in equity in Endless, valued at the **pre-money valuation** with no discount applied
 - Equity shall be issued upon execution of this agreement
 - Specific equity instrument, share class, vesting schedule (if any), and governance rights to be defined in a separate Equity Issuance Agreement executed concurrently with this proposal
 - Consultant's equity position shall carry standard anti-dilution protections and information rights
 
 **Deferred Payment Terms:**
 
-The payment clock begins on the date Consultant delivers the final deliverable package ("Delivery Date" / "Day 0"). Client has up to 360 days (12 months) from Delivery Date to pay the full $750,000. **This structure is designed so that Client can pay the entire fee with zero interest** — all it takes is hitting each quarterly milestone.
+The payment clock begins on the date Consultant delivers the final deliverable package ("Delivery Date" / "Day 0"). Client has up to 360 days (12 months) from Delivery Date to pay the full $500,000 cash portion. **This structure is designed so that Client can pay the entire cash fee with zero interest** — all it takes is hitting each quarterly milestone.
 
 **Quarterly Payment Schedule:**
 
 | Window | Days After Delivery | 0% Interest If... | Payment to Stay at 0% | Cumulative Paid |
 |--------|-------------------|-------------------|----------------------|----------------|
 | **Q1 — Grace Period** | 0-90 | Automatic | No payment required | $0 |
-| **Q2** | 91-180 | 50%+ paid by Day 90 | $375,000 | $375,000 |
-| **Q3** | 181-270 | 75%+ paid by Day 180 | $187,500 | $562,500 |
-| **Q4** | 271-360 | 87.5%+ paid by Day 270 | $93,750 | $656,250 |
-| **Final** | Day 360 | — | $93,750 | $750,000 |
+| **Q2** | 91-180 | 50%+ paid by Day 90 | $250,000 | $250,000 |
+| **Q3** | 181-270 | 75%+ paid by Day 180 | $125,000 | $375,000 |
+| **Q4** | 271-360 | 87.5%+ paid by Day 270 | $62,500 | $437,500 |
+| **Final** | Day 360 | — | $62,500 | $500,000 |
 
 **How It Works:**
 
 - **Days 1-90 (Q1 — Grace Period):** No payment required. No interest. Full 90-day grace period following delivery.
 
 - **Day 91 — First Checkpoint:**
-  - **50%+ paid ($375,000+)?** Remaining balance continues at 0% interest through Day 180.
+  - **50%+ paid ($250,000+)?** Remaining balance continues at 0% interest through Day 180.
   - **Less than 50% paid?** 10% annual interest begins accruing immediately on Day 91 on the unpaid balance only. Not retroactive — Days 1-90 remain interest-free. If Client catches up to the 75% threshold by Day 180, interest stops accruing going forward.
 
 - **Day 181 — Second Checkpoint:**
-  - **75%+ paid ($562,500+)?** Remaining balance continues at 0% interest through Day 270.
+  - **75%+ paid ($375,000+)?** Remaining balance continues at 0% interest through Day 270.
   - **Less than 75% paid?** 10% annual interest begins accruing immediately on Day 181 on the unpaid balance only.
 
 - **Day 271 — Third Checkpoint:**
-  - **87.5%+ paid ($656,250+)?** Remaining balance continues at 0% interest through Day 360.
+  - **87.5%+ paid ($437,500+)?** Remaining balance continues at 0% interest through Day 360.
   - **Less than 87.5% paid?** 10% annual interest begins accruing immediately on Day 271 on the unpaid balance only.
 
 - **Day 360 — Final Payment Due:**
@@ -381,7 +383,7 @@ The payment clock begins on the date Consultant delivers the final deliverable p
 - **Stoppable:** If Client catches up to the next checkpoint threshold, interest stops accruing from that day forward
 
 **Additional Terms:**
-- Deferred fee is a fixed dollar figure ($750,000) for professional services rendered
+- Deferred cash fee is a fixed dollar figure ($500,000) for professional services rendered
 - Payment obligation begins upon delivery of the final deliverable package
 - Maximum payment period: 360 days (12 months) from Delivery Date — no extensions
 - Quarterly check-ins between Client and Consultant are required during the payment period
