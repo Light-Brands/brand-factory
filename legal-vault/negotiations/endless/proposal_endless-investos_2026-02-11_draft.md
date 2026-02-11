@@ -1,6 +1,6 @@
 # Professional Services Proposal
 ## InvestOS Partner Engagement — Full Arsenal
-### $75M Regulation A Capital Raise Infrastructure
+### $75M Regulation A Infrastructure
 
 ---
 
@@ -24,7 +24,7 @@ Endless
 
 ## 1. Executive Summary
 
-Light Brands Consulting is pleased to submit this proposal to provide **InvestOS Partner (Full Arsenal)** services to Endless in support of its planned **$75,000,000 Regulation A (Reg A+) capital raise**.
+Light Brands Consulting is pleased to submit this proposal to provide **InvestOS Partner (Full Arsenal)** services to Endless in support of its **$75,000,000 Regulation A (Reg A+) infrastructure buildout**.
 
 InvestOS is a vertical operating system purpose-built for organizations raising capital at institutional scale. It replaces the traditional piecemeal approach — which typically requires 8+ separate vendors, 6-12 months, and $3M-$7M+ in fees — with a single integrated engagement delivering all strategic, financial, legal, operational, and technology infrastructure within **30 days**.
 
@@ -206,7 +206,7 @@ Custom web application serving as the primary investor engagement infrastructure
 | Financial Dashboards | Interactive visualizations of all financial model outputs |
 | Market Sizing Visuals | TAM/SAM/SOM interactive displays |
 | Competitive Landscape | Interactive competitive positioning and market maps |
-| Timeline & Milestones | Raise progress tracking and deployment timeline |
+| Timeline & Milestones | Project progress tracking and deployment timeline |
 | Meeting Scheduler | Integrated calendar booking for investor meetings |
 | Investor Analytics | Engagement tracking (time-on-page, section views, scroll depth) |
 | Mobile-Responsive Design | Fully optimized for desktop, tablet, and mobile |
@@ -297,45 +297,50 @@ Client may select one of the following payment structures. All deliverables are 
 
 #### Option 2: Confidence Model (30/70 Split)
 
-Deferred portion triggered by raise progress. Includes 8.75% premium on deferred amount.
+Deferred portion due upon final delivery. Includes 8.75% premium on deferred amount.
 
 | Milestone | Amount | Trigger |
 |-----------|--------|---------|
 | Kickoff Deposit | $187,500 (30%) | Upon execution of this agreement |
-| Deferred Payment | $475,781 (70% + premium) | Upon raise closing or 50% threshold |
+| Deferred Payment | $475,781 (70% + premium) | Upon final delivery |
 | **Total** | **$663,281** | |
 
 **Deferred Payment Terms:**
-- Triggered when Endless reaches 50%+ of $75M target ($37.5M) from non-affiliated investors
-- Payment due within 30 days of threshold trigger
-- Maximum deferral period: 12 months from final deliverable (extendable to 18 months by mutual agreement)
-- Quarterly check-ins required during deferral period
+- Payment due within 30 days of final delivery
+- Quarterly check-ins required during engagement
 
 ---
 
 #### Option 3: Founder's Bet (Zero Down — Deferred Payment)
 
-Full risk absorbed by Consultant. Zero upfront cost to Client. Consultant delivers the complete Full Arsenal engagement at no charge, with a discounted deferred fee and up to 12 months to pay after delivery. Payment is tied to delivery of the product — not to the outcome of the raise. This option reflects Consultant's confidence in the Endless team and commitment to a true partnership.
+Zero upfront cost to Client. Consultant delivers the complete Full Arsenal engagement with 50% of the fee deferred as cash and 50% converted to equity in Endless. This option reflects Consultant's confidence in the Endless team and commitment to a true partnership.
 
-| Milestone | Amount | Trigger |
-|-----------|--------|---------|
+| Component | Amount | Form |
+|-----------|--------|------|
 | Kickoff Deposit | $0 | — |
-| Deferred Fee | $750,000 | Due within 360 days of final delivery |
-| **Total** | **$750,000** | |
+| Deferred Cash Fee | $750,000 | Cash — due within 360 days of final delivery |
+| Equity Component | $750,000 | Equity in Endless — issued upon execution |
+| **Total Engagement Value** | **$1,500,000** | |
 
 **Pricing Basis:**
 
 | | Amount |
 |---|---|
-| Founder's Bet Success Fee | $1,500,000.00 |
-| Endless Partnership Discount (50%) | -$750,000.00 |
-| **Success Fee After Discount** | **$750,000.00** |
+| Founder's Bet Standard Fee | $1,500,000.00 |
+| Paid via Equity (50%) | $750,000.00 |
+| Paid via Deferred Cash (50%) | $750,000.00 |
 
-*Client saves $750,000 off the standard Founder's Bet fee. Success fee collected only upon raise success.*
+*Consultant accepts $750,000 in equity in lieu of cash discount, aligning long-term interests between both parties.*
+
+**Equity Terms:**
+- Consultant shall receive $750,000 in equity in Endless, valued at the **pre-money valuation** with no discount applied
+- Equity shall be issued upon execution of this agreement
+- Specific equity instrument, share class, vesting schedule (if any), and governance rights to be defined in a separate Equity Issuance Agreement executed concurrently with this proposal
+- Consultant's equity position shall carry standard anti-dilution protections and information rights
 
 **Deferred Payment Terms:**
 
-The payment clock begins on the date Consultant delivers the final deliverable package ("Delivery Date" / "Day 0"). Client has up to 360 days (12 months) from Delivery Date to pay the full $750,000. **This structure is designed so that Client can pay the entire fee with zero interest** — all it takes is hitting each quarterly milestone. The fee is tied to delivery of the product, not to the outcome of the capital raise.
+The payment clock begins on the date Consultant delivers the final deliverable package ("Delivery Date" / "Day 0"). Client has up to 360 days (12 months) from Delivery Date to pay the full $750,000. **This structure is designed so that Client can pay the entire fee with zero interest** — all it takes is hitting each quarterly milestone.
 
 **Quarterly Payment Schedule:**
 
@@ -376,8 +381,8 @@ The payment clock begins on the date Consultant delivers the final deliverable p
 - **Stoppable:** If Client catches up to the next checkpoint threshold, interest stops accruing from that day forward
 
 **Additional Terms:**
-- Deferred fee is a fixed dollar figure ($750,000), not a percentage of capital raised
-- Payment obligation is tied to delivery of the product, not to the outcome of the capital raise
+- Deferred fee is a fixed dollar figure ($750,000) for professional services rendered
+- Payment obligation begins upon delivery of the final deliverable package
 - Maximum payment period: 360 days (12 months) from Delivery Date — no extensions
 - Quarterly check-ins between Client and Consultant are required during the payment period
 - All deliverables are Client's upon delivery — Client retains all work product regardless of payment timeline
@@ -527,12 +532,11 @@ Nothing in this agreement prevents Client from making disclosures required by th
 ## 10. Limitation of Liability
 
 Consultant's total liability under this agreement shall not exceed the total fees paid by Client. In no event shall Consultant be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to:
-- Losses arising from failure of the capital raise
 - Regulatory actions or SEC qualification delays
-- Investor claims related to offering materials
-- Market conditions affecting raise outcome
+- Third-party claims related to Client's use of deliverables
+- Market conditions or business outcomes
 
-**Important Disclaimer:** Consultant provides strategic infrastructure and supporting documentation. Consultant does not provide legal advice, act as a broker-dealer, or guarantee any fundraising outcome. Client is solely responsible for engaging qualified securities counsel and ensuring all offering materials comply with applicable securities laws.
+**Important Disclaimer:** Consultant provides strategic infrastructure and supporting documentation. Consultant does not provide legal advice or act as a broker-dealer. Client is solely responsible for engaging qualified securities counsel and ensuring all materials comply with applicable securities laws.
 
 ---
 
@@ -540,7 +544,7 @@ Consultant's total liability under this agreement shall not exceed the total fee
 
 ### 11.1 Consulting Engagement Structure
 
-This engagement is structured as a **fixed-fee consulting arrangement**. All fees are for professional consulting services rendered, not transaction-based compensation tied to capital raised.
+This engagement is structured as a **fixed-fee consulting arrangement**. All fees are for professional consulting services rendered.
 
 ### 11.2 No Broker-Dealer Activity
 
