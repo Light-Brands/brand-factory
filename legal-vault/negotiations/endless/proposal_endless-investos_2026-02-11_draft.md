@@ -24,15 +24,43 @@ Endless
 
 ## 1. Executive Summary
 
-Light Brands Consulting is pleased to submit this proposal to provide **InvestOS Partner (Full Arsenal)** services to Endless in support of its **$75,000,000 Regulation A (Reg A+) infrastructure buildout**.
+### This Is a Partnership Proposal
 
-InvestOS is a vertical operating system purpose-built for organizations raising capital at institutional scale. It replaces the traditional piecemeal approach — which typically requires 8+ separate vendors, 6-12 months, and $3M-$7M+ in fees — with a single integrated engagement delivering all strategic, financial, legal, operational, and technology infrastructure within **30 days**.
+This is not a vendor pitch. Light Brands Consulting is proposing a **strategic partnership** with Endless — one that begins with building the complete infrastructure for a **$75,000,000 Regulation A (Reg A+) raise** and extends into long-term operational support as Endless scales post-raise.
 
-This proposal encompasses all ten (10) InvestOS service categories, fully customized for a $75M Reg A offering structure. No modules excluded.
+We want to be in the trenches with you — not just before the raise, but after it. We believe in what Endless is building, and this proposal is structured to reflect that belief at every level: in the scope, in the pricing, and in the options we're putting on the table.
 
-**Total Investment:** $625,000.00 (Standard Payment)
+### What We Deliver
 
-**Comparable Traditional Cost:** $3,350,000 - $7,700,000
+**InvestOS** is a vertical operating system purpose-built for organizations raising capital at institutional scale. It replaces the traditional piecemeal approach — which typically requires 8+ separate vendors, 6-12 months, and $3M-$7M+ in fees — with a single integrated engagement delivering all strategic, financial, legal, operational, and technology infrastructure within **30 days**.
+
+This proposal encompasses all ten (10) InvestOS service categories, fully customized for a $75M Reg A offering structure. No modules excluded. 150+ documents. 550,000+ words. A 30-page custom investor platform. Everything Endless needs to be investor-ready in 30 days.
+
+But the engagement doesn't stop at the raise. This proposal also includes our commitment to serve as an embedded partner post-raise — across advisory, development, marketing, legal, operations, project management, and AI-powered automation (Section 5).
+
+### Three Ways In
+
+We've structured three payment options because we understand that every founder's situation is different. The deliverables are identical across all three — what changes is the financial structure and the depth of partnership alignment.
+
+| Option | Structure | Total | Upfront | What It Signals |
+|--------|-----------|-------|---------|-----------------|
+| **Option 1: Standard** | 50/50 split | $625,000 | $312,500 | Clean, straightforward — let's get to work |
+| **Option 2: Confidence Model** | 30/70 split | $663,281 | $187,500 | Lower barrier to entry, premium on deferred portion |
+| **Option 3: Founder's Bet** | Zero down — equity + deferred cash | $1,000,000 | $0 | Full partnership alignment — we bet on each other |
+
+**Option 3 (Founder's Bet)** is the deepest expression of this partnership. Zero upfront cost. $500K in deferred cash. $500K in equity. A $500K discount off the standard fee. And the opportunity for Endless to earn **5% equity in Light Brands Consulting / Studio** by being the first client to close a seven-figure deal with us — a milestone we'll actively partner to achieve together.
+
+Every option gets the same arsenal. The Founder's Bet just means we're building it shoulder to shoulder.
+
+### By the Numbers
+
+| | |
+|---|---|
+| **Comparable Traditional Cost** | $3,350,000 - $7,700,000 |
+| **Standard Investment (Options 1 & 2)** | $625,000 - $663,281 |
+| **Founder's Bet Investment** | $1,000,000 ($0 upfront) |
+| **Delivery Timeline** | 30 days |
+| **Traditional Timeline** | 6-12 months |
 
 ---
 
