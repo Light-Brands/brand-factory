@@ -17,6 +17,34 @@ A complete private communications platform built on:
 - **Burn Rooms** — self-destructing conversations with ephemeral keys
 - **Mandatory 2FA** — architecturally required, no bypass
 
+## Privacy Parity — Messages and Money Get the Same Protection
+
+Every privacy layer that protects your messages also protects your money. No exceptions.
+
+| Protection Layer | Messages | Payments | Swaps | DeFi |
+|---|---|---|---|---|
+| **Ghost VPN (Layer 0)** — mandatory WireGuard tunnel, random global endpoint | Yes | Yes | Yes | Yes |
+| **Shamir Fragmentation (Layer 1)** — split into K-of-N shares across separate paths | Yes | Yes | Yes | Yes |
+| **5-Layer Mixnet (Layer 2)** — Sphinx packets, batch-shuffle-forward | Yes | Yes | Yes | Yes |
+| **Cover Traffic (Layer 3)** — constant-rate stream, real ops replace dummies | Yes | Yes | Yes | Yes |
+| **Jurisdiction Routing (Layer 4)** — multi-country paths, no Five Eyes clustering | Yes | Yes | Yes | Yes |
+| **Protocol Camouflage (Layer 5)** — obfs5/uTLS/domain fronting, invisible to DPI | Yes | Yes | Yes | Yes |
+| **Dead Drops (Layer 6)** — anonymous relay mailboxes, sender/recipient never meet | Yes | Yes | Yes | Yes |
+| **Temporal Scrambling (Layer 7)** — Poisson-distributed random delays at every hop | Yes | Yes | Yes | Yes |
+| **Multi-Node Broadcast** — sent to N nodes via N separate Scrambler exits | N/A | Yes | Yes | Yes |
+| **Timing Decorrelation** — chat notification and on-chain tx deliberately desynchronized | N/A | Yes | Yes | Yes |
+| **Financial Cover Traffic** — dummy RPC queries from app launch, indistinguishable from real | N/A | Yes | Yes | Yes |
+| **No Direct Blockchain Connection** — every RPC call through Ghost VPN + full Scrambler | N/A | Yes | Yes | Yes |
+| **E2EE (Double Ratchet + PQXDH)** — post-quantum encrypted content | Yes | Yes | Yes | N/A |
+| **Zero Identifiers** — no phone, no email, no username, no wallet address exposed | Yes | Yes | Yes | Yes |
+| **Local-Only Storage** — encrypted at rest, auto-purge, no cloud sync | Yes | Yes | Yes | Yes |
+| **Mandatory 2FA** — required for app access, part of encryption key derivation | Yes | Yes | Yes | Yes |
+| **Panic Wipe** — duress PIN / gesture destroys all data including wallet | Yes | Yes | Yes | Yes |
+
+**The principle:** If an adversary can't learn it from your messages, they can't learn it from your money either.
+
+---
+
 ## Directory Structure
 
 ```
