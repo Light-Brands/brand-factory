@@ -754,6 +754,49 @@ Date: _________________________________
 
 ---
 
+## Exhibit B: Post-Raise Partnership — Ongoing Advisory & Implementation
+
+### Beyond the Raise
+
+Regardless of which payment option Endless selects, Light Brands Consulting would like to explore how it can support Endless post-raise as a long-term operational partner. The raise is the starting line — what comes after is where the real value is built.
+
+We are exceptionally effective at building the infrastructure to raise capital. We are even more effective at implementing what comes next.
+
+### Areas of Support
+
+Light Brands Consulting is prepared to serve as an embedded partner across every critical business function that Endless needs to scale post-raise, including but not limited to:
+
+| Function | How We Help |
+|----------|-------------|
+| **Advisory** | Ongoing strategic counsel, board-level support, investor relations, and capital deployment strategy |
+| **Development** | Product engineering, platform buildout, technical architecture, and AI-powered development at speed |
+| **Marketing** | Brand strategy, growth marketing, investor communications, content systems, and audience acquisition |
+| **Legal** | Contract infrastructure, compliance frameworks, entity management, and regulatory coordination |
+| **Operations** | Process design, workflow automation, vendor management, and operational scaling |
+| **Project Management** | Execution oversight, milestone tracking, cross-functional coordination, and delivery assurance |
+| **AI Automation** | Intelligent automation of critical business processes — identifying what should be automated, building it, and scaling it so the team operates at 10x capacity without 10x headcount |
+
+### The Approach
+
+We don't believe in bloated retainers or advisory roles that produce slide decks. Our model is implementation-first:
+
+1. **Identify** — Map every critical business process that touches the post-raise budget
+2. **Prioritize** — Rank by impact, urgency, and automation potential
+3. **Build** — Deploy AI-powered systems, workflows, and infrastructure that actually run the business
+4. **Scale** — Continuously optimize so that what works at $5M works at $50M
+
+### Why This Matters
+
+Most companies raise capital and then spend 12-18 months figuring out how to deploy it efficiently. By the time operations catch up to the capital, the window has narrowed. We collapse that timeline. The same team that built your raise infrastructure builds your operational infrastructure — no handoff, no ramp-up, no lost context.
+
+### Engagement Structure
+
+Post-raise partnership terms would be scoped separately based on Endless's priorities, budget allocation, and timeline. This exhibit serves as a statement of intent and an invitation to explore what a deeper, longer-term partnership looks like.
+
+We're ready when you are.
+
+---
+
 *Proposal prepared by Light Brands Consulting*
 *February 11, 2026*
 *Powered by InvestOS*
