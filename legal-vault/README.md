@@ -30,6 +30,10 @@ legal-vault/
 │   ├── audits/           # Audit reports and findings
 │   └── filings/          # Regulatory filings
 │
+├── partners/              # Partner contact details
+│   ├── _template.md      # Blank template for new partners
+│   └── {entity}.md       # One file per partner (business info, banking, contacts)
+│
 ├── intellectual-property/ # IP assets
 │   ├── trademarks/       # Trademark registrations
 │   └── licenses/         # IP license agreements
