@@ -160,6 +160,8 @@ No remote system stores any data. Relay nodes process packets in RAM only. Dead 
 
 Non-custodial multi-chain crypto wallet. Monero (XMR) as primary currency (privacy by default). Zcash shielded, Bitcoin with CoinJoin/PayJoin/Silent Payments, Ethereum via ZK rollups. In-chat payments, group bill splitting. Phantom Swap for trustless atomic cross-chain swaps. XMR Hop for breaking chain analysis. Anonymous DeFi access via RPC proxy through Scrambler.
 
+**Financial Privacy Parity Principle:** Every financial operation — transaction broadcasts, balance queries, swap negotiations, DeFi interactions — receives the same full 7-layer Scrambler protection as messages. No direct connection to any blockchain node, ever. Financial cover traffic runs at constant rate so an observer cannot distinguish "user sent a payment" from "user sent a message" from "cover traffic." Transaction broadcasts are temporally scrambled and multi-node broadcast via separate Scrambler exit paths. In-chat payment notifications and on-chain transactions are deliberately desynchronized to prevent timing correlation.
+
 **See:** [shadow-wallet.md](architecture/shadow-wallet.md), [phantom-swap.md](architecture/phantom-swap.md), [defi-proxy.md](architecture/defi-proxy.md)
 
 ### Mandatory 2FA + Hardening
@@ -237,6 +239,9 @@ All client code, relay code, protocol specs, and cryptographic implementations a
 
 ### Defense in depth
 No single layer provides security alone. Every mechanism (encryption, mixnet, VPN, cover traffic, jurisdiction routing, protocol camouflage, dead drops, temporal scrambling) adds independent protection. An adversary must defeat ALL layers simultaneously.
+
+### Financial privacy parity
+Money moves with the same protection as words. Every financial operation — transaction broadcasts, balance queries, swap negotiations, DeFi interactions — passes through the full 7-layer Scrambler stack. There is no "lite mode" for financial traffic. If the messenger protects against a threat, the wallet protects against it too.
 
 ---
 

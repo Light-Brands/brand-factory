@@ -14,6 +14,9 @@ As a user, I want to swap Bitcoin for Monero without any exchange or KYC.
 - No intermediary, no exchange account
 - Time-locked: automatic refund on timeout
 - Swap negotiation routed through Scrambler (anonymous)
+- HTLC creation/claim transactions broadcast through full 7-layer Scrambler (not just negotiation)
+- Multi-node broadcast for both BTC and XMR legs
+- Random delay between swap agreement and on-chain HTLC creation
 
 ### US-12.2: P2P Orderbook
 As a user, I want to find swap counterparties without revealing my identity.
@@ -35,6 +38,8 @@ As a user, I want to route swaps through Monero for maximum chain analysis resis
 - Breaks chain analysis trail between source and destination
 - User configurable hold period before second leg
 - Automatic execution of second leg after hold
+- Minimum mandatory random delay between swap legs (protocol-enforced, not just user choice)
+- Each leg broadcast via independent Scrambler path through different jurisdictions
 
 ### US-12.4: Multi-Chain Swaps
 As a user, I want to swap between any supported chains.
@@ -53,6 +58,15 @@ As a user, I want my swap history to be private and auto-purging.
 - Follows same auto-purge policy as messages
 - No swap history on any server
 - Swap details (counterparty, amounts) encrypted at rest
+
+### US-12.6: Swap Cover Traffic
+As a user, I want my swap activity to be hidden within constant cover traffic.
+
+**Acceptance Criteria:**
+- Constant-rate dummy swap monitoring queries indistinguishable from real HTLC monitoring
+- Dummy orderbook queries mixed with real ones
+- Observer cannot tell "user is actively swapping" from "wallet is running normally"
+- Orderbook messages padded to uniform Sphinx packet size
 
 ## Technical Requirements
 - HTLC: COMIT network library (Rust)

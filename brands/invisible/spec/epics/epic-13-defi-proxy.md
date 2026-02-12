@@ -24,6 +24,9 @@ As a user, I want all blockchain RPC calls routed through the Scrambler so my IP
 - Response caching for gas prices, block height (reduce latency)
 - Custom RPC endpoints supported
 - Supports all EVM chains + Solana
+- Constant-rate dummy RPC queries as cover traffic (balance checks, gas prices, block height)
+- Real queries replace cover queries — no observable traffic change
+- Cover traffic starts on app launch, not when user opens wallet
 
 ### US-13.3: Anonymous dApp Interaction
 As a user, I want to use Uniswap, Aave, Curve, etc. without anyone knowing my IP or identity.
@@ -42,6 +45,8 @@ As a user, I want transaction signing to happen only on my device.
 - Private keys never leave device
 - Signing happens in memory-locked region
 - Signed transaction broadcast through Scrambler
+- Mandatory random delay between user approval and blockchain broadcast (temporal scrambling)
+- Multi-node broadcast via separate Scrambler exit paths
 - No remote signing service
 
 ### US-13.5: Multi-Chain Support
@@ -53,6 +58,17 @@ As a user, I want anonymous DeFi access across multiple chains.
 - Polygon
 - Any EVM-compatible chain
 - Chain switching within proxy
+
+### US-13.6: Full Scrambler Parity for DeFi
+As a user, I want all my DeFi interactions to receive the same 7-layer privacy protection as my messages.
+
+**Acceptance Criteria:**
+- All RPC traffic is Sphinx packets through the 5-layer mixnet
+- Jurisdiction routing enforced for all DeFi traffic
+- Protocol camouflage wraps all RPC calls (DPI cannot distinguish DeFi from browsing)
+- Dead drop-style polling for async operations (transaction confirmations, position monitoring)
+- Financial cover traffic at constant rate
+- No observable difference in network traffic whether user is messaging, trading, or idle
 
 ## Technical Requirements
 - WalletConnect v2 SDK (Dart/Flutter)

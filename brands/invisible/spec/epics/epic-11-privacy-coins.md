@@ -14,6 +14,8 @@ As a user, I want native Monero support with all privacy features enabled by def
 - RingCT (Pedersen commitments hiding amounts)
 - FCMP++ support when available (full chain membership proofs)
 - Transaction broadcast through Scrambler (not directly to Monero network)
+- Multi-node transaction broadcast via separate Scrambler exit paths (on top of Monero's Dandelion++)
+- Financial cover traffic masks when real transactions occur
 - View-only wallet option for auditing
 
 ### US-11.2: Zcash Shielded Transactions
@@ -34,6 +36,9 @@ As a user, I want my Bitcoin transactions to be as private as possible.
 - Silent Payments (BIP-352): one-time addresses
 - Fresh address for every transaction
 - Optional: BTC → XMR → BTC atomic swap for full unlinkability
+- CoinJoin coordinator interaction routed through full Scrambler pipeline
+- Multi-node broadcast for all Bitcoin transactions via separate Scrambler exits
+- Temporal scrambling between CoinJoin rounds to prevent timing analysis
 
 ### US-11.4: Privacy Score
 As a user, I want to see a privacy rating for my transactions so I know how anonymous they are.
@@ -42,6 +47,15 @@ As a user, I want to see a privacy rating for my transactions so I know how anon
 - Privacy score (1-10) based on: chain, mixing level, address reuse, etc.
 - Recommendations to improve privacy (e.g., "Use XMR for maximum privacy")
 - Warning if privacy-reducing action detected (e.g., address reuse)
+
+### US-11.5: Financial Traffic Indistinguishability
+As a user, I want my financial network traffic to be indistinguishable from my messaging traffic.
+
+**Acceptance Criteria:**
+- All blockchain RPC queries are Sphinx packets through the mixnet (same as message packets)
+- Financial cover traffic runs at the same rate as messaging cover traffic
+- An observer monitoring the Scrambler cannot distinguish "user sent a payment" from "user sent a message" from "cover traffic"
+- Opening the wallet tab does not create any observable change in network traffic patterns
 
 ## Technical Requirements
 - Monero: monero-rs, monero-wallet-rpc integration
