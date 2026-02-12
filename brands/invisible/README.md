@@ -110,11 +110,11 @@ brands/invisible/
 | DeFi | WalletConnect v2, custom RPC proxy |
 | 2FA | TOTP (RFC 6238) + FIDO2/WebAuthn |
 
-## Revenue Model
+## Purpose
 
-Open-core:
-- **Free**: Personal use, full encryption, full Scrambler
-- **Paid**: Enterprise/team features, priority relay nodes, SLA guarantees
+Invisible is built for internal team use. All features — full Scrambler, Ghost VPN, Shadow Wallet, Burn Rooms — are available to every team member with no feature gating.
+
+If we choose to monetize in the future, the model would be open-core: all privacy features remain free, with optional paid tiers for priority relay infrastructure, team administration, and SLA guarantees.
 
 ## Links
 

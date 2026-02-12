@@ -8,7 +8,7 @@ This directory contains the complete technical specification for Invisible, an u
 
 ## Strategic Vision
 
-- **[MASTER-PLAN.md](MASTER-PLAN.md)** — Mission, market positioning, revenue model, competitive landscape, and the complete technical vision
+- **[MASTER-PLAN.md](MASTER-PLAN.md)** — Mission, market positioning, competitive landscape, and the complete technical vision
 
 ---
 

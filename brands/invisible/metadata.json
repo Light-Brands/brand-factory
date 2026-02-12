@@ -10,5 +10,5 @@
   "description": "Ultra-secure, privacy-first messenger — zero-trust, zero-metadata, zero-compromise",
   "category": "privacy-tech",
   "techStack": ["Rust", "Flutter/Dart", "WireGuard", "libsignal", "SQLCipher"],
-  "revenueModel": "open-core"
+  "revenueModel": "internal-use"
 }

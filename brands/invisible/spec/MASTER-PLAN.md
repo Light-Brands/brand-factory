@@ -172,11 +172,15 @@ Non-custodial multi-chain crypto wallet. Monero (XMR) as primary currency (priva
 
 ---
 
-## Revenue Model
+## Purpose and Monetization
 
-### Open-Core
+### Internal Team Use
 
-Invisible is fully open source. All privacy features are free for personal use. Revenue comes from enterprise/team features and infrastructure.
+Invisible is built for internal team use. Every feature — full Scrambler, Ghost VPN, Shadow Wallet, Burn Rooms, Phantom Swap — is available to every team member. There is no feature gating. Privacy is not a premium.
+
+### If We Choose to Monetize
+
+Should Invisible be released publicly, the model would be open-core:
 
 #### Free Tier (Personal)
 - Full E2EE messaging with all Scrambler layers
@@ -267,7 +271,7 @@ Success is measured by:
 - **Community:** Open-source contributors, protocol adoption by other projects
 - **Resilience:** Absence of successful deanonymization attacks
 - **Censorship resistance:** Availability in countries that attempt to block privacy tools
-- **Sustainability:** Infrastructure economics that keep the network running without central funding
+- **Sustainability:** Infrastructure economics that could keep the network running independently, if we choose to scale beyond internal use
 
 ---
 

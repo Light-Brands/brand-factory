@@ -55,16 +55,22 @@ Every line of client code, relay code, and protocol specification is open source
 - People who want social features, stories, channels (this is a messenger, not a social network)
 - People unwilling to use 2FA (it's mandatory)
 
-## Revenue Model: Open-Core
+## Purpose and Monetization
 
-### Free (Personal Use)
+### Internal Team Use
+Invisible is built for internal team use. All features are available to every team member with no feature gating. Privacy is the default, not a premium.
+
+### If We Choose to Monetize
+Should Invisible be released publicly, the model would be open-core:
+
+**Free (Personal Use)**
 - Full E2EE messaging with all Scrambler layers
 - Ghost VPN
 - Shadow Wallet (basic)
 - Burn rooms
 - All privacy features
 
-### Paid (Teams / Enterprise)
+**Paid (Teams / Enterprise)**
 - Priority relay nodes (lower latency)
 - Team key management
 - Admin controls for team deployment
@@ -72,7 +78,7 @@ Every line of client code, relay code, and protocol specification is open source
 - Advanced Phantom Swap (higher volume)
 - Priority support
 
-### Infrastructure Incentives
+**Infrastructure Incentives**
 - Community node operators earn fees from network traffic
 - Decentralized — revenue flows to infrastructure operators, not a central company
 
