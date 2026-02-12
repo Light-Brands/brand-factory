@@ -269,9 +269,50 @@ Given the $75M Regulation A+ raise structure, this engagement includes specializ
 
 ---
 
-## 5. Investment
+## 5. Post-Raise Partnership — Ongoing Advisory & Implementation
 
-### 5.1 Engagement Pricing
+### 5.1 Beyond the Raise
+
+The raise is the starting line — what comes after is where the real value is built.
+
+Regardless of which payment option Endless selects, this proposal includes Light Brands Consulting's commitment to serve as a long-term operational partner post-raise. We are exceptionally effective at building the infrastructure to raise capital. We are even more effective at implementing what comes next.
+
+### 5.2 Areas of Support
+
+Light Brands Consulting is prepared to serve as an embedded partner across every critical business function that Endless needs to scale post-raise, including but not limited to:
+
+| Function | How We Help |
+|----------|-------------|
+| **Advisory** | Ongoing strategic counsel, board-level support, investor relations, and capital deployment strategy |
+| **Development** | Product engineering, platform buildout, technical architecture, and AI-powered development at speed |
+| **Marketing** | Brand strategy, growth marketing, investor communications, content systems, and audience acquisition |
+| **Legal** | Contract infrastructure, compliance frameworks, entity management, and regulatory coordination |
+| **Operations** | Process design, workflow automation, vendor management, and operational scaling |
+| **Project Management** | Execution oversight, milestone tracking, cross-functional coordination, and delivery assurance |
+| **AI Automation** | Intelligent automation of critical business processes — identifying what should be automated, building it, and scaling it so the team operates at 10x capacity without 10x headcount |
+
+### 5.3 Implementation Approach
+
+We don't believe in bloated retainers or advisory roles that produce slide decks. Our model is implementation-first:
+
+1. **Identify** — Map every critical business process that touches the post-raise budget
+2. **Prioritize** — Rank by impact, urgency, and automation potential
+3. **Build** — Deploy AI-powered systems, workflows, and infrastructure that actually run the business
+4. **Scale** — Continuously optimize so that what works at $5M works at $50M
+
+### 5.4 Why This Matters
+
+Most companies raise capital and then spend 12-18 months figuring out how to deploy it efficiently. By the time operations catch up to the capital, the window has narrowed. We collapse that timeline. The same team that built your raise infrastructure builds your operational infrastructure — no handoff, no ramp-up, no lost context.
+
+### 5.5 Engagement Structure
+
+Post-raise partnership terms will be scoped based on Endless's priorities, budget allocation, and timeline following the raise. This section establishes the intent and framework for a deeper, longer-term partnership — the conversation starts on Day 1, not after the money lands.
+
+---
+
+## 6. Investment
+
+### 6.1 Engagement Pricing
 
 | Description | Amount |
 |-------------|--------|
@@ -279,7 +320,7 @@ Given the $75M Regulation A+ raise structure, this engagement includes specializ
 | Reg A+ Compliance & Qualification Layer | $50,000.00 |
 | **Total Investment** | **$625,000.00** |
 
-### 5.2 Payment Options
+### 6.2 Payment Options
 
 Client may select one of the following payment structures. All deliverables are identical regardless of payment option selected.
 
@@ -407,7 +448,7 @@ This isn't a passive incentive — it's a mutual commitment. Consultant will act
 
 ---
 
-### 5.3 Comparable Cost Analysis
+### 6.3 Comparable Cost Analysis
 
 | Traditional Approach | Estimated Cost | Timeline |
 |---------------------|---------------|----------|
@@ -426,7 +467,7 @@ This isn't a passive incentive — it's a mutual commitment. Consultant will act
 
 ---
 
-### 5.4 Payment Method
+### 6.4 Payment Method
 
 Payment shall be made via:
 - Wire transfer (preferred for amounts over $100,000)
@@ -437,13 +478,13 @@ Payment details will be provided upon execution of this agreement.
 
 ---
 
-## 6. Timeline
+## 7. Timeline
 
-### 6.1 Estimated Duration
+### 7.1 Estimated Duration
 
 The Full Arsenal engagement shall be completed within **thirty (30) calendar days** from the date of project kickoff, subject to Client responsiveness on information requests.
 
-### 6.2 Project Milestones
+### 7.2 Project Milestones
 
 | Week | Milestone | Deliverables |
 |------|-----------|--------------|
@@ -452,7 +493,7 @@ The Full Arsenal engagement shall be completed within **thirty (30) calendar day
 | **Week 3** | Legal, Tax & Operational Architecture | Entity structuring, tax analysis, governance docs, operational blueprint, data room build |
 | **Week 4** | Platform, Integration & Delivery | Investor platform deployment, data room finalization, 9-point valuation, final presentation |
 
-### 6.3 Reg A+ Filing Support Timeline
+### 7.3 Reg A+ Filing Support Timeline
 
 | Phase | Activity | Timeline |
 |-------|----------|----------|
@@ -467,7 +508,7 @@ The Full Arsenal engagement shall be completed within **thirty (30) calendar day
 
 ---
 
-## 7. Client Responsibilities
+## 8. Client Responsibilities
 
 To ensure successful delivery within the 30-day timeline, Client agrees to:
 
@@ -491,11 +532,11 @@ To ensure successful delivery within the 30-day timeline, Client agrees to:
 
 ---
 
-## 8. Intellectual Property
+## 9. Intellectual Property
 
 **We own the process. You own the result.**
 
-### 8.1 Client Ownership — All Deliverables
+### 9.1 Client Ownership — All Deliverables
 
 All work product created for Client under this agreement is the **sole property of Client** upon delivery. This includes, without limitation:
 - All documents, reports, strategic plans, and research
@@ -508,7 +549,7 @@ All work product created for Client under this agreement is the **sole property 
 
 No conditions. No license-back. No shared ownership. Everything produced for Endless belongs to Endless — fully and exclusively.
 
-### 8.2 Consultant Ownership — Process, Methods & Technology
+### 9.2 Consultant Ownership — Process, Methods & Technology
 
 Consultant retains **exclusive ownership** of all methodologies, systems, processes, frameworks, AI workflows, proprietary tools, software infrastructure, templates, and technology used to create the deliverables. This includes, without limitation:
 - The InvestOS operating system and its architecture
@@ -519,16 +560,16 @@ Consultant retains **exclusive ownership** of all methodologies, systems, proces
 
 None of the above is transferred, licensed, or disclosed to Client. Consultant may use the same processes, methods, and technology to serve other clients without restriction.
 
-### 8.3 The Line
+### 9.3 The Line
 
 - **Client's:** Every document, model, page, and pixel created specifically for Endless.
 - **Consultant's:** Every method, tool, workflow, and system used to create it.
 
 ---
 
-## 9. Confidentiality
+## 10. Confidentiality
 
-### 9.1 Mutual Confidentiality
+### 10.1 Mutual Confidentiality
 
 Both parties agree to maintain the confidentiality of all proprietary information disclosed during this engagement. Confidential information includes but is not limited to:
 - Business strategies, financial projections, and raise plans
@@ -537,17 +578,17 @@ Both parties agree to maintain the confidentiality of all proprietary informatio
 - Trade secrets and proprietary methodologies
 - SEC filing materials prior to public qualification
 
-### 9.2 Duration
+### 10.2 Duration
 
 Confidentiality obligations shall survive the termination of this agreement for a period of three (3) years, given the sensitive nature of securities offering materials.
 
-### 9.3 SEC Disclosure
+### 10.3 SEC Disclosure
 
 Nothing in this agreement prevents Client from making disclosures required by the SEC, FINRA, or other regulatory bodies in connection with the Reg A+ offering.
 
 ---
 
-## 10. Limitation of Liability
+## 11. Limitation of Liability
 
 Consultant's total liability under this agreement shall not exceed the total fees paid by Client. In no event shall Consultant be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to:
 - Regulatory actions or SEC qualification delays
@@ -558,17 +599,17 @@ Consultant's total liability under this agreement shall not exceed the total fee
 
 ---
 
-## 11. Regulatory Compliance
+## 12. Regulatory Compliance
 
-### 11.1 Consulting Engagement Structure
+### 12.1 Consulting Engagement Structure
 
 This engagement is structured as a **fixed-fee consulting arrangement**. All fees are for professional consulting services rendered.
 
-### 11.2 No Broker-Dealer Activity
+### 12.2 No Broker-Dealer Activity
 
 Consultant does not solicit investors, handle investor funds, negotiate securities transactions, or provide investment advice. Consultant provides infrastructure, documentation, and strategic support only.
 
-### 11.3 Client Obligations
+### 12.3 Client Obligations
 
 Client is responsible for:
 - Engaging a qualified securities attorney for Reg A+ filing
@@ -578,46 +619,46 @@ Client is responsible for:
 
 ---
 
-## 12. Termination
+## 13. Termination
 
-### 12.1 By Client
+### 13.1 By Client
 
 Client may terminate this agreement at any time upon written notice. In the event of termination:
 - Client shall pay for all work completed through the date of termination, prorated based on percentage of deliverables completed
 - Consultant shall deliver all work product completed to date
 - Any deferred payment obligations are reduced proportionally
 
-### 12.2 By Consultant
+### 13.2 By Consultant
 
-Consultant may terminate this agreement if Client fails to fulfill its responsibilities as outlined in Section 7, provided Consultant has given written notice and a ten (10) day opportunity to cure.
+Consultant may terminate this agreement if Client fails to fulfill its responsibilities as outlined in Section 8, provided Consultant has given written notice and a ten (10) day opportunity to cure.
 
 ---
 
-## 13. General Provisions
+## 14. General Provisions
 
-### 13.1 Independent Contractor
+### 14.1 Independent Contractor
 
 Consultant is an independent contractor. Nothing in this agreement creates an employment, partnership, or joint venture relationship between the parties.
 
-### 13.2 Entire Agreement
+### 14.2 Entire Agreement
 
 This proposal, upon acceptance, constitutes the entire agreement between the parties and supersedes all prior discussions, proposals, and agreements.
 
-### 13.3 Amendments
+### 14.3 Amendments
 
 Any modifications to this agreement must be made in writing and signed by both parties.
 
-### 13.4 Governing Law
+### 14.4 Governing Law
 
 This agreement shall be governed by the laws of the State of Florida.
 
-### 13.5 Dispute Resolution
+### 14.5 Dispute Resolution
 
 Any disputes arising under this agreement shall first be submitted to good faith mediation. If mediation is unsuccessful, disputes shall be resolved through binding arbitration in Miami-Dade County, Florida.
 
 ---
 
-## 14. Acceptance
+## 15. Acceptance
 
 By signing below, Client accepts this proposal and authorizes Light Brands Consulting to commence work upon receipt of the initial deposit per the selected Payment Option.
 
@@ -751,49 +792,6 @@ Date: _________________________________
 - [ ] Blue Sky Compliance Mapping
 - [ ] Testing-the-Waters Campaign Framework
 - [ ] Subscription & Investment Flow Architecture
-
----
-
-## Exhibit B: Post-Raise Partnership — Ongoing Advisory & Implementation
-
-### Beyond the Raise
-
-Regardless of which payment option Endless selects, Light Brands Consulting would like to explore how it can support Endless post-raise as a long-term operational partner. The raise is the starting line — what comes after is where the real value is built.
-
-We are exceptionally effective at building the infrastructure to raise capital. We are even more effective at implementing what comes next.
-
-### Areas of Support
-
-Light Brands Consulting is prepared to serve as an embedded partner across every critical business function that Endless needs to scale post-raise, including but not limited to:
-
-| Function | How We Help |
-|----------|-------------|
-| **Advisory** | Ongoing strategic counsel, board-level support, investor relations, and capital deployment strategy |
-| **Development** | Product engineering, platform buildout, technical architecture, and AI-powered development at speed |
-| **Marketing** | Brand strategy, growth marketing, investor communications, content systems, and audience acquisition |
-| **Legal** | Contract infrastructure, compliance frameworks, entity management, and regulatory coordination |
-| **Operations** | Process design, workflow automation, vendor management, and operational scaling |
-| **Project Management** | Execution oversight, milestone tracking, cross-functional coordination, and delivery assurance |
-| **AI Automation** | Intelligent automation of critical business processes — identifying what should be automated, building it, and scaling it so the team operates at 10x capacity without 10x headcount |
-
-### The Approach
-
-We don't believe in bloated retainers or advisory roles that produce slide decks. Our model is implementation-first:
-
-1. **Identify** — Map every critical business process that touches the post-raise budget
-2. **Prioritize** — Rank by impact, urgency, and automation potential
-3. **Build** — Deploy AI-powered systems, workflows, and infrastructure that actually run the business
-4. **Scale** — Continuously optimize so that what works at $5M works at $50M
-
-### Why This Matters
-
-Most companies raise capital and then spend 12-18 months figuring out how to deploy it efficiently. By the time operations catch up to the capital, the window has narrowed. We collapse that timeline. The same team that built your raise infrastructure builds your operational infrastructure — no handoff, no ramp-up, no lost context.
-
-### Engagement Structure
-
-Post-raise partnership terms would be scoped separately based on Endless's priorities, budget allocation, and timeline. This exhibit serves as a statement of intent and an invitation to explore what a deeper, longer-term partnership looks like.
-
-We're ready when you are.
 
 ---
 
