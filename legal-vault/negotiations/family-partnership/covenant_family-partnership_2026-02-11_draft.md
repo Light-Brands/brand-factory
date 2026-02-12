@@ -28,7 +28,7 @@ This Founding Family Partnership Agreement ("Agreement") is entered into by and 
 
 **WHEREAS**, the Founding Families are the original architects and visionaries behind Light Brands Consulting (the "Business"), each holding a thirty percent (30%) equity interest;
 
-**WHEREAS**, the Founding Families have entered into an Executive Partner Agreement (LBC-EPA-2026-001) with Adams LLC (Jason Sparks), who holds a ten percent (10%) equity interest and has committed a capital contribution of One Hundred Thousand United States Dollars (USD $100,000) to the Business;
+**WHEREAS**, the Founding Families have entered into an Executive Partner Agreement (LBC-EPA-2026-001) with ADMS LLC (Jason Sparks), who holds a ten percent (10%) equity interest and has committed a capital contribution of One Hundred Thousand United States Dollars (USD $100,000) to the Business;
 
 **WHEREAS**, the Founding Families collectively hold ninety percent (90%) of the Business and wish to establish their own internal governance framework for decision-making at the family partnership level;
 
@@ -55,7 +55,7 @@ Each Founding Family holds a **thirty percent (30%) equity interest** in Light B
 
 ### 1.2 Fourth Partner
 
-Adams LLC (Jason Sparks) holds the remaining ten percent (10%) equity interest pursuant to the Executive Partner Agreement. Adams LLC is not a party to this Agreement. The terms governing Adams LLC's rights, obligations, and capital contribution are set forth exclusively in the Executive Partner Agreement.
+ADMS LLC (Jason Sparks) holds the remaining ten percent (10%) equity interest pursuant to the Executive Partner Agreement. ADMS LLC is not a party to this Agreement. The terms governing ADMS LLC's rights, obligations, and capital contribution are set forth exclusively in the Executive Partner Agreement.
 
 ### 1.3 Equal Voice
 
@@ -126,8 +126,8 @@ The Business may be brought into additional partnerships and ventures as opportu
 
 The Founding Families acknowledge the following capital contributions to the Business:
 
-#### Adams LLC Investment
-Adams LLC (Jason Sparks) has committed **One Hundred Thousand United States Dollars (USD $100,000)** to the Business as operating and growth capital, as set forth in the Executive Partner Agreement (Sections 2.1-2.3). This investment is treated as operating capital, does not accrue interest, and carries no repayment obligation except through pro rata distributions or dissolution proceeds.
+#### ADMS LLC Investment
+ADMS LLC (Jason Sparks) has committed **One Hundred Thousand United States Dollars (USD $100,000)** to the Business as operating and growth capital, as set forth in the Executive Partner Agreement (Sections 2.1-2.3). This investment is treated as operating capital, does not accrue interest, and carries no repayment obligation except through pro rata distributions or dissolution proceeds.
 
 #### Nicholas Courchesne Startup Loan
 Nicholas Courchesne advanced **Fifteen Thousand United States Dollars (USD $15,000)** to the Business for initial operating expenses and advertising budget. As documented in the Executive Partner Agreement (Sections 2.4-2.5), this advance is treated as a loan bearing zero percent (0%) interest, to be repaid within twelve (12) months of the commencement of Business operations from Business revenues prior to any distributions to Partners.
@@ -139,7 +139,7 @@ The non-cash contributions of Daniel Lawless and Andreas Demou — including int
 
 The Founding Families recognize and appreciate Nicholas Courchesne's multiple contributions to the partnership's foundation:
 - Providing the $15,000 interest-free startup loan enabling operations without external debt
-- Playing a material role in securing the Adams LLC $100,000 investment
+- Playing a material role in securing the ADMS LLC $100,000 investment
 - Making GVG AC Enterprises available as the interim operating entity
 - Contributing intellectual capital, sweat equity, and business relationships
 
@@ -186,7 +186,7 @@ This autonomy reflects our trust in each other's judgment and our recognition th
 
 ### 3.5 Relationship to Pro Rata Distributions
 
-The distribution waterfall described in this Article governs the internal financial arrangements among the Founding Families with respect to their collective 90% share. All distributions to Adams LLC (10%) shall be made pro rata as set forth in the Executive Partner Agreement (Section 1.5), calculated on their share before the reserve and distribution split described herein is applied to the Founding Family portion.
+The distribution waterfall described in this Article governs the internal financial arrangements among the Founding Families with respect to their collective 90% share. All distributions to ADMS LLC (10%) shall be made pro rata as set forth in the Executive Partner Agreement (Section 1.5), calculated on their share before the reserve and distribution split described herein is applied to the Founding Family portion.
 
 ---
 
@@ -227,7 +227,7 @@ The following decisions shall be made by the Founding Families under the 2/3 sup
 
 ### 4.3 Relationship to Executive Partner Agreement Governance
 
-Certain decisions require **unanimous consent of all four Partners** (including Adams LLC) as set forth in Article 5 of the Executive Partner Agreement. These include changes to equity ownership, admission of new partners, IP transactions, debt exceeding $10,000, sale of material assets, dissolution, mergers, related-party transactions, amendments to the EPA, and selection of the final legal structure.
+Certain decisions require **unanimous consent of all four Partners** (including ADMS LLC) as set forth in Article 5 of the Executive Partner Agreement. These are limited to: expenditures exceeding USD $10,000 from investment capital, changes to equity ownership percentages, admission of new partners, and amendments to the Executive Partner Agreement.
 
 For all such matters, the Founding Families shall first align among themselves using the 2/3 supermajority process before bringing the matter to the full four-partner vote.
 
@@ -277,7 +277,7 @@ The Founding Families commit to conducting **quarterly reviews** of the business
 - **Business Performance:** Progress across all three pillars (Consulting, Implementation, SaaS)
 - **Strategic Assessment:** Evaluation of current initiatives and market opportunities
 - **Loan Status:** Progress toward repayment of the $15,000 startup loan
-- **Investment Utilization:** Report on deployment of Adams LLC capital contribution
+- **Investment Utilization:** Report on deployment of ADMS LLC capital contribution
 - **Partnership Health:** Open discussion of how the partnership is functioning
 
 #### Review Format
@@ -295,7 +295,7 @@ As the business grows and becomes financially sustainable, these quarterly revie
 The transition from virtual reviews to funded retreats shall occur when the collective determines it is financially prudent, subject to 2/3 supermajority approval.
 
 ### 6.4 Quarterly Accounting Reviews
-In addition to Founding Family reviews, all four Partners (including Adams LLC) shall participate in quarterly accounting reviews as required by the Executive Partner Agreement (Section 4.4).
+In addition to Founding Family reviews, all four Partners (including ADMS LLC) shall participate in quarterly accounting reviews as required by the Executive Partner Agreement (Section 4.4).
 
 ### 6.5 Addressing Concerns
 When concerns arise, we agree to:
@@ -363,16 +363,19 @@ Should the annual re-agreement process extend beyond the term expiration, the ex
 ### 9.1 Complementary Documents
 This Agreement and the Executive Partner Agreement (LBC-EPA-2026-001) are complementary documents that together govern the full partnership structure of Light Brands Consulting:
 
-- **The Executive Partner Agreement** governs the rights, obligations, and relationships among all four Partners (including Adams LLC) and serves as the primary legally binding partnership agreement.
-- **This Agreement** governs the internal relationship, values, decision-making process, and financial arrangements among the three Founding Families.
+- **This Agreement** serves as the **primary governing document** and **source of truth** for the business operations, strategic direction, governance, and decision-making of Light Brands Consulting.
+- **The Executive Partner Agreement** governs the investment relationship with ADMS LLC, the protection of contributed capital, and those matters specifically requiring unanimous four-partner consent as defined therein.
 
 ### 9.2 Hierarchy
-Where any provision of this Agreement conflicts with the Executive Partner Agreement, the Executive Partner Agreement shall control with respect to matters involving all four Partners. This Agreement shall control with respect to matters exclusively among the Founding Families, including:
+This Agreement shall serve as the **source of truth** for the overall business of Light Brands Consulting, including:
+- Strategic direction and operational decisions
 - The 2/3 supermajority decision-making process
 - The distribution waterfall (reserve fund and profit split among Founding Families)
-- Strategic direction and operational decisions within the scope of Article IV
 - The annual re-agreement process
 - Values and commitments among the Founding Families
+- All matters not specifically reserved for unanimous four-partner consent under the Executive Partner Agreement
+
+Where this Agreement and the Executive Partner Agreement address the same matter, this Agreement shall control except with respect to: (a) expenditures exceeding USD $10,000 from investment capital, (b) changes to equity ownership percentages, (c) admission of new partners, and (d) amendments to the Executive Partner Agreement — each of which requires unanimous consent of all four Partners as set forth in the Executive Partner Agreement.
 
 ### 9.3 Foundation, Not a Ceiling
 This Agreement establishes the spirit and principles that shall guide our Founding Family partnership. Future legal documents — operating agreements, bylaws, contracts — shall be built upon this foundation and shall not contradict its essential principles.
@@ -440,11 +443,11 @@ Signature: _________________________ Date: _____________
 
 | Contributor | Type | Amount | Terms | Reference |
 |-------------|------|--------|-------|-----------|
-| Adams LLC (Jason Sparks) | Cash investment | USD $100,000 | Operating capital, no repayment obligation | EPA Section 2.1 |
+| ADMS LLC (Jason Sparks) | Cash investment | USD $100,000 | Operating capital, no repayment obligation | EPA Section 2.1 |
 | Nicholas Courchesne | Startup loan | USD $15,000 | 0% interest, 12-month repayment from revenues | EPA Section 2.4 |
 | Daniel Lawless | Non-cash | IP, sweat equity, relationships | Acknowledged | EPA Section 2.7 |
 | Andreas Demou | Non-cash | IP, sweat equity, relationships | Acknowledged | EPA Section 2.7 |
-| Nicholas Courchesne | Non-cash | IP, sweat equity, relationships, interim entity, secured Adams LLC investment | Acknowledged | EPA Sections 2.6-2.7 |
+| Nicholas Courchesne | Non-cash | IP, sweat equity, relationships, interim entity, secured ADMS LLC investment | Acknowledged | EPA Sections 2.6-2.7 |
 
 ## SCHEDULE B — Governance Matrix
 
@@ -455,14 +458,14 @@ Signature: _________________________ Date: _____________
 | Project selection & prioritization | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
 | Hiring & compensation | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
 | Distribution schedules | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
+| IP transactions | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
+| Sale of material assets | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
+| Dissolution of Business | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
+| Final legal structure | Founding Families | 2/3 supermajority | This Agreement, Art. IV |
+| Investment capital expenditure >$10K | All Four Partners | Unanimous | EPA, Art. 5 |
 | Equity changes & dilution | All Four Partners | Unanimous | EPA, Art. 5 |
 | New partner admission | All Four Partners | Unanimous | EPA, Art. 5 |
-| IP transactions | All Four Partners | Unanimous | EPA, Art. 5 |
-| Debt exceeding $10,000 | All Four Partners | Unanimous | EPA, Art. 5 |
-| Sale of material assets | All Four Partners | Unanimous | EPA, Art. 5 |
-| Dissolution of Business | All Four Partners | Unanimous | EPA, Art. 5 |
 | Amendment to EPA | All Four Partners | Unanimous | EPA, Art. 5 |
-| Final legal structure | All Four Partners | Unanimous | EPA, Art. 5 |
 
 ---
 

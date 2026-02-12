@@ -24,7 +24,7 @@ This Executive Partner Agreement ("Agreement") is entered into by and between:
 1. **Daniel Lawless** ("Lawless"), of 58 Holden Rd, Shirley, MA 01464, United States
 2. **Manoracle Studio**, represented by Andreas Demou ("Demou"), of 14 Andrea Ioannou, Paphos 8047, Cyprus
 3. **Nicholas Courchesne** ("Courchesne"), of 16 Ch du Barrage, Chelsea, QC J9B 1N2, Canada
-4. **Adams LLC** ("Adams"), a Cook Islands limited liability company, of 1 Global House, Avarua, Rarotonga, Cook Islands, represented by Jason Sparks ("Sparks")
+4. **ADMS LLC** ("ADMS"), a Cook Islands limited liability company, of 1 Global House, Avarua, Rarotonga, Cook Islands, represented by Jason Sparks ("Sparks")
 
 (individually, a "Partner" and collectively, the "Partners")
 
@@ -36,7 +36,7 @@ This Executive Partner Agreement ("Agreement") is entered into by and between:
 
 **WHEREAS**, the Partners intend this Agreement to be legally binding and fully enforceable upon execution, serving as the governing partnership agreement until a final legal, tax, and intellectual property protection structure is implemented;
 
-**WHEREAS**, Manoracle Studio and Adams LLC are entering into this Agreement through their respective legal entities, and Nicholas Courchesne is entering in his personal capacity;
+**WHEREAS**, Manoracle Studio and ADMS LLC are entering into this Agreement through their respective legal entities, and Nicholas Courchesne is entering in his personal capacity;
 
 **WHEREAS**, Daniel Lawless is entering into this Agreement in his personal capacity while he is in the process of formalizing the legal vehicle through which his ownership interest will be held, and the Partners acknowledge that this Agreement shall be amended to reflect such legal vehicle once established, without altering the rights, obligations, or ownership percentage set forth herein;
 
@@ -61,7 +61,7 @@ Founding Shares are allocated as follows and are **fully vested** upon execution
 | Daniel Lawless | 30% |
 | Manoracle Studio (Andreas Demou) | 30% |
 | Nicholas Courchesne | 30% |
-| Adams LLC (Jason Sparks) | 10% |
+| ADMS LLC (Jason Sparks) | 10% |
 | **Total** | **100%** |
 
 ### 1.3 Fixed Percentages
@@ -114,9 +114,9 @@ The advance set forth in Section 2.4 shall be treated as a **loan** to the Busin
 
 **(d)** Not be convertible to equity or alter the ownership percentages set forth in Section 1.2.
 
-### 2.6 Securing of Adams LLC Investment
+### 2.6 Securing of ADMS LLC Investment
 
-The Partners acknowledge that Nicholas Courchesne played a material role in securing the USD $100,000 capital commitment from Adams LLC (Jason Sparks) as set forth in Section 2.1. Without his efforts, introduction, and facilitation, the Adams LLC investment would not have been obtained on the timeline or terms achieved.
+The Partners acknowledge that Nicholas Courchesne played a material role in securing the USD $100,000 capital commitment from ADMS LLC (Jason Sparks) as set forth in Section 2.1. Without his efforts, introduction, and facilitation, the ADMS LLC investment would not have been obtained on the timeline or terms achieved.
 
 ### 2.7 Other Partners
 
@@ -194,29 +194,21 @@ Each Partner owes fiduciary duties of **loyalty, care, and good faith** to every
 
 The following actions shall require the **unanimous written consent** of all four Partners:
 
-**(a)** Any change to equity ownership percentages, including issuance of new equity or dilution of existing shares;
+**(a)** Any single expenditure, purchase, or financial commitment exceeding **USD $10,000** that draws upon investment capital contributed under Article 2;
 
-**(b)** Admission of new partners or equity holders;
+**(b)** Any change to equity ownership percentages, including issuance of new equity or dilution of existing shares;
 
-**(c)** Assignment, licensing, sale, or encumbrance of any intellectual property owned by or created for the Business;
+**(c)** Admission of new partners or equity holders;
 
-**(d)** Issuance of any debt, guarantee, or financial obligation exceeding **USD $10,000** in the aggregate;
+**(d)** Modification or amendment of this Agreement.
 
-**(e)** Sale, transfer, or disposition of material Business assets;
+### 5.3 Relationship to the Founding Family Partnership Agreement
 
-**(f)** Dissolution, winding up, or termination of the Business;
+The Founding Family Partnership Agreement (LBC-FPA-2026-001) shall serve as the **primary governing document** for the day-to-day operations, strategic direction, and governance of Light Brands Consulting. This Agreement governs the investment relationship between the Founding Families and ADMS LLC, the protection of contributed capital, and those matters specifically requiring unanimous consent as set forth in Section 5.2.
 
-**(g)** Merger, acquisition, or consolidation with any other entity;
+### 5.4 Day-to-Day Operations
 
-**(h)** Entry into any related-party transaction;
-
-**(i)** Modification or amendment of this Agreement;
-
-**(j)** Selection of the final legal, tax, and IP protection structure.
-
-### 5.3 Day-to-Day Operations
-
-Decisions related to ordinary course business operations that do not fall within Section 5.2 may be made by any Partner with authority reasonably delegated by the partnership, provided such decisions are consistent with any budgets, plans, or guidelines approved by the Partners.
+All business operations, strategic decisions, and governance matters not specifically reserved for unanimous four-partner consent under Section 5.2 shall be governed by the Founding Family Partnership Agreement.
 
 ---
 
@@ -499,13 +491,13 @@ Date: ______________________________________________
 
 ---
 
-### Adams LLC
+### ADMS LLC
 
 Signature: _________________________________________
 
 Print Name: Jason Sparks
 
-Title: Authorized Representative, Adams LLC
+Title: Authorized Representative, ADMS LLC
 
 Address: 1 Global House, Avarua, Rarotonga, Cook Islands
 
@@ -519,8 +511,8 @@ Date: ______________________________________________
 |---------|------------------|--------|--------|
 | Daniel Lawless | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
 | Manoracle Studio (Andreas Demou) | Non-cash (IP, sweat equity, relationships) | Acknowledged | Ongoing |
-| Nicholas Courchesne | Loan (USD $15,000 for operating/ads, 0% interest, 12-month repayment) + Non-cash (IP, sweat equity, relationships) + interim entity + secured Adams LLC investment | USD $15,000 (loan) + Acknowledged | Loan advanced; repayment due within 12 months of operations |
-| Adams LLC (Jason Sparks) | Cash | USD $100,000 | Due within 60 days of Effective Date |
+| Nicholas Courchesne | Loan (USD $15,000 for operating/ads, 0% interest, 12-month repayment) + Non-cash (IP, sweat equity, relationships) + interim entity + secured ADMS LLC investment | USD $15,000 (loan) + Acknowledged | Loan advanced; repayment due within 12 months of operations |
+| ADMS LLC (Jason Sparks) | Cash | USD $100,000 | Due within 60 days of Effective Date |
 
 ---
 
