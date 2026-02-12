@@ -389,6 +389,22 @@ The payment clock begins on the date Consultant delivers the final deliverable p
 - Quarterly check-ins between Client and Consultant are required during the payment period
 - All deliverables are Client's upon delivery — Client retains all work product regardless of payment timeline
 
+**Partnership Incentive — 5% Equity in Light Brands Consulting / Studio:**
+
+Endless has the opportunity to earn a **5% equity stake in Light Brands Consulting / Studio** by becoming the first client to execute a **seven-figure ($1,000,000+) engagement** with the firm.
+
+This isn't a passive incentive — it's a mutual commitment. Consultant will actively partner with Client to pursue this at scale, leveraging Client's network, relationships, and client base to structure deals that dwarf the $1M threshold and set both parties up for outsized, long-term success.
+
+| Term | Detail |
+|------|--------|
+| **Incentive** | 5% equity in Light Brands Consulting / Studio |
+| **Trigger** | Client is the first to execute a 7-figure ($1M+) deal with Consultant |
+| **Consultant Commitment** | Active partnership with Client to identify, structure, and close opportunities across Client's network at a scale that makes the $1M milestone a starting point, not a ceiling |
+| **Equity Instrument** | To be defined in a separate Equity Grant Agreement executed upon milestone achievement |
+| **Spirit of the Deal** | Both parties go all-in together — Consultant brings the arsenal, Client brings the relationships, and together we build something neither could alone |
+
+*This incentive reflects the true nature of the Founder's Bet: we're not just building infrastructure for Endless — we're building a partnership. Be first to the table at seven figures and own a piece of the engine that built it.*
+
 ---
 
 ### 5.3 Comparable Cost Analysis
