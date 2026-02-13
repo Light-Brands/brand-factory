@@ -9,6 +9,8 @@ This directory contains the complete technical specification for Invisible, an u
 ## Strategic Vision
 
 - **[MASTER-PLAN.md](MASTER-PLAN.md)** — Mission, market positioning, competitive landscape, and the complete technical vision
+- **[competitive-landscape.md](competitive-landscape.md)** — Deep competitive analysis: SimpleX, Nym, Session, Briar, Cwtch, Status — what exists, what's novel, build vs. integrate decisions
+- **[open-source-vision.md](open-source-vision.md)** — Open source community development + enterprise deployment strategy: the business model, governance, target markets, and revenue projections
 
 ---
 
