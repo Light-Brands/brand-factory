@@ -1,0 +1,32 @@
+{
+  "name": "AmplifyOS",
+  "tagline": "The Operating System for Compliant Capital Communications",
+  "description": "Multi-agent PR and investor relations platform purpose-built for Reg A/A+ and Reg D offerings ($20M-$150M raises). Compliance-first AI architecture that automates investor communications, content creation, and crisis management while ensuring every piece of content meets SEC, FINRA, and state blue sky law requirements.",
+  "category": "Enterprise SaaS",
+  "vertical": "Financial Services / Capital Markets",
+  "target_market": "Funds raising $20M-$150M via Reg A/A+ or Reg D offerings",
+  "business_model": "Bundled with InvestOS (War Chest/Full Arsenal packages)",
+  "pricing": {
+    "setup_fee": "$50K-$75K",
+    "monthly_retainer": "$15K-$25K",
+    "typical_6_month_engagement": "$225K"
+  },
+  "differentiation": [
+    "Compliance-first AI architecture (trained on SEC/FINRA regulations)",
+    "Investor-focused content (not consumer brand PR)",
+    "InvestOS integration (seamless data sync from financial models, offering docs)",
+    "Regulatory crisis management (SEC inquiries, investor complaints)"
+  ],
+  "tech_stack": {
+    "llm": "Claude 3.5 Sonnet / Opus 4.6 (Anthropic)",
+    "agent_framework": "LangChain / LangGraph",
+    "vector_db": "Pinecone / Weaviate",
+    "integration": "InvestOS API (REST/GraphQL)"
+  },
+  "status": "Planning",
+  "created": "2026-02-14",
+  "parent_offering": "InvestOS",
+  "year_1_revenue_target": "$3.46M",
+  "year_1_client_target": 10,
+  "gross_margin_target": "70%"
+}
