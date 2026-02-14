@@ -13,6 +13,18 @@ AI Brand Factory — an autonomous brand creation engine. Contains 25+ brands, l
 - `tooling/` — Shared automation (ai-coding-config, signnow)
 - `design-system/` — Shared component library and design tokens
 
+## BMAD Method Integration
+
+BMAD Method framework installed at `/tooling/bmad-method/` - 21 specialized agents and 50+ workflows for agile AI development. See `/BMAD-USAGE.md` for complete documentation.
+
+**Quick Access:**
+- Workflows: `/tooling/bmad-method/core/workflows/` (brainstorming, elicitation, party-mode)
+- Modules: core, bmm, bmb, bmgd, cis
+- Output: `/tooling/bmad-output/` (planning & implementation artifacts)
+- Config: `/tooling/bmad-method/_config/`
+
+**Important:** `/tooling/bmad-method/` is production (use this). `brands/test-brand/.bmad-method/` is experimental only.
+
 ## SignNow Integration (Document Signing)
 
 The SignNow CLI at `tooling/signnow/signnow.py` is connected to the production SignNow API. It auto-authenticates from `.env.signnow` credentials.

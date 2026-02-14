@@ -42,3 +42,9 @@ tooling/signnow/.tracker.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# BMAD installations
+tooling/bmad-method/node_modules/
+tooling/bmad-output/node_modules/
+brands/*/bmad-method/node_modules/
+brands/*/.bmad-method/node_modules/
