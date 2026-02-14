@@ -97,33 +97,53 @@ Specialized agents for SEC inquiries, investor complaints, compliance issues uni
 
 **AmplifyOS** sits at the center, orchestrating specialized AI agents across 6 core categories:
 
-```
-                    ┌─────────────────┐
-                    │  Compliance     │
-                    │  Review Layer   │
-                    └────────┬────────┘
-                             │
-          ┌──────────────────┼──────────────────┐
-          │                  │                  │
-    ┌─────▼─────┐      ┌────▼─────┐      ┌────▼─────┐
-    │ AI        │      │ AmplifyOS│      │ AI Crisis│
-    │ Analysts  │◄─────┤   Core   ├─────►│ Managers │
-    └───────────┘      └────┬─────┘      └──────────┘
-          │                 │                  │
-    ┌─────▼─────┐      ┌────▼─────┐      ┌────▼─────┐
-    │ AI Content│      │ AI Investor│     │ AI       │
-    │ Creators  │      │ Relations  │     │ Researchers│
-    └───────────┘      └──────────┘      └──────────┘
-          │                  │                  │
-          └──────────────────┴──────────────────┘
-                             │
-                    ┌────────▼────────┐
-                    │   InvestOS      │
-                    │   Integration   │
-                    │   (Data Room,   │
-                    │   Financials,   │
-                    │   Offering Docs)│
-                    └─────────────────┘
+```mermaid
+graph TB
+    subgraph Compliance["🛡️ Compliance Review Layer"]
+        ComplianceGate["All Content Reviewed<br/>Before Publication"]
+    end
+
+    subgraph Core["AmplifyOS Core"]
+        Hub["🎯 AmplifyOS<br/>Orchestration Engine"]
+    end
+
+    subgraph Agents["AI Agent Categories"]
+        Compliance["👨‍⚖️ AI Compliance Counsel<br/>Sarah, Marcus, Elena,<br/>David, Jennifer"]
+        IR["💼 AI Investor Relations<br/>Amanda, James, Priya,<br/>Robert, Nicole"]
+        FinComm["📊 AI Financial Communicators<br/>Michael, Lisa, Daniel,<br/>Sophia, Aaron"]
+        Content["✍️ AI Content Creators<br/>Emma, Carlos, Hannah,<br/>Tyler, Zoe, Maya"]
+        Crisis["🚨 AI Crisis Managers<br/>Victoria, Brandon, Olivia,<br/>Nathan, Rachel"]
+        Analysts["🔍 AI Market Analysts<br/>Jordan, Isabella, Ethan,<br/>Ava, Lucas"]
+    end
+
+    subgraph Integration["InvestOS Integration"]
+        InvestOS["💾 InvestOS Data<br/>• Financial Models<br/>• Data Room Docs<br/>• Offering Materials<br/>• Investor Lists"]
+    end
+
+    ComplianceGate --> Hub
+    Hub --> Compliance
+    Hub --> IR
+    Hub --> FinComm
+    Hub --> Content
+    Hub --> Crisis
+    Hub --> Analysts
+
+    Compliance -.->|pulls data| InvestOS
+    IR -.->|pulls data| InvestOS
+    FinComm -.->|pulls data| InvestOS
+    Content -.->|pulls data| InvestOS
+    Crisis -.->|pulls data| InvestOS
+    Analysts -.->|pulls data| InvestOS
+
+    style ComplianceGate fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style Hub fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+    style InvestOS fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+    style Compliance fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style IR fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style FinComm fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style Content fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style Crisis fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style Analysts fill:#ffd43b,stroke:#f08c00,stroke-width:2px
 ```
 
 ### Key Architectural Principles
@@ -162,6 +182,48 @@ Each agent has a specific role (like prai.co's named personas with avatars and s
 ---
 
 ## 3. Agent Categories & Specializations
+
+```mermaid
+mindmap
+  root((AmplifyOS<br/>30+ AI Agents))
+    AI Compliance Counsel
+      Sarah Chen - Reg A/A+
+      Marcus Williams - Reg D
+      Elena Rodriguez - FINRA
+      David Park - Blue Sky
+      Jennifer Liu - Risk Language
+    AI Investor Relations
+      Amanda Foster - LP Comms
+      James Mitchell - Roadshow
+      Priya Sharma - Onboarding
+      Robert Chen - Shareholder
+      Nicole Adams - Crisis Liaison
+    AI Financial Communicators
+      Michael Torres - Financial Story
+      Lisa Wang - Valuation
+      Daniel Brown - Use of Proceeds
+      Sophia Martinez - Metrics
+      Aaron Johnson - Risk Translator
+    AI Content Creators
+      Emma Thompson - Offering Circular
+      Carlos Rivera - Investor Decks
+      Hannah Lee - Email Campaigns
+      Tyler Jackson - Video Scripts
+      Zoe Anderson - Landing Pages
+      Maya Patel - Social Media
+    AI Crisis Managers
+      Victoria Hayes - SEC Response
+      Brandon Scott - Investor Complaints
+      Olivia Chen - Regulatory Issues
+      Nathan Green - Reputation Defense
+      Rachel Kim - Crisis Lead
+    AI Market Analysts
+      Jordan Taylor - Competitive Analysis
+      Isabella Cruz - Market Sentiment
+      Ethan Moore - Industry Research
+      Ava Wilson - Investor Psychology
+      Lucas Brown - Media Monitoring
+```
 
 ### 1. AI Compliance Counsel (The Gatekeeper Layer)
 
@@ -337,23 +399,33 @@ Each agent has a specific role (like prai.co's named personas with avatars and s
 
 #### Scenario 1: Creating an Investor Update Email
 
-```
-1. User Request: "Create quarterly investor update highlighting Q3 performance"
-   ↓
-2. Financial Communicator (Michael Torres) pulls Q3 metrics from InvestOS financial model
-   ↓
-3. Performance Metrics Analyst (Sophia Martinez) identifies key KPIs to highlight
-   ↓
-4. Email Campaign Specialist (Hannah Lee) drafts update in brand voice
-   ↓
-5. Compliance Layer Review:
-   - Reg D Compliance Officer (Marcus) reviews for private placement compliance
-   - Risk Language Specialist (Jennifer) adds required disclaimers
-   - FINRA Reviewer (Elena) flags any performance claims needing context
-   ↓
-6. LP Communications Director (Amanda) final review for tone/messaging
-   ↓
-7. ✅ Approved content delivered to user for final approval and send
+```mermaid
+sequenceDiagram
+    actor User
+    participant Hub as AmplifyOS Core
+    participant Michael as Financial Communicator<br/>(Michael Torres)
+    participant Sophia as Performance Metrics<br/>(Sophia Martinez)
+    participant Hannah as Email Specialist<br/>(Hannah Lee)
+    participant Compliance as Compliance Layer<br/>(Marcus, Jennifer, Elena)
+    participant Amanda as LP Communications<br/>(Amanda Foster)
+    participant InvestOS
+
+    User->>Hub: "Create Q3 investor update"
+    Hub->>Michael: Pull Q3 performance data
+    Michael->>InvestOS: Fetch Q3 metrics
+    InvestOS-->>Michael: Financial data returned
+    Michael->>Sophia: Request KPI analysis
+    Sophia-->>Michael: Key KPIs identified
+    Michael->>Hannah: Draft email content
+    Hannah-->>Hub: Draft ready
+    Hub->>Compliance: Review for compliance
+    Note over Compliance: • Marcus: Reg D check<br/>• Jennifer: Add disclaimers<br/>• Elena: Flag performance claims
+    Compliance-->>Hub: Compliance approved
+    Hub->>Amanda: Final tone/messaging review
+    Amanda-->>Hub: Approved
+    Hub->>User: ✅ Compliant draft ready (10 mins)
+
+    Note over User,InvestOS: ONE request → 6+ agents → Compliant content in minutes
 ```
 
 **Key Insight**: The user makes ONE request. AmplifyOS orchestrates 6+ agents to deliver compliant, accurate, on-brand content in minutes.
@@ -362,21 +434,42 @@ Each agent has a specific role (like prai.co's named personas with avatars and s
 
 #### Scenario 2: SEC Comment Letter Response
 
-```
-1. Alert: SEC comment letter received on Reg A offering circular
-   ↓
-2. SEC Response Coordinator (Victoria) triages comments, assigns to specialists
-   ↓
-3. Parallel Processing:
-   - Financial Risk Translator (Aaron) handles financial disclosure comments
-   - Use of Proceeds Writer (Daniel) addresses use of proceeds questions
-   - Compliance Officers (Sarah, Marcus) draft regulatory responses
-   ↓
-4. Offering Circular Writer (Emma) integrates changes into 1-A/A amendment
-   ↓
-5. Compliance Layer Final Review (all compliance agents sign off)
-   ↓
-6. ✅ Complete response package ready for legal counsel review and filing
+```mermaid
+sequenceDiagram
+    participant SEC
+    participant Hub as AmplifyOS Core
+    participant Victoria as SEC Response Coordinator<br/>(Victoria Hayes)
+    participant Specialists as Parallel Specialists
+    participant Aaron as Financial Risk Translator
+    participant Daniel as Use of Proceeds Writer
+    participant ComplianceTeam as Compliance Officers<br/>(Sarah, Marcus)
+    participant Emma as Offering Circular Writer
+    participant Compliance as Compliance Layer
+    actor Legal as Legal Counsel
+
+    SEC->>Hub: 🚨 SEC Comment Letter
+    Hub->>Victoria: Triage comments
+    Note over Victoria: Analyze comments,<br/>assign to specialists
+
+    par Parallel Processing
+        Victoria->>Aaron: Financial disclosure comments
+        Aaron-->>Victoria: Response drafted
+    and
+        Victoria->>Daniel: Use of proceeds questions
+        Daniel-->>Victoria: Response drafted
+    and
+        Victoria->>ComplianceTeam: Regulatory responses
+        ComplianceTeam-->>Victoria: Response drafted
+    end
+
+    Victoria->>Emma: Integrate changes into 1-A/A
+    Emma-->>Hub: Amendment drafted
+    Hub->>Compliance: Final compliance review
+    Note over Compliance: All agents sign off
+    Compliance-->>Hub: ✅ Approved
+    Hub->>Legal: Response package ready (24-48 hrs)
+
+    Note over SEC,Legal: Traditional: 2-3 weeks | AmplifyOS: 24-48 hours
 ```
 
 **Key Insight**: What would take a traditional team 2-3 weeks (coordinating lawyers, CFO, consultants) happens in 24-48 hours with AmplifyOS orchestration.
@@ -385,24 +478,57 @@ Each agent has a specific role (like prai.co's named personas with avatars and s
 
 #### Scenario 3: Crisis - Negative Press During Raise
 
-```
-1. Alert: Negative article published questioning offering valuation
-   ↓
-2. Crisis Communications Lead (Rachel) coordinates response team:
-   - Reputation Defense Strategist (Nathan) assesses damage, develops strategy
-   - Valuation Communicator (Lisa) prepares fact-based valuation defense
-   - Media Monitoring Specialist (Lucas) tracks spread/sentiment
-   ↓
-3. Content Creation (Parallel):
-   - LP Communications Director (Amanda) drafts investor reassurance message
-   - Social Media Writer (Maya) creates compliant public response
-   - Email Specialist (Hannah) prepares FAQ for concerned investors
-   ↓
-4. Compliance Layer Review (ensures no regulatory violations in crisis response)
-   ↓
-5. Investor Crisis Liaison (Nicole) monitors incoming investor questions, responds
-   ↓
-6. ✅ Multi-channel crisis response deployed, ongoing monitoring active
+```mermaid
+sequenceDiagram
+    participant Media as Negative Press
+    participant Hub as AmplifyOS Core
+    participant Rachel as Crisis Lead<br/>(Rachel Kim)
+    participant CrisisTeam as Crisis Response Team
+    participant Nathan as Reputation Defense
+    participant Lisa as Valuation Communicator
+    participant Lucas as Media Monitor
+    participant ContentTeam as Content Creation Team
+    participant Amanda as LP Communications
+    participant Maya as Social Media Writer
+    participant Hannah as Email Specialist
+    participant Compliance as Compliance Layer
+    participant Nicole as Investor Liaison
+    actor Investors as Investors
+
+    Media->>Hub: 🚨 Negative article published<br/>(valuation questioned)
+    Hub->>Rachel: Coordinate crisis response
+
+    par Crisis Assessment
+        Rachel->>Nathan: Assess damage, develop strategy
+        Nathan-->>Rachel: Strategy ready
+    and
+        Rachel->>Lisa: Prepare valuation defense
+        Lisa-->>Rachel: Defense drafted
+    and
+        Rachel->>Lucas: Track spread/sentiment
+        Lucas-->>Rachel: Monitoring active
+    end
+
+    par Multi-Channel Content
+        Rachel->>Amanda: Investor reassurance message
+        Amanda-->>Rachel: Message drafted
+    and
+        Rachel->>Maya: Public social response
+        Maya-->>Rachel: Response drafted
+    and
+        Rachel->>Hannah: FAQ for investors
+        Hannah-->>Rachel: FAQ ready
+    end
+
+    Rachel->>Compliance: Review all crisis content
+    Note over Compliance: Ensure no regulatory<br/>violations in response
+    Compliance-->>Hub: ✅ All approved
+    Hub->>Nicole: Deploy & monitor investor responses
+    Nicole->>Investors: Multi-channel response deployed
+    Investors->>Nicole: Questions received
+    Nicole->>Investors: Real-time responses
+
+    Note over Media,Investors: Crisis response: <4 hours | Traditional PR: 2-3 days
 ```
 
 **Key Insight**: Crisis response in <4 hours vs. 2-3 days with traditional PR agency (who may not have compliance expertise).
@@ -427,16 +553,31 @@ Each agent has a specific role (like prai.co's named personas with avatars and s
 
 **Example Integration Flow:**
 
-```
-InvestOS Update: Financial model updated with Q3 actuals
-   ↓
-AmplifyOS Trigger: Detect material change in projections
-   ↓
-Compliance Review: Assess if change requires investor disclosure (yes)
-   ↓
-Content Generation: Draft investor update email + Form 1-U amendment
-   ↓
-User Notification: "Q3 results require investor update. Draft ready for review."
+```mermaid
+flowchart TD
+    Start([📊 InvestOS Update]) --> Detect{🔍 AmplifyOS Trigger:<br/>Material Change Detected?}
+
+    Detect -->|Yes| Compliance[👨‍⚖️ Compliance Review:<br/>Requires Disclosure?]
+    Detect -->|No| Monitor[⏳ Continue Monitoring]
+
+    Compliance -->|Yes| Generate[✍️ Content Generation:<br/>• Draft investor update email<br/>• Draft Form 1-U amendment]
+    Compliance -->|No| Log[📝 Log change, no action needed]
+
+    Generate --> Notify[🔔 User Notification:<br/>'Q3 results require investor update.<br/>Draft ready for review.']
+
+    Notify --> Approve{User Approves?}
+    Approve -->|Yes| Publish[📤 Publish & Send]
+    Approve -->|No| Revise[✏️ User Edits & Re-submits]
+
+    Revise --> Compliance
+    Publish --> Track[📊 Track Engagement]
+
+    style Start fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
+    style Detect fill:#4dabf7,stroke:#1971c2,stroke-width:2px,color:#fff
+    style Compliance fill:#ff6b6b,stroke:#c92a2a,stroke-width:2px,color:#fff
+    style Generate fill:#ffd43b,stroke:#f08c00,stroke-width:2px
+    style Notify fill:#a78bfa,stroke:#7c3aed,stroke-width:2px,color:#fff
+    style Publish fill:#51cf66,stroke:#2f9e44,stroke-width:2px,color:#fff
 ```
 
 ---
@@ -444,6 +585,54 @@ User Notification: "Q3 results require investor update. Draft ready for review."
 ## 5. Pricing & Packaging Model
 
 ### How AmplifyOS Bundles with InvestOS
+
+```mermaid
+graph LR
+    subgraph LaunchPad["🚀 Launch Pad"]
+        LP[InvestOS Only<br/>$75K-$95K<br/><br/>❌ No AmplifyOS<br/>(Raises under $20M)]
+    end
+
+    subgraph WarChest["⚔️ War Chest + AmplifyOS"]
+        WC_Base[InvestOS Base<br/>$125K-$155K]
+        WC_Add[AmplifyOS Add-On<br/>$50K setup<br/>+ $15K/month]
+        WC_Total[Combined<br/>$175K-$205K<br/>+ monthly]
+
+        WC_Base --> WC_Add
+        WC_Add --> WC_Total
+    end
+
+    subgraph FullArsenal["💎 Full Arsenal + AmplifyOS"]
+        FA_Base[InvestOS Base<br/>$175K-$195K]
+        FA_Add[AmplifyOS Add-On<br/>$75K setup<br/>+ $25K/month]
+        FA_Total[Combined<br/>$250K-$270K<br/>+ monthly]
+
+        FA_Base --> FA_Add
+        FA_Add --> FA_Total
+    end
+
+    subgraph WC_Features["War Chest Agents"]
+        WC_F1[✅ Compliance Counsel]
+        WC_F2[✅ Investor Relations]
+        WC_F3[✅ Financial Communicators]
+        WC_F4[✅ Content Creators]
+    end
+
+    subgraph FA_Features["Full Arsenal Agents"]
+        FA_F1[✅ All War Chest Agents]
+        FA_F2[✅ Crisis Managers]
+        FA_F3[✅ Market Analysts]
+        FA_F4[✅ Custom Agent Builds]
+    end
+
+    WC_Total -.-> WC_Features
+    FA_Total -.-> FA_Features
+
+    style LP fill:#e9ecef,stroke:#868e96,stroke-width:2px
+    style WC_Total fill:#4dabf7,stroke:#1971c2,stroke-width:3px,color:#fff
+    style FA_Total fill:#a78bfa,stroke:#7c3aed,stroke-width:3px,color:#fff
+    style WC_Features fill:#e7f5ff,stroke:#1971c2,stroke-width:2px
+    style FA_Features fill:#f3e8ff,stroke:#7c3aed,stroke-width:2px
+```
 
 | InvestOS Package | Base Price | AmplifyOS Add-On | Combined Price | What You Get |
 |------------------|------------|------------------|----------------|--------------|
@@ -471,6 +660,42 @@ User Notification: "Q3 results require investor update. Draft ready for review."
 - **Total COGS: ~$9K** → **Margin: 40-64%** on monthly
 
 ### Value Proposition vs. Traditional PR Agency
+
+```mermaid
+graph TB
+    subgraph Traditional["Traditional PR Agency"]
+        T_Setup["Setup/Onboarding<br/>$20K-$50K"]
+        T_Monthly["Monthly Retainer<br/>$25K-$50K/month × 6<br/>= $150K-$300K"]
+        T_Compliance["Compliance Review<br/>$500-$800/hour<br/>(outsourced, variable)"]
+        T_Crisis["Crisis Surcharges<br/>$10K-$25K per event"]
+        T_Total["Total 6-Month Cost<br/>$170K-$400K"]
+
+        T_Setup --> T_Total
+        T_Monthly --> T_Total
+        T_Compliance --> T_Total
+        T_Crisis --> T_Total
+    end
+
+    subgraph AmplifyOS["AmplifyOS (Full Arsenal)"]
+        A_Setup["Setup Fee<br/>$75K (one-time)"]
+        A_Monthly["Monthly Retainer<br/>$25K/month × 6<br/>= $150K"]
+        A_Compliance["Compliance Review<br/>✅ Included"]
+        A_Crisis["Crisis Management<br/>✅ Included (24/7)"]
+        A_Total["Total 6-Month Cost<br/>$225K"]
+
+        A_Setup --> A_Total
+        A_Monthly --> A_Total
+        A_Compliance -.->|No Extra Cost| A_Total
+        A_Crisis -.->|No Extra Cost| A_Total
+    end
+
+    T_Total -.->|Save $55K-$175K| A_Total
+
+    style T_Total fill:#ff6b6b,stroke:#c92a2a,stroke-width:3px,color:#fff
+    style A_Total fill:#51cf66,stroke:#2f9e44,stroke-width:3px,color:#fff
+    style A_Compliance fill:#d0ebff,stroke:#1971c2,stroke-width:2px
+    style A_Crisis fill:#d0ebff,stroke:#1971c2,stroke-width:2px
+```
 
 **Traditional PR Agency for Reg A/A+ Offering:**
 
@@ -615,6 +840,39 @@ User Notification: "Q3 results require investor update. Draft ready for review."
 
 ### Development Phases
 
+```mermaid
+gantt
+    title AmplifyOS Development Timeline
+    dateFormat YYYY-MM-DD
+    section Phase 1: Core
+    Agent Orchestration Platform    :a1, 2026-03-01, 30d
+    InvestOS API Integration        :a2, 2026-03-01, 45d
+    Compliance Review Engine        :a3, 2026-03-15, 30d
+    Core Agents (10 agents)         :a4, 2026-03-15, 45d
+    MVP Launch                      :milestone, m1, 2026-04-30, 0d
+
+    section Phase 2: Content
+    Content Creator Agents          :b1, 2026-04-15, 30d
+    Template Library                :b2, 2026-04-15, 30d
+    Brand Voice Calibration         :b3, 2026-05-01, 15d
+    User Dashboard v1               :b4, 2026-05-01, 30d
+    Content Production Ready        :milestone, m2, 2026-05-31, 0d
+
+    section Phase 3: Crisis
+    Crisis Management Agents        :c1, 2026-05-15, 30d
+    Market Analyst Agents           :c2, 2026-05-15, 30d
+    Analytics Dashboard             :c3, 2026-06-01, 30d
+    Alert/Monitoring Systems        :c4, 2026-06-01, 30d
+    Full Platform Launch            :milestone, m3, 2026-06-30, 0d
+
+    section Phase 4: Scale
+    Custom Agent Builds             :d1, 2026-06-15, 45d
+    Performance Optimization        :d2, 2026-06-15, 45d
+    Advanced Integrations           :d3, 2026-07-01, 30d
+    Enterprise Features             :d4, 2026-07-01, 30d
+    Production Ready (10 Clients)   :milestone, m4, 2026-08-31, 0d
+```
+
 **Phase 1: Core Infrastructure (Months 1-2)**
 
 - Agent orchestration platform (LangGraph multi-agent workflows)
@@ -629,7 +887,7 @@ User Notification: "Q3 results require investor update. Draft ready for review."
 **Phase 2: Content Production (Months 2-3)**
 
 - Content Creator agents (Emma, Carlos, Hannah, Zoe)
-- Template library (offering circulars, investor updates, pitch decks)
+- Template library (offering circulas, investor updates, pitch decks)
 - Brand voice calibration (train agents on client-specific tone, style)
 - User dashboard v1 (web interface for content requests, approvals)
 - **Deliverable**: Full content production capability, self-service dashboard
@@ -839,6 +1097,24 @@ User Notification: "Q3 results require investor update. Draft ready for review."
 ### Unique Market Position
 
 **AmplifyOS occupies a unique niche at the intersection of:**
+
+```mermaid
+quadrantChart
+    title Competitive Positioning: AmplifyOS vs. Alternatives
+    x-axis Low Compliance Expertise --> High Compliance Expertise
+    y-axis Manual/Slow --> AI-Powered/Fast
+    quadrant-1 Premium but Limited
+    quadrant-2 The AmplifyOS Advantage
+    quadrant-3 Cheap but Risky
+    quadrant-4 Compliant but Slow
+
+    Traditional PR Agencies: [0.2, 0.3]
+    Generic PR Automation (prai.co): [0.2, 0.8]
+    IR Software (Q4, Irwin): [0.7, 0.2]
+    AmplifyOS: [0.9, 0.9]
+```
+
+**Feature Comparison Matrix:**
 
 | Capability | Traditional PR | Generic PR Automation | IR Software | **AmplifyOS** |
 |------------|----------------|----------------------|-------------|---------------|
