@@ -204,6 +204,49 @@ Institutional-grade ecosystem ready for capital participation.
 **Outcome:**
 A system that actively drives participation toward the $12M raise objective while growing the broader ecosystem.
 
+### 4.6 Full Ecosystem Web Portal Build-Out
+
+This engagement includes the core web infrastructure for every business and initiative within the Cho Ventures ecosystem. Each portal receives foundational design, development, and integration into the ChoVerse hub.
+
+**Platforms included:**
+
+| Entity | Portal Type | Description |
+|--------|------------|-------------|
+| Tony Cho Personal Brand | Creative Platform | Artistic identity, book, course, storytelling |
+| ChoVerse | Ecosystem Hub | Central activity aggregator for the entire universe |
+| Cho Ventures | Family Office Portal | Portfolio overview, investor relations |
+| Future of Cities | Institutional Platform | Regenerative placemaking, projects, partnerships |
+| Metro 1 Commercial | Brokerage Platform | Commercial real estate, agent profiles, listings |
+| PHX-JAX District | District Portal | Arts and innovation district, events, community |
+| Climate + Innovation HUB | Incubator Platform | Climate tech programs, startups, events |
+| ChoZen Center (CCRL) | Program Portal | Artisan market, farm days, residency, youth camp |
+| ChoZen IP | Brand and Membership Portal | Membership platform, Casa Colibri, gift shop |
+| Book Platform | Product Launch Site | Generation Regeneration, Soft Power |
+| Online Course | Education Portal | Courses, certification, learning paths |
+| Speaking and Media | Thought Leadership Portal | Engagements, podcast, media presence |
+| Cho Family Foundation | Philanthropy Portal | DAF, conservation, culture preservation |
+| Ximena Cho Legacy Fund | Legacy Portal | DAF, community development, cultural preservation |
+| Friends of PHXJAX | Community Nonprofit Portal | Bloom Labs, Spring Mural Jam, arts programming |
+
+**Exclusions:**
+
+- ChoZen mobile application or native app development
+- Advanced AI or machine learning functionality within individual platforms
+- Custom software beyond standard web portal infrastructure
+- Third-party system integrations requiring custom API development
+
+**What is included per portal:**
+
+- Strategic positioning and narrative architecture
+- Responsive web design and development
+- Content management infrastructure
+- Integration into ChoVerse ecosystem hub
+- Consistent design language across the ecosystem
+- SEO and discoverability foundations
+
+**Outcome:**
+Every entity in the Cho Ventures ecosystem has a professional, functional web presence connected through ChoVerse, creating a unified digital infrastructure that supports the $12M raise narrative.
+
 ---
 
 ## 5. Engagement Philosophy
@@ -240,14 +283,36 @@ Because of the strategic opportunity and growth stage of the ecosystem, this par
 
 ### Equity Component
 
-In addition to the fee structure above, Light Brands will seek to secure **$450,000 in equity at pre-money valuation.** This protects the long-term interests of both parties by ensuring Light Brands remains a committed partner well beyond the initial engagement.
+In addition to the fee structure above, Light Brands will seek to secure **$450,000 in equity at pre-money valuation** based on FoC QOF Net Asset Value.
+
+**Equity Terms:**
+
+| Term | Detail |
+|------|--------|
+| **Equity Value** | $450,000 |
+| **Valuation Basis** | Pre-money (FoC QOF NAV: $35.3M) |
+| **Ownership** | ~1.27% ($450K / $35.3M) |
+| **Vesting** | Fully vests at time of completed raise |
+| **Liquidity** | Can be sold at any time after the raise closes |
+
+This structure protects the long-term interests of both parties by ensuring Light Brands remains a committed partner well beyond the initial engagement.
+
+### Ongoing Partnership Commitment
+
+As an equity partner, Light Brands commits to:
+
+- Ongoing advisory support for the entire Cho Ventures ecosystem
+- Strategic guidance on ecosystem growth, positioning, and activation
+- Development support for the ChoVerse and connected platforms
+
+**Future platforms and initiatives beyond this engagement will be quoted at an at-cost basis** for as long as Light Brands remains an equity partner under Option 2. This eliminates margin on future work and ensures the ecosystem continues to grow without premium pricing on infrastructure.
 
 ### Total Partnership Value
 
 | Component | Value |
 |-----------|-------|
 | **Cash Engagement** | $450,000 |
-| **Equity Position** | $450,000 (at pre-money valuation) |
+| **Equity Position** | $450,000 (at pre-money NAV of $35.3M) |
 | **Total Alignment** | $900,000 |
 
 This dual structure ensures Light Brands is fully invested in the long-term success of the ecosystem, not just the initial build.
@@ -278,11 +343,13 @@ Clear identity, product delivery platform, and ecosystem cohesion. Does not incl
 **Includes:**
 
 - Everything in Option 1
+- Web portals for all 15 ecosystem entities (see Section 4.6)
 - InvestOS infrastructure deployment
 - AmplifyOS capital activation layer
 - Strategic systems supporting the $12M raise objective
 - Investor-facing ecosystem alignment
 - Ongoing advisory during fundraising activation
+- Future platform work quoted at cost basis as equity partner
 
 **Investment Structure:**
 
@@ -292,10 +359,10 @@ Clear identity, product delivery platform, and ecosystem cohesion. Does not incl
 | Milestone 1 | $202,500 | When $1.2M raised (10% of $12M) |
 | Milestone 2 | $202,500 | When $3.6M raised (30% of $12M) |
 | **Total Cash** | **$450,000** | |
-| Equity | $450,000 | At pre-money valuation |
+| Equity | $450,000 | At pre-money NAV ($35.3M), vests at full raise |
 
 **Outcome:**
-Creative expression, ecosystem engagement, and capital readiness operate as one unified system. Light Brands' incentives are fully aligned with raise success.
+Creative expression, ecosystem engagement, and capital readiness operate as one unified system. Light Brands' incentives are fully aligned with raise success. Future development beyond this engagement is quoted at cost, not market rate.
 
 ---
 
@@ -322,14 +389,69 @@ from the beginning.
 | Parameter | Detail |
 |-----------|--------|
 | **Raise Objective** | $12M |
+| **Entity** | FoC QOF LLC (Delaware) |
+| **Pre-Money Valuation (NAV)** | $35.3M |
+| **Post-Money Valuation** | $47.3M ($35.3M + $12M) |
 | **Total Engagement Value** | $450,000 (cash) + $450,000 (equity) |
 | **Upfront Investment** | $45,000 (10%) |
 | **Deferred Fees** | $405,000 (90%), tied to raise milestones |
 | **Milestone 1** | $202,500 at $1.2M raised (10% of raise) |
 | **Milestone 2** | $202,500 at $3.6M raised (30% of raise) |
-| **Equity Position** | $450,000 at pre-money valuation |
+| **Equity Position** | $450,000 at pre-money NAV ($35.3M), ~1.27% ownership |
+| **Equity Vesting** | Fully vests at completed raise |
+| **Equity Liquidity** | Can be sold at any time after raise closes |
 | **Ecosystem Layers** | 5 (Personal Brand, ChoVerse, Future of Cities, InvestOS, AmplifyOS) |
+| **Web Portals Delivered** | 15 platforms across the entire ecosystem |
+| **Future Work** | At-cost basis for equity partners (Option 2) |
 | **Recommended Path** | Option 2: Full Ecosystem and Capital Activation |
+
+### Pre-Money vs Post-Money Valuation
+
+| Metric | Value |
+|--------|-------|
+| **Assets** | $51.8M |
+| **Liabilities** | $16.5M |
+| **Net Asset Value (Pre-Money)** | $35.3M |
+| **Equity Invested to Date** | $7.5M |
+| **NAV / Invested Equity** | 4.7x |
+| **New Capital (Raise)** | $12.0M |
+| **Post-Money Valuation** | $47.3M |
+| **Light Brands Equity at Pre-Money** | $450K = 1.27% ownership |
+| **That 1.27% at Post-Money** | ~$601K in value |
+
+### Economics in Context
+
+| Metric | Value | Percentage of Raise |
+|--------|-------|-------------------|
+| **Total Raise** | $12,000,000 | 100% |
+| **Upfront Cash Required** | $45,000 | 0.375% |
+| **Total Cash Fees (if raise succeeds)** | $450,000 | 3.75% |
+| **Equity Position** | $450,000 | 3.75% |
+| **Total Alignment** | $900,000 | 7.5% |
+
+**What $45,000 upfront (0.375% of the raise) delivers:**
+
+- 15 web portals across the entire Cho Ventures ecosystem
+- 5-layer strategic infrastructure (Personal Brand, ChoVerse, FoC, InvestOS, AmplifyOS)
+- Capital activation systems aligned to the $12M raise
+- Investor-facing ecosystem architecture
+- Ongoing strategic advisory
+- Future platform development at cost (Option 2)
+
+**What the full $450,000 in cash represents:**
+
+- 3.75% of the $12M raise
+- 90% of that amount ($405,000) is only paid if the raise succeeds
+- This covers institutional-grade ecosystem architecture for 15+ entities
+- Typical engagements of this nature begin at $250,000+ for a single platform
+
+**What $450,000 in equity represents:**
+
+- 1.27% ownership at pre-money NAV of $35.3M
+- At post-money ($47.3M), that position is worth approximately $601,000
+- Vests only when the full raise closes
+- Ensures Light Brands remains a long-term committed partner
+- Unlocks at-cost pricing on all future development
 
 ### How the Ecosystem Supports the Raise
 
@@ -514,6 +636,16 @@ RIGHT: Brand + Infrastructure + Amplification > Raise > Scale
 **Institutional Engagement Level**
 $450,000
 Total ecosystem architecture and capital activation value.
+15 web portals. 5 infrastructure layers. Full ecosystem build.
+
+### Slide 12.5: The Economics
+**What This Represents**
+- $45K upfront = 0.375% of the $12M raise
+- $450K total cash = 3.75% of the raise (90% deferred)
+- $450K equity at pre-money NAV ($35.3M) = 1.27% ownership
+- At post-money ($47.3M), that equity is worth ~$601K
+- Total alignment: $900K = 7.5% of raise
+- Future platform work at cost, not market rate
 
 ### Slide 13: Option 1
 **Brand and Ecosystem Foundation**
@@ -526,12 +658,14 @@ Total ecosystem architecture and capital activation value.
 ### Slide 14: Option 2 (Recommended)
 **Full Ecosystem and Capital Activation**
 - Everything in Option 1
+- 15 web portals across the entire ecosystem
 - InvestOS infrastructure
 - AmplifyOS activation
 - Capital alignment systems supporting $12M raise
 - Investment: $45K upfront, $202.5K at 10% raise, $202.5K at 30% raise
-- Plus $450K equity at pre-money valuation
+- $450K equity at pre-money NAV ($35.3M), vests at full raise
 - 90% of fees deferred until the raise succeeds
+- All future development at cost basis
 
 ### Slide 15: Moment of Truth Close
 Build separate pieces over time
@@ -585,14 +719,24 @@ Pause.
 
 ### Slide 12 (Value Anchor)
 Pause after saying the number.
-"This is $450,000 in infrastructure, strategy, and activation. But we're structuring this differently because we believe in the opportunity."
+"This is $450,000 in infrastructure, strategy, and activation. 15 web portals for every entity in the ecosystem. But we're structuring this differently because we believe in the opportunity."
 Pause again.
 "90% of our fee is deferred. We only get paid when the raise moves forward. And we're seeking equity at pre-money valuation because we want to be long-term partners, not vendors."
 
+### Slide 12.5 (The Economics)
+"Let me put this in context."
+"$45,000 upfront is less than four-tenths of one percent of the raise. That gets the entire ecosystem build started."
+"The full $450,000 in cash is 3.75% of the raise, and 90% of that only gets paid if the raise succeeds."
+"The equity is priced at pre-money NAV of $35.3 million. That's 1.27% ownership. It only vests when the raise closes, and you can sell it any time after."
+"As equity partners, we commit to advising and developing the entire Cho Ventures ecosystem going forward. And any future platforms beyond this engagement get quoted at cost, not market rate."
+Pause.
+"The economics here are heavily in your favor."
+
 ### Slide 14 (Option 2)
 "This is the path that aligns creativity, community, and capital from day one."
-"$45,000 gets the full ecosystem build started. The remaining $405,000 is tied to raise milestones. We don't get paid unless this works. That's how aligned we are."
-"On top of that, we're taking equity at pre-money valuation. We want skin in the game because we believe in what this becomes."
+"$45,000 gets the full ecosystem build started. All 15 portals. The remaining $405,000 is tied to raise milestones. We don't get paid unless this works. That's how aligned we are."
+"On top of that, we're taking equity at pre-money valuation. $450K at $35.3 million NAV. It vests when the raise closes, can be sold after. We want skin in the game because we believe in what this becomes."
+"And as equity partners, everything we build for you beyond this engagement is at cost. No margin. Because we're invested in the outcome, not the invoice."
 
 ### Slide 15 (Close)
 Use the 90-second close.
@@ -607,4 +751,4 @@ Future project.
 ---
 
 *Light Brands | Institutional Infrastructure and Capital Activation Partnership*
-*Total Value: $450,000 + $450,000 Equity | 10% Upfront, 90% Raise-Aligned | $12M Raise Objective*
+*Total Value: $450,000 + $450,000 Equity (Pre-Money NAV $35.3M) | 10% Upfront, 90% Raise-Aligned | $12M Raise | 15 Platforms | At-Cost Future Development*
