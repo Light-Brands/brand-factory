@@ -299,135 +299,14 @@ This reflects the full scope of ecosystem architecture, infrastructure deploymen
 
 Because of the strategic opportunity and growth stage of the ecosystem, this partnership is structured as an aligned model where Light Brands' compensation is directly tied to the success of the raise.
 
-All payment structures follow the same milestone framework:
+All Option 2 payment structures follow the same milestone framework:
 
 - **10% upfront** upon engagement signing
 - **90% deferred**, tied to raise milestones
 - **Milestone 1** triggers when 10% of $12M is raised ($1.2M)
 - **Milestone 2** triggers when 30% of $12M is raised ($3.6M)
 
-Option 2 is available in three payment structures:
-
-### Option 2A. All Cash
-
-| Component | Amount | Timing |
-|-----------|--------|--------|
-| **Upfront (10%)** | $65,000 | Upon engagement signing |
-| **Milestone 1 (50% of deferred)** | $292,500 | At $1.2M raised (10% of $12M) |
-| **Milestone 2 (50% of deferred)** | $292,500 | At $3.6M raised (30% of $12M) |
-| **Total** | **$650,000** | |
-| **Equity** | $0 | |
-
-### Option 2B. Cash + Equity Blend
-
-| Component | Amount | Timing |
-|-----------|--------|--------|
-| **Upfront (10%)** | $50,000 | Upon engagement signing |
-| **Milestone 1 (50% of deferred)** | $225,000 | At $1.2M raised (10% of $12M) |
-| **Milestone 2 (50% of deferred)** | $225,000 | At $3.6M raised (30% of $12M) |
-| **Total Cash** | **$500,000** | |
-| **Equity** | $200,000 | At pre-money NAV ($35.3M) |
-| **Total Alignment** | **$700,000** | |
-
-### Option 2C. Equity-Aligned (Recommended)
-
-| Component | Amount | Timing |
-|-----------|--------|--------|
-| **Upfront (10%)** | $40,000 | Upon engagement signing |
-| **Milestone 1 (50% of deferred)** | $180,000 | At $1.2M raised (10% of $12M) |
-| **Milestone 2 (50% of deferred)** | $180,000 | At $3.6M raised (30% of $12M) |
-| **Total Cash** | **$400,000** | |
-| **Equity** | $400,000 | At pre-money NAV ($35.3M) |
-| **Total Alignment** | **$800,000** | |
-
 **The only way Light Brands is paid in full is if the raise succeeds.** This creates complete alignment between both parties. Light Brands bears the execution risk alongside Cho Ventures, ensuring every decision and deliverable is oriented toward capital activation.
-
-```mermaid
-flowchart TD
-    subgraph A["2A: ALL CASH — $650K"]
-        A1["$65K<br/>Upfront"] --> A2["$292.5K<br/>at 10% Raise"]
-        A2 --> A3["$292.5K<br/>at 30% Raise"]
-        A3 --> A4["<b>$650K Total</b><br/>No Equity"]
-    end
-
-    subgraph B["2B: CASH + EQUITY — $500K + $200K"]
-        B1["$50K<br/>Upfront"] --> B2["$225K<br/>at 10% Raise"]
-        B2 --> B3["$225K<br/>at 30% Raise"]
-        B3 --> B4["<b>$500K Cash</b><br/>$200K Equity<br/>0.57% ownership"]
-    end
-
-    subgraph C["2C: EQUITY-ALIGNED — $400K + $400K"]
-        C1["$40K<br/>Upfront"] --> C2["$180K<br/>at 10% Raise"]
-        C2 --> C3["$180K<br/>at 30% Raise"]
-        C3 --> C4["<b>$400K Cash</b><br/>$400K Equity<br/>1.13% ownership"]
-    end
-
-    style A1 fill:#CD853F,stroke:#8B5E2B,color:#fff
-    style A2 fill:#CD853F,stroke:#8B5E2B,color:#fff
-    style A3 fill:#CD853F,stroke:#8B5E2B,color:#fff
-    style A4 fill:#FFD700,stroke:#B8960F,color:#000
-    style B1 fill:#4A90D9,stroke:#2C5F8A,color:#fff
-    style B2 fill:#4A90D9,stroke:#2C5F8A,color:#fff
-    style B3 fill:#4A90D9,stroke:#2C5F8A,color:#fff
-    style B4 fill:#FFD700,stroke:#B8960F,color:#000
-    style C1 fill:#2E8B57,stroke:#1D5E3A,color:#fff
-    style C2 fill:#2E8B57,stroke:#1D5E3A,color:#fff
-    style C3 fill:#2E8B57,stroke:#1D5E3A,color:#fff
-    style C4 fill:#FFD700,stroke:#B8960F,color:#000
-    style A fill:#2e1a0d,stroke:#CD853F,color:#fff
-    style B fill:#0d1b3e,stroke:#4A90D9,color:#fff
-    style C fill:#0d2e1a,stroke:#2E8B57,color:#fff
-```
-
-### Equity Terms (Options 2B and 2C)
-
-Equity is priced at **pre-money valuation** based on FoC QOF Net Asset Value.
-
-| Term | Option 2B | Option 2C |
-|------|-----------|-----------|
-| **Equity Value** | $200,000 | $400,000 |
-| **Valuation Basis** | Pre-money NAV: $35.3M | Pre-money NAV: $35.3M |
-| **Ownership** | ~0.57% | ~1.13% |
-| **Vesting** | Fully vests at completed raise | Fully vests at completed raise |
-| **Liquidity** | Sell any time after raise closes | Sell any time after raise closes |
-
-```mermaid
-flowchart LR
-    GRANT["Equity Granted<br/>at Pre-Money<br/>NAV <b>$35.3M</b>"] --> VEST["Fully Vests<br/>at Completed<br/>Raise"]
-    VEST --> POST["Post-Money<br/>Value Grows<br/>at <b>$47.3M</b>"]
-    POST --> LIQUID["Liquid<br/>Sell Any Time<br/>After Raise<br/>Closes"]
-    LIQUID --> ONGOING["Ongoing<br/>Advisory and<br/>At-Cost<br/>Development"]
-
-    style GRANT fill:#CD853F,stroke:#8B5E2B,color:#fff
-    style VEST fill:#4A90D9,stroke:#2C5F8A,color:#fff
-    style POST fill:#2E8B57,stroke:#1D5E3A,color:#fff
-    style LIQUID fill:#FFD700,stroke:#B8960F,color:#000
-    style ONGOING fill:#7B68EE,stroke:#5A4BC7,color:#fff
-```
-
-### Ongoing Partnership Commitment (Options 2B and 2C)
-
-As an equity partner, Light Brands commits to:
-
-- Ongoing advisory support for the entire Cho Ventures ecosystem
-- Strategic guidance on ecosystem growth, positioning, and activation
-- Development support for the ChoVerse and connected platforms
-
-**Future platforms and initiatives beyond this engagement will be quoted at an at-cost basis** for as long as Light Brands remains an equity partner. This eliminates margin on future work and ensures the ecosystem continues to grow without premium pricing on infrastructure.
-
-This commitment applies to Options 2B and 2C only. Option 2A does not include equity partnership or at-cost future development.
-
-### Option 2 Comparison Summary
-
-| | 2A: All Cash | 2B: Blend | 2C: Equity-Aligned |
-|---|---|---|---|
-| **Cash Total** | $650,000 | $500,000 | $400,000 |
-| **Equity** | $0 | $200,000 | $400,000 |
-| **Total Alignment** | $650,000 | $700,000 | $800,000 |
-| **Upfront** | $65,000 | $50,000 | $40,000 |
-| **Ownership** | 0% | 0.57% | 1.13% |
-| **At-Cost Future Work** | No | Yes | Yes |
-| **Ongoing Advisory** | No | Yes | Yes |
 
 ---
 
@@ -586,6 +465,97 @@ flowchart TD
 | **Ongoing Advisory** | No | Yes | Yes |
 
 All milestone triggers are the same: Milestone 1 at $1.2M raised (10% of $12M), Milestone 2 at $3.6M raised (30% of $12M).
+
+#### Three Payment Paths
+
+```mermaid
+flowchart LR
+    subgraph PATH2A["2A: ALL CASH"]
+        direction TB
+        A1["$65K<br/>Upfront"] --> A2["$292.5K<br/>Milestone 1"]
+        A2 --> A3["$292.5K<br/>Milestone 2"]
+        A3 --> A4["Total<br/><b>$650K Cash</b><br/>No Equity"]
+    end
+
+    subgraph PATH2B["2B: BLEND"]
+        direction TB
+        B1["$50K<br/>Upfront"] --> B2["$225K<br/>Milestone 1"]
+        B2 --> B3["$225K<br/>Milestone 2"]
+        B3 --> B4["Total<br/><b>$500K Cash</b><br/>+ $200K Equity"]
+    end
+
+    subgraph PATH2C["2C: EQUITY-ALIGNED"]
+        direction TB
+        C1["$40K<br/>Upfront"] --> C2["$180K<br/>Milestone 1"]
+        C2 --> C3["$180K<br/>Milestone 2"]
+        C3 --> C4["Total<br/><b>$400K Cash</b><br/>+ $400K Equity"]
+    end
+
+    style A1 fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style A2 fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style A3 fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style A4 fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style B1 fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style B2 fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style B3 fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style B4 fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style C1 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style C2 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style C3 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style C4 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style PATH2A fill:#2e1a0d,stroke:#CD853F,color:#fff
+    style PATH2B fill:#1a0d3e,stroke:#7B68EE,color:#fff
+    style PATH2C fill:#0d2e1a,stroke:#2E8B57,color:#fff
+```
+
+#### Equity Terms (Options 2B and 2C)
+
+| Term | Detail |
+|------|--------|
+| **Valuation Basis** | Pre-money NAV of $35.3M |
+| **Option 2B Equity** | $200,000 = 0.57% ownership |
+| **Option 2C Equity** | $400,000 = 1.13% ownership |
+| **Vesting** | Fully vests when full raise closes |
+| **Liquidity** | Can be sold at any time after raise closes |
+| **Post-Money Value (2B)** | ~$270K (0.57% of $47.3M) |
+| **Post-Money Value (2C)** | ~$534K (1.13% of $47.3M) |
+
+```mermaid
+flowchart LR
+    subgraph LIFECYCLE["EQUITY LIFECYCLE"]
+        direction LR
+        E1["Equity Granted<br/>at Pre-Money<br/><b>$35.3M NAV</b>"] --> E2["Raise<br/>Completes<br/><b>$12M</b>"]
+        E2 --> E3["Equity Vests<br/>Post-Money<br/><b>$47.3M</b>"]
+        E3 --> E4["Liquidity<br/>Unlocked<br/><b>Sellable</b>"]
+    end
+
+    style E1 fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style E2 fill:#FFD700,stroke:#B8960F,color:#000
+    style E3 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style E4 fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style LIFECYCLE fill:#0a0a1a,stroke:#FFD700,color:#ffd700
+```
+
+#### Ongoing Partnership Commitment (Options 2B and 2C)
+
+Equity partners receive:
+
+- **At-cost future development** — all future platforms, features, and builds beyond this engagement are quoted at cost. No margin. Light Brands is invested in the outcome, not the invoice.
+- **Ongoing advisory** — continued strategic advisory on ecosystem development, capital positioning, and growth infrastructure.
+- **Long-term alignment** — Light Brands remains committed to the ecosystem's success because we own a piece of it.
+
+#### Comparison Summary
+
+| Dimension | **2A: All Cash** | **2B: Blend** | **2C: Equity-Aligned** |
+|-----------|---|---|---|
+| **Cash Outlay** | $650,000 | $500,000 | $400,000 |
+| **Equity Commitment** | None | $200K (0.57%) | $400K (1.13%) |
+| **% of Raise (Cash)** | 5.42% | 4.17% | 3.33% |
+| **Upfront to Start** | $65,000 | $50,000 | $40,000 |
+| **Future Work Pricing** | Standard rates | At cost | At cost |
+| **Ongoing Advisory** | Engagement only | Included | Included |
+| **Long-Term Partnership** | No | Yes | Yes |
+| **Recommended** | | | Yes |
 
 **Outcome:**
 Creative expression, ecosystem engagement, and capital readiness operate as one unified system. Options 2B and 2C include equity partnership, ensuring Light Brands remains invested in long-term ecosystem success with at-cost future development.
