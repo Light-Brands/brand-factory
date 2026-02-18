@@ -703,12 +703,12 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
 
-    section Phase 1: Infrastructure (Weeks 1-8)
+    section Phase 1: Infrastructure + InvestOS (Weeks 1-8)
     Tony Cho Personal Brand        :p1a, 2026-03-01, 4w
     ChoVerse Ecosystem Hub         :p1b, 2026-03-01, 6w
     Future of Cities Platform      :p1c, 2026-03-08, 4w
+    InvestOS Deployment            :crit, p1e, 2026-03-01, 8w
     Remaining Ecosystem Portals    :p1d, 2026-03-15, 6w
-    InvestOS Deployment            :p1e, 2026-04-01, 4w
 
     section Phase 2: Activation (Weeks 8-12)
     AmplifyOS Rollout              :crit, p2a, 2026-04-27, 4w
@@ -723,22 +723,27 @@ gantt
 
     section Milestones
     Engagement Signing ($45K)      :milestone, m1, 2026-03-01, 0d
-    AmplifyOS Live                 :milestone, m2, 2026-04-27, 0d
-    Milestone 1 ($202.5K at $1.2M) :milestone, m3, 2026-06-01, 0d
-    Milestone 2 ($202.5K at $3.6M) :milestone, m4, 2026-08-01, 0d
+    Core Platforms Live            :milestone, m2, 2026-04-13, 0d
+    AmplifyOS Activation           :milestone, m3, 2026-04-27, 0d
+    Milestone 1 ($202.5K at $1.2M) :milestone, m4, 2026-06-01, 0d
+    Milestone 2 ($202.5K at $3.6M) :milestone, m5, 2026-08-01, 0d
 ```
 
-Light Brands operates at speed. The full infrastructure is built in 8 weeks. AmplifyOS activates at the top of month 3.
+Light Brands operates at speed. InvestOS starts day one alongside the platform builds. The full infrastructure is delivered in 8 weeks. AmplifyOS activates on the back side of core platforms going live.
 
-### Phase 1. Infrastructure Build (Weeks 1-8)
+### Phase 1. Infrastructure + InvestOS (Weeks 1-8)
+
+All work runs in parallel from day one:
 
 - Tony Cho personal brand platform (weeks 1-4)
 - ChoVerse ecosystem hub (weeks 1-6)
 - Future of Cities platform (weeks 2-5)
+- InvestOS capital readiness infrastructure (weeks 1-8, concurrent)
 - Remaining ecosystem portals (weeks 3-8)
-- InvestOS deployment (weeks 5-8)
 
 ### Phase 2. Activation (Weeks 8-12)
+
+Once core platforms are live, AmplifyOS activates:
 
 - AmplifyOS rollout (beginning of month 3)
 - Product launch support
@@ -995,8 +1000,8 @@ OR
 Build the ecosystem once.
 
 ### Slide 16: Execution Timeline
-- Phase 1 (Weeks 1-8): Full infrastructure build, all 15 portals live
-- Phase 2 (Weeks 8-12): AmplifyOS activation, fundraising alignment
+- Phase 1 (Weeks 1-8): Full infrastructure + InvestOS built in parallel, all 15 portals live
+- Phase 2 (Weeks 8-12): AmplifyOS activates on the back side of core platforms
 - Phase 3 (Month 4+): Raise momentum, ecosystem scaling
 
 ### Slide 17: Next Steps
