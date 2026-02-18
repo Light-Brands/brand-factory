@@ -87,12 +87,12 @@ The proposed ecosystem consists of five interconnected layers.
 
 ```mermaid
 flowchart TD
-    TC["TONY CHO PERSONAL BRAND<br/><i>Creative Identity Engine</i>"]
+    TC["TONY CHO<br/>PERSONAL BRAND<br/><i>Creative Identity Engine</i>"]
     CV["CHOVERSE<br/><i>Ecosystem Hub</i>"]
-    FOC["FUTURE OF CITIES<br/><i>Institutional Platform</i>"]
+    FOC["FUTURE OF<br/>CITIES<br/><i>Institutional Platform</i>"]
     IO["INVESTOS<br/><i>Infrastructure Layer</i>"]
     AO["AMPLIFYOS<br/><i>Activation Engine</i>"]
-    CA["CAPITAL ALIGNMENT<br/><b>$12M Raise</b>"]
+    CA["CAPITAL<br/>ALIGNMENT<br/><b>$12M Raise</b>"]
 
     TC --> CV --> FOC --> IO --> AO --> CA
 
@@ -317,10 +317,10 @@ Because of the strategic opportunity and growth stage of the ecosystem, this par
 
 ```mermaid
 flowchart LR
-    SIGN["Engagement<br/>Signing"] -->|"$45,000<br/>(10%)"| BUILD["Ecosystem<br/>Build Begins"]
+    SIGN["Engagement<br/>Signing"] -->|"$45,000<br/>10% upfront"| BUILD["Ecosystem<br/>Build<br/>Begins"]
     BUILD --> RAISE["Raise<br/>Launches"]
-    RAISE -->|"$1.2M raised<br/>(10% of $12M)"| M1["Milestone 1<br/><b>$202,500</b>"]
-    RAISE -->|"$3.6M raised<br/>(30% of $12M)"| M2["Milestone 2<br/><b>$202,500</b>"]
+    RAISE -->|"$1.2M raised<br/>10% of $12M"| M1["Milestone 1<br/><b>$202,500</b>"]
+    RAISE -->|"$3.6M raised<br/>30% of $12M"| M2["Milestone 2<br/><b>$202,500</b>"]
     M2 --> FULL["Fully Paid<br/><b>$450,000</b>"]
 
     style SIGN fill:#4A90D9,stroke:#2C5F8A,color:#fff
@@ -347,10 +347,10 @@ In addition to the fee structure above, Light Brands will seek to secure **$450,
 
 ```mermaid
 flowchart LR
-    GRANT["Equity Granted<br/><b>$450K</b><br/>at Pre-Money NAV<br/>$35.3M = 1.27%"] --> VEST["Vests at<br/>Full Raise<br/>Completion"]
-    VEST --> POST["Post-Money<br/>Value<br/><b>~$601K</b><br/>at $47.3M"]
-    POST --> LIQUID["Liquid<br/>Can Be Sold<br/>Any Time<br/>After Raise"]
-    LIQUID --> ONGOING["Ongoing<br/>Advisory +<br/>At-Cost<br/>Development"]
+    GRANT["Equity Granted<br/><b>$450K</b><br/>Pre-Money NAV<br/><b>$35.3M</b><br/>1.27% ownership"] --> VEST["Fully Vests<br/>at Completed<br/>Raise"]
+    VEST --> POST["Post-Money<br/>Value Grows<br/><b>~$601K</b><br/>at <b>$47.3M</b>"]
+    POST --> LIQUID["Liquid<br/>Sell Any Time<br/>After Raise<br/>Closes"]
+    LIQUID --> ONGOING["Ongoing<br/>Advisory and<br/>At-Cost<br/>Development"]
 
     style GRANT fill:#CD853F,stroke:#8B5E2B,color:#fff
     style VEST fill:#4A90D9,stroke:#2C5F8A,color:#fff
@@ -393,7 +393,7 @@ flowchart TD
         TC["Tony Cho Personal Brand<br/><i>Creative Identity Engine</i>"]
         CV["ChoVerse<br/><i>Ecosystem Hub</i>"]
         FOC["Future of Cities<br/><i>Institutional Platform</i>"]
-        MSG["Messaging and Positioning<br/><i>Narrative Architecture</i>"]
+        MSG["Messaging and<br/>Positioning<br/><i>Narrative Architecture</i>"]
     end
 
     TC --> CV
@@ -428,38 +428,38 @@ Clear identity, product delivery platform, and ecosystem cohesion. Does not incl
 
 ```mermaid
 flowchart TD
-    subgraph OPT2["OPTION 2 — $45K Upfront + $405K Raise-Aligned + $450K Equity"]
+    subgraph OPT2["OPTION 2 — Full Ecosystem + Capital Activation"]
 
         subgraph BRAND["Creative Identity"]
             TC["Tony Cho<br/>Personal Brand"]
-            BOOK["Book Platform"]
-            COURSE["Online Course"]
-            SPEAK["Speaking and Media"]
+            BOOK["Book<br/>Platform"]
+            COURSE["Online<br/>Course"]
+            SPEAK["Speaking<br/>and Media"]
         end
 
         subgraph ECOSYSTEM["Ecosystem Hub"]
             CV["ChoVerse<br/>Central Hub"]
         end
 
-        subgraph REALESTATE["Real Estate and Development"]
-            FOC["Future of Cities"]
-            M1["Metro 1 Commercial"]
-            PHX["PHX-JAX District"]
-            HUB["Climate +<br/>Innovation HUB"]
+        subgraph REALESTATE["Real Estate"]
+            FOC["Future of<br/>Cities"]
+            M1["Metro 1<br/>Commercial"]
+            PHX["PHX-JAX<br/>District"]
+            HUB["Climate and<br/>Innovation HUB"]
         end
 
-        subgraph REGEN["Regenerative Living"]
-            CCRL["ChoZen Center<br/>CCRL"]
-            CZIP["ChoZen IP"]
+        subgraph REGEN["Regenerative"]
+            CCRL["ChoZen<br/>Center CCRL"]
+            CZIP["ChoZen<br/>IP"]
         end
 
-        subgraph PHILANTHROPY["Impact and Philanthropy"]
+        subgraph PHILANTHROPY["Philanthropy"]
             CFF["Cho Family<br/>Foundation"]
             XCLF["Ximena Cho<br/>Legacy Fund"]
             FOP["Friends of<br/>PHXJAX"]
         end
 
-        subgraph INFRA["Infrastructure Layers"]
+        subgraph INFRA["Infrastructure"]
             CVF["Cho Ventures<br/>Family Office"]
             IO["InvestOS<br/>Capital Readiness"]
             AO["AmplifyOS<br/>Activation Engine"]
@@ -485,7 +485,7 @@ flowchart TD
     FOC --> IO
     CVF --> IO
     IO --> AO
-    AO --> CA["CAPITAL ALIGNMENT<br/><b>$12M Raise</b>"]
+    AO --> CA["CAPITAL<br/>ALIGNMENT<br/><b>$12M Raise</b>"]
 
     style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
     style BOOK fill:#4A90D9,stroke:#2C5F8A,color:#fff
@@ -586,7 +586,7 @@ flowchart TD
     subgraph PREMONEY["PRE-MONEY VALUATION"]
         ASSETS["Assets<br/><b>$51.8M</b>"] --> NAV["Net Asset Value<br/><b>$35.3M</b>"]
         LIAB["Liabilities<br/><b>$16.5M</b>"] --> NAV
-        INVESTED["Equity Invested<br/><b>$7.5M</b>"] -.->|"4.7x return<br/>on invested equity"| NAV
+        INVESTED["Equity Invested<br/><b>$7.5M</b>"] -.->|"4.7x return"| NAV
     end
 
     subgraph RAISE["NEW CAPITAL"]
@@ -595,7 +595,7 @@ flowchart TD
 
     subgraph POSTMONEY["POST-MONEY VALUATION"]
         POSTVAL["Post-Money<br/><b>$47.3M</b>"]
-        LB["Light Brands Equity<br/><b>$450K at Pre-Money</b><br/>1.27% ownership<br/><i>Worth ~$601K post-money</i>"]
+        LB["Light Brands<br/>Equity<br/><b>$450K Pre-Money</b><br/>1.27% ownership<br/><b>~$601K</b><br/>post-money"]
     end
 
     NAV --> POSTVAL
@@ -671,11 +671,11 @@ pie title How the $12M Raise Breaks Down
 
 ```mermaid
 flowchart LR
-    TC["Tony Cho<br/>Personal Brand"] -->|"Attention<br/>Trust"| CV["ChoVerse"]
-    CV -->|"Momentum<br/>Cohesion"| FOC["Future of<br/>Cities"]
+    TC["Tony Cho<br/>Personal<br/>Brand"] -->|"Attention<br/>and Trust"| CV["ChoVerse"]
+    CV -->|"Momentum<br/>and Cohesion"| FOC["Future<br/>of Cities"]
     FOC -->|"Institutional<br/>Credibility"| IO["InvestOS"]
-    IO -->|"Investability<br/>Pathways"| AO["AmplifyOS"]
-    AO -->|"Movement<br/>Participation"| CA["$12M<br/>Capital"]
+    IO -->|"Investability<br/>and Pathways"| AO["AmplifyOS"]
+    AO -->|"Movement and<br/>Participation"| CA["$12M<br/>Capital"]
 
     style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
     style CV fill:#7B68EE,stroke:#5A4BC7,color:#fff
@@ -776,31 +776,31 @@ Light Brands is prepared to act as a long-term strategic partner in building and
 ```mermaid
 flowchart TD
     subgraph L1["LAYER 1: Tony Cho Personal Brand"]
-        L1R["Creative Identity Engine"]
-        L1O["Attention + Identity + Community Connection"]
+        L1R["Creative<br/>Identity Engine"]
+        L1O["Attention<br/>Identity<br/>Community Connection"]
     end
 
     subgraph L2["LAYER 2: ChoVerse"]
-        L2R["Ecosystem Hub"]
-        L2O["Ecosystem Cohesion + Engagement + Visibility"]
+        L2R["Ecosystem<br/>Hub"]
+        L2O["Ecosystem Cohesion<br/>Engagement<br/>Visibility"]
     end
 
     subgraph L3["LAYER 3: Future of Cities"]
-        L3R["Institutional Platform"]
-        L3O["Institutional Trust + Strategic Positioning"]
+        L3R["Institutional<br/>Platform"]
+        L3O["Institutional Trust<br/>Strategic Positioning"]
     end
 
     subgraph L4["LAYER 4: InvestOS"]
-        L4R["Infrastructure Layer"]
-        L4O["Investability + Institutional Readiness"]
+        L4R["Infrastructure<br/>Layer"]
+        L4O["Investability<br/>Institutional Readiness"]
     end
 
     subgraph L5["LAYER 5: AmplifyOS"]
-        L5R["Activation Engine"]
-        L5O["Movement + Participation + Capital Engagement"]
+        L5R["Activation<br/>Engine"]
+        L5O["Movement<br/>Participation<br/>Capital Engagement"]
     end
 
-    OUTCOME["CAPITAL ALIGNMENT<br/><b>$12M Raise Readiness</b>"]
+    OUTCOME["CAPITAL<br/>ALIGNMENT<br/><b>$12M Raise<br/>Readiness</b>"]
 
     L1R --> L1O
     L1O --> L2R
