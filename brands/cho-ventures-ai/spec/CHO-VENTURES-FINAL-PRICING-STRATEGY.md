@@ -31,15 +31,15 @@ Light Brands operates at the intersection of strategy, systems, and execution, b
 
 ### The Vision: Category Ownership
 
-Here is what we believe — and we believe it deeply.
+Here is what we believe, and we believe it deeply.
 
 Tony Cho is already doing the work. Regenerative placemaking. Community-driven development. Cultural preservation through real estate. Climate innovation. Arts activation. Youth programming. Philanthropic infrastructure. Nobody else is operating across all of these dimensions simultaneously with this level of authenticity and track record.
 
-You transformed Wynwood before anyone understood what it could become. You built regenerative communities while the rest of the industry was still debating whether sustainability was worth the investment. You created arts programming, climate innovation hubs, youth camps, and philanthropic vehicles — not because they were trendy, but because they were right.
+You transformed Wynwood before anyone understood what it could become. You built regenerative communities while the rest of the industry was still debating whether sustainability was worth the investment. You created arts programming, climate innovation hubs, youth camps, and philanthropic vehicles. Not because they were trendy, but because they were right.
 
 The work is extraordinary. And nobody else in this space can say what you can say, because nobody else has done what you have done.
 
-The leaders who own categories — the ones whose names are synonymous with their space — did not get there by doing better work. They got there by building ecosystems that made their work visible, connected, and impossible to ignore. They built infrastructure that positioned every project, every initiative, every relationship as part of a single, coherent narrative.
+The leaders who own categories, the ones whose names are synonymous with their space, did not get there by doing better work. They got there by building ecosystems that made their work visible, connected, and impossible to ignore. They built infrastructure that positioned every project, every initiative, every relationship as part of a single, coherent narrative.
 
 Consider the landscape right now:
 
@@ -52,7 +52,7 @@ Consider the landscape right now:
 
 The difference between Tony Cho and every other name in this space is authenticity. The cultural impact is real. The community relationships are real. The regenerative commitment is real. Nobody else has the substance. Nobody else has the story.
 
-The category of Regenerative Development is wide open. Nobody owns it. The person who builds the ecosystem first — who connects community, culture, climate, capital, and real estate into a single visible movement — will define what this space looks like for the next decade.
+The category of Regenerative Development is wide open. Nobody owns it. The person who builds the ecosystem first, connecting community, culture, climate, capital, and real estate into a single visible movement, will define what this space looks like for the next decade.
 
 **That person should be Tony Cho.**
 
@@ -95,7 +95,7 @@ flowchart TD
 
 **We are not building a website. We are building the platform that positions Tony Cho as the definitive leader in regenerative development for the next decade.**
 
-This is the category to own. Regenerative development is where real estate, climate, community, culture, and capital are converging. The person who owns this narrative — with the infrastructure to prove it — will attract the capital, the partnerships, the press, and the institutional support that follows category leadership.
+This is the category to own. Regenerative development is where real estate, climate, community, culture, and capital are converging. The person who owns this narrative, with the infrastructure to prove it, will attract the capital, the partnerships, the press, and the institutional support that follows category leadership.
 
 That person should be Tony Cho. And on the other side of what we are capable of building, it will be.
 
@@ -109,7 +109,7 @@ You have 15+ entities, initiatives, and platforms operating across the Cho Ventu
 
 This is not infrastructure. This is digital duct tape.
 
-Every tool in the current stack was built for a single-business operator running one website with one audience. You are not that. You are a multi-entity ecosystem with real estate holdings, regenerative ventures, philanthropic initiatives, creative platforms, and an institutional capital strategy — all running on tools designed for someone selling candles on Etsy.
+Every tool in the current stack was built for a single-business operator running one website with one audience. You are not that. You are a multi-entity ecosystem with real estate holdings, regenerative ventures, philanthropic initiatives, creative platforms, and an institutional capital strategy, all running on tools designed for someone selling candles on Etsy.
 
 The result is exactly what you already feel:
 
@@ -120,7 +120,7 @@ The result is exactly what you already feel:
 
 You have been committed to doing this on a budget, and it shows.
 
-That is not a criticism — it is a diagnosis. The vision is extraordinary. The track record is undeniable. But the infrastructure is holding everything back. Every month spent patching together Web 2.0 tools is a month where the category stays unclaimed — and a month where someone with less substance but better infrastructure could step in front of you.
+That is not a criticism. It is a diagnosis. The vision is extraordinary. The track record is undeniable. But the infrastructure is holding everything back. Every month spent patching together Web 2.0 tools is a month where the category stays unclaimed, and a month where someone with less substance but better infrastructure could step in front of you.
 
 ```mermaid
 flowchart TD
@@ -160,11 +160,11 @@ The world has shifted. The organizations you will compete with for capital, atte
 
 This is not a future state. This is happening now.
 
-- **AI-native platforms** know who is visiting, what they care about, and how to serve them — automatically.
+- **AI-native platforms** know who is visiting, what they care about, and how to serve them, automatically.
 - **Connected ecosystems** share context across every entity. A donor at the Cho Family Foundation is recognized when they visit Future of Cities. An investor exploring the QOF sees the full ecosystem narrative without clicking through six disconnected websites.
 - **Intelligent infrastructure** compounds value over time. Every interaction teaches the system. Every touchpoint makes the next one smarter.
 
-The question is not whether this transition needs to happen. You already know it does. The question is whether you are ready to do something about it now — while the category is still unclaimed — or whether you are comfortable watching the gap widen over the next decade while someone else claims the space you built.
+The question is not whether this transition needs to happen. You already know it does. The question is whether you are ready to do something about it now, while the category is still unclaimed, or whether you are comfortable watching the gap widen over the next decade while someone else claims the space you built.
 
 ```mermaid
 flowchart LR
@@ -289,7 +289,7 @@ The sequence becomes:
 1. Build intelligent infrastructure first
 2. Align narrative, products, and identity
 3. Activate network and capital pathways
-4. Scale with systems already in place — systems that learn and improve continuously
+4. Scale with systems already in place, systems that learn and improve continuously
 
 ```mermaid
 flowchart LR
@@ -321,7 +321,7 @@ flowchart LR
     style INTEGRATED fill:#0a1a0d,stroke:#2E8B57,color:#66ff88
 ```
 
-This approach allows momentum to compound rather than reset. And because the foundation is AI-native, every layer gets smarter over time — not just maintained.
+This approach allows momentum to compound rather than reset. And because the foundation is AI-native, every layer gets smarter over time, not just maintained.
 
 ---
 
@@ -560,7 +560,7 @@ All Option 2 payment structures follow the same milestone framework:
 
 ```mermaid
 flowchart TD
-    subgraph OPT1["OPTION 1 — $45,000 Upfront"]
+    subgraph OPT1["OPTION 1: $45,000 Upfront"]
         TC["Tony Cho Personal Brand<br/><i>Creative Identity Engine</i>"]
         CV["ChoVerse<br/><i>Ecosystem Hub</i>"]
         FOC["Future of Cities<br/><i>Institutional Platform</i>"]
@@ -599,7 +599,7 @@ Clear identity, product delivery platform, and ecosystem cohesion. Does not incl
 
 ```mermaid
 flowchart TD
-    subgraph OPT2["OPTION 2 — Full Ecosystem + Capital Activation"]
+    subgraph OPT2["OPTION 2: Full Ecosystem + Capital Activation"]
 
         subgraph BRAND["Creative Identity"]
             TC["Tony Cho<br/>Personal Brand"]
@@ -784,9 +784,9 @@ flowchart LR
 
 Equity partners receive:
 
-- **At-cost future development** — all future platforms, features, and builds beyond this engagement are quoted at cost. No margin. Light Brands is invested in the outcome, not the invoice.
-- **Ongoing advisory** — continued strategic advisory on ecosystem development, capital positioning, and growth infrastructure.
-- **Long-term alignment** — Light Brands remains committed to the ecosystem's success because we own a piece of it.
+- **At-cost future development.** All future platforms, features, and builds beyond this engagement are quoted at cost. No margin. Light Brands is invested in the outcome, not the invoice.
+- **Ongoing advisory.** Continued strategic advisory on ecosystem development, capital positioning, and growth infrastructure.
+- **Long-term alignment.** Light Brands remains committed to the ecosystem's success because we own a piece of it.
 
 #### Comparison Summary
 
@@ -1025,11 +1025,11 @@ You already possess the vision, creativity, and influence required to build some
 
 What you do not yet have is the infrastructure that makes all of it visible as one thing.
 
-The category of Regenerative Development is wide open. Nobody owns it. The person who builds the ecosystem first — the one who connects community, culture, climate, capital, and real estate into a single intelligent platform — will define what this space looks like for the next decade.
+The category of Regenerative Development is wide open. Nobody owns it. The person who builds the ecosystem first, the one who connects community, culture, climate, capital, and real estate into a single intelligent platform, will define what this space looks like for the next decade.
 
 That person should be you.
 
-The decision is not whether to build. The decision is whether to build it now — while the category is still unclaimed — or to wait and watch someone with less authenticity, less track record, and less vision claim it because they moved faster.
+The decision is not whether to build. The decision is whether to build it now, while the category is still unclaimed, or to wait and watch someone with less authenticity, less track record, and less vision claim it because they moved faster.
 
 Build separate pieces over time, or
 Build the full ecosystem once and own the category.
@@ -1173,7 +1173,7 @@ Tony Cho Ecosystem Proposal
 - Wynwood transformation before anyone saw it coming
 - Regenerative placemaking, climate innovation, arts, community, philanthropy
 - No one else operates across all these dimensions with this authenticity
-- The category of Regenerative Development is wide open — nobody owns it
+- The category of Regenerative Development is wide open, and nobody owns it
 - The person who builds the ecosystem first defines the space for the next decade
 
 ### Slide 3.5: Category Ownership
@@ -1189,13 +1189,13 @@ Tony Cho Ecosystem Proposal
 - 15+ entities running on disconnected WordPress, Squarespace, Wix
 - Tools designed for single-business operators, not multi-entity ecosystems
 - Nothing talks to anything. Zero intelligence. Zero cohesion.
-- You've been committed to doing this on a budget — and it shows
+- You've been committed to doing this on a budget, and it shows
 - The cost of staying on this path is greater than the cost of fixing it
 
 ### Slide 4.5: The Solution
 **From Web 2.0 Patchwork to AI-Native Ecosystem**
 Current: Disconnected tools, manual everything, zero intelligence
-Proposed: 100% AI-native infrastructure — every tool informed, every platform connected
+Proposed: 100% AI-native infrastructure where every tool is informed and every platform is connected
 This is how Tony Cho owns the category
 
 ### Slide 5: The Ecosystem Map
@@ -1281,7 +1281,7 @@ Build the ecosystem once.
 
 ### Slide 16: Execution Timeline
 - Phase 1 (Days 1-45): Full infrastructure + InvestOS deployed in 45 days, all 15 portals live
-- Phase 2 (Day 46+): AmplifyOS fires immediately after InvestOS — no gap, no pause
+- Phase 2 (Day 46+): AmplifyOS fires immediately after InvestOS, no gap, no pause
 - Phase 3 (Month 3+): Raise momentum, ecosystem scaling
 - Zero to capital-ready in under 10 weeks
 
@@ -1308,7 +1308,7 @@ Pause.
 
 ### Slide 3.5 (Category Ownership)
 "Now here's what matters."
-"Regenerative development is a category. Real estate, climate, community, culture, and capital are all converging into one space. And right now — nobody owns it."
+"Regenerative development is a category. Real estate, climate, community, culture, and capital are all converging into one space. And right now, nobody owns it."
 Pause. This is the moment.
 "The people who own categories don't get there by doing better work. They get there by building ecosystems that make their work impossible to ignore."
 "On the other side of this engagement, Tony Cho is not a developer with interesting projects. Tony Cho IS regenerative development. The name people think of when they think of this space. The person every conference invites to keynote. Every publication references. Every investor associates with the category itself."
@@ -1316,14 +1316,14 @@ Pause. This is the moment.
 Let that sit. Do not rush past this. Let him feel the vision before you show him the gap.
 
 ### Slide 4 (The Gap)
-Now the shift. Direct but respectful — you've just told him he's the one. Now show him what's in the way.
+Now the shift. Direct but respectful. You've just told him he's the one. Now show him what's in the way.
 "So why doesn't the world already see it this way? It's not the work. It's the infrastructure."
 Pause.
 "Right now, the Cho Ventures ecosystem is held together by digital duct tape. WordPress here. Squarespace there. Wix over here. A dozen SaaS subscriptions that don't talk to each other."
 "These are tools built for someone running one business with one website. You have fifteen entities. A $35 million NAV. An institutional capital strategy. And the infrastructure holding it together was designed for someone selling products online."
 Pause. Let that land.
-"You've been committed to doing this on a budget. And it shows. That's not a criticism — it's a diagnosis. The vision is extraordinary. The infrastructure is the gap."
-"Every month on this path is a month where the category stays unclaimed — and a month where someone with less substance but better infrastructure could step in front of you."
+"You've been committed to doing this on a budget. And it shows. That's not a criticism. It's a diagnosis. The vision is extraordinary. The infrastructure is the gap."
+"Every month on this path is a month where the category stays unclaimed, and a month where someone with less substance but better infrastructure could step in front of you."
 
 ### Slide 4.5 (The Solution)
 "Here's the thing that should excite you."
@@ -1388,7 +1388,7 @@ Pause.
 Use the 90-second close. Bring it back to category ownership.
 "You've built something real. The track record is undeniable. Wynwood. Future of Cities. The regenerative work. The cultural impact. Nobody else has this."
 Pause.
-"The category of regenerative development is wide open right now. The person who builds the ecosystem first — who makes all of this visible as one movement — owns the space for the next decade."
+"The category of regenerative development is wide open right now. The person who builds the ecosystem first, who makes all of this visible as one movement, owns the space for the next decade."
 "That should be you. And we're prepared to make sure it is."
 Pause.
 "Which path feels most aligned with how you want to own this?"
@@ -1397,7 +1397,7 @@ Silence.
 ### Slide 17 (Final 3 minutes)
 Reconfirm decision.
 Future project.
-"From our side, we see category leadership. Not just a good ecosystem — the ecosystem that defines what regenerative development looks like. We're clear this is the right path."
+"From our side, we see category leadership. Not just a good ecosystem, but the ecosystem that defines what regenerative development looks like. We're clear this is the right path."
 
 ---
 
