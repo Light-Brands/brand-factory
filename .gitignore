@@ -48,3 +48,6 @@ tooling/bmad-method/node_modules/
 tooling/bmad-output/node_modules/
 brands/*/bmad-method/node_modules/
 brands/*/.bmad-method/node_modules/
+
+# QIE Intelligence Framework (symlink — not part of this project)
+_bmad
