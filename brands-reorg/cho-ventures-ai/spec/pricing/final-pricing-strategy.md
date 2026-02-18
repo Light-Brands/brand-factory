@@ -700,48 +700,52 @@ flowchart LR
 ```mermaid
 gantt
     title Cho Ventures Ecosystem Build Timeline
-    dateFormat YYYY-MM
+    dateFormat YYYY-MM-DD
     axisFormat %b %Y
 
-    section Phase 1: Infrastructure
-    Tony Cho Personal Brand        :p1a, 2026-03, 2M
-    ChoVerse Ecosystem Hub         :p1b, 2026-03, 3M
-    Future of Cities Platform      :p1c, 2026-04, 2M
-    Remaining Ecosystem Portals    :p1d, 2026-04, 4M
-    InvestOS Deployment            :p1e, 2026-05, 2M
+    section Phase 1: Infrastructure (Weeks 1-8)
+    Tony Cho Personal Brand        :p1a, 2026-03-01, 4w
+    ChoVerse Ecosystem Hub         :p1b, 2026-03-01, 6w
+    Future of Cities Platform      :p1c, 2026-03-08, 4w
+    Remaining Ecosystem Portals    :p1d, 2026-03-15, 6w
+    InvestOS Deployment            :p1e, 2026-04-01, 4w
 
-    section Phase 2: Activation
-    AmplifyOS Rollout              :p2a, 2026-07, 2M
-    Product Launch Support         :p2b, 2026-07, 3M
-    Network Engagement Strategy    :p2c, 2026-08, 2M
-    Fundraising Alignment          :p2d, 2026-08, 3M
+    section Phase 2: Activation (Weeks 8-12)
+    AmplifyOS Rollout              :crit, p2a, 2026-04-27, 4w
+    Product Launch Support         :p2b, 2026-04-27, 4w
+    Network Engagement Strategy    :p2c, 2026-05-04, 3w
+    Fundraising Alignment          :p2d, 2026-05-04, 4w
 
     section Phase 3: Post-Raise
-    Ecosystem Scaling              :p3a, 2026-11, 3M
-    AI-Driven Amplification        :p3b, 2026-12, 3M
-    Long-Term Growth               :p3c, 2027-01, 3M
+    Ecosystem Scaling              :p3a, 2026-06-01, 8w
+    AI-Driven Amplification        :p3b, 2026-06-15, 8w
+    Long-Term Growth               :p3c, 2026-07-01, 12w
 
     section Milestones
-    Engagement Signing ($45K)      :milestone, m1, 2026-03, 0d
-    Milestone 1 ($202.5K at $1.2M) :milestone, m2, 2026-08, 0d
-    Milestone 2 ($202.5K at $3.6M) :milestone, m3, 2026-11, 0d
+    Engagement Signing ($45K)      :milestone, m1, 2026-03-01, 0d
+    AmplifyOS Live                 :milestone, m2, 2026-04-27, 0d
+    Milestone 1 ($202.5K at $1.2M) :milestone, m3, 2026-06-01, 0d
+    Milestone 2 ($202.5K at $3.6M) :milestone, m4, 2026-08-01, 0d
 ```
 
-### Phase 1. Infrastructure Build
+Light Brands operates at speed. The full infrastructure is built in 8 weeks. AmplifyOS activates at the top of month 3.
 
-- Personal brand platform
-- ChoVerse ecosystem hub
-- Future of Cities platform
-- InvestOS deployment
+### Phase 1. Infrastructure Build (Weeks 1-8)
 
-### Phase 2. Activation
+- Tony Cho personal brand platform (weeks 1-4)
+- ChoVerse ecosystem hub (weeks 1-6)
+- Future of Cities platform (weeks 2-5)
+- Remaining ecosystem portals (weeks 3-8)
+- InvestOS deployment (weeks 5-8)
 
-- AmplifyOS rollout
+### Phase 2. Activation (Weeks 8-12)
+
+- AmplifyOS rollout (beginning of month 3)
 - Product launch support
 - Network engagement strategy
 - Fundraising alignment
 
-### Phase 3. Post-Raise Expansion
+### Phase 3. Post-Raise Expansion (Month 4+)
 
 - Ecosystem scaling
 - Advanced AI-driven amplification
@@ -991,9 +995,9 @@ OR
 Build the ecosystem once.
 
 ### Slide 16: Execution Timeline
-- Phase 1: Build infrastructure
-- Phase 2: Activate AmplifyOS
-- Phase 3: Raise and scale
+- Phase 1 (Weeks 1-8): Full infrastructure build, all 15 portals live
+- Phase 2 (Weeks 8-12): AmplifyOS activation, fundraising alignment
+- Phase 3 (Month 4+): Raise momentum, ecosystem scaling
 
 ### Slide 17: Next Steps
 - Confirm direction
