@@ -47,6 +47,36 @@ The sequence becomes:
 3. Activate network and capital pathways
 4. Scale with systems already in place
 
+```mermaid
+flowchart LR
+    subgraph FRAGMENTED["Typical Approach"]
+        direction LR
+        F1["Build Brand"] ~~~ F2["Launch Products"]
+        F2 ~~~ F3["Raise Capital"]
+        F3 ~~~ F4["Rebuild<br/>Infrastructure"]
+        F4 ~~~ F5["Start Over"]
+    end
+
+    subgraph INTEGRATED["Light Brands Methodology"]
+        direction LR
+        I1["Build<br/>Infrastructure"] --> I2["Align Narrative<br/>Products, Identity"]
+        I2 --> I3["Activate Network<br/>and Capital"]
+        I3 --> I4["Scale with<br/>Systems in Place"]
+    end
+
+    style F1 fill:#8B0000,stroke:#5C0000,color:#fff
+    style F2 fill:#8B0000,stroke:#5C0000,color:#fff
+    style F3 fill:#8B0000,stroke:#5C0000,color:#fff
+    style F4 fill:#8B0000,stroke:#5C0000,color:#fff
+    style F5 fill:#8B0000,stroke:#5C0000,color:#fff
+    style I1 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style I2 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style I3 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style I4 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style FRAGMENTED fill:#1a0a0a,stroke:#8B0000,color:#ff6666
+    style INTEGRATED fill:#0a1a0d,stroke:#2E8B57,color:#66ff88
+```
+
 This approach allows momentum to compound rather than reset.
 
 ---
@@ -55,19 +85,23 @@ This approach allows momentum to compound rather than reset.
 
 The proposed ecosystem consists of five interconnected layers.
 
-```
-TONY CHO PERSONAL BRAND
-        |
-      CHOVERSE
-        |
-   FUTURE OF CITIES
-        |
-      INVESTOS
-        |
-      AMPLIFYOS
-        |
-   CAPITAL ALIGNMENT
-        ($12M Raise)
+```mermaid
+flowchart TD
+    TC["TONY CHO PERSONAL BRAND<br/><i>Creative Identity Engine</i>"]
+    CV["CHOVERSE<br/><i>Ecosystem Hub</i>"]
+    FOC["FUTURE OF CITIES<br/><i>Institutional Platform</i>"]
+    IO["INVESTOS<br/><i>Infrastructure Layer</i>"]
+    AO["AMPLIFYOS<br/><i>Activation Engine</i>"]
+    CA["CAPITAL ALIGNMENT<br/><b>$12M Raise</b>"]
+
+    TC --> CV --> FOC --> IO --> AO --> CA
+
+    style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style CV fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style FOC fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style IO fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style AO fill:#DC143C,stroke:#8B0A1E,color:#fff
+    style CA fill:#FFD700,stroke:#B8960F,color:#000
 ```
 
 ### Layer I. Tony Cho Personal Brand Platform
@@ -281,6 +315,22 @@ Because of the strategic opportunity and growth stage of the ecosystem, this par
 
 **The only way Light Brands is paid in full is if the raise succeeds.** This creates complete alignment between both parties. Light Brands bears the execution risk alongside Cho Ventures, ensuring every decision and deliverable is oriented toward capital activation.
 
+```mermaid
+flowchart LR
+    SIGN["Engagement<br/>Signing"] -->|"$45,000<br/>(10%)"| BUILD["Ecosystem<br/>Build Begins"]
+    BUILD --> RAISE["Raise<br/>Launches"]
+    RAISE -->|"$1.2M raised<br/>(10% of $12M)"| M1["Milestone 1<br/><b>$202,500</b>"]
+    RAISE -->|"$3.6M raised<br/>(30% of $12M)"| M2["Milestone 2<br/><b>$202,500</b>"]
+    M2 --> FULL["Fully Paid<br/><b>$450,000</b>"]
+
+    style SIGN fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style BUILD fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style RAISE fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style M1 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style M2 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style FULL fill:#FFD700,stroke:#B8960F,color:#000
+```
+
 ### Equity Component
 
 In addition to the fee structure above, Light Brands will seek to secure **$450,000 in equity at pre-money valuation** based on FoC QOF Net Asset Value.
@@ -294,6 +344,20 @@ In addition to the fee structure above, Light Brands will seek to secure **$450,
 | **Ownership** | ~1.27% ($450K / $35.3M) |
 | **Vesting** | Fully vests at time of completed raise |
 | **Liquidity** | Can be sold at any time after the raise closes |
+
+```mermaid
+flowchart LR
+    GRANT["Equity Granted<br/><b>$450K</b><br/>at Pre-Money NAV<br/>$35.3M = 1.27%"] --> VEST["Vests at<br/>Full Raise<br/>Completion"]
+    VEST --> POST["Post-Money<br/>Value<br/><b>~$601K</b><br/>at $47.3M"]
+    POST --> LIQUID["Liquid<br/>Can Be Sold<br/>Any Time<br/>After Raise"]
+    LIQUID --> ONGOING["Ongoing<br/>Advisory +<br/>At-Cost<br/>Development"]
+
+    style GRANT fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style VEST fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style POST fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style LIQUID fill:#FFD700,stroke:#B8960F,color:#000
+    style ONGOING fill:#7B68EE,stroke:#5A4BC7,color:#fff
+```
 
 This structure protects the long-term interests of both parties by ensuring Light Brands remains a committed partner well beyond the initial engagement.
 
@@ -323,6 +387,28 @@ This dual structure ensures Light Brands is fully invested in the long-term succ
 
 ### OPTION 1. Brand and Ecosystem Foundation
 
+```mermaid
+flowchart TD
+    subgraph OPT1["OPTION 1 — $45,000 Upfront"]
+        TC["Tony Cho Personal Brand<br/><i>Creative Identity Engine</i>"]
+        CV["ChoVerse<br/><i>Ecosystem Hub</i>"]
+        FOC["Future of Cities<br/><i>Institutional Platform</i>"]
+        MSG["Messaging and Positioning<br/><i>Narrative Architecture</i>"]
+    end
+
+    TC --> CV
+    CV --> FOC
+    MSG -.-> TC
+    MSG -.-> CV
+    MSG -.-> FOC
+
+    style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style CV fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style FOC fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style MSG fill:#708090,stroke:#4A5568,color:#fff
+    style OPT1 fill:#1a1a2e,stroke:#4A90D9,color:#fff
+```
+
 **Includes:**
 
 - Tony Cho Personal Brand Platform
@@ -339,6 +425,94 @@ Clear identity, product delivery platform, and ecosystem cohesion. Does not incl
 ---
 
 ### OPTION 2. Full Ecosystem and Capital Activation (Recommended)
+
+```mermaid
+flowchart TD
+    subgraph OPT2["OPTION 2 — $45K Upfront + $405K Raise-Aligned + $450K Equity"]
+
+        subgraph BRAND["Creative Identity"]
+            TC["Tony Cho<br/>Personal Brand"]
+            BOOK["Book Platform"]
+            COURSE["Online Course"]
+            SPEAK["Speaking and Media"]
+        end
+
+        subgraph ECOSYSTEM["Ecosystem Hub"]
+            CV["ChoVerse<br/>Central Hub"]
+        end
+
+        subgraph REALESTATE["Real Estate and Development"]
+            FOC["Future of Cities"]
+            M1["Metro 1 Commercial"]
+            PHX["PHX-JAX District"]
+            HUB["Climate +<br/>Innovation HUB"]
+        end
+
+        subgraph REGEN["Regenerative Living"]
+            CCRL["ChoZen Center<br/>CCRL"]
+            CZIP["ChoZen IP"]
+        end
+
+        subgraph PHILANTHROPY["Impact and Philanthropy"]
+            CFF["Cho Family<br/>Foundation"]
+            XCLF["Ximena Cho<br/>Legacy Fund"]
+            FOP["Friends of<br/>PHXJAX"]
+        end
+
+        subgraph INFRA["Infrastructure Layers"]
+            CVF["Cho Ventures<br/>Family Office"]
+            IO["InvestOS<br/>Capital Readiness"]
+            AO["AmplifyOS<br/>Activation Engine"]
+        end
+
+    end
+
+    TC --> CV
+    BOOK --> CV
+    COURSE --> CV
+    SPEAK --> CV
+
+    CV --> FOC
+    CV --> M1
+    CV --> PHX
+    CV --> HUB
+    CV --> CCRL
+    CV --> CZIP
+    CV --> CFF
+    CV --> XCLF
+    CV --> FOP
+
+    FOC --> IO
+    CVF --> IO
+    IO --> AO
+    AO --> CA["CAPITAL ALIGNMENT<br/><b>$12M Raise</b>"]
+
+    style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style BOOK fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style COURSE fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style SPEAK fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style CV fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style FOC fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style M1 fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style PHX fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style HUB fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style CCRL fill:#20B2AA,stroke:#178A80,color:#fff
+    style CZIP fill:#20B2AA,stroke:#178A80,color:#fff
+    style CFF fill:#DA70D6,stroke:#9B4D97,color:#fff
+    style XCLF fill:#DA70D6,stroke:#9B4D97,color:#fff
+    style FOP fill:#DA70D6,stroke:#9B4D97,color:#fff
+    style CVF fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style IO fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style AO fill:#DC143C,stroke:#8B0A1E,color:#fff
+    style CA fill:#FFD700,stroke:#B8960F,color:#000
+    style BRAND fill:#0d1b3e,stroke:#4A90D9,color:#fff
+    style ECOSYSTEM fill:#1a0d3e,stroke:#7B68EE,color:#fff
+    style REALESTATE fill:#0d2e1a,stroke:#2E8B57,color:#fff
+    style REGEN fill:#0d2e2c,stroke:#20B2AA,color:#fff
+    style PHILANTHROPY fill:#2e0d2c,stroke:#DA70D6,color:#fff
+    style INFRA fill:#2e1a0d,stroke:#CD853F,color:#fff
+    style OPT2 fill:#0a0a1a,stroke:#FFD700,color:#fff
+```
 
 **Includes:**
 
@@ -407,6 +581,39 @@ from the beginning.
 
 ### Pre-Money vs Post-Money Valuation
 
+```mermaid
+flowchart TD
+    subgraph PREMONEY["PRE-MONEY VALUATION"]
+        ASSETS["Assets<br/><b>$51.8M</b>"] --> NAV["Net Asset Value<br/><b>$35.3M</b>"]
+        LIAB["Liabilities<br/><b>$16.5M</b>"] --> NAV
+        INVESTED["Equity Invested<br/><b>$7.5M</b>"] -.->|"4.7x return<br/>on invested equity"| NAV
+    end
+
+    subgraph RAISE["NEW CAPITAL"]
+        NEWCAP["$12M Raise<br/><i>FoC QOF LLC</i>"]
+    end
+
+    subgraph POSTMONEY["POST-MONEY VALUATION"]
+        POSTVAL["Post-Money<br/><b>$47.3M</b>"]
+        LB["Light Brands Equity<br/><b>$450K at Pre-Money</b><br/>1.27% ownership<br/><i>Worth ~$601K post-money</i>"]
+    end
+
+    NAV --> POSTVAL
+    NEWCAP --> POSTVAL
+    POSTVAL -.-> LB
+
+    style ASSETS fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style LIAB fill:#DC143C,stroke:#8B0A1E,color:#fff
+    style NAV fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style INVESTED fill:#708090,stroke:#4A5568,color:#fff
+    style NEWCAP fill:#FFD700,stroke:#B8960F,color:#000
+    style POSTVAL fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style LB fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style PREMONEY fill:#0d1a0d,stroke:#2E8B57,color:#66ff88
+    style RAISE fill:#1a1a0d,stroke:#FFD700,color:#ffd700
+    style POSTMONEY fill:#0d0d1a,stroke:#7B68EE,color:#b3a8ff
+```
+
 | Metric | Value |
 |--------|-------|
 | **Assets** | $51.8M |
@@ -420,6 +627,13 @@ from the beginning.
 | **That 1.27% at Post-Money** | ~$601K in value |
 
 ### Economics in Context
+
+```mermaid
+pie title How the $12M Raise Breaks Down
+    "Retained by Cho Ventures (92.5%)" : 92.5
+    "Light Brands Cash Fees (3.75%)" : 3.75
+    "Light Brands Equity (3.75%)" : 3.75
+```
 
 | Metric | Value | Percentage of Raise |
 |--------|-------|-------------------|
@@ -455,6 +669,22 @@ from the beginning.
 
 ### How the Ecosystem Supports the Raise
 
+```mermaid
+flowchart LR
+    TC["Tony Cho<br/>Personal Brand"] -->|"Attention<br/>Trust"| CV["ChoVerse"]
+    CV -->|"Momentum<br/>Cohesion"| FOC["Future of<br/>Cities"]
+    FOC -->|"Institutional<br/>Credibility"| IO["InvestOS"]
+    IO -->|"Investability<br/>Pathways"| AO["AmplifyOS"]
+    AO -->|"Movement<br/>Participation"| CA["$12M<br/>Capital"]
+
+    style TC fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style CV fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style FOC fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style IO fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style AO fill:#DC143C,stroke:#8B0A1E,color:#fff
+    style CA fill:#FFD700,stroke:#B8960F,color:#000
+```
+
 | Layer | Capital Function |
 |-------|-----------------|
 | Tony Cho Personal Brand | Drives attention, trust, and audience connection |
@@ -466,6 +696,36 @@ from the beginning.
 ---
 
 ## 10. Implementation Timeline
+
+```mermaid
+gantt
+    title Cho Ventures Ecosystem Build Timeline
+    dateFormat YYYY-MM
+    axisFormat %b %Y
+
+    section Phase 1: Infrastructure
+    Tony Cho Personal Brand        :p1a, 2026-03, 2M
+    ChoVerse Ecosystem Hub         :p1b, 2026-03, 3M
+    Future of Cities Platform      :p1c, 2026-04, 2M
+    Remaining Ecosystem Portals    :p1d, 2026-04, 4M
+    InvestOS Deployment            :p1e, 2026-05, 2M
+
+    section Phase 2: Activation
+    AmplifyOS Rollout              :p2a, 2026-07, 2M
+    Product Launch Support         :p2b, 2026-07, 3M
+    Network Engagement Strategy    :p2c, 2026-08, 2M
+    Fundraising Alignment          :p2d, 2026-08, 3M
+
+    section Phase 3: Post-Raise
+    Ecosystem Scaling              :p3a, 2026-11, 3M
+    AI-Driven Amplification        :p3b, 2026-12, 3M
+    Long-Term Growth               :p3c, 2027-01, 3M
+
+    section Milestones
+    Engagement Signing ($45K)      :milestone, m1, 2026-03, 0d
+    Milestone 1 ($202.5K at $1.2M) :milestone, m2, 2026-08, 0d
+    Milestone 2 ($202.5K at $3.6M) :milestone, m3, 2026-11, 0d
+```
 
 ### Phase 1. Infrastructure Build
 
@@ -503,6 +763,64 @@ Light Brands is prepared to act as a long-term strategic partner in building and
 ---
 
 ## Ecosystem Layer Breakdown
+
+```mermaid
+flowchart TD
+    subgraph L1["LAYER 1: Tony Cho Personal Brand"]
+        L1R["Creative Identity Engine"]
+        L1O["Attention + Identity + Community Connection"]
+    end
+
+    subgraph L2["LAYER 2: ChoVerse"]
+        L2R["Ecosystem Hub"]
+        L2O["Ecosystem Cohesion + Engagement + Visibility"]
+    end
+
+    subgraph L3["LAYER 3: Future of Cities"]
+        L3R["Institutional Platform"]
+        L3O["Institutional Trust + Strategic Positioning"]
+    end
+
+    subgraph L4["LAYER 4: InvestOS"]
+        L4R["Infrastructure Layer"]
+        L4O["Investability + Institutional Readiness"]
+    end
+
+    subgraph L5["LAYER 5: AmplifyOS"]
+        L5R["Activation Engine"]
+        L5O["Movement + Participation + Capital Engagement"]
+    end
+
+    OUTCOME["CAPITAL ALIGNMENT<br/><b>$12M Raise Readiness</b>"]
+
+    L1R --> L1O
+    L1O --> L2R
+    L2R --> L2O
+    L2O --> L3R
+    L3R --> L3O
+    L3O --> L4R
+    L4R --> L4O
+    L4O --> L5R
+    L5R --> L5O
+    L5O --> OUTCOME
+
+    style L1 fill:#0d1b3e,stroke:#4A90D9,color:#fff
+    style L2 fill:#1a0d3e,stroke:#7B68EE,color:#fff
+    style L3 fill:#0d2e1a,stroke:#2E8B57,color:#fff
+    style L4 fill:#2e1a0d,stroke:#CD853F,color:#fff
+    style L5 fill:#2e0d0d,stroke:#DC143C,color:#fff
+    style L1R fill:#4A90D9,stroke:#2C5F8A,color:#fff
+    style L1O fill:#6BA3D9,stroke:#4A90D9,color:#fff
+    style L2R fill:#7B68EE,stroke:#5A4BC7,color:#fff
+    style L2O fill:#9B8AEE,stroke:#7B68EE,color:#fff
+    style L3R fill:#2E8B57,stroke:#1D5E3A,color:#fff
+    style L3O fill:#4EA877,stroke:#2E8B57,color:#fff
+    style L4R fill:#CD853F,stroke:#8B5E2B,color:#fff
+    style L4O fill:#DDA05F,stroke:#CD853F,color:#fff
+    style L5R fill:#DC143C,stroke:#8B0A1E,color:#fff
+    style L5O fill:#EC445C,stroke:#DC143C,color:#fff
+    style OUTCOME fill:#FFD700,stroke:#B8960F,color:#000
+```
 
 ### LAYER 1: Tony Cho Personal Brand
 **Role:** Creative Identity Engine
