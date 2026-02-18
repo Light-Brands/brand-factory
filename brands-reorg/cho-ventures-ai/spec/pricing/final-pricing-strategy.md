@@ -891,54 +891,57 @@ gantt
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
 
-    section Phase 1: Infrastructure + InvestOS (Weeks 1-8)
-    Tony Cho Personal Brand        :p1a, 2026-03-01, 4w
-    ChoVerse Ecosystem Hub         :p1b, 2026-03-01, 6w
-    Future of Cities Platform      :p1c, 2026-03-08, 4w
-    InvestOS Deployment            :crit, p1e, 2026-03-01, 8w
-    Remaining Ecosystem Portals    :p1d, 2026-03-15, 6w
+    section Phase 1: Full Infrastructure + InvestOS (Days 1-45)
+    Tony Cho Personal Brand        :p1a, 2026-03-01, 3w
+    ChoVerse Ecosystem Hub         :p1b, 2026-03-01, 5w
+    Future of Cities Platform      :p1c, 2026-03-08, 3w
+    Remaining Ecosystem Portals    :p1d, 2026-03-15, 4w
+    InvestOS Deployment            :crit, p1e, 2026-03-01, 45d
 
-    section Phase 2: Activation (Weeks 8-12)
-    AmplifyOS Rollout              :crit, p2a, 2026-04-27, 4w
-    Product Launch Support         :p2b, 2026-04-27, 4w
-    Network Engagement Strategy    :p2c, 2026-05-04, 3w
-    Fundraising Alignment          :p2d, 2026-05-04, 4w
+    section Phase 2: AmplifyOS Activation (Day 46+)
+    AmplifyOS Rollout              :crit, p2a, 2026-04-15, 3w
+    Product Launch Support         :p2b, 2026-04-15, 3w
+    Network Engagement Strategy    :p2c, 2026-04-22, 2w
+    Fundraising Alignment          :p2d, 2026-04-15, 4w
 
     section Phase 3: Post-Raise
-    Ecosystem Scaling              :p3a, 2026-06-01, 8w
-    AI-Driven Amplification        :p3b, 2026-06-15, 8w
-    Long-Term Growth               :p3c, 2026-07-01, 12w
+    Ecosystem Scaling              :p3a, 2026-05-15, 8w
+    AI-Driven Amplification        :p3b, 2026-05-22, 8w
+    Long-Term Growth               :p3c, 2026-06-01, 12w
 
     section Milestones
-    Engagement Signing ($45K)      :milestone, m1, 2026-03-01, 0d
-    Core Platforms Live            :milestone, m2, 2026-04-13, 0d
-    AmplifyOS Activation           :milestone, m3, 2026-04-27, 0d
-    Milestone 1 ($202.5K at $1.2M) :milestone, m4, 2026-06-01, 0d
-    Milestone 2 ($202.5K at $3.6M) :milestone, m5, 2026-08-01, 0d
+    Engagement Signing             :milestone, m1, 2026-03-01, 0d
+    Core Platforms Live            :milestone, m2, 2026-03-29, 0d
+    InvestOS Deployed (Day 45)     :milestone, m3, 2026-04-14, 0d
+    AmplifyOS Live                 :milestone, m4, 2026-05-06, 0d
+    Milestone 1 at $1.2M Raised    :milestone, m5, 2026-05-15, 0d
+    Milestone 2 at $3.6M Raised    :milestone, m6, 2026-07-01, 0d
 ```
 
-Light Brands operates at speed. InvestOS starts day one alongside the platform builds. The full infrastructure is delivered in 8 weeks. AmplifyOS activates on the back side of core platforms going live.
+Light Brands operates at speed. This is not an 8-month engagement. InvestOS is deployed in 45 days. AmplifyOS fires immediately after. The entire ecosystem goes from zero to capital-ready in under 10 weeks.
 
-### Phase 1. Infrastructure + InvestOS (Weeks 1-8)
+### Phase 1. Full Infrastructure + InvestOS (Days 1-45)
 
-All work runs in parallel from day one:
+Everything runs in parallel from day one. No sequential handoffs. No waiting for one platform to finish before another starts.
 
-- Tony Cho personal brand platform (weeks 1-4)
-- ChoVerse ecosystem hub (weeks 1-6)
-- Future of Cities platform (weeks 2-5)
-- InvestOS capital readiness infrastructure (weeks 1-8, concurrent)
-- Remaining ecosystem portals (weeks 3-8)
+- Tony Cho personal brand platform (weeks 1-3)
+- ChoVerse ecosystem hub (weeks 1-5)
+- Future of Cities platform (weeks 2-4)
+- Remaining ecosystem portals (weeks 3-6)
+- InvestOS capital readiness infrastructure (days 1-45, concurrent with everything)
 
-### Phase 2. Activation (Weeks 8-12)
+**Day 45: InvestOS is live.** The ecosystem is investable. Capital pathways are open.
 
-Once core platforms are live, AmplifyOS activates:
+### Phase 2. AmplifyOS Activation (Day 46+)
 
-- AmplifyOS rollout (beginning of month 3)
+InvestOS goes live, AmplifyOS fires the next day. No gap. No pause. Infrastructure becomes movement immediately.
+
+- AmplifyOS rollout (day 46)
 - Product launch support
 - Network engagement strategy
-- Fundraising alignment
+- Fundraising alignment and capital activation
 
-### Phase 3. Post-Raise Expansion (Month 4+)
+### Phase 3. Post-Raise Expansion (Month 3+)
 
 - Ecosystem scaling
 - Advanced AI-driven amplification
@@ -1191,9 +1194,10 @@ OR
 Build the ecosystem once.
 
 ### Slide 16: Execution Timeline
-- Phase 1 (Weeks 1-8): Full infrastructure + InvestOS built in parallel, all 15 portals live
-- Phase 2 (Weeks 8-12): AmplifyOS activates on the back side of core platforms
-- Phase 3 (Month 4+): Raise momentum, ecosystem scaling
+- Phase 1 (Days 1-45): Full infrastructure + InvestOS deployed in 45 days, all 15 portals live
+- Phase 2 (Day 46+): AmplifyOS fires immediately after InvestOS — no gap, no pause
+- Phase 3 (Month 3+): Raise momentum, ecosystem scaling
+- Zero to capital-ready in under 10 weeks
 
 ### Slide 17: Next Steps
 - Confirm direction
