@@ -82,7 +82,7 @@ A comprehensive AI transformation that:
 
 ```mermaid
 mindmap
-  root((CHO VENTURES))
+  root((ChoVerse))
     Real Estate
       Metro 1 Commercial
         Miami Urban Core
